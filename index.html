@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrackIt - History Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            touch-action: manipulation;
+        }
+        .card-enter {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        .card-enter-active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .explanation-card {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+        }
+        .explanation-card.show {
+            max-height: 500px; /* Adjust as needed */
+            opacity: 1;
+            margin-top: 1rem;
+        }
+        .btn-correct {
+            background-image: linear-gradient(to right, #22c55e, #16a34a) !important;
+            color: white !important;
+            border-color: #15803d !important;
+            box-shadow: 0 4px 14px 0 rgba(0, 118, 255, 0.29);
+        }
+        .btn-incorrect {
+            background-image: linear-gradient(to right, #ef4444, #dc2626) !important;
+            color: white !important;
+            border-color: #b91c1c !important;
+            box-shadow: 0 4px 14px 0 rgba(239, 68, 68, 0.29);
+        }
+        .btn-disabled {
+            cursor: not-allowed;
+        }
+        /* Progress Circle CSS */
+        .progress-ring__circle {
+            stroke-linecap: round;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+            transition: stroke-dashoffset 0.35s;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 flex items-center justify-center min-h-screen p-4">
+
+    <div id="quiz-container" class="w-full max-w-xl mx-auto">
+        
+        <!-- App Header -->
+        <div class="flex justify-between items-center mb-4">
+            <h1 class="text-2xl font-bold text-blue-600">CrackIt</h1>
+            <div class="text-right">
+                <p class="text-sm text-slate-500">SCORE</p>
+                <p id="score" class="text-2xl font-bold text-blue-600">0</p>
+            </div>
+        </div>
+        
+        <!-- Progress Circle and Info -->
+        <div class="mb-4 flex flex-col items-center">
+            <div class="relative w-24 h-24">
+                <svg class="w-full h-full" viewBox="0 0 100 100">
+                    <!-- Background circle -->
+                    <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
+                    <!-- Progress circle -->
+                    <circle id="progress-ring" class="progress-ring__circle text-blue-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
+                </svg>
+                <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
+                     <span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                 <span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span>
+            </div>
+        </div>
+
+
+        <!-- Main Question Card -->
+        <div id="card" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-slate-200 card-enter">
+            <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-6 min-h-[60px]">Loading question...</p>
+            <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Options will be dynamically inserted here -->
+            </div>
+        </div>
+        
+        <!-- Explanation Card (Initially Hidden) -->
+        <div id="explanation-container" class="explanation-card">
+            <div class="bg-white p-6 rounded-2xl shadow-lg border border-slate-200">
+                <h3 id="explanation-title" class="font-bold text-lg mb-2"></h3>
+                <p id="explanation-text" class="text-slate-600"></p>
+            </div>
+        </div>
+
+        <!-- Next Button Container -->
+        <div id="next-button-container" class="text-center mt-6 h-16">
+            <!-- Next button will be dynamically inserted here -->
+        </div>
+
+    </div>
+
+    <script>
+
+        // --- CONSTANTS & STATE VARIABLES ---
+        const ROUND_LENGTH = 10;
+        let currentQuestion = null;
+        let score = 0;
+        let questionsAsked = [];
+        let isAnswered = false;
+
+        // Round-specific state
+        let currentRound = 1;
+        let questionsInCurrentRound = 0;
+        let correctAnswersInRound = 0;
+        let currentDifficulty = 'easy';
+
+        // --- DOM ELEMENTS ---
+        const scoreEl = document.getElementById('score');
+        const roundNumberEl = document.getElementById('round-number');
+        const difficultyLevelEl = document.getElementById('difficulty-level');
+        const questionCounterEl = document.getElementById('question-counter');
+        const progressRingEl = document.getElementById('progress-ring');
+        const cardEl = document.getElementById('card');
+        const questionTextEl = document.getElementById('question-text');
+        const optionsContainerEl = document.getElementById('options-container');
+        const explanationContainerEl = document.getElementById('explanation-container');
+        const explanationTitleEl = document.getElementById('explanation-title');
+        const explanationTextEl = document.getElementById('explanation-text');
+        const nextButtonContainerEl = document.getElementById('next-button-container');
+
+        // --- GAME LOGIC ---
+
+        function initializeQuiz() {
+            score = 0;
+            currentRound = 1;
+            questionsAsked = [];
+            currentDifficulty = 'easy';
+            startRound();
+        }
+
+        function startRound() {
+            questionsInCurrentRound = 0;
+            correctAnswersInRound = 0;
+            updateScoreAndRoundUI();
+            updateProgressUI();
+            loadQuestion();
+        }
+        
+        function getQuestionForRound() {
+            let availableQuestions = questionDatabase.filter((q, index) => 
+                q.difficulty === currentDifficulty && !questionsAsked.includes(index)
+            );
+            
+            if (availableQuestions.length === 0) { // Fallback logic
+                const fallbackOrder = ['medium', 'easy', 'hard'];
+                for(const level of fallbackOrder) {
+                    if (level === currentDifficulty) continue;
+                    availableQuestions = questionDatabase.filter((q, index) => q.difficulty === level && !questionsAsked.includes(index));
+                    if(availableQuestions.length > 0) {
+                        currentDifficulty = level;
+                        updateScoreAndRoundUI();
+                        break;
+                    };
+                }
+            }
+             if(availableQuestions.length === 0) { // If all questions are exhausted
+                 questionsAsked = [];
+                 return getQuestionForRound();
+            }
+
+            const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+            const question = availableQuestions[randomIndex];
+            
+            const originalIndex = questionDatabase.indexOf(question);
+            questionsAsked.push(originalIndex);
+            return question;
+        }
+
+        function loadQuestion() {
+            isAnswered = false;
+            currentQuestion = getQuestionForRound();
+            
+            cardEl.classList.remove('card-enter-active');
+            
+            setTimeout(() => {
+                optionsContainerEl.innerHTML = '';
+                explanationContainerEl.classList.remove('show');
+                nextButtonContainerEl.innerHTML = '';
+
+                questionTextEl.textContent = currentQuestion.question;
+                updateProgressUI();
+
+                currentQuestion.options.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.className = "w-full text-center p-4 rounded-xl border border-slate-300 bg-white font-semibold text-slate-700 shadow-sm transition-all duration-200 hover:shadow-md hover:border-blue-500 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75";
+                    button.onclick = () => selectAnswer(option);
+                    optionsContainerEl.appendChild(button);
+                });
+
+                cardEl.classList.add('card-enter-active');
+            }, 250);
+        }
+        
+        function selectAnswer(selectedOption) {
+            if (isAnswered) return;
+            isAnswered = true;
+            
+            const isCorrect = selectedOption === currentQuestion.answer;
+
+            if (isCorrect) {
+                score += 10;
+                correctAnswersInRound++;
+                explanationTitleEl.textContent = "That's correct!";
+                explanationTitleEl.className = "font-bold text-lg mb-2 text-green-600";
+            } else {
+                explanationTitleEl.textContent = "Not quite.";
+                explanationTitleEl.className = "font-bold text-lg mb-2 text-red-600";
+            }
+            
+            questionsInCurrentRound++;
+            updateScoreAndRoundUI();
+            updateProgressUI();
+            
+            explanationTextEl.textContent = currentQuestion.explanation;
+            explanationContainerEl.classList.add('show');
+
+            Array.from(optionsContainerEl.children).forEach(childButton => {
+                childButton.classList.add('btn-disabled');
+                const optionText = childButton.textContent;
+                
+                if (optionText === selectedOption || optionText === currentQuestion.answer) {
+                    if (optionText === currentQuestion.answer) {
+                        childButton.classList.add('btn-correct');
+                    } else if (optionText === selectedOption) {
+                        childButton.classList.add('btn-incorrect');
+                    }
+                } else {
+                    childButton.style.display = 'none';
+                }
+            });
+            
+            showNextButton();
+        }
+        
+        function showNextButton() {
+            const buttonText = questionsInCurrentRound < ROUND_LENGTH ? 'Next Question' : 'Finish Round';
+            const button = document.createElement('button');
+            button.textContent = buttonText;
+            button.className = "px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105 card-enter";
+            button.onclick = handleNextStep;
+            nextButtonContainerEl.appendChild(button);
+            setTimeout(() => button.classList.add('card-enter-active'), 50);
+        }
+
+        function handleNextStep() {
+            if (questionsInCurrentRound < ROUND_LENGTH) {
+                loadQuestion();
+            } else {
+                endRound();
+            }
+        }
+
+        function endRound() {
+            cardEl.classList.remove('card-enter-active');
+            explanationContainerEl.classList.remove('show');
+            nextButtonContainerEl.innerHTML = '';
+
+            setTimeout(() => {
+                const performance = correctAnswersInRound / ROUND_LENGTH;
+                let performanceMessage = "";
+                
+                if (performance > 0.7) performanceMessage = "Excellent work! The next round will be tougher.";
+                else if (performance >= 0.4) performanceMessage = "Good job! The difficulty will remain the same.";
+                else performanceMessage = "You can do better! The next round will be a bit easier.";
+                
+                questionTextEl.innerHTML = `<span class="text-2xl font-bold">Round ${currentRound} Complete!</span> <br> You scored ${correctAnswersInRound} / ${ROUND_LENGTH}.`;
+                optionsContainerEl.innerHTML = `<p class="text-center text-slate-600 col-span-1 md:col-span-2">${performanceMessage}</p>`;
+                
+                adjustDifficulty(performance);
+                currentRound++;
+                
+                const nextRoundButton = document.createElement('button');
+                nextRoundButton.textContent = `Start Round ${currentRound}`;
+                nextRoundButton.className = "px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105 card-enter";
+                nextRoundButton.onclick = startRound;
+                nextButtonContainerEl.appendChild(nextRoundButton);
+                setTimeout(() => nextRoundButton.classList.add('card-enter-active'), 50);
+
+                cardEl.classList.add('card-enter-active');
+            }, 500);
+        }
+
+        function adjustDifficulty(performance) {
+            if (performance > 0.7) { // 8-10 correct
+                if (currentDifficulty === 'easy') currentDifficulty = 'medium';
+                else currentDifficulty = 'hard';
+            } else if (performance < 0.4) { // 0-3 correct
+                if (currentDifficulty === 'hard') currentDifficulty = 'medium';
+                else currentDifficulty = 'easy';
+            }
+        }
+        
+        function updateProgressUI() {
+            const radius = progressRingEl.r.baseVal.value;
+            const circumference = 2 * Math.PI * radius;
+            const progress = questionsInCurrentRound / ROUND_LENGTH;
+            const offset = circumference - progress * circumference;
+
+            progressRingEl.style.strokeDasharray = `${circumference} ${circumference}`;
+            progressRingEl.style.strokeDashoffset = offset;
+
+            questionCounterEl.textContent = `${questionsInCurrentRound}/${ROUND_LENGTH}`;
+        }
+
+        function updateScoreAndRoundUI() {
+            scoreEl.textContent = score;
+            roundNumberEl.textContent = currentRound;
+            difficultyLevelEl.textContent = currentDifficulty;
+        }
+
+        window.onload = initializeQuiz;
+
+    </script>
+    <script src = "history.js"></script>
+</body>
+</html>
+
