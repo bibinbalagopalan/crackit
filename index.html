@@ -10,7 +10,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="history.js"></script>
     
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
@@ -135,106 +134,17 @@
         }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 flex justify-center min-h-screen p-4">
+<body class="bg-slate-50 text-slate-800 flex justify-center items-center min-h-screen p-4">
 
-    <div class="w-full max-w-6xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
-        
-        <!-- Decorative Panel (Left Side on Desktop) -->
-        <div class="hidden lg:flex flex-col items-start justify-center decorative-panel h-full rounded-2xl p-12">
-            <h1 class="text-6xl font-bold font-logo mb-4 text-green-600">crack-it <span class="gradient-text-cse text-4xl align-baseline">(CSE)</span></h1>
-            <h2 class="text-2xl font-semibold text-slate-800">Your UPSC CSE Prelims Edge.</h2>
-            <div class="mt-6 space-y-6">
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M8.866.527a1.5 1.5 0 0 0-1.732 0l-5.25 3.031a1.5 1.5 0 0 0-.866 1.3L1 14.527a1.5 1.5 0 0 0 2.3 1.3l5.25-3.031a1.5 1.5 0 0 0 .866-1.3V1.828a1.5 1.5 0 0 0-.866-1.3zM9.5 4.129v3.032l-2.09-1.205.866-.5 1.224.703zM7.41 1.828a.5.5 0 0 1 .866 0l5.25 3.031a.5.5 0 0 1 .288.434v11.368a.5.5 0 0 1-.788.434l-5.25-3.03a.5.5 0 0 1-.288-.434V1.828z"/>
-                            <path d="M6 12.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-slate-800">Daily Practice</h3>
-                        <p class="text-slate-500">Face a fresh, random set of questions from all core CSE subjects every time you play.</p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/>
-                            <path d="M3.5 15a.5.5 0 0 1-1 0V3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2v11.5zm10 0a.5.5 0 0 0-1 0V3.5a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0 0 1h2v11.5z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-slate-800">Adaptive Challenge</h3>
-                        <p class="text-slate-500">The difficulty increases as you perform better, ensuring you are always challenged.</p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-4">
-                    <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 4a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1"/>
-                            <path d="M9.468 6.992c.622-.587 1.03-1.442 1.03-2.434C10.5 3.332 9.358 2 8 2 6.642 2 5.5 3.332 5.5 4.558c0 .992.408 1.847 1.03 2.434C6.018 7.332 5 8.65 5 10.3c0 .51.106.99.29 1.432C5.02 11.587 4 12.83 4 14.5 4 14.776 4.224 15 4.5 15h7a.5.5 0 0 0 .5-.5c0-1.67-1.02-2.913-1.29-3.768A3.98 3.98 0 0 1 11 10.3c0-1.65-1.018-2.968-1.532-3.308"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-slate-800">Strengthen Concepts</h3>
-                        <p class="text-slate-500">Review detailed explanations after each round to solidify your knowledge and learn from mistakes.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Content Area (Right Side on Desktop) -->
-        <div id="main-content" class="w-full">
-            
-            <!-- Quiz Screen -->
-            <div id="quiz-screen">
-                <!-- App Header -->
-                <div class="sticky top-0 z-10 bg-slate-50 py-4 flex items-center">
-                     <h1 class="text-3xl font-bold font-logo text-green-600 lg:hidden">crack-it <span class="gradient-text-cse text-xl align-baseline">(CSE)</span></h1>
-                     <div class="flex items-center gap-4 ml-auto">
-                         <div class="flex items-baseline gap-2">
-                            <p class="text-base font-logo text-slate-500">SCORE</p>
-                            <p id="score" class="text-xl font-bold text-green-600 font-logo">0</p>
-                        </div>
-                        <button id="reset-button" title="Reset Progress" class="p-2 rounded-full hover:bg-slate-200 transition-colors">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="text-slate-500" viewBox="0 0 16 16">
-                              <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
-                              <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                
-                <div id="progress-container" class="mb-2 flex flex-col items-center">
-                    <div class="relative w-24 h-24">
-                        <svg class="w-full h-full" viewBox="0 0 100 100">
-                            <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
-                            <circle id="progress-ring" class="progress-ring__circle text-green-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
-                        </svg>
-                        <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-                             <span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span>
-                        </div>
-                    </div>
-                    <div class="text-center mt-2">
-                         <span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span>
-                    </div>
-                </div>
-
-                <div id="card" class="bg-white p-4 md:p-6 rounded-2xl shadow-lg border border-slate-200 card-enter min-h-[260px]">
-                     <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
-                     <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
-                </div>
-                
-                <div id="next-button-container" class="text-center mt-4 h-auto min-h-[4rem]"></div>
-            </div>
-        </div>
-
+    <div id="app-container" class="w-full max-w-6xl mx-auto">
+        <!-- Content (Landing or Quiz) will be dynamically inserted here -->
     </div>
-    
+    <script src="history.js"></script>
     <script>
+
         // --- CONSTANTS & STATE VARIABLES ---
         const ROUND_LENGTH = 10;
-        const STATE_VERSION = "2.0";
+        const STATE_VERSION = "2.2"; // Incremented version to ensure fresh state after major change
         let currentQuestion = null;
         let isAnswered = false;
         let roundHistory = [];
@@ -243,12 +153,8 @@
         let allQuestions = { easy: [], moderate: [], hard: [] };
        
         // --- DOM ELEMENTS ---
-        let scoreEl, roundNumberEl, questionCounterEl, difficultyLevelEl, questionTextEl, optionsContainerEl;
-        const progressContainerEl = document.getElementById('progress-container');
-        const progressRingEl = document.getElementById('progress-ring');
-        const cardEl = document.getElementById('card');
-        const nextButtonContainerEl = document.getElementById('next-button-container');
-        const resetButtonEl = document.getElementById('reset-button');
+        const appContainerEl = document.getElementById('app-container');
+        let scoreEl, roundNumberEl, questionCounterEl, difficultyLevelEl, questionTextEl, optionsContainerEl, resetButtonEl, progressContainerEl, progressRingEl, cardEl, nextButtonContainerEl;
 
         // --- AUDIO SETUP ---
         const correctSynth = new Tone.PolySynth(Tone.Synth).toDestination();
@@ -268,17 +174,18 @@
         // --- LOCAL STORAGE & STATE MANAGEMENT ---
         function saveState() {
             try {
-                localStorage.setItem('crackit_quiz_progress', JSON.stringify(quizState));
+                localStorage.setItem(`crackit_quiz_progress_${quizState.exam}`, JSON.stringify(quizState));
             } catch (e) { console.error("Could not save progress.", e); }
         }
 
-        function createNewState() {
+        function createNewState(exam) {
             shuffleArray(allQuestions.easy);
             shuffleArray(allQuestions.moderate);
             shuffleArray(allQuestions.hard);
 
             return {
                 version: STATE_VERSION,
+                exam: exam,
                 score: 0,
                 currentRound: 1,
                 currentDifficulty: 'easy',
@@ -291,28 +198,27 @@
             };
         }
 
-        function loadState() {
+        function loadState(exam) {
             try {
-                const savedState = localStorage.getItem('crackit_quiz_progress');
+                const savedState = localStorage.getItem(`crackit_quiz_progress_${exam}`);
                 if (savedState) {
                     const state = JSON.parse(savedState);
                     if (state.version === STATE_VERSION && state.pointers) {
                         quizState = state;
-                    } else {
-                        quizState = createNewState();
+                        return;
                     }
-                } else {
-                    quizState = createNewState();
                 }
+                quizState = createNewState(exam);
             } catch (e) {
                 console.error("Could not load progress.", e);
-                quizState = createNewState();
+                quizState = createNewState(exam);
             }
         }
 
         function resetProgress() {
-            if(confirm("Are you sure you want to reset all your progress? This cannot be undone.")) {
-                localStorage.removeItem('crackit_quiz_progress');
+            if(confirm("Are you sure you want to reset all your progress for this exam? This will take you back to the exam selection screen.")) {
+                localStorage.removeItem(`crackit_quiz_progress_${quizState.exam}`);
+                localStorage.removeItem('selectedExam');
                 window.location.reload();
             }
         }
@@ -356,19 +262,116 @@
 
         // --- GAME LOGIC & UI RENDERING ---
         function initializeApp() {
-            let questionIdCounter = 0;
-            
-            if (typeof questionDatabase !== 'undefined' && Array.isArray(questionDatabase)) {
-                for (const question of questionDatabase) {
-                    const questionWithId = {...question, id: questionIdCounter++};
-                    let difficulty = question.difficulty.toLowerCase();
-                    if (['easy', 'moderate', 'hard'].includes(difficulty)) {
-                        allQuestions[difficulty].push(questionWithId);
-                    }
-                }
+            const savedExam = localStorage.getItem('selectedExam');
+            if (savedExam) {
+                startQuizForExam(savedExam);
+            } else {
+                renderLandingScreen();
             }
+        }
+        
+        function renderLandingScreen() {
+            appContainerEl.innerHTML = `
+            <div id="landing-screen" class="w-full max-w-xl mx-auto my-auto">
+                <div class="text-center">
+                    <h1 class="text-6xl font-bold font-logo mb-4 text-green-600">crack-it</h1>
+                    <h2 class="text-2xl font-semibold text-slate-800 mb-6">Your Prelims Edge.</h2>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-slate-200">
+                    <h3 class="font-bold text-lg text-slate-800 mb-4 text-center">Select Your Exam</h3>
+                    <div id="exam-selection-grid" class="grid grid-cols-2 gap-4"></div>
+                </div>
+                <div class="mt-8 text-center">
+                    <h3 class="font-bold text-lg text-slate-800 mb-4">How it works</h3>
+                    <div class="space-y-4 text-left">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8.866.527a1.5 1.5 0 0 0-1.732 0l-5.25 3.031a1.5 1.5 0 0 0-.866 1.3L1 14.527a1.5 1.5 0 0 0 2.3 1.3l5.25-3.031a1.5 1.5 0 0 0 .866-1.3V1.828a1.5 1.5 0 0 0-.866-1.3zM9.5 4.129v3.032l-2.09-1.205.866-.5 1.224.703zM7.41 1.828a.5.5 0 0 1 .866 0l5.25 3.031a.5.5 0 0 1 .288.434v11.368a.5.5 0 0 1-.788.434l-5.25-3.03a.5.5 0 0 1-.288-.434V1.828z"/><path d="M6 12.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5"/></svg></div>
+                            <div><h3 class="font-semibold text-slate-800">Daily Practice</h3><p class="text-slate-500 text-sm">Face a fresh, random set of questions from all core subjects every time you play.</p></div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/><path d="M3.5 15a.5.5 0 0 1-1 0V3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2v11.5zm10 0a.5.5 0 0 0-1 0V3.5a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0 0 1h2v11.5z"/></svg></div>
+                            <div><h3 class="font-semibold text-slate-800">Adaptive Challenge</h3><p class="text-slate-500 text-sm">The difficulty increases as you perform better, ensuring you are always challenged.</p></div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 4a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1"/><path d="M9.468 6.992c.622-.587 1.03-1.442 1.03-2.434C10.5 3.332 9.358 2 8 2 6.642 2 5.5 3.332 5.5 4.558c0 .992.408 1.847 1.03 2.434C6.018 7.332 5 8.65 5 10.3c0 .51.106.99.29 1.432C5.02 11.587 4 12.83 4 14.5 4 14.776 4.224 15 4.5 15h7a.5.5 0 0 0 .5-.5c0-1.67-1.02-2.913-1.29-3.768A3.98 3.98 0 0 1 11 10.3c0-1.65-1.018-2.968-1.532-3.308"/></svg></div>
+                            <div><h3 class="font-semibold text-slate-800">Strengthen Concepts</h3><p class="text-slate-500 text-sm">Review detailed explanations after each round to solidify your knowledge and learn from mistakes.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+
+            const exams = [...new Set(questionDatabase.map(q => q.exam ? q.exam.toUpperCase() : null).filter(Boolean))];
+            const examGrid = document.getElementById('exam-selection-grid');
+            examGrid.innerHTML = '';
+            exams.forEach(exam => {
+                const button = document.createElement('button');
+                button.textContent = exam;
+                button.className = "w-full text-center p-4 rounded-xl border border-slate-300 bg-white font-semibold text-slate-700 shadow-sm transition-all duration-200 hover:shadow-md hover:border-green-500 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75";
+                button.onclick = () => selectExam(exam);
+                examGrid.appendChild(button);
+            });
+        }
+        
+        function selectExam(exam) {
+            localStorage.setItem('selectedExam', exam);
+            startQuizForExam(exam);
+        }
+
+        function updateLogo(examName) {
+            document.querySelectorAll('.exam-name-placeholder').forEach(el => {
+                el.textContent = `(${examName.toUpperCase()})`;
+            });
+        }
+        
+        function startQuizForExam(exam) {
+            appContainerEl.innerHTML = `
+            <div id="quiz-wrapper" class="w-full max-w-6xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+                <div class="hidden lg:flex flex-col items-start justify-center decorative-panel h-full rounded-2xl p-12">
+                    <h1 class="text-6xl font-bold font-logo mb-4 text-green-600">crack-it <span class="gradient-text-cse text-4xl align-baseline exam-name-placeholder"></span></h1>
+                    <h2 class="text-2xl font-semibold text-slate-800">Your Prelims Edge.</h2>
+                    <div class="mt-6 space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8.866.527a1.5 1.5 0 0 0-1.732 0l-5.25 3.031a1.5 1.5 0 0 0-.866 1.3L1 14.527a1.5 1.5 0 0 0 2.3 1.3l5.25-3.031a1.5 1.5 0 0 0 .866-1.3V1.828a1.5 1.5 0 0 0-.866-1.3zM9.5 4.129v3.032l-2.09-1.205.866-.5 1.224.703zM7.41 1.828a.5.5 0 0 1 .866 0l5.25 3.031a.5.5 0 0 1 .288.434v11.368a.5.5 0 0 1-.788.434l-5.25-3.03a.5.5 0 0 1-.288-.434V1.828z"/><path d="M6 12.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5"/></svg></div>
+                            <div><h3 class="font-semibold text-slate-800">Daily Practice</h3><p class="text-slate-500">Face a fresh, random set of questions from all core CSE subjects every time you play.</p></div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/><path d="M3.5 15a.5.5 0 0 1-1 0V3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2v11.5zm10 0a.5.5 0 0 0-1 0V3.5a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0 0 1h2v11.5z"/></svg></div>
+                            <div><h3 class="font-semibold text-slate-800">Adaptive Challenge</h3><p class="text-slate-500">The difficulty increases as you perform better, ensuring you are always challenged.</p></div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 4a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1"/><path d="M9.468 6.992c.622-.587 1.03-1.442 1.03-2.434C10.5 3.332 9.358 2 8 2 6.642 2 5.5 3.332 5.5 4.558c0 .992.408 1.847 1.03 2.434C6.018 7.332 5 8.65 5 10.3c0 .51.106.99.29 1.432C5.02 11.587 4 12.83 4 14.5 4 14.776 4.224 15 4.5 15h7a.5.5 0 0 0 .5-.5c0-1.67-1.02-2.913-1.29-3.768A3.98 3.98 0 0 1 11 10.3c0-1.65-1.018-2.968-1.532-3.308"/></svg></div>
+                            <div><h3 class="font-semibold text-slate-800">Strengthen Concepts</h3><p class="text-slate-500">Review detailed explanations after each round to solidify your knowledge and learn from mistakes.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-content" class="w-full">
+                    <div id="quiz-screen">
+                        <div class="sticky top-0 z-10 bg-slate-50 py-4 flex items-center">
+                            <h1 class="text-3xl font-bold font-logo text-green-600 lg:hidden">crack-it <span class="gradient-text-cse text-xl align-baseline exam-name-placeholder"></span></h1>
+                            <div class="flex items-center gap-4 ml-auto">
+                                <div class="flex items-baseline gap-2"><p class="text-base font-logo text-slate-500">SCORE</p><p id="score" class="text-xl font-bold text-green-600 font-logo">0</p></div>
+                                <button id="reset-button" title="Reset Progress" class="p-2 rounded-full hover:bg-slate-200 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="text-slate-500" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/><path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/></svg></button>
+                            </div>
+                        </div>
+                        <div id="progress-container" class="mb-2 flex flex-col items-center">
+                            <div class="relative w-24 h-24">
+                                <svg class="w-full h-full" viewBox="0 0 100 100">
+                                    <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" /><circle id="progress-ring" class="progress-ring__circle text-green-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
+                                </svg>
+                                <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center"><span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span></div>
+                            </div>
+                            <div class="text-center mt-2"><span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span></div>
+                        </div>
+                        <div id="card" class="bg-white p-4 md:p-6 rounded-2xl shadow-lg border border-slate-200 card-enter min-h-[260px]">
+                            <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
+                            <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+                        </div>
+                        <div id="next-button-container" class="text-center mt-4 h-auto min-h-[4rem]"></div>
+                    </div>
+                </div>
+            </div>`;
             
-            loadState();
+            updateLogo(exam);
             
             scoreEl = document.getElementById('score');
             roundNumberEl = document.getElementById('round-number');
@@ -376,11 +379,31 @@
             difficultyLevelEl = document.getElementById('difficulty-level');
             questionTextEl = document.getElementById('question-text');
             optionsContainerEl = document.getElementById('options-container');
-            
+            resetButtonEl = document.getElementById('reset-button');
+            progressContainerEl = document.getElementById('progress-container');
+            progressRingEl = document.getElementById('progress-ring');
+            cardEl = document.getElementById('card');
+            nextButtonContainerEl = document.getElementById('next-button-container');
             resetButtonEl.onclick = resetProgress;
 
+
+            let questionIdCounter = 0;
+            allQuestions = { easy: [], moderate: [], hard: [] };
+            
+            if (typeof questionDatabase !== 'undefined' && Array.isArray(questionDatabase)) {
+                 questionDatabase.filter(q => q.exam && q.exam.toUpperCase() === exam.toUpperCase()).forEach(q => {
+                    const questionWithId = {...q, id: questionIdCounter++};
+                    let difficulty = q.difficulty.toLowerCase();
+                     if (['easy', 'moderate', 'hard'].includes(difficulty)) {
+                        allQuestions[difficulty].push(questionWithId);
+                    }
+                });
+            }
+            
+            loadState(exam);
             startRound();
         }
+
 
         function startRound() {
             progressContainerEl.style.display = 'flex';
@@ -389,10 +412,15 @@
                 questionTextEl = document.getElementById('question-text');
                 optionsContainerEl = document.getElementById('options-container');
             }
-
+            
             roundHistory = [];
             quizState.questionsInCurrentRound = 0;
             quizState.correctAnswersInRound = 0;
+
+            shuffleArray(quizState.shuffledIndices.easy);
+            shuffleArray(quizState.shuffledIndices.moderate);
+            shuffleArray(quizState.shuffledIndices.hard);
+            quizState.pointers = { easy: 0, moderate: 0, hard: 0 };
             
             updateScoreAndRoundUI();
             updateProgressUI();
@@ -407,11 +435,8 @@
             if (!shuffledList || shuffledList.length === 0) return null;
 
             if (pointer >= shuffledList.length) {
-                const newShuffle = allQuestions[difficulty].map(q => q.id);
-                shuffleArray(newShuffle);
-                quizState.shuffledIndices[difficulty] = newShuffle;
-                shuffledList = newShuffle;
-                pointer = 0;
+                shuffleArray(quizState.shuffledIndices[difficulty]);
+                 pointer = 0;
             }
             const questionId = shuffledList[pointer];
             quizState.pointers[difficulty] = pointer + 1;

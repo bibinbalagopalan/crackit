@@ -32,7 +32,7 @@ const questionDatabase = [
     "answer": "Sarnath",
     "explanation": "Sarnath is a famous Buddhist site in Uttar Pradesh, India, while the others are prominent sites of the Indus Valley Civilization.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Great Bath was discovered at which of the following Harappan sites?",
@@ -45,7 +45,7 @@ const questionDatabase = [
     "answer": "Mohenjo-daro",
     "explanation": "The Great Bath, a large public water tank, is one of the most well-known structures found at Mohenjo-daro.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following sites provides evidence of a dockyard?",
@@ -58,7 +58,7 @@ const questionDatabase = [
     "answer": "Lothal",
     "explanation": "Lothal, located in Gujarat, is believed to have been a major port city of the Harappan civilization, with a structure identified as a dockyard.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization is also known as the:",
@@ -71,7 +71,7 @@ const questionDatabase = [
     "answer": "Bronze Age Civilization",
     "explanation": "The Harappan people used copper and tin to produce bronze, which is why their culture is referred to as a Bronze Age civilization.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which animal was not known to the people of the Indus Valley Civilization?",
@@ -84,7 +84,7 @@ const questionDatabase = [
     "answer": "Lion",
     "explanation": "While several animals were depicted on seals and artifacts, there is no evidence of the lion being known to the Harappans.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The main occupation of the people of the Indus Valley Civilization was:",
@@ -97,7 +97,7 @@ const questionDatabase = [
     "answer": "Agriculture",
     "explanation": "Agriculture was the primary occupation, with evidence of wheat, barley, and other crops being cultivated.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous dancing girl figurine was discovered at:",
@@ -110,7 +110,7 @@ const questionDatabase = [
     "answer": "Mohenjo-daro",
     "explanation": "The bronze statue of a 'dancing girl' is a well-known artifact from Mohenjo-daro.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "What was the most common type of seal used by the Harappans?",
@@ -123,7 +123,7 @@ const questionDatabase = [
     "answer": "Steatite",
     "explanation": "Steatite, a soft stone, was the most widely used material for making the square or rectangular seals.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan cities were divided into a citadel and a lower town. This feature is a hallmark of their:",
@@ -136,7 +136,7 @@ const questionDatabase = [
     "answer": "Social stratification",
     "explanation": "The division of the city into different parts, with the citadel likely reserved for the elite, suggests a form of social hierarchy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following crops were grown by the Harappans?",
@@ -149,7 +149,7 @@ const questionDatabase = [
     "answer": "Wheat and barley",
     "explanation": "Wheat and barley were the most important crops grown by the Harappan people.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The main drainage system of the Harappan civilization was made of:",
@@ -162,7 +162,7 @@ const questionDatabase = [
     "answer": "Bricks and mortar",
     "explanation": "The Harappan cities had a highly sophisticated drainage system, with covered drains made of burnt bricks and mortar.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following sites is located in present-day Pakistan?",
@@ -175,7 +175,7 @@ const questionDatabase = [
     "answer": "Harappa",
     "explanation": "Harappa, one of the two major cities, is located in the Punjab province of Pakistan.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan script was:",
@@ -188,7 +188,7 @@ const questionDatabase = [
     "answer": "Pictographic",
     "explanation": "The Harappan script consisted of a series of pictorial signs and is yet to be deciphered.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The first site to be discovered was:",
@@ -201,7 +201,7 @@ const questionDatabase = [
     "answer": "Harappa",
     "explanation": "Harappa was the first site to be excavated in 1921 by Dayaram Sahni.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the most common Harappan pottery?",
@@ -214,7 +214,7 @@ const questionDatabase = [
     "answer": "Red ware with black designs",
     "explanation": "A characteristic feature of Harappan pottery is the use of red ware with black painted designs.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan people were the first to produce:",
@@ -227,7 +227,7 @@ const questionDatabase = [
     "answer": "Cotton",
     "explanation": "The Harappan civilization is credited with being the first to cultivate and produce cotton.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is famous for its three parts of the city (upper, middle, lower)?",
@@ -240,7 +240,7 @@ const questionDatabase = [
     "answer": "Dholavira",
     "explanation": "Dholavira, in Gujarat, is unique among Harappan sites for having a three-part city plan.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The main reason for the decline of the Harappan civilization is a subject of debate, but one prominent theory points to:",
@@ -253,7 +253,7 @@ const questionDatabase = [
     "answer": "Climate change and environmental factors",
     "explanation": "Environmental factors like changes in river courses, deforestation, and climate change are widely considered as key factors in the civilization's decline.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization flourished along the banks of the river:",
@@ -266,7 +266,7 @@ const questionDatabase = [
     "answer": "Saraswati",
     "explanation": "The civilization flourished along the banks of the Indus and its tributary, the Ghaggar-Hakra, which is believed to be the ancient Saraswati River.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the first person to use the term 'Indus Valley Civilization'?",
@@ -279,7 +279,7 @@ const questionDatabase = [
     "answer": "John Marshall",
     "explanation": "Sir John Marshall, Director-General of the Archaeological Survey of India, officially announced the discovery of the civilization and named it 'Indus Valley Civilization'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization is a 'protohistoric' civilization. What does this mean?",
@@ -292,7 +292,7 @@ const questionDatabase = [
     "answer": "Its written records are yet to be deciphered.",
     "explanation": "Protohistory refers to a period between prehistory and history, where a civilization has written records, but they are not yet deciphered.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is located on the coast of the Arabian Sea?",
@@ -305,7 +305,7 @@ const questionDatabase = [
     "answer": "Sutkagendor",
     "explanation": "Sutkagendor was an important coastal town and a trade outpost of the Harappan civilization, located near the coast of Balochistan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pashupati' seal, a famous Harappan artifact, depicts a figure surrounded by several animals. Which of the following is not one of them?",
@@ -318,7 +318,7 @@ const questionDatabase = [
     "answer": "Bull",
     "explanation": "The 'Pashupati' seal depicts a seated figure surrounded by a rhinoceros, a tiger, an elephant, and a buffalo. There are two deer at his feet, but no bull.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappans used a system of weights and measures. The basic unit of these weights was in which ratio?",
@@ -331,7 +331,7 @@ const questionDatabase = [
     "answer": "16",
     "explanation": "The Harappan weights were mostly cubical in shape and followed a binary system in the lower denominations (1, 2, 4, 8, 16, 32...) and a decimal system in higher denominations.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites has provided evidence of a ploughed field?",
@@ -344,7 +344,7 @@ const questionDatabase = [
     "answer": "Kalibangan",
     "explanation": "Kalibangan, located in Rajasthan, is famous for the discovery of a ploughed field, which is the earliest agricultural field ever excavated in India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which theory of the Harappan decline is associated with the idea of a 'massacre' at Mohenjo-daro?",
@@ -357,7 +357,7 @@ const questionDatabase = [
     "answer": "Aryan invasion theory",
     "explanation": "The Aryan invasion theory, now largely discredited, was proposed by Mortimer Wheeler, who cited the skeletal remains found at Mohenjo-daro as evidence of a massacre.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which Harappan site is known for a unique water management system, including large reservoirs and a sophisticated drainage system?",
@@ -370,7 +370,7 @@ const questionDatabase = [
     "answer": "Dholavira",
     "explanation": "Dholavira is known for its advanced water management system, which included a series of interconnected reservoirs to store rainwater.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization's urban planning is notable for its grid-like street layout and the use of standardized:",
@@ -383,7 +383,7 @@ const questionDatabase = [
     "answer": "Bricks",
     "explanation": "A defining characteristic of Harappan urban centers was the use of standardized bricks in a specific ratio (4:2:1) for construction.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan trade relations with Mesopotamia are evidenced by the discovery of Harappan seals in which Mesopotamian cities?",
@@ -396,7 +396,7 @@ const questionDatabase = [
     "answer": "Ur, Kish, Susa",
     "explanation": "Harappan seals have been found in various Mesopotamian cities, including Ur, Kish, and Susa, indicating extensive trade links.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The site of 'Chanhudaro' is unique among Harappan cities for its lack of a:",
@@ -409,7 +409,7 @@ const questionDatabase = [
     "answer": "Citadel",
     "explanation": "Chanhudaro is a small Harappan site known for its extensive bead-making workshops and is the only major city without a fortified citadel.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan people worshipped a male god, often referred to as 'Pashupati Mahadeva' by scholars. This god is depicted on a seal in which posture?",
@@ -422,7 +422,7 @@ const questionDatabase = [
     "answer": "Seated in a yogic posture",
     "explanation": "The 'Pashupati' seal depicts a three-faced male figure, possibly a proto-Shiva, seated in a cross-legged yogic pose.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is a major center for bead-making and shell ornament production?",
@@ -435,7 +435,7 @@ const questionDatabase = [
     "answer": "Chanhudaro",
     "explanation": "Chanhudaro was a hub for craft production, particularly for bead-making, shell carving, and metalwork.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'terracotta plough' was discovered at which of the following Harappan sites?",
@@ -448,7 +448,7 @@ const questionDatabase = [
     "answer": "Banawali",
     "explanation": "A toy model of a plough made of terracotta was found at Banawali, providing evidence of agricultural practices.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization's end is often associated with the decline of a major river system. Which one?",
@@ -461,7 +461,7 @@ const questionDatabase = [
     "answer": "Ghaggar-Hakra",
     "explanation": "The drying up of the Ghaggar-Hakra river system, often identified with the ancient Saraswati, is a key theory for the decline of many Harappan settlements.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan people were skilled in which of the following crafts?",
@@ -474,7 +474,7 @@ const questionDatabase = [
     "answer": "Bead making",
     "explanation": "The Harappans were proficient in a variety of crafts, with bead-making being a significant industry, as evidenced by numerous workshops.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is located in the Kutch region of Gujarat?",
@@ -487,7 +487,7 @@ const questionDatabase = [
     "answer": "Surkotada",
     "explanation": "Surkotada is a fortified Harappan site in the Kutch region, known for the discovery of horse bones, though their significance is debated.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan society is believed to have been a:",
@@ -500,7 +500,7 @@ const questionDatabase = [
     "answer": "Egalitarian society",
     "explanation": "While there is evidence of social hierarchy, the absence of elaborate palaces or temples suggests that the society was relatively egalitarian in its organization.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The discovery of a 'seven-tiered fire altar' is a unique feature of which Harappan site?",
@@ -513,7 +513,7 @@ const questionDatabase = [
     "answer": "Kalibangan",
     "explanation": "Kalibangan is known for its fire altars, which are believed to have been used for religious rituals.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which Harappan site is believed to be a 'miniature Mohenjo-daro' due to its similar town planning and structures?",
@@ -526,7 +526,7 @@ const questionDatabase = [
     "answer": "Lothal",
     "explanation": "Lothal, with its distinct citadel and lower town, is often referred to as a 'miniature Mohenjo-daro' due to its similar features.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization's urban centers were organized in a grid-like pattern, with streets running in which directions?",
@@ -539,7 +539,7 @@ const questionDatabase = [
     "answer": "North-South and East-West",
     "explanation": "The streets of Harappan cities were laid out in a precise grid pattern, intersecting at right angles.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization is unique in its urban planning, which included a sophisticated drainage system and a grid layout. What is a key feature that is absent from Harappan cities compared to other contemporary civilizations?",
@@ -552,7 +552,7 @@ const questionDatabase = [
     "answer": "Large, monumental religious structures like temples",
     "explanation": "Unlike civilizations in Mesopotamia and Egypt, the Harappan cities lack evidence of massive temples or palaces, suggesting a different social and political organization.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The theory of tectonic uplift and seismic activity leading to the decline of the Harappan civilization is primarily supported by evidence from which river system?",
@@ -565,7 +565,7 @@ const questionDatabase = [
     "answer": "Ghaggar-Hakra",
     "explanation": "Tectonic uplift in the region is believed to have disrupted the flow of the Ghaggar-Hakra river, leading to its drying up and impacting settlements along its banks.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The discovery of a 'bearded priest-king' figurine at Mohenjo-daro suggests which of the following?",
@@ -578,7 +578,7 @@ const questionDatabase = [
     "answer": "The Harappans had a powerful priestly class.",
     "explanation": "The highly stylized and well-crafted figurine suggests the presence of an elite or a powerful priestly figure, though the exact nature of their rule is debated.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is believed to have been an important center for the procurement and processing of Lapis Lazuli?",
@@ -591,7 +591,7 @@ const questionDatabase = [
     "answer": "Shortughai",
     "explanation": "Shortughai, located in modern-day Afghanistan, was a Harappan trading post specifically established to access Lapis Lazuli mines.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The practice of 'burial with pottery' is a common feature of Harappan burial sites. This suggests which of the following?",
@@ -604,7 +604,7 @@ const questionDatabase = [
     "answer": "Belief in an afterlife",
     "explanation": "The presence of grave goods, such as pottery, jewelry, and personal items, in the burials indicates a belief in life after death.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The discovery of the 'horse bones' at which of the following sites is often used to challenge the traditional view of the Harappans as a horse-less civilization?",
@@ -617,7 +617,7 @@ const questionDatabase = [
     "answer": "Surkotada",
     "explanation": "Horse bones have been found at Surkotada, though their significance and whether they were domesticated horses are subjects of debate among historians.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization had extensive trade with other contemporary civilizations. The trade with Mesopotamia was primarily based on the export of:",
@@ -630,7 +630,7 @@ const questionDatabase = [
     "answer": "Textiles and timber",
     "explanation": "Mesopotamian records mention trade with 'Meluhha' (believed to be the Indus region), and the imports from this region included timber and textiles.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following sites provides evidence of a 'granary' that is considered to be one of the largest structures of its kind in the Harappan civilization?",
@@ -643,7 +643,7 @@ const questionDatabase = [
     "answer": "Mohenjo-daro",
     "explanation": "The Great Granary at Mohenjo-daro, a large public building, is believed to have been a major storehouse for agricultural produce.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan seals often feature a 'unicorn' or a mythical animal. What is the most plausible interpretation of this motif?",
@@ -656,7 +656,7 @@ const questionDatabase = [
     "answer": "It was a symbol of religious reverence.",
     "explanation": "The unicorn motif, being the most common, is widely interpreted as a religious or a ritualistic symbol, similar to the importance of the bull in later periods.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization's urban layout is characterized by the absence of a distinct 'royal palace'. This suggests:",
@@ -669,7 +669,7 @@ const questionDatabase = [
     "answer": "Power was decentralized and possibly held by a collective body.",
     "explanation": "The lack of a royal palace suggests that the political structure was not a monarchy, but possibly a more decentralized system, perhaps with a council of merchants or priests.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following is a characteristic feature of the 'Late Harappan' phase, indicating a decline in the civilization's urban features?",
@@ -682,7 +682,7 @@ const questionDatabase = [
     "answer": "Introduction of new pottery styles.",
     "explanation": "The Late Harappan phase is marked by a decline in urban planning, the use of non-standardized bricks, and the emergence of new, distinct pottery styles.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'terracotta figurines' of the Harappan civilization primarily represent:",
@@ -695,7 +695,7 @@ const questionDatabase = [
     "answer": "Mother Goddess",
     "explanation": "Numerous terracotta figurines of a female deity, often adorned with ornaments, have been found, suggesting the worship of a Mother Goddess.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan script, though undeciphered, is generally believed to have been written in which direction?",
@@ -708,7 +708,7 @@ const questionDatabase = [
     "answer": "Right to left",
     "explanation": "Based on the way the signs are compressed on the right side of the seals, it is inferred that the script was written from right to left.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following is considered to be a major factor in the decline of the Harappan civilization, as proposed by the 'Flood Theory'?",
@@ -721,7 +721,7 @@ const questionDatabase = [
     "answer": "Shifting course of the Indus River",
     "explanation": "The flood theory suggests that a change in the course of the Indus River, caused by silt deposition, led to devastating floods and the decline of cities like Mohenjo-daro.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Great Granary' at Harappa, similar to the one at Mohenjo-daro, was located near which river?",
@@ -734,7 +734,7 @@ const questionDatabase = [
     "answer": "Ravi",
     "explanation": "Harappa is located on the bank of the river Ravi, a tributary of the Indus.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kalibangan' site is known for which unique architectural feature?",
@@ -747,7 +747,7 @@ const questionDatabase = [
     "answer": "Fire altars",
     "explanation": "Kalibangan is notable for the discovery of several fire altars, suggesting a distinct religious practice.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan people's trade with Mesopotamia was facilitated by which type of transport?",
@@ -760,7 +760,7 @@ const questionDatabase = [
     "answer": "Sea routes via the Arabian Sea",
     "explanation": "The discovery of a dockyard at Lothal and Harappan seals in Mesopotamian port cities strongly suggests that sea routes were a primary mode of trade.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dancing Girl' figurine is a product of which metallurgical technique?",
@@ -773,7 +773,7 @@ const questionDatabase = [
     "answer": "Lost-wax casting",
     "explanation": "The figurine was made using the lost-wax (cire perdue) technique, a sophisticated method of bronze casting.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is a major archaeological site in Haryana, known for its size?",
@@ -786,7 +786,7 @@ const questionDatabase = [
     "answer": "Rakhigarhi",
     "explanation": "Rakhigarhi is considered to be one of the largest, if not the largest, Harappan site, located in the Hisar district of Haryana.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization's decline is a complex issue. The 'Environmental Degredation Theory' suggests it was caused by:",
@@ -799,7 +799,7 @@ const questionDatabase = [
     "answer": "Deforestation and salinization of soil",
     "explanation": "This theory suggests that extensive deforestation for fuel and agriculture, along with salinization of the soil, led to a collapse of the agricultural base.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The discovery of a 'seven-tiered fire altar' is a unique feature of which Harappan site?",
@@ -812,7 +812,7 @@ const questionDatabase = [
     "answer": "Kalibangan",
     "explanation": "Kalibangan is notable for the discovery of several fire altars, suggesting a distinct religious practice.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan people's trade with Mesopotamia was facilitated by which type of transport?",
@@ -825,7 +825,7 @@ const questionDatabase = [
     "answer": "Sea routes via the Arabian Sea",
     "explanation": "The discovery of a dockyard at Lothal and Harappan seals in Mesopotamian port cities strongly suggests that sea routes were a primary mode of trade.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dancing Girl' figurine is a product of which metallurgical technique?",
@@ -838,7 +838,7 @@ const questionDatabase = [
     "answer": "Lost-wax casting",
     "explanation": "The figurine was made using the lost-wax (cire perdue) technique, a sophisticated method of bronze casting.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Harappan sites is a major archaeological site in Haryana, known for its size?",
@@ -851,7 +851,7 @@ const questionDatabase = [
     "answer": "Rakhigarhi",
     "explanation": "Rakhigarhi is considered to be one of the largest, if not the largest, Harappan site, located in the Hisar district of Haryana.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Harappan civilization's decline is a complex issue. The 'Environmental Degredation Theory' suggests it was caused by:",
@@ -864,7 +864,7 @@ const questionDatabase = [
     "answer": "Deforestation and salinization of soil",
     "explanation": "This theory suggests that extensive deforestation for fuel and agriculture, along with salinization of the soil, led to a collapse of the agricultural base.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following is the oldest Veda?",
@@ -877,7 +877,7 @@ const questionDatabase = [
     "answer": "Rig Veda",
     "explanation": "The Rig Veda is the oldest of the four Vedas and is a collection of hymns and poems.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Aryan' in ancient India primarily refers to:",
@@ -890,7 +890,7 @@ const questionDatabase = [
     "answer": "A language group",
     "explanation": "The term 'Aryan' refers to a group of people who spoke a family of languages, not a single race.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "What was the main occupation of the Rigvedic Aryans?",
@@ -903,7 +903,7 @@ const questionDatabase = [
     "answer": "Pastoralism",
     "explanation": "Cattle and other livestock were the primary form of wealth for the Rigvedic Aryans, indicating a pastoral economy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The word 'Veda' means:",
@@ -916,7 +916,7 @@ const questionDatabase = [
     "answer": "Knowledge",
     "explanation": "The word 'Veda' literally translates to 'knowledge' or 'wisdom'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous battle of 'Dasharajna' (Battle of Ten Kings) was fought on the banks of which river?",
@@ -929,7 +929,7 @@ const questionDatabase = [
     "answer": "Parushni (Ravi)",
     "explanation": "The Battle of Ten Kings, mentioned in the Rig Veda, was fought on the banks of the river Parushni, which is modern-day Ravi.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following deities was the most important in the Rigvedic period?",
@@ -942,7 +942,7 @@ const questionDatabase = [
     "answer": "Indra",
     "explanation": "Indra, the god of rain and thunder, was the most prominent deity in the Rig Veda, with the largest number of hymns dedicated to him.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Raja' in the Rigvedic period referred to the:",
@@ -955,7 +955,7 @@ const questionDatabase = [
     "answer": "Leader of a tribe",
     "explanation": "During the Rigvedic period, a 'Raja' was the head of a 'jana' or tribe, whose power was limited by the tribal assemblies.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which Veda is a collection of musical hymns and melodies?",
@@ -968,7 +968,7 @@ const questionDatabase = [
     "answer": "Sama Veda",
     "explanation": "The Sama Veda contains a collection of melodies and chants, which were sung during rituals and sacrifices.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Gavishti' in the Rigveda meant:",
@@ -981,7 +981,7 @@ const questionDatabase = [
     "answer": "A war for cattle",
     "explanation": "Since cattle were the main source of wealth, wars were often fought over them, and these conflicts were called 'Gavishti'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The social division during the Rigvedic period was based on:",
@@ -994,7 +994,7 @@ const questionDatabase = [
     "answer": "Profession",
     "explanation": "In the early Vedic period, the social structure was flexible, and divisions were based on a person's profession, not birth.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic texts are primarily a source of information about:",
@@ -1007,7 +1007,7 @@ const questionDatabase = [
     "answer": "Religious rituals and social life",
     "explanation": "The Vedas are rich in information about the religious beliefs, rituals, and the social structure of the Vedic people.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Mahabharata' literally means:",
@@ -1020,7 +1020,7 @@ const questionDatabase = [
     "answer": "The great story",
     "explanation": "The word 'Mahabharata' is a compound of 'Maha' (great) and 'Bharata' (descendants of Bharat), thus meaning 'the great story of the descendants of Bharat'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic god of fire was known as:",
@@ -1033,7 +1033,7 @@ const questionDatabase = [
     "answer": "Agni",
     "explanation": "Agni was the fire god, who was considered a vital link between humans and the gods.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Later Vedic Period' is generally associated with which geographical region?",
@@ -1046,7 +1046,7 @@ const questionDatabase = [
     "answer": "Gangetic plains",
     "explanation": "The center of Aryan settlement shifted from the Indus region to the fertile Gangetic plains during the Later Vedic period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Grama' in the Rigvedic period referred to:",
@@ -1059,7 +1059,7 @@ const questionDatabase = [
     "answer": "A group of families",
     "explanation": "A 'Grama' was a cluster of families, led by a 'Gramani'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Varna system in the Later Vedic period was based on:",
@@ -1072,7 +1072,7 @@ const questionDatabase = [
     "answer": "Birth",
     "explanation": "Unlike the Rigvedic period, the Varna system in the Later Vedic period became more rigid and hereditary, based on birth.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The main source of information for the Early Vedic period is the:",
@@ -1085,7 +1085,7 @@ const questionDatabase = [
     "answer": "Rig Veda",
     "explanation": "The Rig Veda is the only source that provides a detailed account of the Early Vedic period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major ritual performed by the kings in the Later Vedic period to assert their power?",
@@ -1098,7 +1098,7 @@ const questionDatabase = [
     "answer": "Ashvamedha",
     "explanation": "The Ashvamedha or horse sacrifice was a major ritual performed by a king to prove his imperial sovereignty.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic period is broadly divided into:",
@@ -1111,7 +1111,7 @@ const questionDatabase = [
     "answer": "Early and Late",
     "explanation": "Historians divide the Vedic period into the Early Vedic period (c. 1500–1000 BCE) and the Later Vedic period (c. 1000–600 BCE).",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic economy in the Later Vedic period was primarily based on:",
@@ -1124,7 +1124,7 @@ const questionDatabase = [
     "answer": "Agriculture",
     "explanation": "With the discovery of iron and the settlement in the Gangetic plains, agriculture became the dominant economic activity.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Upanishad' literally means:",
@@ -1137,7 +1137,7 @@ const questionDatabase = [
     "answer": "To sit near (a teacher)",
     "explanation": "The word 'Upanishad' is derived from 'upa' (near) and 'ni-shad' (to sit down), signifying a student sitting near a guru to receive secret doctrines.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following assemblies lost its importance in the Later Vedic period?",
@@ -1150,7 +1150,7 @@ const questionDatabase = [
     "answer": "Vidatha",
     "explanation": "The Vidatha, a tribal assembly of the Rigvedic period, disappeared entirely in the Later Vedic period, while the Sabha and Samiti diminished in power.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic god 'Varuna' was the personification of:",
@@ -1163,7 +1163,7 @@ const questionDatabase = [
     "answer": "Sky and cosmic order",
     "explanation": "Varuna was an important deity who was associated with the sky, cosmic order ('Rita'), and moral law.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Brahmavartta' region, mentioned in the Later Vedic texts, corresponds to the area between which two rivers?",
@@ -1176,7 +1176,7 @@ const questionDatabase = [
     "answer": "Sutlej and Yamuna",
     "explanation": "The area between the Sutlej and Yamuna rivers, also known as the Kurukshetra region, was considered the sacred land of the Aryans during the Later Vedic period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Gotra' in the Later Vedic period referred to:",
@@ -1189,7 +1189,7 @@ const questionDatabase = [
     "answer": "A group of people sharing a common ancestor",
     "explanation": "Gotra was an exogamous kinship group in the Later Vedic period, where marriage within the same gotra was forbidden.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Kurukshetra' is the central theme of which Vedic epic?",
@@ -1202,7 +1202,7 @@ const questionDatabase = [
     "answer": "Mahabharata",
     "explanation": "The Mahabharata is a vast epic that primarily narrates the conflict between the Kauravas and Pandavas, which culminates in the Battle of Kurukshetra.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of the political organization in the Later Vedic period?",
@@ -1215,7 +1215,7 @@ const questionDatabase = [
     "answer": "Growth of large kingdoms",
     "explanation": "During this period, the smaller 'janas' merged to form larger territorial states called 'janapadas' and eventually 'mahajanapadas'.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Satyameva Jayate' (Truth alone triumphs) is from which Upanishad?",
@@ -1228,7 +1228,7 @@ const questionDatabase = [
     "answer": "Mundaka Upanishad",
     "explanation": "The phrase 'Satyameva Jayate' is a mantra from the Mundaka Upanishad, a philosophical text.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The transition from the Early to the Later Vedic period saw a shift from pastoralism to which type of economy?",
@@ -1241,7 +1241,7 @@ const questionDatabase = [
     "answer": "Agricultural",
     "explanation": "With the discovery and use of iron, the fertile lands of the Gangetic plains were cleared, leading to an agricultural surplus.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a new god that gained prominence in the Later Vedic period?",
@@ -1254,7 +1254,7 @@ const questionDatabase = [
     "answer": "Prajapati",
     "explanation": "Prajapati, the creator god, became a prominent deity in the Later Vedic period, replacing the dominance of Indra and Agni.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Janapada' in the Later Vedic period meant:",
@@ -1267,7 +1267,7 @@ const questionDatabase = [
     "answer": "The land where a Jana (tribe) settled",
     "explanation": "A 'Janapada' was a territorial unit or a kingdom, formed by the permanent settlement of a tribe ('Jana').",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Soma' ritual, a central part of the Vedic religion, involved the use of:",
@@ -1280,7 +1280,7 @@ const questionDatabase = [
     "answer": "An intoxicating plant",
     "explanation": "Soma was a plant whose juice was a key ingredient in a ritualistic drink, believed to be a source of divine inspiration.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Purushasukta' hymn in the Rig Veda provides the earliest evidence of which social concept?",
@@ -1293,7 +1293,7 @@ const questionDatabase = [
     "answer": "The Varna system",
     "explanation": "The Purushasukta hymn is the first textual mention of the four varnas (Brahmin, Kshatriya, Vaishya, Shudra) originating from the body of a cosmic being.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the primary purpose of the 'Rajasuya' sacrifice in the Later Vedic period?",
@@ -1306,7 +1306,7 @@ const questionDatabase = [
     "answer": "To mark a king's consecration",
     "explanation": "The Rajasuya sacrifice was a major ritual performed by a king to demonstrate and assert his royal authority and power.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Ayas' in the Rig Veda is believed to refer to which metal?",
@@ -1319,7 +1319,7 @@ const questionDatabase = [
     "answer": "Copper",
     "explanation": "While 'Ayas' later came to mean iron, in the Rigvedic context, it is widely believed to refer to copper or bronze, as iron was not yet widely used.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Aitareya Brahmana' is a commentary on which of the following Vedas?",
@@ -1332,7 +1332,7 @@ const questionDatabase = [
     "answer": "Rig Veda",
     "explanation": "The Aitareya Brahmana is one of the oldest prose texts of the Vedic literature, and it is associated with the Rig Veda.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Panchala' kingdom was a major center of power during the Later Vedic period. It was an amalgamation of which two tribes?",
@@ -1345,7 +1345,7 @@ const questionDatabase = [
     "answer": "Kuru and Puru",
     "explanation": "The Kuru and Puru tribes merged to form the powerful Kuru-Panchala kingdom, a key center of the Later Vedic civilization.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The concept of 'Karma' and 'Moksha' first appeared in which of the following texts?",
@@ -1358,7 +1358,7 @@ const questionDatabase = [
     "answer": "Upanishads",
     "explanation": "The Upanishads, which are philosophical texts, are the first to introduce the concepts of Karma (action and its consequences) and Moksha (liberation).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Shrauta Sutras' and 'Grihya Sutras' are part of which category of Vedic literature?",
@@ -1371,7 +1371,7 @@ const questionDatabase = [
     "answer": "Sutras",
     "explanation": "The Sutras are a type of literature that concisely describes the rituals and rules of the Vedic period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vajapeya' sacrifice was primarily a ritual to:",
@@ -1384,7 +1384,7 @@ const questionDatabase = [
     "answer": "Confer royal power",
     "explanation": "The Vajapeya, or 'drink of strength', was a chariot race ritual performed by kings to consolidate their authority and superiority.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dasarajna' (Battle of Ten Kings) mentioned in the Rigveda was a conflict primarily between:",
@@ -1397,7 +1397,7 @@ const questionDatabase = [
     "answer": "One Aryan tribe against a confederacy of ten tribes",
     "explanation": "The battle was fought between the Bharata king Sudas and a confederacy of ten tribes, both Aryan and non-Aryan.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Apastamba Dharmasutra' belongs to which Veda?",
@@ -1410,7 +1410,7 @@ const questionDatabase = [
     "answer": "Yajur Veda",
     "explanation": "The Apastamba Dharmasutra, a text on dharma and rules of conduct, is associated with the Krishna Yajur Veda.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Nishka' in the Rigveda, which was a form of ornament, later came to be used as a:",
@@ -1423,7 +1423,7 @@ const questionDatabase = [
     "answer": "Unit of currency",
     "explanation": "While 'Nishka' initially referred to a gold necklace, its use as a standard of exchange in later periods suggests a transition towards a monetary system.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The concept of 'Rita' in the Rigveda refers to:",
@@ -1436,7 +1436,7 @@ const questionDatabase = [
     "answer": "The cosmic and moral order",
     "explanation": "Rita was a central concept in the Rigveda, representing the natural and moral order that governs the universe.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Shatapatha Brahmana' mentions which of the following rituals that marked the eastward expansion of the Aryans?",
@@ -1449,7 +1449,7 @@ const questionDatabase = [
     "answer": "The 'Fire Ritual' of Vaishvanara Agni",
     "explanation": "The Shatapatha Brahmana details a story of a priest, Vidhegha Mathava, who carries the fire of Vaishvanara Agni eastward across the Sadnira River, symbolizing the Aryan expansion into the Gangetic plains.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Aitareya Upanishad' deals with which philosophical concept?",
@@ -1462,7 +1462,7 @@ const questionDatabase = [
     "answer": "The relationship between Atman and Brahman",
     "explanation": "The Aitareya Upanishad is a key text that explores the identity of the individual self (Atman) with the ultimate reality (Brahman).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Gavam-Pati' in the Rigvedic period referred to:",
@@ -1475,7 +1475,7 @@ const questionDatabase = [
     "answer": "The owner of the largest herd of cattle",
     "explanation": "The term 'Gavam-Pati' literally means 'Lord of cows', and was used to describe a powerful person who owned a large number of cattle, the main form of wealth.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following sacrifices was performed to consecrate a king's power and make him 'unrivalled'?",
@@ -1488,7 +1488,7 @@ const questionDatabase = [
     "answer": "Ashvamedha",
     "explanation": "The Ashvamedha, or horse sacrifice, was a ritual performed by a king to assert his territorial sovereignty and proclaim his power over a vast area.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Aranyakas' (Forest Books) are primarily concerned with:",
@@ -1501,7 +1501,7 @@ const questionDatabase = [
     "answer": "Philosophical speculation and mysticism",
     "explanation": "Aranyakas served as a bridge between the ritualistic Brahmanas and the philosophical Upanishads, containing mystical interpretations of the sacrifices.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pancha Mahayajnas' (five great sacrifices) were a set of daily rituals performed by the householders. Which of the following is not one of them?",
@@ -1514,7 +1514,7 @@ const questionDatabase = [
     "answer": "Vajapeya Yajna (royal sacrifice)",
     "explanation": "The Vajapeya Yajna was a royal ceremony, not a part of the daily rituals performed by a common householder. The five daily yajnas were Brahma, Deva, Pitri, Bhuta, and Nri yajnas.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The transition from the Early to the Later Vedic period saw a shift in the political structure from 'Jana' to 'Janapada'. This signifies a change from:",
@@ -1527,7 +1527,7 @@ const questionDatabase = [
     "answer": "Tribal allegiance to territorial allegiance",
     "explanation": "The term 'Jana' referred to a tribe, while 'Janapada' referred to the territory where the tribe had settled, indicating a shift from a tribal-based identity to a territorial one.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Samiti' in the Rigvedic period was a tribal assembly of the whole people. In the Later Vedic period, its power:",
@@ -1540,7 +1540,7 @@ const questionDatabase = [
     "answer": "Was limited by the king",
     "explanation": "The power of the Samiti and Sabha diminished during the Later Vedic period as the power of the king increased and became more hereditary.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following texts provides the earliest account of the 'four stages of life' (Ashramas)?",
@@ -1553,7 +1553,7 @@ const questionDatabase = [
     "answer": "Upanishads",
     "explanation": "The Ashramas (Brahmacharya, Grihastha, Vanaprastha, and Sanyasa) were first systematically described in the Upanishads and later texts.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Brihadaranyaka Upanishad' contains a famous dialogue between which two figures?",
@@ -1566,7 +1566,7 @@ const questionDatabase = [
     "answer": "Yajnavalkya and Maitreyi",
     "explanation": "This Upanishad features a well-known dialogue between the sage Yajnavalkya and his wife Maitreyi, discussing the nature of the self and immortality.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vedangas' are a set of six auxiliary disciplines of the Vedas. Which of the following is not a Vedanga?",
@@ -1579,7 +1579,7 @@ const questionDatabase = [
     "answer": "Mimamsa (philosophy)",
     "explanation": "Mimamsa is a school of Indian philosophy, not one of the six Vedangas. The six Vedangas are Shiksha, Kalpa, Vyakarana, Nirukta, Chhanda, and Jyotisha.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajanya' was a term used in the Rigvedic period for which social group?",
@@ -1592,7 +1592,7 @@ const questionDatabase = [
     "answer": "Warriors and chiefs",
     "explanation": "The 'Rajanya' was a class of warriors and chiefs, which later evolved into the Kshatriya varna in the Later Vedic period.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major ritual that involved a chariot race to consecrate a king's power?",
@@ -1605,7 +1605,7 @@ const questionDatabase = [
     "answer": "Vajapeya",
     "explanation": "The Vajapeya was a ceremony that included a chariot race, with the king's chariot always winning, symbolizing his authority and power.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Yajur Veda' is a compilation of which of the following?",
@@ -1618,7 +1618,7 @@ const questionDatabase = [
     "answer": "Prose mantras for rituals",
     "explanation": "The Yajur Veda primarily consists of prose mantras and verses used for performing various sacrifices and rituals.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Atharva Veda' is unique among the four Vedas for its focus on:",
@@ -1631,7 +1631,7 @@ const questionDatabase = [
     "answer": "Magic, charms, and spells",
     "explanation": "The Atharva Veda contains a collection of hymns, spells, and charms intended to ward off evil and diseases, and to ensure prosperity.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Grihapati' in the Later Vedic period referred to:",
@@ -1644,7 +1644,7 @@ const questionDatabase = [
     "answer": "The head of the household",
     "explanation": "The 'Grihapati' was the patriarchal head of a joint family, who had significant authority over the family members and their property.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic civilization is considered to be a 'patriarchal society'. This is primarily evidenced by:",
@@ -1657,7 +1657,7 @@ const questionDatabase = [
     "answer": "The predominance of male figures in texts and rituals",
     "explanation": "While female deities were present, the social structure was dominated by male figures, with men performing major rituals and leading the household.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following texts describes the 'Panchalika', a council of five members, which was a feature of the political organization?",
@@ -1670,7 +1670,7 @@ const questionDatabase = [
     "answer": "Shatapatha Brahmana",
     "explanation": "The Shatapatha Brahmana mentions a council of five (Panchalika) and provides insights into the administrative structure of the time.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Anuloma' and 'Pratiloma' marriages were a feature of which social system?",
@@ -1683,7 +1683,7 @@ const questionDatabase = [
     "answer": "Varna system",
     "explanation": "Anuloma marriage (man of a higher varna marrying a woman of a lower varna) was permitted, while Pratiloma (woman of a higher varna marrying a man of a lower varna) was generally not, reflecting the rigid hierarchy of the varna system.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Mahabharata' literally means:",
@@ -1696,7 +1696,7 @@ const questionDatabase = [
     "answer": "The great story",
     "explanation": "The word 'Mahabharata' is a compound of 'Maha' (great) and 'Bharata' (descendants of Bharat), thus meaning 'the great story of the descendants of Bharat'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic god of fire was known as:",
@@ -1709,7 +1709,7 @@ const questionDatabase = [
     "answer": "Agni",
     "explanation": "Agni was the fire god, who was considered a vital link between humans and the gods.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Later Vedic Period' is generally associated with which geographical region?",
@@ -1722,7 +1722,7 @@ const questionDatabase = [
     "answer": "Gangetic plains",
     "explanation": "The center of Aryan settlement shifted from the Indus region to the fertile Gangetic plains during the Later Vedic period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Grama' in the Rigvedic period referred to:",
@@ -1735,7 +1735,7 @@ const questionDatabase = [
     "answer": "A group of families",
     "explanation": "A 'Grama' was a cluster of families, led by a 'Gramani'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Varna system in the Later Vedic period was based on:",
@@ -1748,7 +1748,7 @@ const questionDatabase = [
     "answer": "Birth",
     "explanation": "Unlike the Rigvedic period, the Varna system in the Later Vedic period became more rigid and hereditary, based on birth.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The main source of information for the Early Vedic period is the:",
@@ -1761,7 +1761,7 @@ const questionDatabase = [
     "answer": "Rig Veda",
     "explanation": "The Rig Veda is the only source that provides a detailed account of the Early Vedic period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major ritual performed by the kings in the Later Vedic period to assert their power?",
@@ -1774,7 +1774,7 @@ const questionDatabase = [
     "answer": "Ashvamedha",
     "explanation": "The Ashvamedha or horse sacrifice was a major ritual performed by a king to prove his imperial sovereignty.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic period is broadly divided into:",
@@ -1787,7 +1787,7 @@ const questionDatabase = [
     "answer": "Early and Late",
     "explanation": "Historians divide the Vedic period into the Early Vedic period (c. 1500–1000 BCE) and the Later Vedic period (c. 1000–600 BCE).",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vedic economy in the Later Vedic period was primarily based on:",
@@ -1800,7 +1800,7 @@ const questionDatabase = [
     "answer": "Agriculture",
     "explanation": "With the discovery of iron and the settlement in the Gangetic plains, agriculture became the dominant economic activity.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
 
   // Mauryan Age
@@ -1815,7 +1815,7 @@ const questionDatabase = [
     "answer": "Chandragupta Maurya",
     "explanation": "Chandragupta Maurya, with the help of his mentor Chanakya (Kautilya), founded the Mauryan Empire around 322 BCE after overthrowing the Nanda dynasty.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The capital of the Mauryan Empire was:",
@@ -1828,7 +1828,7 @@ const questionDatabase = [
     "answer": "Pataliputra",
     "explanation": "Pataliputra (modern-day Patna) was the capital city and a major administrative center of the Mauryan Empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous book 'Arthashastra', a treatise on statecraft and political science, was written by:",
@@ -1841,7 +1841,7 @@ const questionDatabase = [
     "answer": "Kautilya",
     "explanation": "Kautilya, also known as Chanakya, was the prime minister of Chandragupta Maurya and the author of the 'Arthashastra'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the son of Chandragupta Maurya and the father of Ashoka?",
@@ -1854,7 +1854,7 @@ const questionDatabase = [
     "answer": "Bindusara",
     "explanation": "Bindusara was the second ruler of the Mauryan dynasty, succeeding his father Chandragupta Maurya.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan king Ashoka is most famous for his conversion to which religion after the Kalinga War?",
@@ -1867,7 +1867,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The Kalinga War deeply impacted Ashoka, leading him to renounce violence and embrace Buddhism.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Ashoka's edicts were mainly written in which script?",
@@ -1880,7 +1880,7 @@ const questionDatabase = [
     "answer": "Brahmi",
     "explanation": "Most of Ashoka's edicts were written in the Brahmi script, which was the precursor to most of the modern Indian scripts.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan administration was highly:",
@@ -1893,7 +1893,7 @@ const questionDatabase = [
     "answer": "Centralized",
     "explanation": "The Mauryan Empire had a highly centralized administration with the king as the supreme head of the state.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the Greek ambassador sent to the court of Chandragupta Maurya?",
@@ -1906,7 +1906,7 @@ const questionDatabase = [
     "answer": "Megasthenes",
     "explanation": "Megasthenes was a Greek ambassador sent by Seleucus Nicator to the court of Chandragupta Maurya. He wrote the famous book 'Indica'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the disintegration of the Mauryan Empire?",
@@ -1919,7 +1919,7 @@ const questionDatabase = [
     "answer": "Internal rebellions",
     "explanation": "After Ashoka's death, the empire faced internal conflicts and revolts by provincial rulers, leading to its eventual disintegration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Stupa at Sanchi, a famous Mauryan architectural marvel, was originally built by:",
@@ -1932,7 +1932,7 @@ const questionDatabase = [
     "answer": "Ashoka",
     "explanation": "The Great Stupa at Sanchi was originally built by Emperor Ashoka in the 3rd century BCE, and it was later enlarged.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan economy was primarily based on:",
@@ -1945,7 +1945,7 @@ const questionDatabase = [
     "answer": "Agriculture",
     "explanation": "Agriculture was the backbone of the Mauryan economy, with the state collecting a significant portion of the produce as revenue.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra' mentions a system of spies (gudhapurushas) to monitor:",
@@ -1958,7 +1958,7 @@ const questionDatabase = [
     "answer": "Internal affairs",
     "explanation": "The spy system was a crucial part of the Mauryan administration to maintain law and order and keep the king informed about the activities of his officials and the public.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the last ruler of the Mauryan Empire?",
@@ -1971,7 +1971,7 @@ const questionDatabase = [
     "answer": "Brihadratha",
     "explanation": "Brihadratha was the last Mauryan king, who was assassinated by his own commander-in-chief, Pushyamitra Sunga.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan pillars, with their highly polished surface, are a great example of Mauryan:",
@@ -1984,7 +1984,7 @@ const questionDatabase = [
     "answer": "Architecture",
     "explanation": "The Mauryan pillars are a hallmark of Mauryan art and architecture, known for their polished stone surface and intricate carvings.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dharma' of Ashoka was a set of principles that emphasized:",
@@ -1997,7 +1997,7 @@ const questionDatabase = [
     "answer": "Social welfare and tolerance",
     "explanation": "Ashoka's 'Dharma' was a moral code focusing on non-violence, respect for elders, tolerance towards all religions, and social harmony.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which dynasty succeeded the Mauryan Empire?",
@@ -2010,7 +2010,7 @@ const questionDatabase = [
     "answer": "Sunga",
     "explanation": "The Sunga dynasty was founded by Pushyamitra Sunga, who overthrew the last Mauryan ruler, Brihadratha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan Empire was established after the death of which famous Greek invader?",
@@ -2023,7 +2023,7 @@ const questionDatabase = [
     "answer": "Alexander",
     "explanation": "The Mauryan Empire rose to prominence in the power vacuum created after Alexander the Great's death and the withdrawal of his forces.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of the Mauryan administration?",
@@ -2036,7 +2036,7 @@ const questionDatabase = [
     "answer": "The use of a council of ministers (Parishad)",
     "explanation": "The Mauryan administration, as described in the Arthashastra, was guided by a council of ministers who advised the king.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous Lion Capital of Ashoka is a fine example of Mauryan art and is now the national emblem of:",
@@ -2049,7 +2049,7 @@ const questionDatabase = [
     "answer": "India",
     "explanation": "The Lion Capital, originally from the Sarnath pillar, is the national emblem of India, symbolizing courage and power.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra' is divided into how many books?",
@@ -2062,7 +2062,7 @@ const questionDatabase = [
     "answer": "15",
     "explanation": "The 'Arthashastra' is a comprehensive text divided into 15 books or sections, covering a wide range of topics on statecraft.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indica', a detailed account of the Mauryan Empire, was written by Megasthenes. Which Mauryan ruler's court did he visit?",
@@ -2075,7 +2075,7 @@ const questionDatabase = [
     "answer": "Chandragupta Maurya",
     "explanation": "Megasthenes was a Greek ambassador in the court of Chandragupta Maurya, and his work 'Indica' is a key source of information about the Mauryan administration and society.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Ashoka's 'Dhamma' was a set of ethical principles that did not include:",
@@ -2088,7 +2088,7 @@ const questionDatabase = [
     "answer": "Animal sacrifice",
     "explanation": "Ashoka's 'Dhamma' explicitly condemned animal sacrifice and violence, advocating for a more compassionate and non-violent way of life.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan administration's provincial division was divided into four main provinces. The head of each province was called:",
@@ -2101,7 +2101,7 @@ const questionDatabase = [
     "answer": "Kumara",
     "explanation": "The provinces were often governed by a 'Kumara' or a member of the royal family, who acted as a viceroy for the king.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan period is known for its highly developed art. A key feature of Mauryan sculpture is the 'Mauryan polish'. This refers to:",
@@ -2114,7 +2114,7 @@ const questionDatabase = [
     "answer": "A shiny, mirror-like finish on stone",
     "explanation": "The 'Mauryan polish' is a distinctive feature of Mauryan stone sculpture, especially the pillars, giving them a highly lustrous and smooth finish.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan state had a vast network of officials. The chief collector of revenue, responsible for the state's income, was known as the:",
@@ -2127,7 +2127,7 @@ const questionDatabase = [
     "answer": "Samaharta",
     "explanation": "The 'Samaharta' was a key official in the Mauryan administration, responsible for the collection of revenue from all sources.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Ashoka's Major Rock Edict XIII, considered one of his most significant, describes which historical event?",
@@ -2140,7 +2140,7 @@ const questionDatabase = [
     "answer": "The Kalinga War",
     "explanation": "Major Rock Edict XIII provides a detailed account of the Kalinga War and Ashoka's subsequent remorse and conversion to 'Dhamma'.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan period saw significant contact with the Hellenistic world. This is primarily evidenced by:",
@@ -2153,7 +2153,7 @@ const questionDatabase = [
     "answer": "Greek accounts of India like 'Indica'",
     "explanation": "Megasthenes' 'Indica' and other Greek and Roman accounts provide crucial evidence of the diplomatic and cultural contacts between the Mauryan Empire and the Hellenistic kingdoms.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sunga dynasty, which succeeded the Mauryas, was founded by Pushyamitra Sunga. He was the commander-in-chief of which last Mauryan ruler?",
@@ -2166,7 +2166,7 @@ const questionDatabase = [
     "answer": "Brihadratha",
     "explanation": "Pushyamitra Sunga, the commander of the Mauryan army, assassinated the last Mauryan king, Brihadratha, during a military parade and founded the Sunga dynasty.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan administration's 'Sannidhata' was an important official responsible for:",
@@ -2179,7 +2179,7 @@ const questionDatabase = [
     "answer": "The state treasury",
     "explanation": "The 'Sannidhata' was the chief custodian of the state's treasury and was in charge of managing the revenue and expenditure.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ring-wells', a type of well made of terracotta rings, became common during the Mauryan period. This innovation was a sign of:",
@@ -2192,7 +2192,7 @@ const questionDatabase = [
     "answer": "Urbanization and a settled lifestyle",
     "explanation": "The widespread use of ring-wells is a clear archaeological indicator of the rise of urban centers and a more settled, non-nomadic lifestyle during the Mauryan period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Kautilya's 'Arthashastra' is primarily a book on:",
@@ -2205,7 +2205,7 @@ const questionDatabase = [
     "answer": "Political economy and statecraft",
     "explanation": "The 'Arthashastra' is a comprehensive work that covers various aspects of statecraft, including administration, law, diplomacy, and economic policy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dharma Mahamattas' were a special class of officials appointed by Ashoka to:",
@@ -2218,7 +2218,7 @@ const questionDatabase = [
     "answer": "Enforce the principles of Dhamma",
     "explanation": "Ashoka appointed 'Dharma Mahamattas' to propagate his 'Dhamma' and ensure its principles were followed throughout the empire, especially among different sects and social classes.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan administration's 'Kumara' was the head of which administrative unit?",
@@ -2231,7 +2231,7 @@ const questionDatabase = [
     "answer": "Province",
     "explanation": "A 'Kumara' was a prince or royal governor who was in charge of a province, which was a major administrative division of the empire.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following art forms is not associated with the Mauryan period?",
@@ -2244,7 +2244,7 @@ const questionDatabase = [
     "answer": "Paintings of Ajanta",
     "explanation": "The famous Ajanta cave paintings are associated with the later Gupta and Vakataka periods, not the Mauryan period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan Empire's contact with the Hellenistic world was established through the defeat of which general by Chandragupta Maurya?",
@@ -2257,7 +2257,7 @@ const questionDatabase = [
     "answer": "Seleucus Nicator",
     "explanation": "After a war with Chandragupta Maurya, Seleucus Nicator, one of Alexander's generals, signed a treaty and gave his daughter in marriage, thus establishing diplomatic relations.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kanva' dynasty, which succeeded the Sungas, was founded by:",
@@ -2270,7 +2270,7 @@ const questionDatabase = [
     "answer": "Vasudeva Kanva",
     "explanation": "The Kanva dynasty was founded by Vasudeva Kanva, who was a minister of the last Sunga ruler, Devabhuti.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Barabar caves', known for their highly polished walls, were donated by Ashoka to which religious sect?",
@@ -2283,7 +2283,7 @@ const questionDatabase = [
     "answer": "Ajivikas",
     "explanation": "The Barabar caves were donated by Emperor Ashoka to the Ajivikas, a non-Buddhist and non-Jaina ascetic sect.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Sarthavaha' in the Mauryan period referred to:",
@@ -2296,7 +2296,7 @@ const questionDatabase = [
     "answer": "A group of traders",
     "explanation": "A 'Sarthavaha' was a caravan leader or a group of merchants who traveled together on trade routes.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra' is considered a valuable source for the study of Mauryan polity because it provides information on:",
@@ -2309,7 +2309,7 @@ const questionDatabase = [
     "answer": "The principles of governance and administration",
     "explanation": "The 'Arthashastra' is a detailed manual on how to run a state, and it provides a theoretical framework for understanding the Mauryan administrative and political system.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key economic policy of the Mauryan state, as per the Arthashastra?",
@@ -2322,7 +2322,7 @@ const questionDatabase = [
     "answer": "State-owned monopolies",
     "explanation": "The Arthashastra mentions the state's monopoly over mining, salt production, and other key resources, which was a major source of revenue for the empire.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Shadgunya' theory of foreign policy, mentioned in the Arthashastra, consists of how many strategies?",
@@ -2335,7 +2335,7 @@ const questionDatabase = [
     "answer": "Six",
     "explanation": "The 'Shadgunya' theory of foreign policy outlines six strategies for a king to deal with his neighbors: Sandhi (treaty), Vigraha (war), Asana (neutrality), Yana (march), Samshraya (alliance), and Dvaidhibhava (dual policy).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan 'Rajukas' were a group of officials responsible for:",
@@ -2348,7 +2348,7 @@ const questionDatabase = [
     "answer": "Judicial and revenue administration",
     "explanation": "Ashoka's edicts mention the 'Rajukas' as officials with wide-ranging powers in judicial and revenue administration, appointed to ensure the welfare of the people.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Saptanga' theory of the state in the Arthashastra identifies seven essential elements. Which of the following is not one of them?",
@@ -2361,7 +2361,7 @@ const questionDatabase = [
     "answer": "Rastra (Nation)",
     "explanation": "The seven elements are Swamin (King), Amatya (Minister), Janapada (Territory), Durga (Fort), Kosha (Treasury), Danda (Army), and Mitra (Ally). 'Rastra' is a broader term and not a specific element in this theory.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan Empire's disintegration can be attributed to several factors. Which of the following is a less widely accepted theory?",
@@ -2374,7 +2374,7 @@ const questionDatabase = [
     "answer": "The invasion of Alexander the Great",
     "explanation": "Alexander's invasion preceded the Mauryan Empire's foundation and its aftermath actually helped Chandragupta Maurya. The other factors are commonly cited as causes for the empire's decline.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Yavana' kings mentioned in Ashoka's Major Rock Edicts refer to:",
@@ -2387,7 +2387,7 @@ const questionDatabase = [
     "answer": "The Indo-Greeks",
     "explanation": "The term 'Yavana' in the context of Ashoka's edicts refers to the Hellenistic or Indo-Greek kingdoms in the northwest, with whom he maintained diplomatic relations.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan era is known for its highly polished sculptures. The 'Didarganj Yakshi', a famous sculpture, is a great example of this. It is believed to have been associated with:",
@@ -2400,7 +2400,7 @@ const questionDatabase = [
     "answer": "Local folk religion",
     "explanation": "The 'Yaksha' and 'Yakshini' figures were a part of local folk deities and were worshipped as nature spirits, indicating the integration of local beliefs into mainstream art.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of the Mauryan art that distinguishes it from the later post-Mauryan art?",
@@ -2413,7 +2413,7 @@ const questionDatabase = [
     "answer": "The influence of Persian and Hellenistic art forms",
     "explanation": "Mauryan court art, especially the pillars, shows a strong influence of Persian and Hellenistic art, evident in the bell-shaped capitals and the highly polished surface, which is less prominent in later Indian art.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Devanampriya Priyadasi' title, used by Ashoka in his inscriptions, means:",
@@ -2426,7 +2426,7 @@ const questionDatabase = [
     "answer": "Beloved of the gods",
     "explanation": "The title 'Devanampriya' literally translates to 'beloved of the gods', and 'Priyadasi' means 'of pleasing appearance' or 'dear to all'.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The decline of the Mauryan Empire coincided with the rise of which foreign power in the northwest?",
@@ -2439,7 +2439,7 @@ const questionDatabase = [
     "answer": "The Indo-Greeks",
     "explanation": "The Indo-Greeks, led by figures like Demetrius, began their incursions into the Indian subcontinent from the northwest as the Mauryan Empire weakened.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra' mentions a detailed system of taxation. The land revenue ('Bhaga') was usually collected at the rate of:",
@@ -2452,7 +2452,7 @@ const questionDatabase = [
     "answer": "1/6th of the produce",
     "explanation": "The 'Arthashastra' recommends the land revenue, which was the main source of income, to be collected at the rate of one-sixth of the total produce.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a reason for the Mauryan Empire's political and administrative unity?",
@@ -2465,7 +2465,7 @@ const questionDatabase = [
     "answer": "A common language (Prakrit) and script (Brahmi)",
     "explanation": "The use of a common language (Prakrit) and a unified script (Brahmi) in official edicts helped in maintaining administrative and cultural unity across the vast empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Divyavadana', a Buddhist text, provides information about the lineage of which Mauryan ruler?",
@@ -2478,7 +2478,7 @@ const questionDatabase = [
     "answer": "Bindusara",
     "explanation": "The 'Divyavadana' is a Buddhist work that, among other things, gives a detailed account of the lineage and life of Bindusara, the second Mauryan king.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The disintegration of the Mauryan Empire led to the rise of several regional powers. The Sunga and Kanva dynasties ruled over which region?",
@@ -2491,7 +2491,7 @@ const questionDatabase = [
     "answer": "The Gangetic Valley",
     "explanation": "The Sunga and Kanva dynasties primarily ruled over the core region of the former Mauryan Empire, which was the Gangetic Valley.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kautilyan State' as described in the 'Arthashastra' is best described as a:",
@@ -2504,7 +2504,7 @@ const questionDatabase = [
     "answer": "Centralized monarchy with a strong bureaucracy",
     "explanation": "The 'Arthashastra' portrays an ideal state as a highly centralized monarchy with the king at the top, supported by a powerful and extensive bureaucracy and a standing army.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan Empire's economy was highly regulated. The 'Panyadhyaksha' was an official responsible for:",
@@ -2517,7 +2517,7 @@ const questionDatabase = [
     "answer": "Overseeing trade and commerce",
     "explanation": "The 'Panyadhyaksha' was the superintendent of commerce, responsible for regulating trade, setting prices, and collecting custom duties.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the founder of the Mauryan Empire?",
@@ -2530,7 +2530,7 @@ const questionDatabase = [
     "answer": "Chandragupta Maurya",
     "explanation": "Chandragupta Maurya, with the help of his mentor Chanakya (Kautilya), founded the Mauryan Empire around 322 BCE after overthrowing the Nanda dynasty.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The capital of the Mauryan Empire was:",
@@ -2543,7 +2543,7 @@ const questionDatabase = [
     "answer": "Pataliputra",
     "explanation": "Pataliputra (modern-day Patna) was the capital city and a major administrative center of the Mauryan Empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous book 'Arthashastra', a treatise on statecraft and political science, was written by:",
@@ -2556,7 +2556,7 @@ const questionDatabase = [
     "answer": "Kautilya",
     "explanation": "Kautilya, also known as Chanakya, was the prime minister of Chandragupta Maurya and the author of the 'Arthashastra'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the son of Chandragupta Maurya and the father of Ashoka?",
@@ -2569,7 +2569,7 @@ const questionDatabase = [
     "answer": "Bindusara",
     "explanation": "Bindusara was the second ruler of the Mauryan dynasty, succeeding his father Chandragupta Maurya.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan king Ashoka is most famous for his conversion to which religion after the Kalinga War?",
@@ -2582,7 +2582,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The Kalinga War deeply impacted Ashoka, leading him to renounce violence and embrace Buddhism.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Ashoka's edicts were mainly written in which script?",
@@ -2595,7 +2595,7 @@ const questionDatabase = [
     "answer": "Brahmi",
     "explanation": "Most of Ashoka's edicts were written in the Brahmi script, which was the precursor to most of the modern Indian scripts.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan administration was highly:",
@@ -2608,7 +2608,7 @@ const questionDatabase = [
     "answer": "Centralized",
     "explanation": "The Mauryan Empire had a highly centralized administration with the king as the supreme head of the state.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the Greek ambassador sent to the court of Chandragupta Maurya?",
@@ -2621,7 +2621,7 @@ const questionDatabase = [
     "answer": "Megasthenes",
     "explanation": "Megasthenes was a Greek ambassador sent by Seleucus Nicator to the court of Chandragupta Maurya. He wrote the famous book 'Indica'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the disintegration of the Mauryan Empire?",
@@ -2634,7 +2634,7 @@ const questionDatabase = [
     "answer": "Internal rebellions",
     "explanation": "After Ashoka's death, the empire faced internal conflicts and revolts by provincial rulers, leading to its eventual disintegration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Stupa at Sanchi, a famous Mauryan architectural marvel, was originally built by:",
@@ -2647,7 +2647,7 @@ const questionDatabase = [
     "answer": "Ashoka",
     "explanation": "The Great Stupa at Sanchi was originally built by Emperor Ashoka in the 3rd century BCE, and it was later enlarged.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan economy was primarily based on:",
@@ -2660,7 +2660,7 @@ const questionDatabase = [
     "answer": "Agriculture",
     "explanation": "Agriculture was the backbone of the Mauryan economy, with the state collecting a significant portion of the produce as revenue.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra' mentions a system of spies (gudhapurushas) to monitor:",
@@ -2673,7 +2673,7 @@ const questionDatabase = [
     "answer": "Internal affairs",
     "explanation": "The spy system was a crucial part of the Mauryan administration to maintain law and order and keep the king informed about the activities of his officials and the public.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the last ruler of the Mauryan Empire?",
@@ -2686,7 +2686,7 @@ const questionDatabase = [
     "answer": "Brihadratha",
     "explanation": "Brihadratha was the last Mauryan king, who was assassinated by his own commander-in-chief, Pushyamitra Sunga.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan pillars, with their highly polished surface, are a great example of Mauryan:",
@@ -2699,7 +2699,7 @@ const questionDatabase = [
     "answer": "Architecture",
     "explanation": "The Mauryan pillars are a hallmark of Mauryan art and architecture, known for their polished stone surface and intricate carvings.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dharma' of Ashoka was a set of principles that emphasized:",
@@ -2712,7 +2712,7 @@ const questionDatabase = [
     "answer": "Social welfare and tolerance",
     "explanation": "Ashoka's 'Dharma' was a moral code focusing on non-violence, respect for elders, tolerance towards all religions, and social harmony.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which dynasty succeeded the Mauryan Empire?",
@@ -2725,7 +2725,7 @@ const questionDatabase = [
     "answer": "Sunga",
     "explanation": "The Sunga dynasty was founded by Pushyamitra Sunga, who overthrew the last Mauryan ruler, Brihadratha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Mauryan Empire was established after the death of which famous Greek invader?",
@@ -2738,7 +2738,7 @@ const questionDatabase = [
     "answer": "Alexander",
     "explanation": "The Mauryan Empire rose to prominence in the power vacuum created after Alexander the Great's death and the withdrawal of his forces.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of the Mauryan administration?",
@@ -2751,7 +2751,7 @@ const questionDatabase = [
     "answer": "The use of a council of ministers (Parishad)",
     "explanation": "The Mauryan administration, as described in the Arthashastra, was guided by a council of ministers who advised the king.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous Lion Capital of Ashoka is a fine example of Mauryan art and is now the national emblem of:",
@@ -2764,7 +2764,7 @@ const questionDatabase = [
     "answer": "India",
     "explanation": "The Lion Capital, originally from the Sarnath pillar, is the national emblem of India, symbolizing courage and power.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra' is divided into how many books?",
@@ -2777,7 +2777,7 @@ const questionDatabase = [
     "answer": "15",
     "explanation": "The 'Arthashastra' is a comprehensive text divided into 15 books or sections, covering a wide range of topics on statecraft.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
 
   // Post Mauryan Age
@@ -2792,7 +2792,7 @@ const questionDatabase = [
     "answer": "Coinage",
     "explanation": "The Indo-Greeks introduced the practice of issuing coins with the names and portraits of their kings, which helps in dating the coins and understanding their rule.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the most famous Indo-Greek ruler known for his patronage of Buddhism and his dialogue with the Buddhist monk Nagasena?",
@@ -2805,7 +2805,7 @@ const questionDatabase = [
     "answer": "Menander",
     "explanation": "King Menander I, also known as Milinda, is a significant figure in Buddhist tradition and his philosophical discussions with Nagasena are recorded in the 'Milinda Panho' ('Questions of Milinda').",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sakas, also known as Scythians, established their power in which part of the Indian subcontinent?",
@@ -2818,7 +2818,7 @@ const questionDatabase = [
     "answer": "Central and Western India",
     "explanation": "The Sakas established various branches of their rule in different parts of India, but their most prominent and long-lasting presence was in the western and central regions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Western Kshatrapas' were a dynasty of Saka rulers who were based in which modern-day region?",
@@ -2831,7 +2831,7 @@ const questionDatabase = [
     "answer": "Gujarat and Malwa",
     "explanation": "The Western Kshatrapas were a powerful Saka dynasty that ruled over the western regions of India, including modern-day Gujarat, Malwa, and parts of Maharashtra.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushanas' originally came from which region?",
@@ -2844,7 +2844,7 @@ const questionDatabase = [
     "answer": "Central Asia",
     "explanation": "The Kushanas were a branch of the Yuezhi, a nomadic people from Central Asia, who established a vast empire in the Indian subcontinent and beyond.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara school' of art, which flourished during the Kushana period, was a fusion of which two art styles?",
@@ -2857,7 +2857,7 @@ const questionDatabase = [
     "answer": "Indian and Greek",
     "explanation": "The Gandhara school of art, with its realistic depiction of the Buddha, was a unique blend of Hellenistic (Greek) and Indian artistic traditions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mathura school' of art, also a prominent style of the Kushana period, primarily used which material for sculptures?",
@@ -2870,7 +2870,7 @@ const questionDatabase = [
     "answer": "Sandstone",
     "explanation": "The Mathura school of art, known for its indigenous style and humanistic approach, extensively used spotted red sandstone for its sculptures.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, which gained prominence during the Post-Mauryan period, introduced the concept of:",
@@ -2883,7 +2883,7 @@ const questionDatabase = [
     "answer": "The Bodhisattva",
     "explanation": "The Mahayana (Great Vehicle) tradition introduced the concept of the 'Bodhisattva', an enlightened being who delays their own nirvana to help others achieve enlightenment.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Yavana' kings mentioned in Indian texts are generally identified as:",
@@ -2896,7 +2896,7 @@ const questionDatabase = [
     "answer": "Greeks",
     "explanation": "The term 'Yavana' was a generic term used by ancient Indians to refer to the people from the Hellenistic kingdoms, especially the Indo-Greeks.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous trade route known as the 'Silk Route' was largely controlled by which dynasty in India?",
@@ -2909,7 +2909,7 @@ const questionDatabase = [
     "answer": "Kushanas",
     "explanation": "The Kushana Empire, due to its strategic location, controlled a significant part of the Silk Route, which facilitated trade and cultural exchange between the East and West.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chaitya' and 'Vihara' were important architectural forms that developed during this period. What is the main difference between them?",
@@ -2922,7 +2922,7 @@ const questionDatabase = [
     "answer": "Chaityas are shrines, Viharas are monasteries.",
     "explanation": "A 'Chaitya' is a hall or a shrine with a stupa at one end, used for worship, while a 'Vihara' is a residential monastery for monks.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major urban center that flourished under the Kushanas?",
@@ -2935,7 +2935,7 @@ const questionDatabase = [
     "answer": "Taxila",
     "explanation": "Taxila was a major urban center, a center of learning, and a hub for trade, especially during the Kushana period, located on the Silk Route.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Saka rulers introduced the 'Kshatrapa' system of provincial administration. What does 'Kshatrapa' mean?",
@@ -2948,7 +2948,7 @@ const questionDatabase = [
     "answer": "Viceroy or Governor",
     "explanation": "The 'Kshatrapa' system was a form of provincial governance where the 'Kshatrapa' was a governor or viceroy who ruled on behalf of the central king.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Indo-Greeks introduced the use of which metal in their coinage, making their coins stand out from the earlier Indian ones?",
@@ -2961,7 +2961,7 @@ const questionDatabase = [
     "answer": "Gold",
     "explanation": "The Indo-Greeks were among the first to introduce gold coins in India, which were known for their artistic and realistic quality.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charaka Samhita', a major text on Ayurveda, was compiled during the reign of which Kushana ruler?",
@@ -2974,7 +2974,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "The 'Charaka Samhita', a foundational text of traditional Indian medicine, is believed to have been compiled under the patronage of the Kushana emperor Kanishka.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, in contrast to 'Hinayana', believed in the worship of:",
@@ -2987,7 +2987,7 @@ const questionDatabase = [
     "answer": "Images of the Buddha",
     "explanation": "Mahayana Buddhism introduced the practice of icon worship, where the Buddha was represented in human form, in contrast to the earlier aniconic representation.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Indo-Greeks' refers to the Greek rulers of which region?",
@@ -3000,7 +3000,7 @@ const questionDatabase = [
     "answer": "Bactria and parts of the Indian subcontinent",
     "explanation": "The Indo-Greeks were the descendants of the Greek rulers of Bactria (in Central Asia) who established their kingdoms in the northwestern part of the Indian subcontinent.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The most famous ruler of the Kushana dynasty was:",
@@ -3013,7 +3013,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "Kanishka is considered the most prominent ruler of the Kushana Empire, known for his vast conquests, patronage of Buddhism, and cultural achievements.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Kushana Empire facilitated contact with the outside world, especially with which region?",
@@ -3026,7 +3026,7 @@ const questionDatabase = [
     "answer": "Roman Empire",
     "explanation": "Due to their control of the Silk Route, the Kushanas had extensive trade and cultural contact with the Roman Empire, which is evidenced by Roman coins found in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Saka' era, a calendar system, was founded by which famous ruler?",
@@ -3039,7 +3039,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "The 'Saka' era, a significant calendar in Indian history, is traditionally believed to have been founded by the Kushana king Kanishka in 78 CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Milinda Panho' is a key literary source for the Post-Mauryan period. It is a dialogue between King Menander and which Buddhist monk?",
@@ -3052,7 +3052,7 @@ const questionDatabase = [
     "answer": "Nagasena",
     "explanation": "The 'Milinda Panho' is a famous Buddhist text that records the philosophical dialogue between the Indo-Greek King Menander and the Buddhist monk Nagasena.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Indo-Greek rulers, particularly Menander, adopted which religious symbol on their coins, indicating their assimilation into Indian culture?",
@@ -3065,7 +3065,7 @@ const questionDatabase = [
     "answer": "The wheel of Dharma",
     "explanation": "Menander's coins, in addition to his Greek portrait, sometimes depicted the Buddhist 'wheel of Dharma', showing his patronage and adoption of Buddhist symbols.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Saka' in Indian texts refers to a group of invaders from Central Asia. They were also known as:",
@@ -3078,7 +3078,7 @@ const questionDatabase = [
     "answer": "Scythians",
     "explanation": "The 'Sakas' were a nomadic Iranian group from Central Asia, and they are identified as the 'Scythians' in Greek and Roman sources.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Western Kshatrapas' were a formidable power, and their rule was a constant challenge to which native Indian dynasty?",
@@ -3091,7 +3091,7 @@ const questionDatabase = [
     "answer": "Satavahana",
     "explanation": "The Western Kshatrapas and the Satavahanas were engaged in a long-standing conflict over the control of trade routes and territories in Western India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushanas' issued a large number of gold coins. Which ruler's coins were the first to contain images of Indian deities, such as Shiva?",
@@ -3104,7 +3104,7 @@ const questionDatabase = [
     "answer": "Vima Kadphises",
     "explanation": "Vima Kadphises was the first Kushana ruler to issue gold coins, and his coinage often depicted the image of the Hindu god Shiva, indicating religious tolerance and assimilation.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara' school of art is characterized by its depiction of the Buddha with a prominent:",
@@ -3117,7 +3117,7 @@ const questionDatabase = [
     "answer": "Ushnisha (hair bun) and a halo",
     "explanation": "The Gandhara art school's depiction of the Buddha often includes Hellenistic features like a realistic face, wavy hair, and a prominent 'Ushnisha' (hair bun) and a halo.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, which flourished during this period, was a result of:",
@@ -3130,7 +3130,7 @@ const questionDatabase = [
     "answer": "A new interpretation of the Buddha's teachings",
     "explanation": "The development of Mahayana Buddhism was a result of a new and more liberal interpretation of the Buddha's teachings, emphasizing universal salvation and the concept of Bodhisattvas.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sakas' and 'Kushanas' contributed to Indian society by introducing which of the following innovations?",
@@ -3143,7 +3143,7 @@ const questionDatabase = [
     "answer": "The use of the saddle and stirrups",
     "explanation": "The Saka and Kushana invaders were skilled horsemen, and they introduced the use of the saddle and stirrups, which had a significant impact on cavalry warfare in India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charaka Samhita' is a classical text on which field of study?",
@@ -3156,7 +3156,7 @@ const questionDatabase = [
     "answer": "Medicine",
     "explanation": "The 'Charaka Samhita' is a foundational text of Ayurveda, the traditional Indian system of medicine, and it was a significant literary and scientific achievement of this period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The urban centers of this period flourished due to their strategic location on which important trade route?",
@@ -3169,7 +3169,7 @@ const questionDatabase = [
     "answer": "The Silk Route",
     "explanation": "Many urban centers, like Taxila and Mathura, grew in importance due to their location on the Silk Route, which connected the Roman Empire and China.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Western Kshatrapas' ruler, Rudradaman I, is famous for his inscription on the 'Junagadh Rock Inscription'. This inscription records his repairs of which famous lake?",
@@ -3182,7 +3182,7 @@ const questionDatabase = [
     "answer": "Sudarshana Lake",
     "explanation": "The Junagadh inscription of Rudradaman I provides details about his repair of the Sudarshana Lake, which was originally constructed during the Mauryan period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushana' period saw the establishment of a dual capital system. The two capitals were:",
@@ -3195,7 +3195,7 @@ const questionDatabase = [
     "answer": "Taxila and Mathura",
     "explanation": "The Kushana Empire had two major capitals: Taxila in the northwest and Mathura in the Gangetic plains, which helped in controlling their vast empire.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sakas' and 'Kushanas' were foreigners who were eventually assimilated into the Indian social structure. Their assimilation was facilitated by their adoption of:",
@@ -3208,7 +3208,7 @@ const questionDatabase = [
     "answer": "Indian names and religious practices",
     "explanation": "Over time, the Saka and Kushana rulers adopted Indian names, worshipped Indian deities, and patronized Indian religions, which helped them integrate into the local society.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kanvas', a native dynasty, ruled for a short period before being overthrown by which dynasty?",
@@ -3221,7 +3221,7 @@ const questionDatabase = [
     "answer": "Satavahanas",
     "explanation": "The Kanva dynasty, which succeeded the Sungas, was a short-lived one, and its rule was ended by the Satavahanas, a powerful dynasty of the Deccan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, with its emphasis on devotional worship and a pantheon of Bodhisattvas, spread to which regions from India?",
@@ -3234,7 +3234,7 @@ const questionDatabase = [
     "answer": "China, Central Asia, and Southeast Asia",
     "explanation": "Mahayana Buddhism, through the efforts of Kushana rulers like Kanishka, spread to Central Asia, China, Tibet, and later to Korea, Japan, and parts of Southeast Asia.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara' school of art is known for its realism and anatomical accuracy, which is a direct influence of:",
@@ -3247,7 +3247,7 @@ const questionDatabase = [
     "answer": "Hellenistic art",
     "explanation": "The Gandhara school of art borrowed heavily from Hellenistic (Greek) art, which is evident in its realistic and idealized depiction of the human form.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sakas' introduced the 'satrap' system of administration, which means that the empire was divided into provinces, each ruled by a:",
@@ -3260,7 +3260,7 @@ const questionDatabase = [
     "answer": "Viceroy",
     "explanation": "The 'satrap' system, borrowed from the Persians, was an administrative structure where the empire was divided into provinces, each governed by a satrap or viceroy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushana' period is often referred to as a 'Golden Age' for which of the following reasons?",
@@ -3273,7 +3273,7 @@ const questionDatabase = [
     "answer": "The establishment of a vast empire and flourishing trade",
     "explanation": "The Kushana period is considered a 'Golden Age' due to the political stability, flourishing long-distance trade (especially on the Silk Route), and cultural achievements in art and literature.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' and 'Hinayana' forms of Buddhism were the result of a council held during the reign of which Kushana ruler?",
@@ -3286,7 +3286,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "The Fourth Buddhist Council, held under the patronage of Kanishka, is believed to have formalized the schism between the two major schools of Buddhism, Mahayana and Hinayana.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Junagadh Rock Inscription' of Rudradaman I is an important historical document because it is one of the earliest examples of a long inscription in:",
@@ -3299,7 +3299,7 @@ const questionDatabase = [
     "answer": "Sanskrit",
     "explanation": "The Junagadh inscription is a significant landmark as it is one of the earliest, if not the first, long inscription composed entirely in chaste Sanskrit.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Indo-Greeks rulers introduced which of the following features to Indian coinage?",
@@ -3312,7 +3312,7 @@ const questionDatabase = [
     "answer": "The depiction of individual kings and inscriptions",
     "explanation": "The Indo-Greeks introduced the practice of depicting the portrait of the king and including his name on the coins, which was a significant departure from the earlier Indian punch-marked coins.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, with its emphasis on the Bodhisattva ideal, had a profound impact on the social conditions by:",
@@ -3325,7 +3325,7 @@ const questionDatabase = [
     "answer": "Promoting compassion and altruism for all beings",
     "explanation": "The Bodhisattva ideal of Mahayana Buddhism, with its emphasis on helping others achieve enlightenment, fostered a sense of social responsibility and altruism.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushana' period saw the flourishing of which branch of science, which was highly valued in the 'Charaka Samhita'?",
@@ -3338,7 +3338,7 @@ const questionDatabase = [
     "answer": "Pharmacology and herbal medicine",
     "explanation": "The 'Charaka Samhita' is a monumental work on pharmacology and herbal medicine, detailing the properties of various plants and their uses in treating diseases.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mathura school' of art, in contrast to the Gandhara school, is known for its indigenous style and its depiction of the Buddha with:",
@@ -3351,7 +3351,7 @@ const questionDatabase = [
     "answer": "A youthful and smiling face",
     "explanation": "The Mathura school depicted the Buddha with a youthful, fleshy, and smiling face, reflecting a more indigenous and humanistic style, in contrast to the Greek-influenced Gandhara school.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Western Kshatrapas' ruler, Rudrasimha II, is known for his defeat of which powerful Satavahana king?",
@@ -3364,7 +3364,7 @@ const questionDatabase = [
     "answer": "Gautamiputra Satakarni",
     "explanation": "The Satavahana king Gautamiputra Satakarni is credited with defeating the Western Kshatrapas and restoring the glory of his dynasty, as mentioned in the Nasik inscription of his mother.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara' school of art, with its emphasis on the realistic depiction of the Buddha, had a profound impact on the art of which other region?",
@@ -3377,7 +3377,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "The Gandhara school of art, through the Silk Route, influenced the art of Central Asia, China, and parts of Southeast Asia, especially in the depiction of the Buddha and Bodhisattvas.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushanas' established their empire in the period between the fall of the Mauryan Empire and the rise of the Gupta Empire. This period is known as the:",
@@ -3390,7 +3390,7 @@ const questionDatabase = [
     "answer": "Post-Mauryan Age",
     "explanation": "The period between the decline of the Mauryan Empire and the rise of the Gupta Empire is known as the Post-Mauryan Period, during which several foreign and native dynasties ruled.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kanvas' dynasty, which succeeded the Sungas, was a Brahminical dynasty. Their rise to power indicates:",
@@ -3403,7 +3403,7 @@ const questionDatabase = [
     "answer": "A Brahmanical reaction to the decline of the Kshatriya rulers",
     "explanation": "The Kanvas and Sungas were both Brahminical dynasties, and their rise is seen as a 'Brahmanical reaction' to the perceived decline of the traditional Kshatriya rulers.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indo-Greek' rulers are an important source of historical information for the Post-Mauryan period because:",
@@ -3416,7 +3416,7 @@ const questionDatabase = [
     "answer": "Their coins provide a clear chronology and portrait of their kings.",
     "explanation": "The Indo-Greeks' practice of minting coins with the names and portraits of their rulers provides a clear and valuable chronological framework for their history, which is otherwise scarce.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chaitya' at Karle, a major rock-cut cave, is a magnificent example of the architecture of which dynasty?",
@@ -3429,7 +3429,7 @@ const questionDatabase = [
     "answer": "Satavahana",
     "explanation": "The Karle Chaitya, with its grand hall and beautiful carvings, is a prime example of the rock-cut architecture that flourished under the patronage of the Satavahana dynasty.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Saka' rulers adopted which Indian religious title on their coins, indicating their integration into Indian society?",
@@ -3442,7 +3442,7 @@ const questionDatabase = [
     "answer": "Mahakshatrapa",
     "explanation": "The Saka rulers, especially the Western Kshatrapas, adopted Indian titles like 'Mahakshatrapa' (Great Satrap) on their coins, reflecting their political and cultural assimilation.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' and 'Hinayana' forms of Buddhism were a major theological split. The 'Hinayana' school is often described as the:",
@@ -3455,7 +3455,7 @@ const questionDatabase = [
     "answer": "Lesser Vehicle",
     "explanation": "The 'Hinayana' (Lesser Vehicle) school emphasized individual enlightenment and monastic discipline, and its followers often referred to themselves as 'Theravadins'.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushana' Empire's extensive trade contacts with the Roman Empire are evidenced by which of the following?",
@@ -3468,7 +3468,7 @@ const questionDatabase = [
     "answer": "The finding of a large number of Roman gold coins in India.",
     "explanation": "The discovery of a significant number of Roman gold coins in various parts of India, especially in the south, indicates a thriving trade relationship between the Kushana Empire and the Roman Empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara' and 'Mathura' schools of art flourished simultaneously during the Kushana period. Which of the following is a key difference between them?",
@@ -3481,7 +3481,7 @@ const questionDatabase = [
     "answer": "Gandhara was realistic, Mathura was more humanistic and indigenous.",
     "explanation": "While both schools depicted the Buddha, the Gandhara school was known for its realistic, Greco-Roman style, whereas the Mathura school was more indigenous, with a focus on a humanistic and idealized depiction.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sakas' were a nomadic people who were later assimilated into Indian society. Which of the following factors contributed to their assimilation?",
@@ -3494,7 +3494,7 @@ const questionDatabase = [
     "answer": "Their adoption of the caste system and marriage alliances",
     "explanation": "The Sakas, through their adoption of the caste system and through marriage alliances with native Indian rulers, were gradually assimilated into the Indian social structure.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kanva' dynasty, though short-lived, is historically significant because:",
@@ -3507,7 +3507,7 @@ const questionDatabase = [
     "answer": "They were the last native rulers of Magadha before the Guptas.",
     "explanation": "The Kanva dynasty, though not as powerful as the Mauryas or Guptas, is significant as they were the last native Indian dynasty to rule over Magadha before the rise of the Gupta Empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Indo-Greeks were the first rulers in India to issue coins that were clearly datable and had the names of their kings. This was a significant development in the field of:",
@@ -3520,7 +3520,7 @@ const questionDatabase = [
     "answer": "Coinage",
     "explanation": "The Indo-Greeks introduced the practice of issuing coins with the names and portraits of their kings, which helps in dating the coins and understanding their rule.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the most famous Indo-Greek ruler known for his patronage of Buddhism and his dialogue with the Buddhist monk Nagasena?",
@@ -3533,7 +3533,7 @@ const questionDatabase = [
     "answer": "Menander",
     "explanation": "King Menander I, also known as Milinda, is a significant figure in Buddhist tradition and his philosophical discussions with Nagasena are recorded in the 'Milinda Panho' ('Questions of Milinda').",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sakas, also known as Scythians, established their power in which part of the Indian subcontinent?",
@@ -3546,7 +3546,7 @@ const questionDatabase = [
     "answer": "Central and Western India",
     "explanation": "The Sakas established various branches of their rule in different parts of India, but their most prominent and long-lasting presence was in the western and central regions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Western Kshatrapas' were a dynasty of Saka rulers who were based in which modern-day region?",
@@ -3559,7 +3559,7 @@ const questionDatabase = [
     "answer": "Gujarat and Malwa",
     "explanation": "The Western Kshatrapas were a powerful Saka dynasty that ruled over the western regions of India, including modern-day Gujarat, Malwa, and parts of Maharashtra.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kushanas' originally came from which region?",
@@ -3572,7 +3572,7 @@ const questionDatabase = [
     "answer": "Central Asia",
     "explanation": "The Kushanas were a branch of the Yuezhi, a nomadic people from Central Asia, who established a vast empire in the Indian subcontinent and beyond.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara school' of art, which flourished during the Kushana period, was a fusion of which two art styles?",
@@ -3585,7 +3585,7 @@ const questionDatabase = [
     "answer": "Indian and Greek",
     "explanation": "The Gandhara school of art, with its realistic depiction of the Buddha, was a unique blend of Hellenistic (Greek) and Indian artistic traditions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mathura school' of art, also a prominent style of the Kushana period, primarily used which material for sculptures?",
@@ -3598,7 +3598,7 @@ const questionDatabase = [
     "answer": "Sandstone",
     "explanation": "The Mathura school of art, known for its indigenous style and humanistic approach, extensively used spotted red sandstone for its sculptures.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, which gained prominence during the Post-Mauryan period, introduced the concept of:",
@@ -3611,7 +3611,7 @@ const questionDatabase = [
     "answer": "The Bodhisattva",
     "explanation": "The Mahayana (Great Vehicle) tradition introduced the concept of the 'Bodhisattva', an enlightened being who delays their own nirvana to help others achieve enlightenment.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Yavana' kings mentioned in Indian texts are generally identified as:",
@@ -3624,7 +3624,7 @@ const questionDatabase = [
     "answer": "Greeks",
     "explanation": "The term 'Yavana' was a generic term used by ancient Indians to refer to the people from the Hellenistic kingdoms, especially the Indo-Greeks.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous trade route known as the 'Silk Route' was largely controlled by which dynasty in India?",
@@ -3637,7 +3637,7 @@ const questionDatabase = [
     "answer": "Kushanas",
     "explanation": "The Kushana Empire, due to its strategic location, controlled a significant part of the Silk Route, which facilitated trade and cultural exchange between the East and West.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chaitya' and 'Vihara' were important architectural forms that developed during this period. What is the main difference between them?",
@@ -3650,7 +3650,7 @@ const questionDatabase = [
     "answer": "Chaityas are shrines, Viharas are monasteries.",
     "explanation": "A 'Chaitya' is a hall or a shrine with a stupa at one end, used for worship, while a 'Vihara' is a residential monastery for monks.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major urban center that flourished under the Kushanas?",
@@ -3663,7 +3663,7 @@ const questionDatabase = [
     "answer": "Taxila",
     "explanation": "Taxila was a major urban center, a center of learning, and a hub for trade, especially during the Kushana period, located on the Silk Route.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Saka rulers introduced the 'Kshatrapa' system of provincial administration. What does 'Kshatrapa' mean?",
@@ -3676,7 +3676,7 @@ const questionDatabase = [
     "answer": "Viceroy or Governor",
     "explanation": "The 'Kshatrapa' system was a form of provincial governance where the 'Kshatrapa' was a governor or viceroy who ruled on behalf of the central king.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Indo-Greeks introduced the use of which metal in their coinage, making their coins stand out from the earlier Indian ones?",
@@ -3689,7 +3689,7 @@ const questionDatabase = [
     "answer": "Gold",
     "explanation": "The Indo-Greeks were among the first to introduce gold coins in India, which were known for their artistic and realistic quality.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charaka Samhita', a major text on Ayurveda, was compiled during the reign of which Kushana ruler?",
@@ -3702,7 +3702,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "The 'Charaka Samhita', a foundational text of traditional Indian medicine, is believed to have been compiled under the patronage of the Kushana emperor Kanishka.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' form of Buddhism, in contrast to 'Hinayana', believed in the worship of:",
@@ -3715,7 +3715,7 @@ const questionDatabase = [
     "answer": "Images of the Buddha",
     "explanation": "Mahayana Buddhism introduced the practice of icon worship, where the Buddha was represented in human form, in contrast to the earlier aniconic representation.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Indo-Greeks' refers to the Greek rulers of which region?",
@@ -3728,7 +3728,7 @@ const questionDatabase = [
     "answer": "Bactria and parts of the Indian subcontinent",
     "explanation": "The Indo-Greeks were the descendants of the Greek rulers of Bactria (in Central Asia) who established their kingdoms in the northwestern part of the Indian subcontinent.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The most famous ruler of the Kushana dynasty was:",
@@ -3741,7 +3741,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "Kanishka is considered the most prominent ruler of the Kushana Empire, known for his vast conquests, patronage of Buddhism, and cultural achievements.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Kushana Empire facilitated contact with the outside world, especially with which region?",
@@ -3754,7 +3754,7 @@ const questionDatabase = [
     "answer": "Roman Empire",
     "explanation": "Due to their control of the Silk Route, the Kushanas had extensive trade and cultural contact with the Roman Empire, which is evidenced by Roman coins found in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Saka' era, a calendar system, was founded by which famous ruler?",
@@ -3767,7 +3767,7 @@ const questionDatabase = [
     "answer": "Kanishka",
     "explanation": "The 'Saka' era, a significant calendar in Indian history, is traditionally believed to have been founded by the Kushana king Kanishka in 78 CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
 
   // Early State and Society in Eastern India, Deccan, and South India
@@ -3782,7 +3782,7 @@ const questionDatabase = [
     "answer": "Odisha",
     "explanation": "The Hathigumpha inscription, a key source for the history of King Kharavela of the Kalinga kingdom, is located on Udayagiri Hills near Bhubaneswar in Odisha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Satavahana dynasty, which succeeded the Mauryas in the Deccan, was also known by which name?",
@@ -3795,7 +3795,7 @@ const questionDatabase = [
     "answer": "Andhras",
     "explanation": "The Satavahanas are often referred to as the Andhras in the Puranas, as they originated from the Andhra region and their rule extended over a large part of the Deccan.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' period in South India is a term used to describe a period of rich literary tradition in which language?",
@@ -3808,7 +3808,7 @@ const questionDatabase = [
     "answer": "Tamil",
     "explanation": "The 'Sangam Age' refers to the period of the ancient Tamil kingdoms, and the 'Sangam' literature is a rich body of Tamil literary works.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous ruler of Kalinga, Kharavela, was a follower of which religion?",
@@ -3821,7 +3821,7 @@ const questionDatabase = [
     "answer": "Jainism",
     "explanation": "King Kharavela of Kalinga was a staunch follower of Jainism, and his Hathigumpha inscription mentions his patronage of Jain monks and temples.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Satavahana rulers were a major patron of which religion?",
@@ -3834,7 +3834,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The Satavahanas were great patrons of Buddhism, and many of the famous rock-cut caves, stupas, and viharas in the Deccan were built during their reign.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature mentions three major kingdoms of South India. They are:",
@@ -3847,7 +3847,7 @@ const questionDatabase = [
     "answer": "Pandyas, Cheras, Cholas",
     "explanation": "The Sangam literature is primarily concerned with the three early Tamil kingdoms of the Cholas, Cheras, and Pandyas.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were known for their coins, which often depicted which animal as a symbol of their dynasty?",
@@ -3860,7 +3860,7 @@ const questionDatabase = [
     "answer": "Elephant",
     "explanation": "The Satavahana coins often feature the image of a 'chaitya' (a Buddhist shrine) and an elephant, which was a symbol of their power and prosperity.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Uraiyur' was the capital city of which Sangam kingdom?",
@@ -3873,7 +3873,7 @@ const questionDatabase = [
     "answer": "Cholas",
     "explanation": "Uraiyur, a major commercial hub, was the capital of the Chola kingdom during the Sangam period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature is a rich source of information about the society and culture of which region?",
@@ -3886,7 +3886,7 @@ const questionDatabase = [
     "answer": "South India",
     "explanation": "The Sangam literature is a major source of information for the history, society, and culture of ancient Tamil Nadu and parts of Kerala and Karnataka.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' introduced the practice of giving land grants to which group of people?",
@@ -3899,7 +3899,7 @@ const questionDatabase = [
     "answer": "Brahmins and Buddhist monks",
     "explanation": "The Satavahanas were the first to extensively give land grants as a royal favor to Brahmins and Buddhist monks, which contributed to the rise of feudalism.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Madurai' was the capital city of which Sangam kingdom?",
@@ -3912,7 +3912,7 @@ const questionDatabase = [
     "answer": "Pandyas",
     "explanation": "Madurai was the capital of the Pandya kingdom, and it was a major center for Sangam literature and learning.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The most famous ruler of the Satavahana dynasty, known for his military victories over the Sakas, was:",
@@ -3925,7 +3925,7 @@ const questionDatabase = [
     "answer": "Gautamiputra Satakarni",
     "explanation": "Gautamiputra Satakarni is considered the greatest ruler of the Satavahanas, as he defeated the Saka rulers and expanded the empire's territory.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Manimekalai', a famous Tamil epic, is a literary work of which Sangam period?",
@@ -3938,7 +3938,7 @@ const questionDatabase = [
     "answer": "Third Sangam",
     "explanation": "The 'Manimekalai', along with 'Silappadikaram', is one of the five great Tamil epics, and it belongs to the Third Sangam or Post-Sangam period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ajanta' and 'Ellora' caves, which are famous for their rock-cut art and architecture, were mainly constructed under the patronage of which dynasty?",
@@ -3951,7 +3951,7 @@ const questionDatabase = [
     "answer": "Satavahanas",
     "explanation": "While many dynasties contributed to these caves, the earliest rock-cut caves and paintings at Ajanta were started under the patronage of the Satavahanas.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Muziris' was a major port city of which Sangam kingdom, known for its trade with the Roman Empire?",
@@ -3964,7 +3964,7 @@ const questionDatabase = [
     "answer": "Cheras",
     "explanation": "Muziris, a significant port of the Chera kingdom, was a hub for the spice trade with the Roman Empire, as mentioned in Roman texts.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature is primarily divided into two categories: 'Aham' and 'Puram'. What does 'Aham' deal with?",
@@ -3977,7 +3977,7 @@ const questionDatabase = [
     "answer": "Love and family life",
     "explanation": "'Aham' literature deals with the inner world of human emotions, particularly love and family life, while 'Puram' deals with the outer world of warfare and public life.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Cholas' of the Sangam period were known for their naval power and control over which part of the subcontinent?",
@@ -3990,7 +3990,7 @@ const questionDatabase = [
     "answer": "The Bay of Bengal",
     "explanation": "The Cholas, with their powerful navy, controlled the trade routes in the Bay of Bengal, which facilitated their overseas trade and conquests.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahana' society was matriarchal, where the kings were often named after their mothers, for example, Gautamiputra. This suggests:",
@@ -4003,7 +4003,7 @@ const questionDatabase = [
     "answer": "The importance of the mother in the family",
     "explanation": "While the society was not completely matriarchal, the practice of naming kings after their mothers, like Gautamiputra (son of Gautami), indicates the high status and importance of women in the Satavahana society.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahabalipuram' rock-cut temples, a famous example of South Indian architecture, were built by which dynasty?",
@@ -4016,7 +4016,7 @@ const questionDatabase = [
     "answer": "Pallavas",
     "explanation": "The Mahabalipuram temples, with their intricate carvings and monolithic structures, were built under the patronage of the Pallava dynasty.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Silappadikaram', a major Tamil epic, tells the story of a merchant's wife and is attributed to which author?",
@@ -4029,7 +4029,7 @@ const questionDatabase = [
     "answer": "Ilango Adigal",
     "explanation": "The 'Silappadikaram' ('The Story of the Anklet') is a masterpiece of Tamil literature, written by the poet Ilango Adigal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hathigumpha inscription' of Kharavela mentions his military campaigns against which two Northern Indian kingdoms?",
@@ -4042,7 +4042,7 @@ const questionDatabase = [
     "answer": "Sunga and Kanva",
     "explanation": "The inscription details Kharavela's military victories, including his campaigns against the Sunga and Kanva dynasties of Northern India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Satavahanas were a major power in the Deccan, and their political influence extended to which other region?",
@@ -4055,7 +4055,7 @@ const questionDatabase = [
     "answer": "Central India and the Western coast",
     "explanation": "The Satavahana Empire's influence was vast, and they controlled key territories in Central India and the western coast, which was crucial for their trade and economy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature is a major source of information for the economic conditions of the period. The main exports from South India were:",
@@ -4068,7 +4068,7 @@ const questionDatabase = [
     "answer": "Spices and textiles",
     "explanation": "The Sangam kingdoms had a thriving economy based on overseas trade, and they exported spices like pepper, as well as fine textiles, to the Roman Empire.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were known for their coins with bilingual legends. The two languages used were:",
@@ -4081,7 +4081,7 @@ const questionDatabase = [
     "answer": "Sanskrit and Prakrit",
     "explanation": "The Satavahanas used bilingual coins with their names in both Prakrit (in Brahmi script) and sometimes in Sanskrit, reflecting the linguistic diversity of their empire.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pattini' cult, a form of worship of a chaste woman, was a prominent feature of the society in which Sangam kingdom?",
@@ -4094,7 +4094,7 @@ const questionDatabase = [
     "answer": "Cheras",
     "explanation": "The 'Pattini' cult, or the worship of Kannagi as a goddess of chastity, was a popular religious practice in the Chera kingdom.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Amaravati' school of art, which flourished under the Satavahanas, is known for its intricate carvings and its focus on depicting:",
@@ -4107,7 +4107,7 @@ const questionDatabase = [
     "answer": "Stories from the Buddha's life",
     "explanation": "The Amaravati school of art, with its dynamic and narrative style, is famous for its detailed depictions of the Jataka tales and other stories from the life of the Buddha.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' followed a decentralized administration. The 'Amachcha' was a key official, who was responsible for:",
@@ -4120,7 +4120,7 @@ const questionDatabase = [
     "answer": "Provincial governance",
     "explanation": "The 'Amachchas' were a group of officials who were in charge of the provincial and district administration under the Satavahanas.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature mentions a form of marriage known as 'Karpu', which means:",
@@ -4133,7 +4133,7 @@ const questionDatabase = [
     "answer": "Chaste love",
     "explanation": "'Karpu' refers to the ideal of chaste and faithful love in marriage, which was a highly valued virtue in Sangam society.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kharavela's' political power was not limited to Kalinga; his military campaigns reached as far as:",
@@ -4146,7 +4146,7 @@ const questionDatabase = [
     "answer": "Magadha and the Mathura region",
     "explanation": "The Hathigumpha inscription claims that Kharavela's army marched up to Magadha and even reached the city of Mathura, which was a major political and economic center.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' period saw the flourishing of 'trade guilds'. The most prominent guild, known as 'Sreni', was a major force in the economy and comprised of:",
@@ -4159,7 +4159,7 @@ const questionDatabase = [
     "answer": "Merchants and artisans",
     "explanation": "The 'Srenis' were powerful trade guilds of merchants and artisans who played a significant role in the economy by regulating trade, setting prices, and providing banking services.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were known for their coins made of which material?",
@@ -4172,7 +4172,7 @@ const questionDatabase = [
     "answer": "Lead and Potin",
     "explanation": "The Satavahanas were one of the first dynasties to issue coins made of lead and 'potin', an alloy of copper, lead, and tin.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kharavela's' inscription mentions his efforts to revive which of the following?",
@@ -4185,7 +4185,7 @@ const questionDatabase = [
     "answer": "The Jain faith and its culture",
     "explanation": "The Hathigumpha inscription is a major source for understanding Kharavela's efforts to patronize and revive the Jain faith, which had been neglected by the earlier rulers.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tolkappiyam', the oldest surviving work of Tamil literature, is a treatise on:",
@@ -4198,7 +4198,7 @@ const questionDatabase = [
     "answer": "Poetry and grammar",
     "explanation": "The 'Tolkappiyam' is a foundational work on Tamil grammar and poetics, providing a detailed framework for the structure of Sangam literature.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Cheras' of the Sangam period were known for their trade in which of the following with the Roman Empire?",
@@ -4211,7 +4211,7 @@ const questionDatabase = [
     "answer": "Spices and ivory",
     "explanation": "The Cheras, with their control over the western coast, were major traders of spices like pepper, and they also exported ivory to the Roman Empire.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were the first Indian rulers to issue coins with portraits of their kings. This practice was influenced by which foreign invaders?",
@@ -4224,7 +4224,7 @@ const questionDatabase = [
     "answer": "Indo-Greeks",
     "explanation": "The practice of minting coins with the portraits of their kings was a feature borrowed by the Satavahanas from the Indo-Greeks, who had a strong influence in the northern part of India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Uraiyur' and 'Puhar' were two major urban centers of which Sangam kingdom?",
@@ -4237,7 +4237,7 @@ const questionDatabase = [
     "answer": "Cholas",
     "explanation": "Uraiyur was the capital of the Cholas, and Puhar (also known as Kaveripattinam) was a major port city of the Chola kingdom.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature mentions a social hierarchy based on profession. The 'Velalar' were:",
@@ -4250,7 +4250,7 @@ const questionDatabase = [
     "answer": "Agriculturalists",
     "explanation": "The 'Velalar' were the class of agriculturalists or peasants who formed a major part of the Sangam society and were at a higher position in the social hierarchy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Buddhism' that flourished under the Satavahanas was mainly of which school?",
@@ -4263,7 +4263,7 @@ const questionDatabase = [
     "answer": "Hinayana",
     "explanation": "The Satavahanas primarily patronized the Hinayana (or Theravada) school of Buddhism, which is reflected in the art and architecture of the caves at Karla and Bhaja.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tirukkural', a major ethical and moral treatise of the Sangam period, is attributed to which author?",
@@ -4276,7 +4276,7 @@ const questionDatabase = [
     "answer": "Tiruvalluvar",
     "explanation": "The 'Tirukkural' is a seminal work on ethics, politics, and love, written by the poet-saint Tiruvalluvar.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were the first to issue coins with the image of which Hindu deity, indicating a shift in their religious patronage?",
@@ -4289,7 +4289,7 @@ const questionDatabase = [
     "answer": "Shiva",
     "explanation": "While they were patrons of Buddhism, some later Satavahana rulers issued coins with the image of Shiva, indicating the rising influence of Hinduism during their reign.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature is a major source for the study of the history of South India. The term 'Sangam' refers to:",
@@ -4302,7 +4302,7 @@ const questionDatabase = [
     "answer": "An academy of poets and scholars",
     "explanation": "The word 'Sangam' literally means 'assembly' or 'confluence', and in the context of South Indian history, it refers to the academies of poets and scholars who compiled the literature of the period.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hathigumpha inscription' of Kharavela is a key source for the history of which dynasty?",
@@ -4315,7 +4315,7 @@ const questionDatabase = [
     "answer": "The Chedi dynasty of Kalinga",
     "explanation": "The inscription provides a detailed account of the life and conquests of Kharavela, who belonged to the Mahameghavahana or Chedi dynasty of Kalinga.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' had extensive trade relations with the Roman Empire. The main port city on the western coast that handled this trade was:",
@@ -4328,7 +4328,7 @@ const questionDatabase = [
     "answer": "Barygaza (Bharuch)",
     "explanation": "Barygaza, located at the mouth of the Narmada River, was a major port city under the Satavahanas and was a crucial link in the trade network with the Roman Empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature mentions a social system based on 'Tinais', which are:",
@@ -4341,7 +4341,7 @@ const questionDatabase = [
     "answer": "Five different ecological zones with their own customs",
     "explanation": "The 'Tinais' were five ecological zones—Kurinji (hills), Mullai (forests), Marutam (croplands), Neital (coastal), and Palai (arid)—each with its own characteristic culture and social system.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were the first rulers to establish a 'feudal' system in India by giving land grants to Brahmins and Buddhist monks. This system led to:",
@@ -4354,7 +4354,7 @@ const questionDatabase = [
     "answer": "The rise of a new class of land-owning elite",
     "explanation": "The practice of land grants created a new class of land-owning elite, who were independent of the central authority, which eventually led to the weakening of the Satavahana Empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kharavela's' inscription mentions his efforts to reclaim which of the following from the Magadha rulers?",
@@ -4367,7 +4367,7 @@ const questionDatabase = [
     "answer": "A Jain idol",
     "explanation": "The inscription claims that Kharavela brought back a Jain idol that had been taken away from Kalinga by the Nanda rulers of Magadha.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature, in its 'Puram' category, mentions the custom of 'Virakkal', which refers to:",
@@ -4380,7 +4380,7 @@ const questionDatabase = [
     "answer": "A hero stone erected for a deceased warrior",
     "explanation": "'Virakkal' or 'hero stone' was a practice of erecting memorial stones for warriors who died a heroic death in battle, which was a prominent feature of Sangam society.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' had a close relationship with the 'Western Kshatrapas'. This relationship was characterized by:",
@@ -4393,7 +4393,7 @@ const questionDatabase = [
     "answer": "Constant warfare and rivalries",
     "explanation": "The Satavahanas and the Western Kshatrapas were engaged in a long-standing struggle for control over the territories and trade routes in Western India, which is evident from the inscriptions and coin evidence.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tolkappiyam' provides a detailed account of the social structure of the Sangam period, which was divided into which of the following classes?",
@@ -4406,7 +4406,7 @@ const questionDatabase = [
     "answer": "Arasar, Andanar, Vanigar, Velalar",
     "explanation": "The 'Tolkappiyam' mentions a four-fold social classification: 'Arasar' (rulers), 'Andanar' (Brahmins), 'Vanigar' (merchants), and 'Velalar' (agriculturalists).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Amaravati' stupa, a major architectural marvel of the Satavahana period, is located in which modern-day state?",
@@ -4419,7 +4419,7 @@ const questionDatabase = [
     "answer": "Andhra Pradesh",
     "explanation": "The Amaravati stupa, a significant Buddhist site with its intricate marble carvings, is located in the Guntur district of Andhra Pradesh.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Periplous of the Erythraean Sea', a Roman text, provides a detailed account of the trade between the Roman Empire and which of the following kingdoms?",
@@ -4432,7 +4432,7 @@ const questionDatabase = [
     "answer": "Satavahanas and Sangam kingdoms",
     "explanation": "The 'Periplous' is a crucial source of information for understanding the maritime trade, port cities, and economic relations between the Roman Empire and the Satavahana and Sangam kingdoms.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kharavela's' inscription is a major source of information for the political and cultural history of which region of India?",
@@ -4445,7 +4445,7 @@ const questionDatabase = [
     "answer": "Eastern India",
     "explanation": "The Hathigumpha inscription is a major source for understanding the history of the Chedi dynasty of Kalinga, which ruled over the eastern part of India.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were the first to introduce the practice of giving land grants to which group of people?",
@@ -4458,7 +4458,7 @@ const questionDatabase = [
     "answer": "Brahmins and Buddhist monks",
     "explanation": "The Satavahanas were the first to extensively give land grants as a royal favor to Brahmins and Buddhist monks, which contributed to the rise of feudalism.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature mentions a type of port city known as 'Puhar', which was a major center for which kingdom?",
@@ -4471,7 +4471,7 @@ const questionDatabase = [
     "answer": "Cholas",
     "explanation": "Puhar, also known as Kaveripattinam, was the major port city of the Chola kingdom and a hub for overseas trade with Rome and other countries.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahana' society was known for its trade guilds. The 'Gavapati' was a leader of which guild?",
@@ -4484,7 +4484,7 @@ const questionDatabase = [
     "answer": "Agriculturalists",
     "explanation": "The 'Gavapati' was the head of a 'Gosthi' or a guild of agriculturalists and farmers, who played a significant role in the rural economy.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Manimekalai', a major Tamil epic, is a story about the daughter of which famous character from the 'Silappadikaram'?",
@@ -4497,7 +4497,7 @@ const questionDatabase = [
     "answer": "Madhavi",
     "explanation": "The 'Manimekalai' is a sequel to the 'Silappadikaram' and tells the story of Manimekalai, the daughter of Kovalan and the courtesan Madhavi.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature is a major source of information for the economic conditions of the period. The main exports from South India were:",
@@ -4510,7 +4510,7 @@ const questionDatabase = [
     "answer": "Spices and textiles",
     "explanation": "The Sangam kingdoms had a thriving economy based on overseas trade, and they exported spices like pepper, as well as fine textiles, to the Roman Empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Amaravati' school of art, which flourished under the Satavahanas, is known for its intricate carvings and its focus on depicting:",
@@ -4523,7 +4523,7 @@ const questionDatabase = [
     "answer": "Stories from the Buddha's life",
     "explanation": "The Amaravati school of art, with its dynamic and narrative style, is famous for its detailed depictions of the Jataka tales and other stories from the life of the Buddha.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahana' administration was a highly decentralized system, where the 'Maharathi' was a key official. The 'Maharathi' was:",
@@ -4536,7 +4536,7 @@ const questionDatabase = [
     "answer": "A provincial governor or a feudatory chief",
     "explanation": "The 'Maharathis' were powerful provincial governors or feudatory chiefs who ruled over their territories with a significant degree of autonomy, reflecting the decentralized nature of the Satavahana Empire.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature mentions a social hierarchy based on profession. The 'Velalar' were:",
@@ -4549,7 +4549,7 @@ const questionDatabase = [
     "answer": "Agriculturalists",
     "explanation": "The 'Velalar' were the class of agriculturalists or peasants who formed a major part of the Sangam society and were at a higher position in the social hierarchy.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kharavela's' political power was not limited to Kalinga; his military campaigns reached as far as:",
@@ -4562,7 +4562,7 @@ const questionDatabase = [
     "answer": "Magadha and the Mathura region",
     "explanation": "The Hathigumpha inscription claims that Kharavela's army marched up to Magadha and even reached the city of Mathura, which was a major political and economic center.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tirukkural', a major ethical and moral treatise of the Sangam period, is attributed to which author?",
@@ -4575,7 +4575,7 @@ const questionDatabase = [
     "answer": "Tiruvalluvar",
     "explanation": "The 'Tirukkural' is a seminal work on ethics, politics, and love, written by the poet-saint Tiruvalluvar.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' period saw the flourishing of 'trade guilds'. The most prominent guild, known as 'Sreni', was a major force in the economy and comprised of:",
@@ -4588,7 +4588,7 @@ const questionDatabase = [
     "answer": "Merchants and artisans",
     "explanation": "The 'Srenis' were powerful trade guilds of merchants and artisans who played a significant role in the economy by regulating trade, setting prices, and providing banking services.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kharavela's' inscription mentions his efforts to reclaim which of the following from the Magadha rulers?",
@@ -4601,7 +4601,7 @@ const questionDatabase = [
     "answer": "A Jain idol",
     "explanation": "The inscription claims that Kharavela brought back a Jain idol that had been taken away from Kalinga by the Nanda rulers of Magadha.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Satavahanas' were the first to introduce the practice of giving land grants to which group of people?",
@@ -4614,7 +4614,7 @@ const questionDatabase = [
     "answer": "Brahmins and Buddhist monks",
     "explanation": "The Satavahanas were the first to extensively give land grants as a royal favor to Brahmins and Buddhist monks, which contributed to the rise of feudalism.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature is a major source for the study of the history of South India. The term 'Sangam' refers to:",
@@ -4627,7 +4627,7 @@ const questionDatabase = [
     "answer": "An academy of poets and scholars",
     "explanation": "The word 'Sangam' literally means 'assembly' or 'confluence', and in the context of South Indian history, it refers to the academies of poets and scholars who compiled the literature of the period.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Periplous of the Erythraean Sea', a Roman text, provides a detailed account of the trade between the Roman Empire and which of the following kingdoms?",
@@ -4640,7 +4640,7 @@ const questionDatabase = [
     "answer": "Satavahanas and Sangam kingdoms",
     "explanation": "The 'Periplous' is a crucial source of information for understanding the maritime trade, port cities, and economic relations between the Roman Empire and the Satavahana and Sangam kingdoms.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hathigumpha inscription' of Kharavela is a key source for the history of which dynasty?",
@@ -4653,7 +4653,7 @@ const questionDatabase = [
     "answer": "The Chedi dynasty of Kalinga",
     "explanation": "The inscription provides a detailed account of the life and conquests of Kharavela, who belonged to the Mahameghavahana or Chedi dynasty of Kalinga.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     question: "Which Gupta ruler is credited with starting the Nalanda Mahavihara that became a renowned residential university?",
@@ -5156,7 +5156,7 @@ const questionDatabase = [
     "answer": "The Kadambas",
     "explanation": "The Kadamba dynasty was an ancient royal dynasty of Karnataka, India, that ruled from Banavasi. It was founded by Mayurasharma in 345 CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous rock-cut caves at Badami were a significant architectural contribution of which dynasty?",
@@ -5169,7 +5169,7 @@ const questionDatabase = [
     "answer": "The Chalukyas of Badami",
     "explanation": "The Chalukyas of Badami are renowned for their rock-cut temples and caves, particularly the four cave temples at Badami, which feature intricate carvings of Hindu deities.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the founder of the Pallava dynasty, with their capital at Kanchipuram?",
@@ -5182,7 +5182,7 @@ const questionDatabase = [
     "answer": "Simhavishnu",
     "explanation": "Simhavishnu is credited with reviving the Pallava power and establishing their rule from Kanchipuram, marking the beginning of the Pallava Golden Age.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mandagapattu inscription' is associated with which Pallava king, known for his patronage of art and literature?",
@@ -5195,7 +5195,7 @@ const questionDatabase = [
     "answer": "Mahendravarman I",
     "explanation": "Mahendravarman I was a great patron of arts and architecture. The Mandagapattu inscription states he was the first to construct a temple without the use of bricks, timber, metal, or mortar.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Ayyavole' and 'Manigramam' in the context of South Indian history refer to what?",
@@ -5208,7 +5208,7 @@ const questionDatabase = [
     "answer": "Trade guilds",
     "explanation": "Ayyavole and Manigramam were two of the most prominent trade guilds of South India, controlling long-distance trade routes during the medieval period.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following literary works is attributed to the Chalukya king, Pulakeshin II's court poet, Ravikirti?",
@@ -5221,7 +5221,7 @@ const questionDatabase = [
     "answer": "Aihole inscription",
     "explanation": "The Aihole inscription, composed by Ravikirti, provides valuable information about the reign of Pulakeshin II, including his victory over Harshavardhana.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "During the Gupta era, the growth of Vaishnava and Shaiva religions led to the construction of temples dedicated to which deities?",
@@ -5234,7 +5234,7 @@ const questionDatabase = [
     "answer": "Vishnu and Shiva",
     "explanation": "The Gupta period witnessed a significant rise in the popularity of Vaishnavism and Shaivism, leading to the construction of numerous temples dedicated to Vishnu and Shiva, respectively.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pancha Ratha' at Mahabalipuram is a fine example of which dynasty's temple architecture?",
@@ -5247,7 +5247,7 @@ const questionDatabase = [
     "answer": "The Pallavas",
     "explanation": "The Pancha Rathas are monolithic rock-cut temples, each carved out of a single large rock, built during the reign of the Pallava king Narasimhavarman I.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who is considered the central figure of the Tamil Bhakti movement and a great exponent of the Advaita Vedanta philosophy?",
@@ -5260,7 +5260,7 @@ const questionDatabase = [
     "answer": "Shankaracharya",
     "explanation": "Shankaracharya was an Indian Vedic scholar and teacher. He is a key figure in the Tamil Bhakti movement and is credited with systematizing the Advaita Vedanta philosophy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vimana' and 'Gopuram' are characteristic features of temple architecture that developed prominently under which dynasties?",
@@ -5273,7 +5273,7 @@ const questionDatabase = [
     "answer": "The Cholas and Pallavas",
     "explanation": "The Pallavas initiated the Dravidian style of temple architecture, which was later perfected by the Cholas, with their emphasis on the 'Vimana' and the 'Gopuram' (ornate entrance tower).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Palas, who ruled over Bengal and Bihar, were great patrons of which religion?",
@@ -5286,7 +5286,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The Palas were strong patrons of Buddhism and played a crucial role in the revival of the religion in eastern India, establishing famous monasteries like Nalanda and Vikramshila.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dhamek Stupa' and the 'Monastery at Nalanda' are examples of the art and architecture that flourished under which dynasty?",
@@ -5299,7 +5299,7 @@ const questionDatabase = [
     "answer": "The Palas",
     "explanation": "The Palas were great patrons of Buddhist art and learning. Nalanda and Vikramshila Mahaviharas flourished under their patronage.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Rashtrakutas, who succeeded the Chalukyas of Badami, had their capital at which place?",
@@ -5312,7 +5312,7 @@ const questionDatabase = [
     "answer": "Manyakheta",
     "explanation": "The Rashtrakutas established their capital at Manyakheta, which is modern-day Malkhed in Karnataka.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The famous Kailasa temple at Ellora, carved out of a single rock, was built by which Rashtrakuta king?",
@@ -5325,7 +5325,7 @@ const questionDatabase = [
     "answer": "Krishna I",
     "explanation": "The Kailasa temple is one of the most magnificent examples of Indian rock-cut architecture, and it was constructed during the reign of the Rashtrakuta king Krishna I.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Arab conquest of Sind in 712 CE was led by whom?",
@@ -5338,7 +5338,7 @@ const questionDatabase = [
     "answer": "Muhammad bin Qasim",
     "explanation": "The Umayyad general Muhammad bin Qasim led the Arab invasion and conquered Sind, making it the first significant Muslim conquest of the Indian subcontinent.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The book 'Kitab-ul-Hind' (or 'Tahqiq-i-Hind'), which gives a detailed account of India, was written by whom?",
@@ -5351,7 +5351,7 @@ const questionDatabase = [
     "answer": "Alberuni",
     "explanation": "Alberuni was a Persian scholar who accompanied Mahmud of Ghazni to India. His book 'Kitab-ul-Hind' is a crucial source of information on Indian society, science, and religion of that time.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Chalukyas of Kalyana are also known by which name, due to their capital?",
@@ -5364,7 +5364,7 @@ const questionDatabase = [
     "answer": "Western Chalukyas",
     "explanation": "The Chalukyas of Kalyana, who ruled from Kalyana (modern-day Basavakalyan), are also referred to as the Western Chalukyas to distinguish them from the Chalukyas of Badami.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' dynasty, famous for its naval power and local self-government, had its capital at which place?",
@@ -5377,7 +5377,7 @@ const questionDatabase = [
     "answer": "Thanjavur",
     "explanation": "Thanjavur (Tanjore) was the capital of the Chola dynasty during its peak, and it is home to the magnificent Brihadeeswarar Temple, a Chola masterpiece.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Uttiramerur inscription' provides a detailed account of the local self-government system of which dynasty?",
@@ -5390,7 +5390,7 @@ const questionDatabase = [
     "answer": "The Cholas",
     "explanation": "The Uttiramerur inscription from the reign of Parantaka I provides a remarkable insight into the village assembly and electoral system of the Chola administration.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hoysala' dynasty, known for its unique temple architecture, had its capital at which location?",
@@ -5403,7 +5403,7 @@ const questionDatabase = [
     "answer": "Dwarasamudra",
     "explanation": "Dwarasamudra (modern-day Halebidu) was the capital of the Hoysala dynasty. The temples at Belur and Halebidu are prime examples of Hoysala architecture.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Meenakshi Amman Temple' at Madurai is a prominent example of the art and architecture of which dynasty?",
@@ -5416,7 +5416,7 @@ const questionDatabase = [
     "answer": "The Pandyas",
     "explanation": "While the temple has contributions from various dynasties, the massive 'gopurams' and the overall layout are characteristic of the later Pandya architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Agrahara' in the context of ancient India refers to what?",
@@ -5429,7 +5429,7 @@ const questionDatabase = [
     "answer": "A village or land grant given to Brahmins for religious purposes",
     "explanation": "An 'Agrahara' was a land grant, typically a village, that was given to Brahmins. These grants were often tax-exempt and were meant to support educational and religious activities.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Paramaras', who ruled over Malwa, are known for their cultural patronage, especially under which king?",
@@ -5442,7 +5442,7 @@ const questionDatabase = [
     "answer": "Bhoja I",
     "explanation": "Raja Bhoja of the Paramara dynasty was a renowned scholar, poet, and patron of arts and literature. He is credited with several works on subjects like architecture, medicine, and grammar.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gaur' region, which was the political center of the Senas, is located in which modern-day state?",
@@ -5455,7 +5455,7 @@ const questionDatabase = [
     "answer": "West Bengal",
     "explanation": "The Sena dynasty, which succeeded the Palas in Bengal, ruled from the Gaur region, which is located in modern-day West Bengal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Takkolam' in 949 CE was fought between which two powerful South Indian dynasties?",
@@ -5468,7 +5468,7 @@ const questionDatabase = [
     "answer": "Rashtrakutas and Cholas",
     "explanation": "The Battle of Takkolam was a significant military engagement between the Rashtrakuta king Krishna III and the Chola king Parantaka I, in which the Cholas suffered a devastating defeat.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vettiverkoyil' and 'Kodumbalur' temples are examples of early temple architecture from which dynasty?",
@@ -5481,7 +5481,7 @@ const questionDatabase = [
     "answer": "The Pandyas",
     "explanation": "The Vettiverkoyil and Kodumbalur temples represent the early Pandya style of architecture, which was characterized by rock-cut caves and structural temples.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajarajesvaram' temple, also known as the Brihadeeswarar Temple, was built by which Chola king?",
@@ -5494,7 +5494,7 @@ const questionDatabase = [
     "answer": "Rajaraja I",
     "explanation": "The Brihadeeswarar Temple at Thanjavur is one of the greatest architectural marvels of the Chola period and was built by King Rajaraja I in the 11th century CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Chola king 'Rajendra I' is famous for his naval expedition to which region?",
@@ -5507,7 +5507,7 @@ const questionDatabase = [
     "answer": "Southeast Asia (Srivijaya)",
     "explanation": "Rajendra I led a successful naval expedition against the Srivijaya kingdom in Southeast Asia, which controlled key trade routes, to assert Chola dominance.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gangaikonda Cholapuram' temple was built by which Chola king to commemorate his victory over the Palas of Bengal?",
@@ -5520,7 +5520,7 @@ const questionDatabase = [
     "answer": "Rajendra I",
     "explanation": "Rajendra I built the magnificent temple at Gangaikonda Cholapuram and the Chola Gangam reservoir to commemorate his successful campaign to the north, which extended to the Ganga river.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Taniyur' in Chola administration refers to what?",
@@ -5533,7 +5533,7 @@ const questionDatabase = [
     "answer": "A large, independent village that was a self-governing unit",
     "explanation": "In the Chola administrative system, a 'Taniyur' was a large, autonomous village that had its own assembly and was a key unit of local self-government.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hoysalesvara' and 'Chennakesava' temples are prime examples of the intricate sculpture and architecture of which dynasty?",
@@ -5546,7 +5546,7 @@ const questionDatabase = [
     "answer": "The Hoysalas",
     "explanation": "The Hoysalas were known for their unique 'stellate' (star-shaped) temple plans and intricate carvings, as seen in the temples at Halebidu and Belur.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pandya' dynasty, famous for its pearl fisheries, had its capital at which place?",
@@ -5559,7 +5559,7 @@ const questionDatabase = [
     "answer": "Madurai",
     "explanation": "Madurai was the ancient capital of the Pandya kingdom and a major center of learning and trade. The city is home to the famous Meenakshi Temple.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sena' dynasty, which ruled Bengal, was founded by which king?",
@@ -5572,7 +5572,7 @@ const questionDatabase = [
     "answer": "Samantasena",
     "explanation": "The Sena dynasty, which succeeded the Palas in Bengal, was founded by Samantasena in the 11th century CE.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chalukya-Chola' dynasty was formed through the marriage alliance between which two royal families?",
@@ -5585,7 +5585,7 @@ const questionDatabase = [
     "answer": "Chalukyas of Vengi and Cholas",
     "explanation": "The Chalukya-Chola dynasty was a result of the marriage alliance between the Eastern Chalukyas of Vengi and the Cholas, particularly with the accession of Kulottunga I.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Koodalmanikyam Temple' and 'Sringeri Sharada Peetham' are examples of institutions of temple and Mathas established during which period?",
@@ -5598,7 +5598,7 @@ const questionDatabase = [
     "answer": "Post-Gupta Period (Regional States)",
     "explanation": "The period of regional states saw the flourishing of temples as centers of religious and social life, and the establishment of 'Mathas' (monasteries) by religious figures like Shankaracharya.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Brahmadeya' in the context of South Indian history refers to what?",
@@ -5611,7 +5611,7 @@ const questionDatabase = [
     "answer": "Land grants to Brahmins",
     "explanation": "'Brahmadeya' was a special category of land grant in South India, specifically given to Brahmins and often exempted from taxes.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' were originally a feudatory of which dynasty before establishing their independent rule?",
@@ -5624,7 +5624,7 @@ const questionDatabase = [
     "answer": "The Chalukyas of Badami",
     "explanation": "The Rashtrakutas were initially a feudatory of the Chalukyas of Badami. Their founder, Dantidurga, overthrew the Chalukya king Kirtivarman II to establish the Rashtrakuta dynasty.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Elephanta Caves' in Maharashtra, famous for the Trimurti sculpture, were built by which dynasty?",
@@ -5637,7 +5637,7 @@ const questionDatabase = [
     "answer": "The Rashtrakutas",
     "explanation": "The caves at Elephanta Island, known for the magnificent sculpture of 'Maheshamurti' (Trimurti), were created during the reign of the Rashtrakutas.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was NOT a major center of education and literature during the period of regional states?",
@@ -5650,7 +5650,7 @@ const questionDatabase = [
     "answer": "Pataliputra",
     "explanation": "While Pataliputra was a major political center, Nalanda, Vikramshila (under the Palas), and Ujjain (under the Paramaras) were renowned centers of education and learning during this period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vettuvankoil' at Kalugumalai is an example of which type of temple architecture?",
@@ -5663,7 +5663,7 @@ const questionDatabase = [
     "answer": "Monolithic rock-cut temple",
     "explanation": "The Vettuvankoil is a monolithic rock-cut temple, carved out of a single rock, and is a fine example of early Pandya rock-cut architecture.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Senas' of Bengal claimed to be 'Kshatriyas' from which region of India?",
@@ -5676,7 +5676,7 @@ const questionDatabase = [
     "answer": "Karnataka",
     "explanation": "The Sena dynasty, which ruled Bengal, claimed to have originated from the Karnata (Karnataka) region of South India.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chalukyas of Kalyana' are also known for their intricate temples in which region?",
@@ -5689,7 +5689,7 @@ const questionDatabase = [
     "answer": "Lakkundi",
     "explanation": "Lakkundi, along with other sites like Itagi and Dambal, is a major center of Chalukya of Kalyana temple architecture, known for its intricate carvings and 'Vesara' style.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pandyas' were significant patrons of which ancient Tamil literary academy?",
@@ -5702,7 +5702,7 @@ const questionDatabase = [
     "answer": "Sangam",
     "explanation": "The Pandyas were the patrons of the famous 'Sangam' academies, which were gatherings of Tamil poets and scholars, and they were crucial in the development of Tamil literature.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kanchipuram' temple complex, with its various shrines, represents the architecture of which dynasty?",
@@ -5715,7 +5715,7 @@ const questionDatabase = [
     "answer": "Pallavas",
     "explanation": "Kanchipuram was the capital of the Pallavas, and the city is home to numerous temples, including the Kailasanathar Temple, which are prime examples of Pallava architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vedanta' philosophy, which was revitalized by Shankaracharya, is based on which ancient texts?",
@@ -5728,7 +5728,7 @@ const questionDatabase = [
     "answer": "The Upanishads",
     "explanation": "The 'Vedanta' literally means 'the end of the Vedas,' and it is a school of Hindu philosophy based on the teachings of the Upanishads.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Palas' of Bengal were succeeded by which dynasty?",
@@ -5741,7 +5741,7 @@ const questionDatabase = [
     "answer": "The Senas",
     "explanation": "The Senas, who were originally a feudatory of the Palas, overthrew the Pala rule and established their own dynasty in Bengal and Bihar.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hoysala' style of temple architecture is known for its use of which material?",
@@ -5754,7 +5754,7 @@ const questionDatabase = [
     "answer": "Soapstone (Steatite)",
     "explanation": "The Hoysala temples are primarily made of 'soapstone' or 'chloritic schist,' which is a soft material that allowed for the intricate and detailed carvings that are characteristic of their temples.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Paramaras' of Malwa are credited with a major revival of which classical language?",
@@ -5767,7 +5767,7 @@ const questionDatabase = [
     "answer": "Sanskrit",
     "explanation": "The Paramaras, especially Raja Bhoja, were great patrons of Sanskrit literature and scholarship, and their rule is considered a golden age for the language in Central India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' were involved in a tripartite struggle for control over which region?",
@@ -5780,7 +5780,7 @@ const questionDatabase = [
     "answer": "Kannauj",
     "explanation": "The Rashtrakutas, along with the Palas and the Gurjara-Pratiharas, were engaged in a long-drawn tripartite struggle for control over the city of Kannauj, a symbol of imperial power in North India.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' administration was famous for its well-organized military and which other aspect?",
@@ -5793,7 +5793,7 @@ const questionDatabase = [
     "answer": "A powerful navy",
     "explanation": "The Cholas were one of the few ancient Indian dynasties with a powerful navy, which they used to control the Bay of Bengal and extend their influence to Southeast Asia.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kadambas' were a dynasty that emerged in which modern-day state?",
@@ -5806,7 +5806,7 @@ const questionDatabase = [
     "answer": "Karnataka",
     "explanation": "The Kadamba dynasty was an ancient royal dynasty of Karnataka, with its capital at Banavasi. They were a significant power in the region before the rise of the Chalukyas.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Alberuni' account of India is significant for its objective and scientific approach to which subject?",
@@ -5819,7 +5819,7 @@ const questionDatabase = [
     "answer": "Social and cultural life",
     "explanation": "Alberuni's 'Kitab-ul-Hind' is a unique work that provides an objective and detailed account of Indian society, customs, religions, and sciences, without religious or political bias.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pandyas' are known for their contribution to the construction of which architectural feature in temples?",
@@ -5832,7 +5832,7 @@ const questionDatabase = [
     "answer": "Gopuram",
     "explanation": "The Pandyas were renowned for their massive and ornate 'gopurams' or temple gateways, which became a distinctive feature of South Indian temple architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chalukyas of Kalyana' are also known as the 'Western Chalukyas' to differentiate them from the 'Eastern Chalukyas' who ruled from which place?",
@@ -5845,7 +5845,7 @@ const questionDatabase = [
     "answer": "Vengi",
     "explanation": "The Eastern Chalukyas were a separate branch of the Chalukyas who ruled from Vengi in Andhra Pradesh, while the Chalukyas of Kalyana ruled from the Deccan region.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pallava' dynasty is credited with the construction of the famous 'Shore Temple' at which location?",
@@ -5858,7 +5858,7 @@ const questionDatabase = [
     "answer": "Mahabalipuram",
     "explanation": "The Shore Temple at Mahabalipuram is a fine example of Pallava structural temple architecture, built during the reign of Narasimhavarman II.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' dynasty's economy was primarily based on which of the following?",
@@ -5871,7 +5871,7 @@ const questionDatabase = [
     "answer": "Agriculture and land revenue",
     "explanation": "The Chola economy was a prosperous one, based primarily on agriculture. The Chola state levied a significant share of the agricultural produce as land revenue.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' were followers of which religion, as evidenced by their patronage of the Kailasa temple?",
@@ -5884,7 +5884,7 @@ const questionDatabase = [
     "answer": "Shaivism",
     "explanation": "The Rashtrakutas were patrons of all religions, but their devotion to Shaivism is particularly evident from the construction of the Kailasa temple, which is dedicated to Lord Shiva.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Palas' of Bengal were great patrons of which famous Buddhist university?",
@@ -5897,7 +5897,7 @@ const questionDatabase = [
     "answer": "Vikramshila",
     "explanation": "While Nalanda also flourished under their rule, the Pala king Dharmapala is credited with the establishment of the Vikramshila Mahavihara, which became a major center of learning.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arab conquest of Sind' paved the way for the spread of which religion in the Indian subcontinent?",
@@ -5910,7 +5910,7 @@ const questionDatabase = [
     "answer": "Islam",
     "explanation": "The Arab conquest of Sind in 712 CE was the first major incursion of Islamic forces into the Indian subcontinent and marked the beginning of the spread of Islam in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hoysalas' of Dwarasamudra were a feudatory of which dynasty before they gained independence?",
@@ -5923,7 +5923,7 @@ const questionDatabase = [
     "answer": "The Chalukyas of Kalyana",
     "explanation": "The Hoysalas were initially a feudatory of the Chalukyas of Kalyana. After the decline of the Chalukya power, they declared their independence and established their own kingdom.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pallava' ruler 'Narasimhavarman I' is known by which title for his victory over the Chalukyas?",
@@ -5936,7 +5936,7 @@ const questionDatabase = [
     "answer": "Vatapikonda",
     "explanation": "Narasimhavarman I defeated the Chalukya king Pulakeshin II and destroyed his capital, Vatapi, earning him the title 'Vatapikonda' (Conqueror of Vatapi).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sena' king 'Lakshmana Sena' is famous for his court being a patron of which great Sanskrit poet?",
@@ -5949,7 +5949,7 @@ const questionDatabase = [
     "answer": "Jayadeva",
     "explanation": "The famous Sanskrit poet Jayadeva, author of 'Gita Govinda,' was a renowned figure in the court of the Sena king Lakshmana Sena.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following languages was the primary language of the Buddhist texts written during the early period?",
@@ -5962,7 +5962,7 @@ const questionDatabase = [
     "answer": "Pali",
     "explanation": "Pali was the language of the Theravada Buddhist canon and was widely used in early Buddhist texts, especially in the Tripitaka.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Prakrit' languages were primarily used for which of the following purposes in early India?",
@@ -5975,7 +5975,7 @@ const questionDatabase = [
     "answer": "Literature and popular narratives",
     "explanation": "Prakrit languages, such as Ardhamagadhi and Maharashtri, were used for a variety of purposes, including literature, folk tales, and inscriptions, and were more accessible to the common people than Sanskrit.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ashtadhyayi', a foundational text on Sanskrit grammar, was authored by whom?",
@@ -5988,7 +5988,7 @@ const questionDatabase = [
     "answer": "Panini",
     "explanation": "Panini's 'Ashtadhyayi' is a comprehensive and scientific treatise on Sanskrit grammar, consisting of approximately 4,000 sutras or rules.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Brihatsamhita', a work on a wide range of subjects including astronomy, botany, and architecture, was written by which ancient Indian scholar?",
@@ -6001,7 +6001,7 @@ const questionDatabase = [
     "answer": "Varahamihira",
     "explanation": "Varahamihira was an astronomer, mathematician, and astrologer. His work 'Brihatsamhita' is an encyclopedia of human knowledge, covering subjects from astrology to the design of temples.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ajanta Caves' are famous for their mural paintings depicting scenes from which religious text?",
@@ -6014,7 +6014,7 @@ const questionDatabase = [
     "answer": "Jataka tales",
     "explanation": "The Ajanta Caves, a UNESCO World Heritage Site, are renowned for their rock-cut Buddhist cave monuments. The paintings and sculptures depict stories from the 'Jataka tales', which are narratives of the previous lives of the Buddha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following philosophical schools is based on the idea of 'dualism' between the 'Purusha' (consciousness) and 'Prakriti' (matter)?",
@@ -6027,7 +6027,7 @@ const questionDatabase = [
     "answer": "Samkhya",
     "explanation": "The Samkhya school of philosophy is a dualistic system that postulates the existence of two ultimate realities: Purusha (the self or consciousness) and Prakriti (matter or nature).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'zero' and the 'place value system' in mathematics are significant contributions from which period of Indian history?",
@@ -6040,7 +6040,7 @@ const questionDatabase = [
     "answer": "Gupta Period",
     "explanation": "The Gupta period is often referred to as the 'Golden Age' of Indian science and mathematics. It was during this time that the concept of zero and the decimal place value system were fully developed and used.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nataraja' sculpture, depicting Lord Shiva in a cosmic dance, is a masterpiece of which dynasty's art?",
@@ -6053,7 +6053,7 @@ const questionDatabase = [
     "answer": "Cholas",
     "explanation": "The bronze sculptures of the 'Nataraja' are a hallmark of the Chola period, representing the pinnacle of their artistry and religious symbolism.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who is credited with the 'Advaita Vedanta' philosophy, which advocates the ultimate unity of the individual soul (Atman) and the ultimate reality (Brahman)?",
@@ -6066,7 +6066,7 @@ const questionDatabase = [
     "answer": "Shankaracharya",
     "explanation": "Shankaracharya was a key figure in the revival of Hinduism and the founder of the 'Advaita Vedanta' school, which emphasizes non-duality and the oneness of Atman and Brahman.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Iron Pillar of Delhi', which has remained rust-free for centuries, is a testament to the scientific and metallurgical knowledge of which ancient dynasty?",
@@ -6079,7 +6079,7 @@ const questionDatabase = [
     "answer": "Guptas",
     "explanation": "The Iron Pillar of Delhi, attributed to the reign of the Gupta emperor Chandragupta II, is a remarkable example of advanced metallurgical skill, as it has not rusted despite being exposed to the elements for over 1,600 years.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following is NOT one of the six orthodox schools of Hindu philosophy?",
@@ -6092,7 +6092,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The six orthodox (astika) schools of Hindu philosophy are Samkhya, Yoga, Nyaya, Vaisheshika, Mimamsa, and Vedanta. Buddhism is a distinct philosophical and religious tradition.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sanchi Stupa', a major example of early Buddhist architecture, was originally commissioned by which emperor?",
@@ -6105,7 +6105,7 @@ const questionDatabase = [
     "answer": "Ashoka",
     "explanation": "The Great Stupa at Sanchi was originally built by the Maurya emperor Ashoka in the 3rd century BCE to enshrine the relics of the Buddha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'concept of zero' as a number and its use in the decimal system is often attributed to which Indian mathematician?",
@@ -6118,7 +6118,7 @@ const questionDatabase = [
     "answer": "Brahmagupta",
     "explanation": "Brahmagupta is often credited with the first known use of zero as a number in the decimal system and for defining its mathematical operations in his work 'Brahmasphutasiddhanta'.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charaka Samhita', a foundational text of Ayurveda, primarily deals with which subject?",
@@ -6131,7 +6131,7 @@ const questionDatabase = [
     "answer": "Medicine",
     "explanation": "The 'Charaka Samhita' is an ancient Indian text on medicine and is one of the foundational works of Ayurveda. It deals with a wide range of topics related to health and disease.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vimana' in temple architecture, which refers to the main tower above the sanctum, is a key feature of which style?",
@@ -6144,7 +6144,7 @@ const questionDatabase = [
     "answer": "Dravida style",
     "explanation": "The Dravida style of temple architecture, primarily found in South India, is characterized by a stepped pyramid-shaped tower called a 'Vimana'.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jain' canonical texts were primarily written in which language?",
@@ -6157,7 +6157,7 @@ const questionDatabase = [
     "answer": "Prakrit (Ardhamagadhi)",
     "explanation": "The 'Svetambara' Jain canons were compiled in Ardhamagadhi Prakrit, a language that was widely spoken and understood at the time.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara School of Art', which flourished in the Kushana period, was influenced by which foreign art style?",
@@ -6170,7 +6170,7 @@ const questionDatabase = [
     "answer": "Greek and Roman",
     "explanation": "The Gandhara School of Art, known for its sculptures of the Buddha in human form, shows a strong influence of Hellenistic (Greek and Roman) artistic traditions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Surya Siddhanta' is an ancient Indian text that primarily deals with which subject?",
@@ -6183,7 +6183,7 @@ const questionDatabase = [
     "answer": "Astronomy",
     "explanation": "The 'Surya Siddhanta' is a foundational work on Indian astronomy, which includes calculations of planetary positions, eclipses, and time cycles.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nagara' style of temple architecture is primarily found in which region of India?",
@@ -6196,7 +6196,7 @@ const questionDatabase = [
     "answer": "North India",
     "explanation": "The Nagara style of temple architecture, with its 'shikhara' (curvilinear spire) over the sanctum, is the dominant style of temple building in North India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sulbasutras' are ancient texts that primarily deal with which branch of science or mathematics?",
@@ -6209,7 +6209,7 @@ const questionDatabase = [
     "answer": "Geometry",
     "explanation": "The 'Sulbasutras' are a collection of texts that provide rules for the construction of sacrificial altars and contain the earliest known geometric knowledge, including the Pythagorean theorem.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The philosophical school of 'Mimamsa' is primarily concerned with the interpretation of which texts?",
@@ -6222,7 +6222,7 @@ const questionDatabase = [
     "answer": "Vedas",
     "explanation": "The Mimamsa school, particularly Purva Mimamsa, is focused on the correct interpretation of the rituals and duties prescribed in the Vedas.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sushruta Samhita' is a foundational text on which subject, containing detailed descriptions of surgical procedures?",
@@ -6235,7 +6235,7 @@ const questionDatabase = [
     "answer": "Surgery",
     "explanation": "The 'Sushruta Samhita' is an ancient Sanskrit text on medicine and surgery, with detailed descriptions of surgical instruments, procedures, and techniques.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Brahma Sutras', a key text of the Vedanta school of philosophy, was written by whom?",
@@ -6248,7 +6248,7 @@ const questionDatabase = [
     "answer": "Badarayana",
     "explanation": "Badarayana's 'Brahma Sutras' is a summary and systematization of the philosophical teachings of the Upanishads and is the foundational text of the Vedanta school.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kailasa temple' at Ellora, carved out of a single rock, is a masterpiece of which style of architecture?",
@@ -6261,7 +6261,7 @@ const questionDatabase = [
     "answer": "Monolithic rock-cut",
     "explanation": "The Kailasa temple is a monolithic structure, meaning it was carved from a single large rock, making it a unique and impressive example of rock-cut architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following philosophical schools is associated with the 'Nyaya Sutras' and is concerned with logic and epistemology?",
@@ -6274,7 +6274,7 @@ const questionDatabase = [
     "answer": "Nyaya",
     "explanation": "The Nyaya school of philosophy is based on the 'Nyaya Sutras' and is primarily concerned with the study of logic, reasoning, and the means of knowledge (pramanas).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jantar Mantar' observatories, built by Maharaja Jai Singh II, are a testament to the advancements in which field of science?",
@@ -6287,7 +6287,7 @@ const questionDatabase = [
     "answer": "Astronomy",
     "explanation": "The 'Jantar Mantar' observatories were built to accurately measure the time, track celestial bodies, and predict eclipses, showcasing the advancements in Indian astronomy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vesara' style of temple architecture, which is a hybrid of the Nagara and Dravida styles, is also known by which name?",
@@ -6300,7 +6300,7 @@ const questionDatabase = [
     "answer": "Chalukya style",
     "explanation": "The Vesara style, also known as the Chalukya style, was a unique architectural tradition that emerged in the Deccan region, combining elements of both North Indian and South Indian temple architecture.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Puranas', a collection of ancient Indian texts, primarily deal with which of the following subjects?",
@@ -6313,7 +6313,7 @@ const questionDatabase = [
     "answer": "Cosmology, history, and mythology",
     "explanation": "The Puranas are a vast genre of Indian literature containing narratives about cosmology, history, genealogies of gods and sages, and a wide range of mythological stories.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Madhuvana' and 'Gommatagiri' are examples of major centers of art and architecture related to which religion?",
@@ -6326,7 +6326,7 @@ const questionDatabase = [
     "answer": "Jainism",
     "explanation": "Madhuvana and Gommatagiri are significant Jain pilgrimage sites known for their beautiful sculptures, including the colossal statue of Gomateshwara (Bahubali).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following is a major philosophical school that believes in the reality of the external world and the existence of many individual souls?",
@@ -6339,7 +6339,7 @@ const questionDatabase = [
     "answer": "Dvaita Vedanta",
     "explanation": "The 'Dvaita' (dualism) school of Vedanta, founded by Madhvacharya, advocates a complete separation and distinction between God (Vishnu), the individual soul, and matter.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ayurveda', a system of medicine, is considered an 'Upaveda' or subordinate Veda to which of the main Vedas?",
@@ -6352,7 +6352,7 @@ const questionDatabase = [
     "answer": "Atharvaveda",
     "explanation": "Ayurveda is considered to be a subordinate Veda to the Atharvaveda, which deals with magic, incantations, and healing remedies.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhagavad Gita' is a part of which ancient Indian epic?",
@@ -6365,7 +6365,7 @@ const questionDatabase = [
     "answer": "Mahabharata",
     "explanation": "The 'Bhagavad Gita' is a dialogue between Lord Krishna and Arjuna, which is a small but significant part of the larger epic 'Mahabharata'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Naga' style of temples, characterized by a tall and curvilinear 'shikhara', is found in which region?",
@@ -6378,7 +6378,7 @@ const questionDatabase = [
     "answer": "North India",
     "explanation": "The 'Naga' style is a sub-style of the Nagara style of temple architecture, which is prominent in North India, especially in Odisha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pattadakal' temple complex, a UNESCO World Heritage Site, is a confluence of which two major styles of temple architecture?",
@@ -6391,7 +6391,7 @@ const questionDatabase = [
     "answer": "Nagara and Dravida",
     "explanation": "The temples at Pattadakal showcase a unique blend of both the North Indian Nagara style and the South Indian Dravida style of architecture.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lokayat' school of philosophy is also known by which name and is a form of materialism?",
@@ -6404,7 +6404,7 @@ const questionDatabase = [
     "answer": "Charvaka",
     "explanation": "The 'Charvaka' or 'Lokayat' school is a materialistic and atheistic school of thought that rejects the authority of the Vedas and believes in the physical world as the only reality.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Brahmi' and 'Kharoshthi' scripts are famously found in which period's inscriptions?",
@@ -6417,7 +6417,7 @@ const questionDatabase = [
     "answer": "Maurya Period",
     "explanation": "The Ashokan edicts, which are a major source of information for the Maurya period, were written in either the Brahmi or Kharoshthi script.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'decimal' system and the concept of 'infinity' were significant contributions to mathematics by which ancient Indian scholar?",
@@ -6430,7 +6430,7 @@ const questionDatabase = [
     "answer": "Aryabhata",
     "explanation": "Aryabhata's 'Aryabhatiya' not only discussed the place value system but also provided an approximation of pi and methods for calculating the circumference of a circle.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Stupa' in Buddhist architecture symbolizes which of the following?",
@@ -6443,7 +6443,7 @@ const questionDatabase = [
     "answer": "A funeral mound or reliquary mound of the Buddha",
     "explanation": "A 'Stupa' is a hemispherical structure containing relics, typically of the Buddha or other revered figures, and is a symbol of the Buddha's Parinirvana (final passing away).",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahavamsa', a famous historical text, is written in which language?",
@@ -6456,7 +6456,7 @@ const questionDatabase = [
     "answer": "Pali",
     "explanation": "The 'Mahavamsa' ('Great Chronicle') is a historical chronicle of Sri Lanka, written in the Pali language, and is a major source for the history of Buddhism.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Puranic' tradition, which became a cornerstone of later Hinduism, is characterized by its emphasis on which of the following?",
@@ -6469,7 +6469,7 @@ const questionDatabase = [
     "answer": "Worship of a pantheon of gods and goddesses",
     "explanation": "The Puranic tradition, which is post-Vedic, is a significant shift towards the worship of a popular pantheon of deities like Shiva, Vishnu, and Shakti, and the development of temple worship.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sanchi Stupa' is known for its richly carved 'toranas' (gateways) that depict scenes from which of the following?",
@@ -6482,7 +6482,7 @@ const questionDatabase = [
     "answer": "The life of the Buddha and Jataka tales",
     "explanation": "The 'toranas' of the Sanchi Stupa are famous for their intricate carvings that narrate stories from the life of the Buddha and his previous lives as described in the Jataka tales.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vaishnava' and 'Shaiva' religions, which grew in popularity during the Gupta era, represent a shift towards which type of worship?",
@@ -6495,7 +6495,7 @@ const questionDatabase = [
     "answer": "Bhakti (devotional worship)",
     "explanation": "The growth of Vaishnavism and Shaivism during the Gupta period saw a rise in 'Bhakti', a form of personal devotion to a specific deity, which was a departure from the earlier ritualistic Vedic religion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Aryabhatiya', a major work by Aryabhata, primarily deals with which subjects?",
@@ -6508,7 +6508,7 @@ const questionDatabase = [
     "answer": "Mathematics and astronomy",
     "explanation": "Aryabhata's 'Aryabhatiya' is a treatise on mathematics and astronomy, which discusses topics like arithmetic, algebra, trigonometry, and the motion of celestial bodies.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vishishtadvaita' school of Vedanta, founded by Ramanuja, advocates which philosophical concept?",
@@ -6521,7 +6521,7 @@ const questionDatabase = [
     "answer": "Non-duality with attributes",
     "explanation": "Ramanuja's 'Vishishtadvaita' (qualified non-duality) school holds that the individual soul and matter are distinct from Brahman but are inseparably connected to it as its attributes.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gandhara' school of art is known for its portrayal of the Buddha with which distinctive feature?",
@@ -6534,7 +6534,7 @@ const questionDatabase = [
     "answer": "Curly hair and Greco-Roman facial features",
     "explanation": "The Gandhara school, influenced by Greek and Roman art, is characterized by the depiction of the Buddha with curly hair, realistic robes, and facial features reminiscent of Apollo.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mahayana' school of Buddhism, which developed in the post-Maurya period, is known for its emphasis on which concept?",
@@ -6547,7 +6547,7 @@ const questionDatabase = [
     "answer": "Bodhisattvas",
     "explanation": "The Mahayana ('Great Vehicle') school of Buddhism is a major departure from the earlier Hinayana. It introduces the concept of 'Bodhisattvas,' who are enlightened beings who delay their own nirvana to help others achieve enlightenment.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Upanishads', which form the philosophical part of the Vedas, are also known by which name?",
@@ -6560,7 +6560,7 @@ const questionDatabase = [
     "answer": "Vedanta",
     "explanation": "The term 'Upanishad' literally means 'sitting near the teacher,' and 'Vedanta' means 'the end of the Vedas,' as they represent the philosophical culmination of the Vedic texts.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Yoga' school of philosophy is based on the 'Yoga Sutras' and is concerned with which aspect of human experience?",
@@ -6573,7 +6573,7 @@ const questionDatabase = [
     "answer": "Physical and mental discipline",
     "explanation": "The Yoga school, as codified by Patanjali in the 'Yoga Sutras', is a systematic approach to spiritual and psychological development through physical postures, breathing exercises, and meditation.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gupta' period is considered a 'Golden Age' for art and architecture due to the development of which type of temple?",
@@ -6586,7 +6586,7 @@ const questionDatabase = [
     "answer": "Structural temples",
     "explanation": "While rock-cut caves continued to be built, the Gupta period saw the emergence and widespread construction of structural temples, built with bricks and mortar, which became the model for later temple architecture.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Natya Shastra', an ancient Indian text on performing arts, was written by whom?",
@@ -6599,7 +6599,7 @@ const questionDatabase = [
     "answer": "Bharata Muni",
     "explanation": "The 'Natya Shastra', attributed to the sage Bharata Muni, is a comprehensive treatise on all aspects of Indian classical dance, music, drama, and aesthetics.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Siddhanta Siromani', a major work on mathematics and astronomy, was written by which Indian scholar?",
@@ -6612,7 +6612,7 @@ const questionDatabase = [
     "answer": "Bhaskara II",
     "explanation": "Bhaskara II was a brilliant mathematician and astronomer who wrote 'Siddhanta Siromani', which includes chapters on algebra, arithmetic, and spherical trigonometry.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pallava' style of temple architecture, which developed from rock-cut caves to structural temples, is most famously seen at which site?",
@@ -6625,7 +6625,7 @@ const questionDatabase = [
     "answer": "Shore Temple at Mahabalipuram",
     "explanation": "The Shore Temple is one of the earliest examples of a structural temple in South India, built by the Pallava king Narasimhavarman II, marking a transition from rock-cut architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sama Veda' is a collection of which type of texts?",
@@ -6638,7 +6638,7 @@ const questionDatabase = [
     "answer": "Melodies and chants",
     "explanation": "The 'Sama Veda' is primarily a collection of hymns and verses set to melodies, which were chanted during Vedic sacrifices and rituals.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vaisheshika' school of philosophy is known for its atomistic theory and belief in which of the following?",
@@ -6651,7 +6651,7 @@ const questionDatabase = [
     "answer": "The existence of 'anu' or atoms",
     "explanation": "The Vaisheshika school is known for its naturalistic philosophy and its theory of atomism, which states that all physical objects are reducible to a finite number of atoms (anu).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' bronze sculptures, particularly of 'Nataraja', are known for their use of which technique?",
@@ -6664,7 +6664,7 @@ const questionDatabase = [
     "answer": "Lost-wax casting",
     "explanation": "The Chola artists perfected the 'cire perdue' or lost-wax casting method to create their iconic bronze sculptures, which allowed for intricate detail and a high degree of artistic expression.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arthashastra', a treatise on statecraft and political science, was authored by whom?",
@@ -6677,7 +6677,7 @@ const questionDatabase = [
     "answer": "Kautilya",
     "explanation": "The 'Arthashastra', attributed to Kautilya (also known as Chanakya), is a detailed manual on political science, economic policy, military strategy, and state administration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Amaravati School of Art', which flourished in the Andhra region, is known for its which of the following features?",
@@ -6690,7 +6690,7 @@ const questionDatabase = [
     "answer": "Narrative panels and dynamic figures",
     "explanation": "The Amaravati school is famous for its marble sculptures that depict the life of the Buddha in dynamic and expressive narrative panels, characterized by a sense of movement.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jyotisha' (astronomy and astrology) is considered one of the six 'Vedangas' or auxiliary disciplines to the Vedas. Which of the following is also a Vedanga?",
@@ -6703,7 +6703,7 @@ const questionDatabase = [
     "answer": "Kalpa (ritual)",
     "explanation": "The six Vedangas are Shiksha (phonetics), Kalpa (ritual), Vyakarana (grammar), Nirukta (etymology), Chhanda (meter), and Jyotisha (astronomy/astrology).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ajivika' school was a major philosophical tradition that rejected which of the following concepts?",
@@ -6716,7 +6716,7 @@ const questionDatabase = [
     "answer": "The concept of Karma and free will",
     "explanation": "The 'Ajivika' school was a fatalistic system that believed in 'Niyati' or fate, arguing that all events are predetermined and that human actions or karma have no effect on one's destiny.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Puranic' tradition can be seen as a response to which of the following?",
@@ -6729,7 +6729,7 @@ const questionDatabase = [
     "answer": "The decline of the Vedic ritualistic religion",
     "explanation": "The Puranic tradition emerged and gained popularity as a more accessible and inclusive form of Hinduism, providing a simpler way to connect with the divine for the common person, unlike the complex and ritualistic Vedic practices.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Deogarh Temple' in Uttar Pradesh is a famous example of which style of architecture?",
@@ -6742,7 +6742,7 @@ const questionDatabase = [
     "answer": "Nagara",
     "explanation": "The Dashavatara temple at Deogarh is a masterpiece of early Gupta period structural temple architecture and is one of the earliest examples of the Nagara style.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Madhyamaka' school of philosophy, founded by Nagarjuna, is a major school within which religious tradition?",
@@ -6755,7 +6755,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The 'Madhyamaka' ('Middle Way') school of philosophy, also known as 'Sunyavada' (emptiness), is a key school of Mahayana Buddhism that emphasizes the concept of 'emptiness' as the ultimate reality.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sushruta Samhita' also contains a chapter on which of the following surgical procedures?",
@@ -6768,7 +6768,7 @@ const questionDatabase = [
     "answer": "Plastic surgery",
     "explanation": "The 'Sushruta Samhita' contains detailed descriptions of various surgical procedures, including rhinoplasty (reconstruction of the nose), making it one of the earliest known texts on plastic surgery.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gupta' period witnessed a significant development in the field of which of the following?",
@@ -6781,7 +6781,7 @@ const questionDatabase = [
     "answer": "Metallurgy and coinage",
     "explanation": "The Gupta period is known for its high-quality gold coinage and advanced metallurgical skills, as seen in the rust-resistant Iron Pillar of Delhi.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sangam' literature, a collection of early Tamil texts, is a major source for the history of which region?",
@@ -6794,7 +6794,7 @@ const questionDatabase = [
     "answer": "Tamil Nadu",
     "explanation": "The 'Sangam' literature, which includes 'Tolkappiyam' and 'Ettuttokai', is a crucial source of information for the history, society, and culture of the early Tamil kingdoms of South India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vedic' texts are divided into which four main parts?",
@@ -6807,7 +6807,7 @@ const questionDatabase = [
     "answer": "Samhitas, Brahmanas, Aranyakas, Upanishads",
     "explanation": "Each of the four Vedas (Rigveda, Samaveda, Yajurveda, and Atharvaveda) is traditionally divided into four parts: Samhitas (hymns), Brahmanas (commentaries on rituals), Aranyakas (forest texts), and Upanishads (philosophical texts).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Elephanta Caves', famous for the 'Trimurti' sculpture, are primarily dedicated to which deity?",
@@ -6820,7 +6820,7 @@ const questionDatabase = [
     "answer": "Shiva",
     "explanation": "The Elephanta Caves are a complex of rock-cut caves that are a testament to the Shaiva religion, with the most famous sculpture being the 'Trimurti' (three-headed Shiva).",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lokayat' school of philosophy is based on which of the following principles?",
@@ -6833,7 +6833,7 @@ const questionDatabase = [
     "answer": "Empiricism and hedonism",
     "explanation": "The 'Lokayat' school is an atheistic system that believes only in what can be perceived by the senses. It advocates for the pursuit of happiness and pleasure in the present life.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following dynasties was NOT a part of the 'Tripartite Struggle' for control over Kannauj?",
@@ -6846,7 +6846,7 @@ const questionDatabase = [
     "answer": "Pandyas",
     "explanation": "The Tripartite Struggle was a conflict between the Gurjara-Pratiharas of North India, the Palas of Eastern India, and the Rashtrakutas of the Deccan for political dominance over the fertile Gangetic plains, centered at Kannauj.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Agni Kula' theory, which describes the origin of some Rajput clans, suggests they emerged from a sacrificial fire at which place?",
@@ -6859,7 +6859,7 @@ const questionDatabase = [
     "answer": "Mount Abu",
     "explanation": "According to the Agni Kula legend, some Rajput clans like the Pratiharas, Chauhans, Paramaras, and Solankis originated from a sacrificial fire pit at Mount Abu, a revered mountain in Rajasthan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chauhan' dynasty, which controlled the region of Delhi and Ajmer, was defeated by which invading force?",
@@ -6872,7 +6872,7 @@ const questionDatabase = [
     "answer": "Ghurids",
     "explanation": "The Chauhan ruler Prithviraj III was defeated by Muhammad Ghori in the Second Battle of Tarain in 1192 CE, which marked a major political shift in Northern India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Uttiramerur inscription' from the reign of Parantaka I provides a detailed account of which aspect of Chola administration?",
@@ -6885,7 +6885,7 @@ const questionDatabase = [
     "answer": "Local self-government",
     "explanation": "The Uttiramerur inscription describes the intricate system of village assemblies ('sabha') and the rules for electing members, highlighting the sophisticated local self-government under the Cholas.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "In the Chola administration, a 'nadu' referred to which of the following?",
@@ -6898,7 +6898,7 @@ const questionDatabase = [
     "answer": "An administrative unit composed of several villages",
     "explanation": "The 'nadu' was a key administrative unit in the Chola kingdom, consisting of a collection of villages and administered by a 'nattar' or assembly of landowners.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The theory of 'Indian Feudalism', proposed by R.S. Sharma, primarily argues that the decline of trade and urbanization led to what?",
@@ -6911,7 +6911,7 @@ const questionDatabase = [
     "answer": "The fragmentation of political power and the rise of local lords",
     "explanation": "Sharma's theory suggests that the practice of giving land grants to Brahmans and officials created a class of local intermediaries who gradually became powerful and independent, leading to a decentralized 'feudal' structure.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The decline of long-distance trade and the economy in early medieval India led to the growth of which of the following?",
@@ -6924,7 +6924,7 @@ const questionDatabase = [
     "answer": "The rise of a self-sufficient village economy",
     "explanation": "The decline of urban centers and long-distance trade forced villages to become more self-sufficient, relying on local production and exchange for their needs.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nanadesis' and 'Manigramam' were prominent examples of what in early medieval South India?",
@@ -6937,7 +6937,7 @@ const questionDatabase = [
     "answer": "Trade guilds",
     "explanation": "The 'Nanadesis' and 'Manigramam' were powerful trade guilds that controlled long-distance trade routes across the Indian Ocean and within the subcontinent.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The rise of the new social order in early medieval India was characterized by the proliferation of which of the following?",
@@ -6950,7 +6950,7 @@ const questionDatabase = [
     "answer": "New social groups called 'jatis'",
     "explanation": "The early medieval period saw the emergence of numerous new 'jatis' or sub-castes, often based on occupation or clan, leading to a more complex and fragmented social hierarchy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "In the context of the condition of women in early medieval India, which of the following practices became more prevalent?",
@@ -6963,7 +6963,7 @@ const questionDatabase = [
     "answer": "The rise of sati (widow immolation)",
     "explanation": "While the condition of women varied, the early medieval period saw a decline in their status, with practices like sati and purdah becoming more common, particularly among the upper classes and Rajputs.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pratihara' dynasty, a major power in early medieval Northern India, was founded by which king?",
@@ -6976,7 +6976,7 @@ const questionDatabase = [
     "answer": "Nagabhata I",
     "explanation": "Nagabhata I is considered the founder of the Gurjara-Pratihara dynasty, which established its rule in the Malwa region and later expanded its power to Kannauj.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chandella' dynasty, known for its temples at Khajuraho, ruled over which region?",
@@ -6989,7 +6989,7 @@ const questionDatabase = [
     "answer": "Bundelkhand",
     "explanation": "The Chandellas were a Rajput dynasty that ruled over the Bundelkhand region (modern Madhya Pradesh and Uttar Pradesh) and are famous for their magnificent temples at Khajuraho.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pala' dynasty, a major power in Eastern India, was founded by which king?",
@@ -7002,7 +7002,7 @@ const questionDatabase = [
     "answer": "Gopala",
     "explanation": "Gopala, who was a commoner, was elected as the ruler by the people to end a period of anarchy, thus establishing the Pala dynasty in Bengal and Bihar.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Chola administration was known for its well-organized land revenue system, which was based on what?",
@@ -7015,7 +7015,7 @@ const questionDatabase = [
     "answer": "A periodic land survey and classification",
     "explanation": "The Cholas maintained a comprehensive land revenue system based on periodic surveys and classification of land, which helped in assessing the tax ('kanikadan') more accurately.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indian Feudalism' theory suggests that the economy in early medieval India was characterized by which of the following?",
@@ -7028,7 +7028,7 @@ const questionDatabase = [
     "answer": "A shift from a money-based economy to a land-based economy",
     "explanation": "The theory argues that the decline in the use of coinage and the increasing importance of land as a source of wealth led to a shift towards a land-based economy, which was the foundation of feudalism.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajput' political system was characterized by which of the following?",
@@ -7041,7 +7041,7 @@ const questionDatabase = [
     "answer": "A confederacy of autonomous and warring clans",
     "explanation": "The Rajput polity was not a single, unified empire but a collection of independent or semi-independent clans that were often in conflict with each other, which weakened their collective resistance against external threats.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The rise of the Brahmans in early medieval society was largely due to which practice?",
@@ -7054,7 +7054,7 @@ const questionDatabase = [
     "answer": "Land grants from kings and chiefs",
     "explanation": "Kings and chiefs granted tax-free land ('brahmadeya') to Brahmans to legitimize their rule and gain religious merit. This practice elevated the economic and social status of the Brahmans.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major port on the western coast of India during the early medieval period?",
@@ -7067,7 +7067,7 @@ const questionDatabase = [
     "answer": "Broach (Bharuch)",
     "explanation": "Broach, located on the Narmada River in Gujarat, was a major port on the western coast that continued to handle trade with the Middle East and East Africa during this period.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajput' period is often associated with the decline of which of the following?",
@@ -7080,7 +7080,7 @@ const questionDatabase = [
     "answer": "Urban centers",
     "explanation": "Due to political instability and the decline of long-distance trade, many old urban centers declined, leading to a more ruralized and agrarian society during the early medieval period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a new feature of the social order in early medieval India?",
@@ -7093,7 +7093,7 @@ const questionDatabase = [
     "answer": "The rise of a new class of powerful feudal lords",
     "explanation": "The fragmentation of political power and the land grant system led to the emergence of a new class of powerful feudal lords, often of different castes, who wielded significant political and economic power.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Paramaras' of Malwa and the 'Solankis' of Gujarat are examples of which group of dynasties that rose to power in early medieval India?",
@@ -7106,7 +7106,7 @@ const questionDatabase = [
     "answer": "Rajput clans",
     "explanation": "The Paramaras and Solankis were two of the major Rajput clans that dominated the political landscape of Central and Western India during the early medieval period.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Chola king 'Rajendra I' is famous for his naval expeditions to which region to secure maritime trade routes?",
@@ -7119,7 +7119,7 @@ const questionDatabase = [
     "answer": "Southeast Asia (Srivijaya)",
     "explanation": "Rajendra I launched a successful naval campaign against the Srivijaya kingdom to control the strategic maritime trade routes in the Strait of Malacca.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The concept of 'Indian Feudalism' is primarily based on the analysis of which historical sources?",
@@ -7132,7 +7132,7 @@ const questionDatabase = [
     "answer": "Land grant inscriptions",
     "explanation": "The theory of Indian feudalism is largely based on the interpretation of numerous land grant inscriptions ('inscriptional evidence') that detail the transfer of land rights and administrative authority from the king to the grantees.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major impact of 'Indian Feudalism' on the agrarian economy?",
@@ -7145,7 +7145,7 @@ const questionDatabase = [
     "answer": "The growth of serfdom and unfree peasantry",
     "explanation": "The land grant system, which gave landlords control over both the land and its cultivators, led to a decline in the status of peasants, often tying them to the land in a form of serfdom.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pala' kings of Bengal were great patrons of which of the following?",
@@ -7158,7 +7158,7 @@ const questionDatabase = [
     "answer": "Buddhism",
     "explanation": "The Palas were strong patrons of Buddhism and played a crucial role in its revival in Eastern India, establishing major monasteries and universities like Nalanda and Vikramshila.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajput' period witnessed a significant decline in the use of which of the following in the economy?",
@@ -7171,7 +7171,7 @@ const questionDatabase = [
     "answer": "Gold and silver coins",
     "explanation": "The decline of long-distance trade and the agrarian nature of the economy led to a noticeable decline in the circulation of gold and silver coins, which is a key indicator of the 'feudal' nature of the economy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' economy was largely based on which of the following?",
@@ -7184,7 +7184,7 @@ const questionDatabase = [
     "answer": "Agrarian surplus and land revenue",
     "explanation": "The Chola state derived its primary income from land revenue, which was collected from the agricultural surplus of the fertile Kaveri delta region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The rise of the Rajputs is linked to the decline of which ancient empire in Northern India?",
@@ -7197,7 +7197,7 @@ const questionDatabase = [
     "answer": "Harsha's Empire",
     "explanation": "After the death of Harsha in 647 CE, his empire disintegrated, and the political vacuum paved the way for the emergence of numerous regional powers, including the various Rajput clans.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas', who were a major power in the Deccan, had their capital at which place?",
@@ -7210,7 +7210,7 @@ const questionDatabase = [
     "answer": "Manyakheta",
     "explanation": "The Rashtrakuta dynasty, which ruled over a large part of the Deccan, established their capital at Manyakheta (modern Malkhed in Karnataka).",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' administration's 'Kurram' was a what?",
@@ -7223,7 +7223,7 @@ const questionDatabase = [
     "answer": "A village council",
     "explanation": "The 'Kurram' was a key institution of local self-government in the Chola kingdom, representing a cluster of villages with its own assembly.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the decline of urban centers in early medieval India?",
@@ -7236,7 +7236,7 @@ const questionDatabase = [
     "answer": "Decline in trade and the use of money",
     "explanation": "The decline of long-distance trade, particularly with the Roman Empire, and the reduced circulation of coinage, led to the decay of many urban centers that were dependent on trade.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajput' society was characterized by a strong emphasis on which of the following?",
@@ -7249,7 +7249,7 @@ const questionDatabase = [
     "answer": "Warrior ethics and honor",
     "explanation": "Rajput society was highly militarized, with a strong emphasis on 'dharma' (duty), 'kshatriya' (warrior) ethics, and personal honor, which often led to internal conflicts and wars.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' society was stratified, with the highest status accorded to which group?",
@@ -7262,7 +7262,7 @@ const questionDatabase = [
     "answer": "Brahmans",
     "explanation": "The Chola kings were great patrons of the Brahmans, granting them vast tax-free lands ('brahmadeyas'), which ensured their high social and economic status.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pala' and 'Sena' dynasties of Bengal were the last major Hindu dynasties to rule the region before the advent of which of the following?",
@@ -7275,7 +7275,7 @@ const questionDatabase = [
     "answer": "The Turks",
     "explanation": "The Pala and Sena dynasties were finally overthrown by the Turkish conquest of Bengal led by Bakhtiyar Khalji, which marked the end of Hindu rule in the region.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major development in the field of Indian mathematics during the early medieval period?",
@@ -7288,7 +7288,7 @@ const questionDatabase = [
     "answer": "Development of trigonometry",
     "explanation": "Indian mathematicians like Aryabhata and Bhaskara II made significant contributions to the field of trigonometry, including the development of sine and cosine functions.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' were originally a feudatory of which of the following dynasties?",
@@ -7301,7 +7301,7 @@ const questionDatabase = [
     "answer": "The Chalukyas of Badami",
     "explanation": "The Rashtrakutas were initially a feudatory of the Chalukyas of Badami. Their founder, Dantidurga, overthrew the Chalukya king Kirtivarman II to establish the Rashtrakuta dynasty.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' village assemblies, 'Ur' and 'Sabha', were different in which way?",
@@ -7314,7 +7314,7 @@ const questionDatabase = [
     "answer": "'Ur' was for commoners, while 'Sabha' was for Brahmans",
     "explanation": "The 'Ur' was a village assembly of the common people, while the 'Sabha' was an exclusive assembly of Brahman landowners, particularly in 'brahmadeya' villages.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Paramara' king 'Raja Bhoja' was a renowned scholar who contributed to which of the following fields?",
@@ -7327,7 +7327,7 @@ const questionDatabase = [
     "answer": "Poetry, grammar, and philosophy",
     "explanation": "Raja Bhoja was a great polymath and patron of learning. He authored numerous works on subjects ranging from grammar and poetry to philosophy and architecture.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a new form of land tenure that emerged in early medieval India?",
@@ -7340,7 +7340,7 @@ const questionDatabase = [
     "answer": "Land grants to religious institutions",
     "explanation": "The practice of granting tax-free land to religious institutions and Brahmans ('brahmadeya', 'devadana') became a prominent feature of the economy, which led to the creation of powerful landowning intermediaries.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Chola economy was characterized by a high degree of which of the following?",
@@ -7353,7 +7353,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "The Chola period, particularly in its agrarian economy, saw a combination of local autonomy at the village level, a system of feudal exploitation, and a society that was largely rural and self-sufficient.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' administration divided the kingdom into provinces called which of the following?",
@@ -7366,7 +7366,7 @@ const questionDatabase = [
     "answer": "Mandalam",
     "explanation": "The Chola kingdom was divided into 'Mandalams' or provinces, which were further subdivided into 'Valanadus' and 'Nadus' for administrative purposes.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The decline in the status of women in early medieval India was partly a result of which of the following factors?",
@@ -7379,7 +7379,7 @@ const questionDatabase = [
     "answer": "The rise of a patriarchal feudal social structure",
     "explanation": "The feudal structure, based on land ownership and inheritance, reinforced patriarchal norms. Women's roles became more confined to the household, and their property rights declined.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Prithviraj Raso', a major epic poem about the Chauhan king, was written by which court poet?",
@@ -7392,7 +7392,7 @@ const questionDatabase = [
     "answer": "Chand Bardai",
     "explanation": "Chand Bardai was the court poet and close friend of Prithviraj Chauhan. His work 'Prithviraj Raso' is a semi-historical epic that narrates the life and exploits of the king.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arab conquest of Sind' in 712 CE, led by Muhammad bin Qasim, was a major political development for which dynasty?",
@@ -7405,7 +7405,7 @@ const questionDatabase = [
     "answer": "The Gurjara-Pratiharas",
     "explanation": "The Gurjara-Pratiharas, particularly Nagabhata I, successfully resisted the Arab incursions into Northern India, establishing their power as a major political force in the region.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major achievement of Indian science during the early medieval period?",
@@ -7418,7 +7418,7 @@ const questionDatabase = [
     "answer": "The development of sophisticated surgical tools",
     "explanation": "Ancient Indian texts like the 'Sushruta Samhita' contain detailed descriptions of over 120 surgical instruments, indicating a high level of advancement in surgery.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sena' dynasty, which succeeded the Palas in Bengal, had its origin in which region?",
@@ -7431,7 +7431,7 @@ const questionDatabase = [
     "answer": "Karnataka",
     "explanation": "The Sena dynasty, founded by Samantasena, was of Karnata (Karnataka) origin and was a feudatory of the Palas before it overthrew them and established its own rule.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' administration was famous for its large number of temples, which served as which of the following?",
@@ -7444,7 +7444,7 @@ const questionDatabase = [
     "answer": "Centers of administration, education, and economy",
     "explanation": "Chola temples were not just religious institutions. They were large landowning entities, centers of education, and hubs for economic activity, often acting as mini-towns in themselves.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indian Feudalism' theory is criticized for which of the following reasons?",
@@ -7457,7 +7457,7 @@ const questionDatabase = [
     "answer": "It applies a Western model to the Indian context",
     "explanation": "A major criticism of the theory is that it uses a Eurocentric model of feudalism (based on serfdom and military service) to explain the Indian political and social system, which had its own unique characteristics.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Chola society's 'Perundanam' and 'Sirudanam' were two different classes of what?",
@@ -7470,7 +7470,7 @@ const questionDatabase = [
     "answer": "Landlords",
     "explanation": "The 'Perundanam' and 'Sirudanam' were two categories of landlords in the Chola kingdom. The 'Perundanam' were major landlords, while the 'Sirudanam' were small-scale landowners.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Paramara' dynasty's rule is known for the development of which language and literature?",
@@ -7483,7 +7483,7 @@ const questionDatabase = [
     "answer": "Sanskrit",
     "explanation": "The Paramara kings, especially Raja Bhoja, were great patrons of Sanskrit literature and scholarship, leading to a flourishing of works in the language during their reign.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of the Chola village economy?",
@@ -7496,7 +7496,7 @@ const questionDatabase = [
     "answer": "The construction of large-scale irrigation projects",
     "explanation": "The Cholas were masters of water management. They built a vast network of irrigation tanks, canals, and reservoirs to support their agrarian economy, which was the backbone of their power.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' were known for their religious tolerance and patronage of which religions?",
@@ -7509,7 +7509,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "The Rashtrakuta kings were known for their religious tolerance. They were patrons of Hinduism (as seen in the Kailasa temple), Jainism, and Buddhism, allowing all three religions to flourish in their kingdom.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Al-Beruni', a Persian scholar who visited India, provided a detailed account of which aspect of Indian society?",
@@ -7522,7 +7522,7 @@ const questionDatabase = [
     "answer": "The condition of women and the caste system",
     "explanation": "Al-Beruni's 'Kitab-ul-Hind' provides a crucial external perspective on Indian society, including the complex caste system, the status of women, and the philosophical and scientific traditions of the time.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Arab conquest of Sind' led to a significant exchange of ideas in which of the following fields?",
@@ -7535,7 +7535,7 @@ const questionDatabase = [
     "answer": "Mathematics and medicine",
     "explanation": "The Arabs absorbed Indian knowledge in mathematics, particularly the zero and the decimal system, and medicine, which they later transmitted to Europe.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gurjara-Pratiharas' controlled which major city, which was a symbol of political power in Northern India?",
@@ -7548,7 +7548,7 @@ const questionDatabase = [
     "answer": "Kannauj",
     "explanation": "The Gurjara-Pratiharas made Kannauj their capital after a long struggle, and its control symbolized their authority over the entire Gangetic plains.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' army was particularly strong in which of the following?",
@@ -7561,7 +7561,7 @@ const questionDatabase = [
     "answer": "Navy",
     "explanation": "The Cholas had a powerful and well-organized navy, which they used to expand their influence across the Bay of Bengal, and conduct successful campaigns against Southeast Asian kingdoms.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sena' rulers, who succeeded the Palas, were staunch supporters of which of the following religions?",
@@ -7574,7 +7574,7 @@ const questionDatabase = [
     "answer": "Vaishnavism and Shaivism",
     "explanation": "Unlike the Palas who were patrons of Buddhism, the Senas were devout Hindus and were great patrons of Vaishnavism and Shaivism, and their rule is considered a period of Hindu revival in Bengal.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pala' dynasty is famous for its patronage of which Buddhist university?",
@@ -7587,7 +7587,7 @@ const questionDatabase = [
     "answer": "Vikramshila",
     "explanation": "The Pala king Dharmapala is credited with the establishment of the Vikramshila Mahavihara, which became a major center of learning and a rival to the renowned Nalanda university.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' played a crucial role in which of the following?",
@@ -7600,7 +7600,7 @@ const questionDatabase = [
     "answer": "The construction of rock-cut temples",
     "explanation": "The Rashtrakutas are renowned for their rock-cut temples at Ellora, particularly the magnificent Kailasa Temple, which is a testament to their architectural skill.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' society was characterized by the division of people into two major groups, which were?",
@@ -7613,7 +7613,7 @@ const questionDatabase = [
     "answer": "Left-hand and right-hand castes",
     "explanation": "Chola society was divided into a new social order of 'idangai' (left-hand) and 'valangai' (right-hand) castes, which were occupational groups and often had conflicts.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major impact of the 'Indian Feudalism' on trade and commerce?",
@@ -7626,7 +7626,7 @@ const questionDatabase = [
     "answer": "The emergence of small, localized markets",
     "explanation": "With the decline of long-distance trade and the fragmentation of political power, trade became more localized, leading to the growth of small, regional markets and fairs.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Puranic' tradition and the concept of 'Bhakti' (devotion) became more popular during which period?",
@@ -7639,7 +7639,7 @@ const questionDatabase = [
     "answer": "Early Medieval Period",
     "explanation": "The Early Medieval period witnessed the widespread popularity of the 'Puranic' tradition and the 'Bhakti' movement, which emphasized a personal and emotional devotion to a chosen deity.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' and the 'Chalukyas of Kalyana' were involved in a continuous struggle for control over which region?",
@@ -7652,7 +7652,7 @@ const questionDatabase = [
     "answer": "The Deccan region",
     "explanation": "The Rashtrakutas and the Chalukyas of Kalyana were two of the most powerful dynasties of the Deccan, and their history is marked by a long and continuous struggle for supremacy over the region.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pratihara' king 'Mihira Bhoja' was a great patron of which of the following?",
@@ -7665,7 +7665,7 @@ const questionDatabase = [
     "answer": "Art and literature",
     "explanation": "Mihira Bhoja was not only a powerful military leader but also a patron of art and literature. His court was a center of learning, and he himself authored several works.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of the 'Indian feudal' social structure?",
@@ -7678,7 +7678,7 @@ const questionDatabase = [
     "answer": "The rise of a new class of powerful warriors and landlords",
     "explanation": "The feudal system saw the emergence of a new class of powerful intermediaries—the 'Samantas' or 'feudatories'—who were granted land in return for military service and loyalty to the king.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' administration's revenue department was known as which of the following?",
@@ -7691,7 +7691,7 @@ const questionDatabase = [
     "answer": "Varitpotthagam",
     "explanation": "The revenue department of the Chola administration was known as the 'Varitpotthagam', which maintained meticulous records of land surveys and tax collection.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pala' dynasty's rule in Bengal is considered a golden age for which of the following?",
@@ -7704,7 +7704,7 @@ const questionDatabase = [
     "answer": "Buddhist art and architecture",
     "explanation": "The Palas, who were devout Buddhists, were great patrons of Buddhist art and architecture. They established famous monasteries like Nalanda and Vikramshila and patronized the art of miniature painting.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' military organization was characterized by which of the following?",
@@ -7717,7 +7717,7 @@ const questionDatabase = [
     "answer": "A large, professional standing army",
     "explanation": "The Cholas maintained a large, well-trained, and professional standing army, which included a navy, cavalry, infantry, and an elephant corps, a key factor in their military success.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rashtrakutas' capital at Manyakheta was a major center for which of the following?",
@@ -7730,7 +7730,7 @@ const questionDatabase = [
     "answer": "Intellectual and cultural activities",
     "explanation": "Manyakheta was a prominent center of learning and culture under the Rashtrakutas, attracting scholars, artists, and poets from various regions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Advaita Vedanta' philosophy, which emphasizes the non-duality of the soul (Atman) and the ultimate reality (Brahman), was primarily propagated by which thinker?",
@@ -7743,7 +7743,7 @@ const questionDatabase = [
     "answer": "Shankaracharya",
     "explanation": "Shankaracharya was a key figure in the revival of Hinduism. His 'Advaita Vedanta' philosophy is based on the idea that the individual soul and the universal soul are one and the same.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vishishtadvaita' school of Vedanta, founded by Ramanuja, is known for its concept of which of the following?",
@@ -7756,7 +7756,7 @@ const questionDatabase = [
     "answer": "Qualified non-duality",
     "explanation": "Ramanuja's 'Vishishtadvaita' philosophy states that the soul (Jiva) and the material world are distinct from but eternally connected to Brahman as its attributes or body, thus representing a 'qualified' form of non-duality.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dvaita' school of Vedanta, which advocates a strict dualism between God and the individual soul, was founded by whom?",
@@ -7769,7 +7769,7 @@ const questionDatabase = [
     "answer": "Madhvacharya",
     "explanation": "Madhvacharya's 'Dvaita' philosophy is a dualistic system that holds that the ultimate reality (Brahman) and the individual soul are eternally and completely separate entities.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Alvars' and 'Nayanars' were the saints of which devotional movement in South India?",
@@ -7782,7 +7782,7 @@ const questionDatabase = [
     "answer": "Tamil Bhakti movement",
     "explanation": "The 'Alvars' were a group of Tamil saint-poets who were devotees of Vishnu, while the 'Nayanars' were devotees of Shiva. They were instrumental in the growth of the Bhakti movement in South India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' movement that arrived in India was a mystical form of which religion?",
@@ -7795,7 +7795,7 @@ const questionDatabase = [
     "answer": "Islam",
     "explanation": "Sufism is a mystical dimension of Islam. Sufis emphasize a direct, personal experience of God through asceticism, devotion, and mystical practices.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gita Govinda', a famous Sanskrit work on the love story of Radha and Krishna, was written by whom?",
@@ -7808,7 +7808,7 @@ const questionDatabase = [
     "answer": "Jayadeva",
     "explanation": "Jayadeva was a Sanskrit poet who lived in the court of the Sena ruler Lakshmana Sena. His work 'Gita Govinda' is a lyrical poem that describes the relationship between Krishna and Radha.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rajatarangini', a historical chronicle of the kings of Kashmir, was authored by whom?",
@@ -7821,7 +7821,7 @@ const questionDatabase = [
     "answer": "Kalhana",
     "explanation": "Kalhana's 'Rajatarangini' is a historical text that provides a detailed and chronological account of the rulers of Kashmir from ancient times to the 12th century CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khajuraho' temple complex, famous for its intricate sculptures, is a prominent example of which style of architecture?",
@@ -7834,7 +7834,7 @@ const questionDatabase = [
     "answer": "Nagara style",
     "explanation": "The temples at Khajuraho were built by the Chandella dynasty and are a prime example of the North Indian Nagara style of temple architecture, known for their elaborate spires (shikharas).",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The bronze sculpture of 'Nataraja', depicting Shiva's cosmic dance, is a masterpiece of which dynasty's art?",
@@ -7847,7 +7847,7 @@ const questionDatabase = [
     "answer": "Cholas",
     "explanation": "The Chola dynasty (c. 850-1250 CE) is renowned for its bronze sculptures, especially the 'Nataraja' (Shiva as the Lord of Dance), which is a symbol of Chola art and religious philosophy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alberuni's 'Kitab-ul-Hind' (or 'Tahqiq-i-Hind') is a significant source of information on which aspect of 11th-century India?",
@@ -7860,7 +7860,7 @@ const questionDatabase = [
     "answer": "Social customs, science, and philosophy",
     "explanation": "Alberuni's book provides a comprehensive and objective account of Indian society, including its caste system, religious beliefs, philosophical schools, and scientific knowledge.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major feature of religion in early medieval India?",
@@ -7873,7 +7873,7 @@ const questionDatabase = [
     "answer": "The growth of the 'Bhakti' movement",
     "explanation": "The period between 750 and 1200 CE saw the emergence and growth of the 'Bhakti' movement, which emphasized personal devotion and love for God as the path to salvation, making religion more accessible to the masses.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Shore Temple' at Mahabalipuram is a fine example of which dynasty's architecture?",
@@ -7886,7 +7886,7 @@ const questionDatabase = [
     "answer": "Pallavas",
     "explanation": "The Shore Temple, built during the reign of the Pallava king Narasimhavarman II, is one of the earliest examples of a structural temple in South India and a key monument of Pallava architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following is considered a key figure in the transmission of Indian knowledge to the Arab world during the early medieval period?",
@@ -7899,7 +7899,7 @@ const questionDatabase = [
     "answer": "Alberuni",
     "explanation": "Alberuni, a scholar who traveled to India with Mahmud of Ghazni, studied Indian texts and science. His writings were crucial in transmitting Indian knowledge in mathematics, medicine, and philosophy to the Islamic world.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tamil devotional cult' was characterized by which of the following?",
@@ -7912,7 +7912,7 @@ const questionDatabase = [
     "answer": "A focus on mystical love and devotion to God",
     "explanation": "The Tamil devotional cult, represented by the Alvars and Nayanars, emphasized 'Bhakti' or mystical love for God, which often transcended social and caste boundaries.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sun Temple' at Konark, a masterpiece of temple architecture, was built by which dynasty?",
@@ -7925,7 +7925,7 @@ const questionDatabase = [
     "answer": "Ganga dynasty",
     "explanation": "The Sun Temple at Konark was built in the 13th century by King Narasimhadeva I of the Eastern Ganga dynasty and is known for its intricate stone carvings depicting the chariot of the Sun god.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chishti' order, a major Sufi order in India, was founded by which saint?",
@@ -7938,7 +7938,7 @@ const questionDatabase = [
     "answer": "Khwaja Muinuddin Chishti",
     "explanation": "Khwaja Muinuddin Chishti is considered the founder of the Chishti order in India. He established his spiritual center in Ajmer, which became a major pilgrimage site for people of all faiths.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of literature in the newly developing languages of this period?",
@@ -7951,7 +7951,7 @@ const questionDatabase = [
     "answer": "It was heavily influenced by Sanskrit and Puranic traditions",
     "explanation": "The newly developing regional languages, such as Kannada and Telugu, were used to translate and adapt stories from Sanskrit epics and Puranas, making these traditions accessible to a wider audience.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kailasa temple' at Ellora, a magnificent rock-cut temple, is an example of which dynasty's architectural patronage?",
@@ -7964,7 +7964,7 @@ const questionDatabase = [
     "answer": "Rashtrakutas",
     "explanation": "The Kailasa temple, carved out of a single rock, was commissioned by the Rashtrakuta king Krishna I in the 8th century and is a famous example of their artistic and engineering prowess.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following philosophical schools emphasizes 'Prapatti' or complete surrender to God as the sole means of salvation?",
@@ -7977,7 +7977,7 @@ const questionDatabase = [
     "answer": "Vishishtadvaita Vedanta",
     "explanation": "Ramanuja's Vishishtadvaita school places great emphasis on 'Prapatti', which means absolute surrender to God as the most effective and direct path to salvation, particularly for those who cannot follow other paths.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vesara' style of temple architecture, a blend of Nagara and Dravida styles, is most prominently seen in the temples built by which dynasty?",
@@ -7990,7 +7990,7 @@ const questionDatabase = [
     "answer": "Chalukyas of Kalyana",
     "explanation": "The 'Vesara' style is also known as the Chalukya style, and it flourished under the Chalukyas of Kalyana, who built temples in the Deccan region that combined elements from both North and South Indian temple traditions.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kampar Ramayanam', a Tamil version of the epic Ramayana, was written by whom?",
@@ -8003,7 +8003,7 @@ const questionDatabase = [
     "answer": "Kambar",
     "explanation": "Kambar, a renowned Tamil poet, wrote the 'Kampar Ramayanam', which is a retelling of the Sanskrit epic Ramayana in Tamil and is considered a masterpiece of Tamil literature.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of the 'Bhakti' movement in early medieval India?",
@@ -8016,7 +8016,7 @@ const questionDatabase = [
     "answer": "It used local languages and vernaculars",
     "explanation": "Bhakti saints and poets, like the Alvars and Nayanars, composed their hymns and poems in regional languages, making their message of devotion accessible to the common people.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'miniature painting' tradition in India saw significant development under which dynasties?",
@@ -8029,7 +8029,7 @@ const questionDatabase = [
     "answer": "Palas and Senas",
     "explanation": "The Pala and Sena dynasties of Bengal were great patrons of Buddhist art and are credited with the development of the 'miniature painting' style on palm leaves, often depicting scenes from Buddhist mythology.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Puranas', which became a cornerstone of popular Hinduism, are characterized by which of the following?",
@@ -8042,7 +8042,7 @@ const questionDatabase = [
     "answer": "Narrative and mythological stories of deities",
     "explanation": "The Puranas are a collection of ancient texts that contain a wealth of stories, myths, and legends about a pantheon of gods and goddesses, which made religious concepts more relatable to the masses.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The arrival of Islam in India, particularly through the Arab conquest of Sind, led to which of the following?",
@@ -8055,7 +8055,7 @@ const questionDatabase = [
     "answer": "Cultural interaction and the exchange of ideas",
     "explanation": "The arrival of Islam in India through conquest and trade led to a significant cultural exchange. Indian knowledge in mathematics, medicine, and philosophy was transmitted to the Islamic world, and new architectural and artistic styles emerged.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following Sufi orders was known for its emphasis on a simple, ascetic lifestyle and social service?",
@@ -8068,7 +8068,7 @@ const questionDatabase = [
     "answer": "Chishti order",
     "explanation": "The Chishti order, founded by Khwaja Muinuddin Chishti, was known for its emphasis on a simple life, a rejection of material wealth, and a close association with the poor and marginalized.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hoysala' style of temple architecture is known for its intricate carvings and star-shaped plans. It is most famously seen at which of the following locations?",
@@ -8081,7 +8081,7 @@ const questionDatabase = [
     "answer": "Belur and Halebidu",
     "explanation": "The Chennakesava temple at Belur and the Hoysaleswara temple at Halebidu are considered the finest examples of the Hoysala style, known for their elaborate carvings and unique architectural design.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pattadakal' temple complex is a UNESCO World Heritage Site that shows a blend of which two architectural styles?",
@@ -8094,7 +8094,7 @@ const questionDatabase = [
     "answer": "Nagara and Dravida",
     "explanation": "The temples at Pattadakal showcase a unique confluence of North Indian (Nagara) and South Indian (Dravida) temple styles, reflecting the cultural exchange that occurred under the Chalukyas.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dasakumaracharita', a work of prose literature, was written in Sanskrit by which author?",
@@ -8107,7 +8107,7 @@ const questionDatabase = [
     "answer": "Dandin",
     "explanation": "Dandin's 'Dasakumaracharita' is a Sanskrit prose work that narrates the adventures of ten princes, showcasing a mastery of storytelling and the use of the Sanskrit language.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vimana' in a Dravida-style temple refers to which of the following?",
@@ -8120,7 +8120,7 @@ const questionDatabase = [
     "answer": "The stepped pyramid-shaped tower above the sanctum",
     "explanation": "In Dravida architecture, the 'Vimana' is the multi-storied tower that rises directly above the 'garbhagriha' (sanctum sanctorum), distinguishing it from the 'shikhara' of the Nagara style.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major impact of the 'Bhakti' movement on society?",
@@ -8133,7 +8133,7 @@ const questionDatabase = [
     "answer": "It promoted social equality and challenged caste barriers",
     "explanation": "The 'Bhakti' movement, particularly in the south, challenged the rigidity of the caste system, as many saints came from lower castes and their message of devotion was open to all, irrespective of social status.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' practice of 'sama' refers to which of the following?",
@@ -8146,7 +8146,7 @@ const questionDatabase = [
     "answer": "A form of devotional music and dance",
     "explanation": "'Sama' is a form of devotional music and dance, particularly practiced by the Chishti order, which is used as a means to achieve a state of spiritual ecstasy and a closer connection with God.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ajanta Caves' are a great example of which type of art form?",
@@ -8159,7 +8159,7 @@ const questionDatabase = [
     "answer": "Mural painting",
     "explanation": "The Ajanta Caves are renowned for their ancient rock-cut caves and magnificent mural paintings, which depict scenes from Buddhist Jataka tales and are considered a masterpiece of Indian art.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Periyapuranam', a collection of the lives of the Nayanar saints, was written in which language?",
@@ -8172,7 +8172,7 @@ const questionDatabase = [
     "answer": "Tamil",
     "explanation": "The 'Periyapuranam' is a major work of Tamil literature that narrates the lives and stories of the 63 Nayanar saints, who were devotees of Lord Shiva.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Brihadeeswarar Temple' at Thanjavur, a UNESCO World Heritage Site, is a prime example of which style of architecture?",
@@ -8185,7 +8185,7 @@ const questionDatabase = [
     "answer": "Dravida style",
     "explanation": "The Brihadeeswarar Temple, built by the Chola king Rajaraja I, is a perfect example of the Dravida style of architecture, with its massive 'Vimana' (tower) and intricate sculptures.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major philosophical thinker who lived in the early medieval period and challenged the ideas of both Shankaracharya and Ramanuja?",
@@ -8198,7 +8198,7 @@ const questionDatabase = [
     "answer": "Madhvacharya",
     "explanation": "Madhvacharya, who lived in the 13th century, was a key philosopher who founded the 'Dvaita' school of Vedanta, directly opposing the monistic ideas of Shankaracharya and the qualified monism of Ramanuja.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Minar' and 'Quwwat-ul-Islam Mosque' at Delhi are examples of which style of architecture?",
@@ -8211,7 +8211,7 @@ const questionDatabase = [
     "answer": "Indo-Islamic style",
     "explanation": "The Qutb Minar complex is a prime example of the early Indo-Islamic architectural style, which emerged after the Turkish conquest of Delhi and blended elements of Islamic and Indian art and architecture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gopuram' in a Dravida-style temple refers to which of the following?",
@@ -8224,7 +8224,7 @@ const questionDatabase = [
     "answer": "The entrance gateway",
     "explanation": "The 'Gopuram' is the massive and ornate entrance tower of a Dravida-style temple, which often serves as a key landmark and a symbol of the temple's grandeur.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Veerashaiva' movement, founded by Basavanna, was a major religious movement that emerged in which region?",
@@ -8237,7 +8237,7 @@ const questionDatabase = [
     "answer": "Karnataka",
     "explanation": "The 'Veerashaiva' (or 'Lingayat') movement was a social and religious reform movement that emerged in 12th-century Karnataka. It challenged caste distinctions and rituals and emphasized the worship of Shiva.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vedic' tradition, which was largely ritualistic, was challenged by the rise of which of the following?",
@@ -8250,7 +8250,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "The Vedic tradition was challenged by various new philosophical and religious movements, including the atheistic Charvaka school, the reformist Jainism and Buddhism, and the more accessible Puranic and Bhakti traditions.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dargah of Khwaja Muinuddin Chishti' is located in which city, making it a major pilgrimage site for people of all faiths?",
@@ -8263,7 +8263,7 @@ const questionDatabase = [
     "answer": "Ajmer",
     "explanation": "The 'Dargah' or tomb of Khwaja Muinuddin Chishti in Ajmer, Rajasthan, is a famous pilgrimage site that attracts millions of devotees from various religious backgrounds.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major difference between the 'Dravida' and 'Nagara' styles of temple architecture?",
@@ -8276,7 +8276,7 @@ const questionDatabase = [
     "answer": "The stepped 'Vimana' vs. curvilinear 'Shikhara'",
     "explanation": "The main distinction lies in the tower above the sanctum. The Dravida style has a stepped pyramid-shaped tower ('Vimana'), while the Nagara style has a curvilinear or conical tower ('Shikhara').",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pala School of Art', which flourished in Eastern India, is famous for which of the following?",
@@ -8289,7 +8289,7 @@ const questionDatabase = [
     "answer": "Bronze sculptures and miniature paintings",
     "explanation": "The Pala dynasty was a great patron of Buddhist art. The Pala School is known for its exquisite bronze sculptures of Buddhist deities and its miniature paintings on palm-leaf manuscripts.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' concept of 'fana' refers to which of the following?",
@@ -8302,7 +8302,7 @@ const questionDatabase = [
     "answer": "The annihilation of the individual self in God",
     "explanation": "'Fana' is a core Sufi concept that refers to the passing away or complete annihilation of the individual ego and a mystical union with God.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ghalibnamah', a famous work of Persian literature, was written by whom?",
@@ -8315,7 +8315,7 @@ const questionDatabase = [
     "answer": "Alberuni",
     "explanation": "Alberuni was also a great writer in Persian. The 'Ghalibnamah' is a work attributed to him, providing an account of the history of the Ghaznavid dynasty and their rule.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' bronze sculptures were primarily intended for which purpose?",
@@ -8328,7 +8328,7 @@ const questionDatabase = [
     "answer": "Processions and temple rituals",
     "explanation": "Chola bronzes, particularly those of deities like Shiva and Vishnu, were designed to be carried in temple processions. They were often referred to as 'utsava-murti' or 'processional deities'.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major impact of the 'Bhakti' movement on women?",
@@ -8341,7 +8341,7 @@ const questionDatabase = [
     "answer": "It elevated their status and allowed them to participate as saints",
     "explanation": "The 'Bhakti' movement, with its emphasis on personal devotion, offered a path to salvation that was open to all, including women. Many women, such as Andal (an Alvar saint), became prominent saints and poets.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Minar' complex is a key example of the fusion of which two architectural styles?",
@@ -8354,7 +8354,7 @@ const questionDatabase = [
     "answer": "Indian and Islamic",
     "explanation": "The Qutb Minar complex, built by the early Turkish rulers, showcases a blend of Indian and Islamic architectural styles, with elements from both traditions, such as carvings from dismantled temples and Islamic arches.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' concept of 'Khanqah' refers to which of the following?",
@@ -8367,7 +8367,7 @@ const questionDatabase = [
     "answer": "A Sufi hospice or monastery",
     "explanation": "A 'Khanqah' was a Sufi monastery or hospice that served as a center for religious teaching, meditation, and community service. It was a key institution for the spread of Sufism in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dwarkadhish Temple' in Gujarat is a major pilgrimage site for which religious tradition?",
@@ -8380,7 +8380,7 @@ const questionDatabase = [
     "answer": "Vaishnavism",
     "explanation": "The Dwarkadhish Temple is a major Hindu temple dedicated to Krishna, who is worshipped as the King of Dwarka. It is one of the four most sacred 'Char Dham' pilgrimage sites for Vaishnavites.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of the 'Sena' literature?",
@@ -8393,7 +8393,7 @@ const questionDatabase = [
     "answer": "The flourishing of Sanskrit literature and poetry",
     "explanation": "The Sena rulers, despite being in the early medieval period, were great patrons of Sanskrit. Their court was a hub for poets and scholars, including Jayadeva, who wrote in Sanskrit.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Gopuram' in a South Indian temple is a testament to which of the following?",
@@ -8406,7 +8406,7 @@ const questionDatabase = [
     "answer": "The increasing importance of the outer temple complex",
     "explanation": "The massive 'Gopurams' indicate a shift in temple architecture where the outer complex and entrance gateways became more prominent and ornate than the inner sanctum, reflecting the evolving nature of public worship.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indo-Islamic' architectural style that emerged in India was a synthesis of which two traditions?",
@@ -8419,7 +8419,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "The Indo-Islamic architectural style was a fusion of Indian, Persian, Arab, and Turkish architectural traditions, combining elements like domes, arches, and minarets with Indian decorative motifs and structural principles.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lingaraja Temple' at Bhubaneswar is a great example of which of the following?",
@@ -8432,7 +8432,7 @@ const questionDatabase = [
     "answer": "The 'Orissa' style of temple architecture",
     "explanation": "The Lingaraja Temple is a magnificent example of the 'Orissa' style of temple architecture, which is a sub-style of the Nagara style, known for its distinct curvilinear towers and intricate carvings.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Kampar Ramayanam' is significant for which of the following reasons?",
@@ -8445,7 +8445,7 @@ const questionDatabase = [
     "answer": "It made the story of Rama accessible to a Tamil audience",
     "explanation": "The 'Kampar Ramayanam' is significant because it retold the epic of Ramayana in a new and accessible way, making the story of Rama a central part of Tamil culture and religious life.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of the 'Sufi' spiritual path?",
@@ -8458,7 +8458,7 @@ const questionDatabase = [
     "answer": "The concept of 'Pir' and 'Murid'",
     "explanation": "The Sufi spiritual path is characterized by the master-disciple relationship between a 'Pir' (spiritual guide) and a 'Murid' (disciple), which is a key element of the Sufi orders.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Srikrishna Charitam' in Malayalam and 'Basava Purana' in Kannada are examples of which literary tradition?",
@@ -8471,7 +8471,7 @@ const questionDatabase = [
     "answer": "Literature in newly developing languages",
     "explanation": "These works are examples of how regional languages like Malayalam and Kannada were used to create a new body of literature, often based on Puranic stories or local religious traditions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saints played a crucial role in which of the following?",
@@ -8484,7 +8484,7 @@ const questionDatabase = [
     "answer": "The cultural exchange and spread of Islam in India",
     "explanation": "The Sufi saints, with their message of love, tolerance, and brotherhood, played a crucial role in the cultural exchange between Islamic and Indian traditions and in the peaceful spread of Islam among the common people.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key factor behind the success of the Ghurian invasions in India?",
@@ -8497,7 +8497,7 @@ const questionDatabase = [
     "answer": "The internal disunity and conflicts of the Rajput kingdoms",
     "explanation": "The Rajput kingdoms, despite their military strength, were engaged in constant internecine conflicts and failed to form a united front against the Ghurid invaders, which was a major factor in their defeat.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The First Battle of Tarain in 1191 CE was fought between Muhammad Ghori and which Indian ruler?",
@@ -8510,7 +8510,7 @@ const questionDatabase = [
     "answer": "Prithviraj Chauhan",
     "explanation": "In the First Battle of Tarain, Prithviraj Chauhan's forces defeated Muhammad Ghori, forcing him to retreat. However, Ghori returned the following year with a larger, more organized army.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major economic consequence of the establishment of the Delhi Sultanate?",
@@ -8523,7 +8523,7 @@ const questionDatabase = [
     "answer": "The introduction of a new coinage system and the growth of urban centers",
     "explanation": "The early Turkish Sultans introduced new coins like the 'tanka' and 'jital', which stimulated trade and led to the revival of old urban centers and the establishment of new ones.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who is considered the 'real' founder and consolidator of the Delhi Sultanate?",
@@ -8536,7 +8536,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "While Qutbuddin Aibak founded the Sultanate, it was Iltutmish who made it an independent and stable state by shifting the capital to Delhi, introducing new currency, and suppressing rivals.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Iqta' system, introduced by Iltutmish, was a what?",
@@ -8549,7 +8549,7 @@ const questionDatabase = [
     "answer": "A form of land grant to officials and nobles",
     "explanation": "The 'Iqta' system was a land revenue assignment system in which military commanders and officials were given land in lieu of a salary, and they were responsible for collecting revenue and maintaining a contingent of troops.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chalghani' or 'Turks of Forty', a powerful group of nobles, was a key feature of the reign of which Sultan?",
@@ -8562,7 +8562,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "Iltutmish organized his trusted nobles and slaves into a powerful group known as the 'Chalghani' to counter the influence of other Turkish nobles and strengthen his position.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which Sultan of Delhi is known for his policy of 'Blood and Iron' and for restoring the prestige of the Sultanate?",
@@ -8575,7 +8575,7 @@ const questionDatabase = [
     "answer": "Balban",
     "explanation": "Balban adopted a strict and ruthless policy of 'Blood and Iron' to crush internal rebellions and external threats, and he also introduced court rituals to elevate the Sultan's status.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The introduction of 'sijda' and 'paibos', elaborate court rituals, was a major step taken by which Sultan to reinforce the divine right of the king?",
@@ -8588,7 +8588,7 @@ const questionDatabase = [
     "answer": "Balban",
     "explanation": "Balban believed that the king was the 'Zil-i-Ilahi' or 'shadow of God'. He introduced 'sijda' (prostration) and 'paibos' (kissing the Sultan's feet) to instill respect for the monarch.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major social consequence of the establishment of the Delhi Sultanate?",
@@ -8601,7 +8601,7 @@ const questionDatabase = [
     "answer": "The rise of a new Turkish-Persian ruling class",
     "explanation": "The establishment of the Delhi Sultanate led to the rise of a new ruling class composed of Turkish and Persian nobles, soldiers, and administrators, which led to significant changes in the social hierarchy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Turks of Forty' ('Chalghani') was a major challenge to the authority of which ruler, who eventually abolished it?",
@@ -8614,7 +8614,7 @@ const questionDatabase = [
     "answer": "Balban",
     "explanation": "Balban, who himself was a member of the 'Chalghani', understood its power and influence. Upon becoming Sultan, he systematically broke the power of the group to strengthen his own position as the monarch.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Second Battle of Tarain in 1192 CE is considered a turning point in Indian history because it led to which of the following?",
@@ -8627,7 +8627,7 @@ const questionDatabase = [
     "answer": "The end of the Rajput rule in Northern India",
     "explanation": "The Second Battle of Tarain, in which Prithviraj Chauhan was defeated, paved the way for the Ghurids to establish their rule in Northern India and eventually lay the foundation for the Delhi Sultanate.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cultural consequence of the establishment of the Delhi Sultanate?",
@@ -8640,7 +8640,7 @@ const questionDatabase = [
     "answer": "The emergence of Indo-Islamic architectural styles",
     "explanation": "The establishment of the Delhi Sultanate led to a fusion of Indian and Islamic architectural traditions, resulting in new styles that combined elements like arches, domes, and minarets with local decorative motifs.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the first ruler to call himself 'Sultan' and is considered the first independent ruler of the Delhi Sultanate?",
@@ -8653,7 +8653,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "Iltutmish was the first ruler of the Delhi Sultanate to be recognized by the Caliph of Baghdad as a Sultan, thus giving the Sultanate a formal and independent status.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mongol' invasions, which posed a serious threat to the Delhi Sultanate, were a major concern during the reign of which Sultan?",
@@ -8666,7 +8666,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "The Mongol threat, led by Genghis Khan, emerged during Iltutmish's reign. He wisely managed to keep the Mongols away from the Indian subcontinent by refusing asylum to a rival of Genghis Khan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Minar' in Delhi was started by Qutbuddin Aibak, but its construction was completed by which Sultan?",
@@ -8679,7 +8679,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "Qutbuddin Aibak started the construction of the Qutb Minar, but he only completed the first floor. It was his successor, Iltutmish, who completed the remaining three stories.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The introduction of the 'tanka' (silver coin) and 'jital' (copper coin) was a major monetary reform by which Sultan?",
@@ -8692,7 +8692,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "Iltutmish introduced a new bimetallic currency system with the 'tanka' and 'jital', which standardized the coinage of the Sultanate and facilitated trade and administration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chihalgani' was a powerful group of slave nobles who served under which Sultan?",
@@ -8705,7 +8705,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "The 'Chihalgani' or 'Group of Forty' was a powerful council of Turkish slave nobles who were hand-picked by Iltutmish to serve as his trusted advisors and military commanders.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major challenge faced by Iltutmish upon his accession to the throne?",
@@ -8718,7 +8718,7 @@ const questionDatabase = [
     "answer": "The political instability and rivalry from other Turkish nobles",
     "explanation": "Upon his accession, Iltutmish had to face a major challenge from rivals like Tajuddin Yildiz of Ghazni and Nasiruddin Qabacha of Multan, who challenged his authority and claimed to be the successors of Muhammad Ghori.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Balban's theory of kingship was based on the idea that the Sultan was which of the following?",
@@ -8731,7 +8731,7 @@ const questionDatabase = [
     "answer": "A 'Zil-i-Ilahi' or 'Shadow of God'",
     "explanation": "Balban's theory of kingship was a totalitarian one. He believed that the Sultan's power was absolute and divinely ordained, which he enforced through elaborate court rituals and a strict sense of discipline.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was NOT a factor in the success of the Ghurian army over the Rajputs?",
@@ -8744,7 +8744,7 @@ const questionDatabase = [
     "answer": "The use of heavy, slow-moving elephants",
     "explanation": "While elephants were used by both sides, the Ghurian army's key advantage was their highly mobile cavalry and mounted archers, which were more effective against the slow-moving Rajput infantry and elephants.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Quwwat-ul-Islam Mosque' in Delhi was constructed from the materials of which of the following?",
@@ -8757,7 +8757,7 @@ const questionDatabase = [
     "answer": "Old Hindu and Jain temples",
     "explanation": "The 'Quwwat-ul-Islam Mosque', one of the earliest Indo-Islamic structures, was built by Qutbuddin Aibak using the remains and materials of twenty-seven dismantled Hindu and Jain temples.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The establishment of the Delhi Sultanate led to the use of which new language in administration and literature?",
@@ -8770,7 +8770,7 @@ const questionDatabase = [
     "answer": "Persian",
     "explanation": "The Delhi Sultanate adopted Persian as the official court and administrative language. It was also the language of literature, poetry, and historical chronicles, which led to a rich Indo-Persian cultural tradition.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mongol' invasions forced Balban to focus on which of the following aspects of his administration?",
@@ -8783,7 +8783,7 @@ const questionDatabase = [
     "answer": "The strengthening of his frontier defenses and army",
     "explanation": "The constant threat of Mongol invasions from the northwest forced Balban to concentrate on strengthening his army and fortifying his frontier provinces, a policy that took priority over territorial expansion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'tomb of Iltutmish' in the Qutb Minar complex is a famous example of which architectural style?",
@@ -8796,7 +8796,7 @@ const questionDatabase = [
     "answer": "Early Indo-Islamic style",
     "explanation": "The tomb of Iltutmish is one of the earliest tombs built in India and is a great example of the early Indo-Islamic style, with its geometric patterns and use of a dome, which was a new feature.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the first woman to rule as a Sultan of Delhi?",
@@ -8809,7 +8809,7 @@ const questionDatabase = [
     "answer": "Razia Sultana",
     "explanation": "Razia Sultana, the daughter of Iltutmish, was the first and only woman to rule as a Sultan of Delhi. She was a capable ruler but faced stiff opposition from the Turkish nobles.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'slave dynasty' of the Delhi Sultanate is also known by which name?",
@@ -8822,7 +8822,7 @@ const questionDatabase = [
     "answer": "Mamluk dynasty",
     "explanation": "The 'slave dynasty' is also known as the Mamluk dynasty, as its founders, including Qutbuddin Aibak and Iltutmish, were Turkish slaves who rose to positions of power.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Balban's greatest challenge to his authority came from which group?",
@@ -8835,7 +8835,7 @@ const questionDatabase = [
     "answer": "The 'Chalghani' nobles",
     "explanation": "Balban's biggest challenge was to break the power of the 'Chalghani' nobles, who had become very powerful during the reigns of Iltutmish's weak successors and posed a constant threat to the throne.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Ghurian invaders' success was also due to the lack of which of the following in the Rajput kingdoms?",
@@ -8848,7 +8848,7 @@ const questionDatabase = [
     "answer": "A centralized political authority",
     "explanation": "Unlike the Ghurids who had a centralized command under Muhammad Ghori, the Rajput kingdoms were a confederacy of independent rulers with no unified military or political command, which was a significant disadvantage.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chihalgani' was abolished by Balban because of which of the following reasons?",
@@ -8861,7 +8861,7 @@ const questionDatabase = [
     "answer": "They had become too powerful and posed a threat to the Sultan",
     "explanation": "Balban's primary goal was to restore the authority of the monarch. He saw the 'Chihalgani' as a major obstacle to this goal and, therefore, systematically eliminated them.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'tanka' and 'jital' coins were made of which metals, respectively?",
@@ -8874,7 +8874,7 @@ const questionDatabase = [
     "answer": "Silver and copper",
     "explanation": "The 'tanka' was a silver coin, and the 'jital' was a copper coin. This new bimetallic system was a major reform by Iltutmish to standardize currency and stabilize the economy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The first ruler of the Delhi Sultanate, Qutbuddin Aibak, was a slave of which of the following?",
@@ -8887,7 +8887,7 @@ const questionDatabase = [
     "answer": "Muhammad Ghori",
     "explanation": "Qutbuddin Aibak was a trusted slave general of Muhammad Ghori. After Ghori's death, he established himself as the independent ruler of the territories he had conquered in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Balban's theory of kingship was aimed at restoring which of the following?",
@@ -8900,7 +8900,7 @@ const questionDatabase = [
     "answer": "The prestige and authority of the Sultan",
     "explanation": "Balban's main goal was to re-establish the supremacy of the monarch. He believed that the Sultan's position was divinely ordained and could not be challenged by anyone.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'iqta' system was a major reform that gave the Sultan which of the following?",
@@ -8913,7 +8913,7 @@ const questionDatabase = [
     "answer": "A centralized army",
     "explanation": "The 'iqta' system, while initially a decentralized land grant system, eventually gave the Sultan a way to maintain a large, standing army. The `iqtadars` were required to provide troops to the Sultan, ensuring a centralized military force.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'tomb of Iltutmish' is significant for its use of which of the following in architecture?",
@@ -8926,7 +8926,7 @@ const questionDatabase = [
     "answer": "The first use of a dome and arch",
     "explanation": "The tomb of Iltutmish is one of the earliest examples of a domed structure in India and is an important monument in the history of Indo-Islamic architecture for its use of the arch and dome.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ghurian' invasions of India in the 12th century were led by which ruler?",
@@ -8939,7 +8939,7 @@ const questionDatabase = [
     "answer": "Muhammad Ghori",
     "explanation": "Muhammad Ghori, unlike Mahmud of Ghazni, was motivated by a desire to conquer and establish a kingdom in India, which he successfully did after the Second Battle of Tarain.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The establishment of the Delhi Sultanate had which of the following social consequences?",
@@ -8952,7 +8952,7 @@ const questionDatabase = [
     "answer": "A decline in the status of Brahmans and the rise of a new class of scholars and administrators",
     "explanation": "The establishment of the Delhi Sultanate led to a decline in the political and economic power of the Brahmans, who had been prominent under the Rajput kingdoms, and the rise of a new class of Muslim scholars and administrators.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Minhaj-us-Siraj', a contemporary historian, wrote a chronicle about the early Delhi Sultanate. What was the name of his work?",
@@ -8965,7 +8965,7 @@ const questionDatabase = [
     "answer": "Tabaqat-i-Nasiri",
     "explanation": "Minhaj-us-Siraj, a chronicler who lived in the court of Iltutmish, wrote the 'Tabaqat-i-Nasiri', which is a major historical source for the history of the Delhi Sultanate.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major challenge to the early Sultans from the Northwest?",
@@ -8978,7 +8978,7 @@ const questionDatabase = [
     "answer": "The constant threat of the Mongols",
     "explanation": "The Mongol invasions, particularly under Genghis Khan, posed a serious threat to the Delhi Sultanate from the Northwest, forcing the early Sultans to maintain a strong military and diplomatic policy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Balban's rule is considered a period of consolidation because of which of the following?",
@@ -8991,7 +8991,7 @@ const questionDatabase = [
     "answer": "He crushed internal rebellions and strengthened the monarchy",
     "explanation": "Balban's reign was dedicated to consolidating the Sultanate by suppressing the rebellions of the Mewatis and the local chiefs and by restoring the authority of the Sultanate through a strong centralized army and spy system.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the first capital of the Delhi Sultanate?",
@@ -9004,7 +9004,7 @@ const questionDatabase = [
     "answer": "Lahore",
     "explanation": "Initially, Qutbuddin Aibak ruled from Lahore. It was Iltutmish who later shifted the capital to Delhi, making it the center of power for the Sultanate.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The success of the Ghurian invasions was also due to their superior military strategy, which included which of the following?",
@@ -9017,7 +9017,7 @@ const questionDatabase = [
     "answer": "A combination of feigned retreats and flanking maneuvers",
     "explanation": "Muhammad Ghori's army used superior tactics like 'feigned retreats' to lure the Rajput armies into a trap and then use their highly mobile cavalry for flanking maneuvers, which was a key factor in their victory at Tarain.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Iqta' system's primary function was to which of the following?",
@@ -9030,7 +9030,7 @@ const questionDatabase = [
     "answer": "Provide a decentralized method for tax collection and army maintenance",
     "explanation": "The 'Iqta' system provided a way for the Sultanate to manage its vast territories without a large central bureaucracy. It delegated the responsibility of revenue collection and military upkeep to local 'iqtadars'.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Balban's measures to restore the prestige of the Sultanate included which of the following?",
@@ -9043,7 +9043,7 @@ const questionDatabase = [
     "answer": "The wearing of a majestic dress and a dignified court demeanor",
     "explanation": "Balban adopted a grand and dignified court demeanor, wore a majestic dress, and enforced strict court etiquette to emphasize the distance between the Sultan and his nobles and to command respect.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Delhi Sultanate' got its name from which of the following?",
@@ -9056,7 +9056,7 @@ const questionDatabase = [
     "answer": "The city of Delhi becoming its capital",
     "explanation": "The term 'Delhi Sultanate' refers to the Muslim kingdoms that were established in and around Delhi. The Sultanate truly became 'of Delhi' when Iltutmish shifted the capital there from Lahore.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the founder of the 'Khilji' dynasty, which succeeded the 'Mamluk' dynasty?",
@@ -9069,7 +9069,7 @@ const questionDatabase = [
     "answer": "Jalaluddin Khilji",
     "explanation": "Jalaluddin Khilji, a military general of the Mamluk dynasty, overthrew the last Mamluk ruler and established the 'Khilji' dynasty in 1290 CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chihalgani' was a major cause of which of the following during the reign of Iltutmish's successors?",
@@ -9082,7 +9082,7 @@ const questionDatabase = [
     "answer": "Political instability and court intrigue",
     "explanation": "After Iltutmish's death, the 'Chihalgani' became a power-broking group, and its members constantly engaged in court intrigues, assassinations, and rebellions, leading to a period of political instability.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ghurian' invasions were different from the 'Ghaznavid' invasions in which of the following aspects?",
@@ -9095,7 +9095,7 @@ const questionDatabase = [
     "answer": "Ghurids were more interested in conquering and establishing a rule",
     "explanation": "Unlike Mahmud of Ghazni, who was primarily a raider interested in plunder, Muhammad Ghori's objective was to conquer and establish a kingdom in India, which led to a long-lasting political impact.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saints and scholars played which of the following roles in the early Delhi Sultanate?",
@@ -9108,7 +9108,7 @@ const questionDatabase = [
     "answer": "They acted as a link between the rulers and the masses",
     "explanation": "Sufi saints, with their simple lifestyle and message of universal brotherhood, were able to connect with the common people and act as a bridge between the new Muslim ruling class and the local population.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Balban's rule is an important example of which of the following?",
@@ -9121,7 +9121,7 @@ const questionDatabase = [
     "answer": "A ruthless autocracy",
     "explanation": "Balban's reign was marked by a ruthless and absolute autocracy. He did not tolerate any dissent, abolished the power of the nobles, and established a strong and centralized control over the state.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jital' was a coin made of which metal, which was widely used for daily transactions?",
@@ -9134,7 +9134,7 @@ const questionDatabase = [
     "answer": "Copper",
     "explanation": "The 'jital' was a copper coin that was widely circulated for daily transactions, while the 'tanka' was a more valuable silver coin used for larger payments.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Ghurian invasions were successful because the Rajput armies did not have a clear understanding of which of the following?",
@@ -9147,7 +9147,7 @@ const questionDatabase = [
     "answer": "The use of a centralized command structure",
     "explanation": "The Rajput armies lacked a unified command structure. Each Rajput clan fought independently under its own leader, which made them vulnerable to the organized and disciplined Ghurian army.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khalji Revolution' refers to the coup led by Jalaluddin Khalji that ended the monopoly of power held by which group of nobles?",
@@ -9160,7 +9160,7 @@ const questionDatabase = [
     "answer": "The Turkish nobles",
     "explanation": "The 'Khalji Revolution' marked the end of the Mamluk dynasty's rule, which was dominated by Turkish nobles. The Khaljis, who were also of Turkish origin but not from the same elite group, opened the doors of power to a wider group of nobles, including non-Turks.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the primary purpose of Alauddin Khalji's market control and price fixation policies?",
@@ -9173,7 +9173,7 @@ const questionDatabase = [
     "answer": "To maintain a large and effective army at a low cost",
     "explanation": "Alauddin Khalji needed to maintain a massive standing army to counter the Mongol threat and expand his empire. His market control measures ensured that the soldiers' salaries were sufficient to meet their needs, thus reducing the cost of maintaining the army.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The department of agriculture, known as 'Diwan-i-Amir-i-Kohi', was established by which Sultan to promote agriculture?",
@@ -9186,7 +9186,7 @@ const questionDatabase = [
     "answer": "Muhammad Tughluq",
     "explanation": "Muhammad Tughluq established 'Diwan-i-Amir-i-Kohi' to promote and expand agricultural land by providing 'takkavi' (agricultural loans) to the farmers and encouraging cultivation.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The traveler and chronicler 'Ibn Battuta' was a foreign contact during the reign of which Sultan?",
@@ -9199,7 +9199,7 @@ const questionDatabase = [
     "answer": "Muhammad Tughluq",
     "explanation": "Ibn Battuta, a Moroccan traveler, visited India during the reign of Muhammad Tughluq. His book, 'Rihla', provides a detailed account of the Sultan's court, administration, and the society of the time.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which Sultan of Delhi is known for his large-scale public works, including the construction of canals, hospitals, and schools?",
@@ -9212,7 +9212,7 @@ const questionDatabase = [
     "answer": "Firuz Tughluq",
     "explanation": "Firuz Tughluq was a great patron of public works. He built a vast network of canals, founded new towns, and established hospitals ('Dar-ul-Shifa') and educational institutions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alauddin Khalji introduced the 'dagh' (branding of horses) and 'huliya' (descriptive roll of soldiers) system to counter which of the following?",
@@ -9225,7 +9225,7 @@ const questionDatabase = [
     "answer": "The corruption and fraud in the army",
     "explanation": "Alauddin introduced 'dagh' and 'huliya' to prevent soldiers from substituting old horses and weak soldiers at the time of military review, thus ensuring the quality of his army.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'token currency' introduced by Muhammad Tughluq was a major project that failed because of which of the following reasons?",
@@ -9238,7 +9238,7 @@ const questionDatabase = [
     "answer": "The widespread forgery and counterfeiting of the coins",
     "explanation": "Muhammad Tughluq's token currency, made of copper and brass, was a bold experiment. However, due to the lack of proper state control, people started forging the coins, which led to a financial crisis and the failure of the project.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major consequence of Alauddin Khalji's conquest of the Deccan?",
@@ -9251,7 +9251,7 @@ const questionDatabase = [
     "answer": "The acquisition of vast wealth and plunder for the Sultanate",
     "explanation": "Alauddin Khalji's expeditions to the Deccan, led by his general Malik Kafur, were primarily aimed at plundering the wealth of the Southern kingdoms, which enriched the Sultanate and financed his army and projects.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Muhammad Tughluq's decision to shift his capital from Delhi to Daulatabad (Devagiri) was aimed at which of the following?",
@@ -9264,7 +9264,7 @@ const questionDatabase = [
     "answer": "Establishing a more central and strategically located capital for his empire",
     "explanation": "Muhammad Tughluq's empire was vast, and he wanted to establish a capital that was centrally located to effectively administer both North and South India. Daulatabad was chosen for its strategic location.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Firuz Tughluq's agrarian measures included which of the following?",
@@ -9277,7 +9277,7 @@ const questionDatabase = [
     "answer": "The reduction of taxes and the remission of peasant loans",
     "explanation": "Firuz Tughluq's agrarian policy was aimed at improving the welfare of the peasants. He reduced the land tax, remitted 'takkavi' loans given by his predecessor, and promoted agriculture through irrigation.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alauddin Khalji's 'Sarai-i-adl' was a what?",
@@ -9290,7 +9290,7 @@ const questionDatabase = [
     "answer": "A specialized market for controlled goods",
     "explanation": "The 'Sarai-i-adl' was a market specifically for controlled goods, particularly textiles and imported items, where prices were fixed and regulated by the state as part of Alauddin's market control policy.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major weakness of Firuz Tughluq that contributed to the decline of the Sultanate?",
@@ -9303,7 +9303,7 @@ const questionDatabase = [
     "answer": "His weak military and lack of a strong succession plan",
     "explanation": "Firuz Tughluq's rule was marked by a weak military policy and a lack of focus on a strong succession plan. He was more of a reformer than a conqueror, which weakened the Sultanate's ability to defend itself against external threats and led to a succession crisis after his death.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Ibn Battuta's account of Muhammad Tughluq's court is significant for which of the following reasons?",
@@ -9316,7 +9316,7 @@ const questionDatabase = [
     "answer": "It offers an unbiased, external perspective on the Sultan's eccentricities",
     "explanation": "Ibn Battuta's 'Rihla' provides a critical and detailed account of Muhammad Tughluq, highlighting his generosity and love for justice, but also his eccentricities, harsh punishments, and failed projects.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khalji Revolution' saw the rise of new groups in the Sultanate's administration, including which of the following?",
@@ -9329,7 +9329,7 @@ const questionDatabase = [
     "answer": "The Indian Muslims and Hindu converts",
     "explanation": "The Khalji Revolution broke the monopoly of power held by the Turkish nobles. Jalaluddin Khalji, and later Alauddin, promoted and appointed Indian Muslims and Hindu converts to positions of power, making the administration more inclusive.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alauddin Khalji's 'Diwan-i-mustakhraj' was a department established to which of the following?",
@@ -9342,7 +9342,7 @@ const questionDatabase = [
     "answer": "Recover the arrears of revenue from corrupt officials",
     "explanation": "Alauddin Khalji established the 'Diwan-i-mustakhraj' to deal with corrupt and negligent revenue officials. Its primary function was to recover outstanding dues and arrears from them.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Muhammad Tughluq's 'transfer of capital' project was a disaster because of which of the following?",
@@ -9355,7 +9355,7 @@ const questionDatabase = [
     "answer": "The impracticality and suffering caused to the population",
     "explanation": "The transfer of capital was a grand but impractical project. The forced march from Delhi to Daulatabad caused immense suffering and loss of life to the people, and the new capital proved difficult to manage, forcing the Sultan to shift back to Delhi.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the decline of the Delhi Sultanate in the 14th century?",
@@ -9368,7 +9368,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "The decline of the Sultanate was a multifaceted process. It was caused by the rise of new kingdoms in the South, the growing power of local rulers, and the weakening of the central authority after the death of Firuz Tughluq.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Takkavi' loans, which were provided to farmers to promote agriculture, were a part of the agrarian measures of which Sultan?",
@@ -9381,7 +9381,7 @@ const questionDatabase = [
     "answer": "Muhammad Tughluq",
     "explanation": "Muhammad Tughluq provided 'takkavi' loans to the farmers to encourage them to expand cultivation and improve agricultural production, a policy that was later continued by Firuz Tughluq.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Firuz Tughluq's 'Diwan-i-khairat' was a department established for which of the following purposes?",
@@ -9394,7 +9394,7 @@ const questionDatabase = [
     "answer": "To provide relief to the poor and needy",
     "explanation": "Firuz Tughluq was a benevolent ruler who established 'Diwan-i-khairat', a department of charity that provided financial assistance and aid to the poor, needy, and destitute.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alauddin Khalji's military campaigns in the Deccan, led by Malik Kafur, were significant for which of the following reasons?",
@@ -9407,7 +9407,7 @@ const questionDatabase = [
     "answer": "They were the first successful military expeditions to the South",
     "explanation": "Alauddin Khalji's Deccan expeditions were the first time a Sultan of Delhi had successfully led military campaigns into the South. They resulted in the submission of the Southern kingdoms and the collection of vast wealth.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Futuh-us-Salatin' by Isami is a major historical source for the reign of which Sultan?",
@@ -9420,7 +9420,7 @@ const questionDatabase = [
     "answer": "Muhammad Tughluq",
     "explanation": "'Futuh-us-Salatin' is a historical chronicle written by Isami, who was a contemporary of Muhammad Tughluq and provides a critical account of his reign and his failed projects.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khalji Revolution' brought an end to which of the following?",
@@ -9433,7 +9433,7 @@ const questionDatabase = [
     "answer": "The reign of the Mamluk dynasty",
     "explanation": "The 'Khalji Revolution' was a swift coup that led to the assassination of the last Mamluk ruler, Muizuddin Qaiqabad, and the establishment of the Khalji dynasty, marking a new phase in the history of the Sultanate.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major consequence of the decline of the Delhi Sultanate?",
@@ -9446,7 +9446,7 @@ const questionDatabase = [
     "answer": "The fragmentation of the empire and the emergence of regional kingdoms",
     "explanation": "The decline of the Delhi Sultanate, which began in the 14th century, led to the fragmentation of the empire and the rise of powerful regional kingdoms like the Bahmani and Vijaynagar kingdoms.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Muhammad Tughluq's agrarian measures were aimed at which of the following?",
@@ -9459,7 +9459,7 @@ const questionDatabase = [
     "answer": "To improve agricultural production and ensure a stable revenue",
     "explanation": "Muhammad Tughluq's agrarian measures were an attempt to improve agricultural output and generate more revenue for his grand projects, though they largely failed due to implementation issues.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rihla' of Ibn Battuta is a major source of information on which aspect of the 14th-century Sultanate?",
@@ -9472,7 +9472,7 @@ const questionDatabase = [
     "answer": "The social customs and life of the people",
     "explanation": "Ibn Battuta's 'Rihla' provides a rich and detailed account of the social customs, religious practices, and daily life of the people in the Delhi Sultanate, making it an invaluable historical source.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Firuz Tughluq established a new department for the welfare of slaves, known as which of the following?",
@@ -9485,7 +9485,7 @@ const questionDatabase = [
     "answer": "Diwan-i-Bandagan",
     "explanation": "Firuz Tughluq, who was known for his benevolence, established 'Diwan-i-Bandagan', a department specifically for the welfare and management of a large number of slaves in his court.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alauddin Khalji's conquests of Gujarat and the Deccan were led by which of his famous generals?",
@@ -9498,7 +9498,7 @@ const questionDatabase = [
     "answer": "Malik Kafur",
     "explanation": "Malik Kafur, a brilliant general and eunuch, was the chief commander of Alauddin's army. He led the successful campaigns to conquer Gujarat and the various kingdoms of the Deccan.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jamaat Khana Masjid' in Delhi is a fine example of which of the following?",
@@ -9511,7 +9511,7 @@ const questionDatabase = [
     "answer": "Khalji architecture",
     "explanation": "The 'Jamaat Khana Masjid', built by Khusrau Khan in the early 14th century, is one of the earliest examples of a mosque built entirely of Islamic design and is a key example of Khalji architecture.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Muhammad Tughluq's bureaucracy was characterized by which of the following?",
@@ -9524,7 +9524,7 @@ const questionDatabase = [
     "answer": "The appointment of Hindus and people of all classes to high positions",
     "explanation": "Muhammad Tughluq was a progressive ruler who appointed people to positions of power based on their merit rather than their birth. He appointed many Hindus and people from lower classes to high administrative posts.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the financial crisis during the reign of Muhammad Tughluq?",
@@ -9537,7 +9537,7 @@ const questionDatabase = [
     "answer": "His costly military campaigns and failed projects",
     "explanation": "Muhammad Tughluq's ambitious but ill-conceived projects, such as the transfer of capital and the token currency, and his costly military campaigns, drained the Sultanate's treasury and led to a financial crisis.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ala-i-Darwaza', a magnificent gateway in Delhi, was built by which Sultan?",
@@ -9550,7 +9550,7 @@ const questionDatabase = [
     "answer": "Alauddin Khalji",
     "explanation": "The 'Ala-i-Darwaza', the southern gateway to the Quwwat-ul-Islam Mosque, was built by Alauddin Khalji and is a great example of his architectural patronage, featuring the first true arch and dome in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Firuz Tughluq's agrarian measures included the construction of a major canal, which was a part of which of the following?",
@@ -9563,7 +9563,7 @@ const questionDatabase = [
     "answer": "The canal from the Yamuna to Hissar",
     "explanation": "Firuz Tughluq was a great civil engineer. He built a major canal from the Yamuna to the newly founded city of Hissar to provide irrigation to the arid regions, which was a major public work of his reign.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lodi' dynasty succeeded the Tughluqs. Who was its founder?",
@@ -9576,7 +9576,7 @@ const questionDatabase = [
     "answer": "Bahlul Lodi",
     "explanation": "Bahlul Lodi, an Afghan noble, took advantage of the decline of the Delhi Sultanate to establish the 'Lodi' dynasty, the last dynasty of the Sultanate, in 1451 CE.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khalji' dynasty's rule is often described as a 'revolution' because it brought an end to which of the following?",
@@ -9589,7 +9589,7 @@ const questionDatabase = [
     "answer": "The Turkish monopoly of power",
     "explanation": "The 'Khalji Revolution' was significant because it broke the political monopoly of the Turkish slave elite, who had dominated the Sultanate for a long time, and introduced a new, more inclusive, and merit-based administrative system.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tughluq' dynasty's architectural style is characterized by which of the following?",
@@ -9602,7 +9602,7 @@ const questionDatabase = [
     "answer": "The use of sloping walls and stark, simple designs",
     "explanation": "The Tughluq architecture, unlike the Khalji's, was more austere and utilitarian. It is characterized by the use of sloping walls ('batter') and a simple, stark design, as seen in the tomb of Ghiyasuddin Tughluq.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Diwan-i-Khairat' was also responsible for which of the following?",
@@ -9615,7 +9615,7 @@ const questionDatabase = [
     "answer": "Providing grants for education and marriage of poor girls",
     "explanation": "The 'Diwan-i-Khairat', established by Firuz Tughluq, was a comprehensive charity department. It provided grants and assistance for the marriage of poor Muslim girls and for the education of students.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Alauddin Khalji's revenue administration was based on which of the following principles?",
@@ -9628,7 +9628,7 @@ const questionDatabase = [
     "answer": "The measurement of land and a direct tax on the peasants",
     "explanation": "Alauddin Khalji was the first Sultan to introduce a system of land measurement ('masahat') and a direct tax on the peasants, which increased the Sultanate's revenue and weakened the power of the local landlords.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the rebellion against Muhammad Tughluq?",
@@ -9641,7 +9641,7 @@ const questionDatabase = [
     "answer": "His economic reforms and failed projects",
     "explanation": "Muhammad Tughluq's ambitious but failed projects, such as the transfer of capital and the token currency, and his harsh methods of tax collection, caused immense suffering and led to widespread rebellions against his rule.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'City of Jahanpanah' in Delhi was built by which Sultan?",
@@ -9654,7 +9654,7 @@ const questionDatabase = [
     "answer": "Muhammad Tughluq",
     "explanation": "The 'City of Jahanpanah', located between the cities of Siri and Qutb Minar, was built by Muhammad Tughluq to accommodate his growing army and was a part of his grand urban development plan.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khalji' dynasty's rule is a major turning point in the history of the Sultanate because it led to which of the following?",
@@ -9667,7 +9667,7 @@ const questionDatabase = [
     "answer": "The expansion of the Sultanate's power to the South",
     "explanation": "The Khalji dynasty, particularly under Alauddin, was the first to successfully expand the Sultanate's power into the Deccan, which marked a new phase of territorial expansion and military dominance for the Sultanate.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major reason for the failure of Muhammad Tughluq's token currency?",
@@ -9680,7 +9680,7 @@ const questionDatabase = [
     "answer": "The government's inability to control the minting process",
     "explanation": "Muhammad Tughluq's token currency was not a bad idea in itself, but the government's lack of control over the minting process allowed people to forge and counterfeit the coins on a large scale, leading to its collapse.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Firuz Tughluq's 'Diwan-i-Khairat' was also a part of a larger policy of which of the following?",
@@ -9693,7 +9693,7 @@ const questionDatabase = [
     "answer": "Winning the support of the Muslim clergy and common people",
     "explanation": "Firuz Tughluq, unlike his predecessor, was a pious and orthodox ruler. His policies, including the 'Diwan-i-Khairat', were aimed at winning the support of the Muslim clergy and the common people and establishing a new, benevolent image for the Sultanate.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Ibn Battuta's account of Muhammad Tughluq's reign is considered a valuable historical source because of which of the following?",
@@ -9706,7 +9706,7 @@ const questionDatabase = [
     "answer": "He provided a first-hand, detailed account of the events",
     "explanation": "Ibn Battuta, who served as a 'Qazi' (judge) in the Sultan's court, provided a first-hand and highly detailed account of the major events, projects, and policies of Muhammad Tughluq, which makes his work a key historical source.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Barani', a famous historian of the 14th century, wrote a chronicle about the reign of the Khaljis and Tughluqs. What was his work called?",
@@ -9719,7 +9719,7 @@ const questionDatabase = [
     "answer": "Tarikh-i-Firoz Shahi",
     "explanation": "Ziauddin Barani's 'Tarikh-i-Firoz Shahi' is a major historical source that provides a detailed account of the reigns of the Khalji and Tughluq dynasties, especially the reigns of Alauddin Khalji and Muhammad Tughluq.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Khalji' dynasty's rule brought an end to which of the following?",
@@ -9732,7 +9732,7 @@ const questionDatabase = [
     "answer": "The Mamluk Sultanate",
     "explanation": "The 'Khalji Revolution' was a swift and decisive end to the Mamluk Sultanate, which had been in power since the establishment of the Delhi Sultanate. The Khaljis established a new dynasty and a new political order.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Muhammad Tughluq's agrarian measures included which of the following?",
@@ -9745,7 +9745,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "Muhammad Tughluq, in an attempt to increase agricultural production and revenue, introduced a number of measures, including the creation of a new department, the imposition of a tax in the 'doab' region, and the promotion of new crops.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following groups constituted the core of the new ruling class in the Delhi Sultanate during the thirteenth and fourteenth centuries?",
@@ -9758,7 +9758,7 @@ const questionDatabase = [
     "answer": "Turkish and Afghan nobles",
     "explanation": "The new ruling class of the Delhi Sultanate was composed primarily of a foreign elite, with Turks and later Afghans holding the most powerful positions in the military and administration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' movement in North India gained momentum during the Sultanate period. Which of the following was a key feature of this movement?",
@@ -9771,7 +9771,7 @@ const questionDatabase = [
     "answer": "The emphasis on personal devotion and love for God through hymns and songs",
     "explanation": "The Bhakti movement, unlike the Brahmanical traditions, emphasized a personal relationship with God. It used vernacular languages and appealed to people across castes through emotional hymns and songs.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sultanate architecture' is a synthesis of which two major styles?",
@@ -9784,7 +9784,7 @@ const questionDatabase = [
     "answer": "Indian and Persian",
     "explanation": "The Sultanate architecture, also known as Indo-Islamic architecture, was a fusion of the local Indian style (columns, floral motifs) and the Islamic style (domes, arches, minarets, and geometric patterns) brought by the invaders.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the primary basis of the rural economy during the Delhi Sultanate?",
@@ -9797,7 +9797,7 @@ const questionDatabase = [
     "answer": "Agricultural production",
     "explanation": "The rural economy of the Sultanate was primarily agrarian. Land revenue from agricultural production was the main source of income for the state and the ruling class.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Amir Khusrau, a famous poet and musician of the Sultanate period, is known as the 'Parrot of India' and for his contributions to which of the following?",
@@ -9810,7 +9810,7 @@ const questionDatabase = [
     "answer": "The invention of the sitar and tabla",
     "explanation": "Amir Khusrau is credited with the invention of the sitar and the tabla, and he was a pioneer in creating a new style of music that blended Persian and Indian traditions.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sultanate period saw the rise of a 'composite culture' due to which of the following?",
@@ -9823,7 +9823,7 @@ const questionDatabase = [
     "answer": "The interaction and fusion of Indian and Islamic traditions in art, music, and language",
     "explanation": "The term 'composite culture' refers to the unique fusion of Indian and Islamic elements that took place during the Sultanate period, leading to new forms of literature, architecture, music, and social customs.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Minar' and 'Alai Darwaza' are prime examples of which type of architecture?",
@@ -9836,7 +9836,7 @@ const questionDatabase = [
     "answer": "Early Indo-Islamic style",
     "explanation": "The Qutb Minar complex, with its use of arches and domes, and the 'Alai Darwaza', with its intricate carvings, are some of the earliest and finest examples of the fusion of Indian and Islamic architectural styles.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major feature of the urban economy during the Sultanate period?",
@@ -9849,7 +9849,7 @@ const questionDatabase = [
     "answer": "A rise in non-agricultural production and crafts",
     "explanation": "The rise of new urban centers and the demand from the new ruling class led to a significant growth in non-agricultural production, including crafts like textiles, metalwork, and luxury goods.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Purdah' system, which became more prevalent during the Sultanate period, was a result of which of the following?",
@@ -9862,7 +9862,7 @@ const questionDatabase = [
     "answer": "The influence of the new Islamic ruling class",
     "explanation": "The practice of 'purdah' (veiling) was a custom prevalent among the upper-class women of the new Islamic ruling class. It became more widespread among the Hindu women of the elite as a means of protection and social emulation.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saints, who were revered by both Muslims and Hindus, were known for their which of the following?",
@@ -9875,7 +9875,7 @@ const questionDatabase = [
     "answer": "Mystical teachings and emphasis on tolerance and love",
     "explanation": "The Sufi saints, with their message of love, tolerance, and brotherhood, appealed to people of all faiths. They were known for their simple lifestyle and their emphasis on a direct, personal experience of God.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major literary figure of the Sultanate period who wrote in both Persian and Hindavi (a precursor to Hindi and Urdu)?",
@@ -9888,7 +9888,7 @@ const questionDatabase = [
     "answer": "Amir Khusrau",
     "explanation": "Amir Khusrau was a polymath who wrote extensively in Persian and also used Hindavi in his poetry and music, making him a key figure in the evolution of a composite literary culture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tughluq' architectural style is characterized by a shift towards which of the following?",
@@ -9901,7 +9901,7 @@ const questionDatabase = [
     "answer": "Austerity, simplicity, and sloping walls",
     "explanation": "The Tughluq dynasty's architecture, as seen in the tomb of Ghiyasuddin Tughluq, was marked by a new sense of austerity and simplicity, with a distinctive feature of sloping walls (known as 'batter') for a sense of strength.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major consequence of the growth of the urban economy during the Sultanate period?",
@@ -9914,7 +9914,7 @@ const questionDatabase = [
     "answer": "The rise of a new class of artisans and craftsmen",
     "explanation": "The growth of the urban economy, driven by the demand of the new ruling class, led to the rise of a new class of artisans, craftsmen, and guilds who produced a wide range of goods for the urban population.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Diwan-i-Khairat' established by Firuz Tughluq was an example of the Sultanate's effort to address which of the following social issues?",
@@ -9927,7 +9927,7 @@ const questionDatabase = [
     "answer": "The poverty and destitution of the population",
     "explanation": "Firuz Tughluq established the 'Diwan-i-Khairat' as a charity department to provide aid, financial assistance, and support to the poor and needy, particularly for the marriage of poor Muslim girls.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sultan Ghari' in Delhi is considered to be the first Islamic mausoleum built in India. It was commissioned by which Sultan?",
@@ -9940,7 +9940,7 @@ const questionDatabase = [
     "answer": "Iltutmish",
     "explanation": "The 'Sultan Ghari' was a tomb built by Iltutmish for his eldest son, Nasiruddin Mahmud. It is considered to be the first Islamic mausoleum built in India and is a great example of early Indo-Islamic architecture.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sultanate period saw the flourishing of literature in the regional languages of North India, such as which of the following?",
@@ -9953,7 +9953,7 @@ const questionDatabase = [
     "answer": "Braj Bhasha and Avadhi",
     "explanation": "While Persian was the court language, the Sultanate period also saw the development of regional languages. Poets like Amir Khusrau wrote in Hindavi, and later poets used Braj Bhasha and Avadhi, laying the foundation for modern Hindi literature.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Slavery was a major social institution under the Sultanate. Which of the following was a major source of slaves?",
@@ -9966,7 +9966,7 @@ const questionDatabase = [
     "answer": "Prisoners of war and tribute from conquered territories",
     "explanation": "A major source of slaves for the Sultanate was the capture of prisoners of war during military campaigns. The Sultans also received slaves as part of tribute from their conquered territories.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major export from India during the Sultanate period?",
@@ -9979,7 +9979,7 @@ const questionDatabase = [
     "answer": "Spices and textiles",
     "explanation": "India had a long history of exporting spices and textiles, and this trade continued to flourish under the Sultanate. Indian textiles, especially cotton, were highly valued in the international markets.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Moti Masjid' in Delhi is a fine example of which of the following?",
@@ -9992,7 +9992,7 @@ const questionDatabase = [
     "answer": "The Lodi style",
     "explanation": "The 'Moti Masjid' and other structures built by the Lodi dynasty, such as the 'Lodi Garden' tombs, are a distinct style of Sultanate architecture, characterized by a more refined and symmetrical design.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ulama' or religious scholars had which of the following roles in the Sultanate's society?",
@@ -10005,7 +10005,7 @@ const questionDatabase = [
     "answer": "They were the interpreters of Islamic law and advisors to the Sultan",
     "explanation": "The 'Ulama' were the religious elite who served as judges (`Qazis`), teachers, and advisors to the Sultan. Their role was to interpret and enforce Islamic law and provide religious legitimacy to the Sultan's rule.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The literature in the languages of South India, particularly Tamil, continued to flourish under the Sultanate due to which of the following?",
@@ -10018,7 +10018,7 @@ const questionDatabase = [
     "answer": "The rise of the Bhakti movement and local patronage",
     "explanation": "The Bhakti movement in South India, with its emphasis on hymns and songs in local languages, was a major factor in the flourishing of Tamil and other South Indian literature. Local rulers also continued to patronize literature and art.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Minar' is a tower that symbolizes which of the following?",
@@ -10031,7 +10031,7 @@ const questionDatabase = [
     "answer": "The victory of Islam over the local rulers",
     "explanation": "The 'Qutb Minar' was built to symbolize the victory of the new Islamic rule over the local Hindu kingdoms. It was built near the 'Quwwat-ul-Islam Mosque' to commemorate the conquest of Delhi.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' bronzes and the 'Rajput' paintings are examples of which of the following?",
@@ -10044,7 +10044,7 @@ const questionDatabase = [
     "answer": "The continuation of local artistic traditions alongside new ones",
     "explanation": "While new Indo-Islamic art forms emerged, the local artistic traditions, such as the bronze-casting of the Cholas and the miniature paintings of the Rajputs, continued to flourish and evolve, showcasing the diversity of artistic expression.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jauhar', a rite of self-immolation practiced by Rajput women, was a response to which of the following?",
@@ -10057,7 +10057,7 @@ const questionDatabase = [
     "answer": "The fear of being captured by the invading Turkish armies",
     "explanation": "The 'Jauhar' was a ritual in which Rajput women committed mass self-immolation to avoid capture, enslavement, and dishonor at the hands of the invading Turkish armies, as seen during the siege of Chittor.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Urdu' language, which evolved during the Sultanate period, is a blend of which two languages?",
@@ -10070,7 +10070,7 @@ const questionDatabase = [
     "answer": "Persian and Hindi (Hindavi)",
     "explanation": "The 'Urdu' language evolved as a result of the interaction between the Persian-speaking ruling class and the local Hindi-speaking population. It is a fusion of Persian, Arabic, and Hindi grammar and vocabulary.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Iqta' system, which was prevalent under the Sultanate, was a form of which of the following?",
@@ -10083,7 +10083,7 @@ const questionDatabase = [
     "answer": "A system of land grants to military and civil officials",
     "explanation": "The 'Iqta' system was a land grant system where the 'iqtadar' (grant holder) was responsible for collecting revenue and maintaining a military contingent for the Sultan, which was a key aspect of the Sultanate's rural economy and administration.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sultanate' architecture is known for its extensive use of which of the following?",
@@ -10096,7 +10096,7 @@ const questionDatabase = [
     "answer": "Domes, arches, and minarets",
     "explanation": "The Sultanate period introduced new structural forms and architectural elements, such as the true arch, the dome, and the minaret, which were central to the new Indo-Islamic style.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' concept of 'Pir' and 'Murid' refers to which of the following?",
@@ -10109,7 +10109,7 @@ const questionDatabase = [
     "answer": "A master-disciple relationship",
     "explanation": "The 'Pir' (spiritual guide) and 'Murid' (disciple) relationship was a central tenet of the Sufi movement. It was a close, personal relationship through which the 'Pir' guided the 'Murid' on their spiritual journey.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dargahs' or tombs of Sufi saints became important pilgrimage centers for whom?",
@@ -10122,7 +10122,7 @@ const questionDatabase = [
     "answer": "People of all faiths",
     "explanation": "The Sufi saints, with their message of universal brotherhood, were revered by people of all faiths. Their 'dargahs' or tombs became major pilgrimage sites that attracted devotees from both Hindu and Muslim communities.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jati' or caste system underwent which of the following changes during the Sultanate period?",
@@ -10135,7 +10135,7 @@ const questionDatabase = [
     "answer": "It remained a key social structure, but with new sub-castes emerging",
     "explanation": "While the Sultanate's rule did not abolish the caste system, it did create a new social order where the Muslim ruling class occupied the highest position. The caste system continued to be a key social structure, with new sub-castes emerging based on occupation.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major port of trade during the Sultanate period?",
@@ -10148,7 +10148,7 @@ const questionDatabase = [
     "answer": "Calicut",
     "explanation": "Calicut, a major port on the Malabar Coast, was a hub for international trade during the Sultanate period. It was a key point of contact for merchants from Arabia, Persia, and other parts of the world.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lodi Garden' tombs in Delhi are a great example of the architectural style of which dynasty?",
@@ -10161,7 +10161,7 @@ const questionDatabase = [
     "answer": "Lodi dynasty",
     "explanation": "The Lodi Garden tombs are a collection of tombs and monuments built by the Lodi dynasty. They represent a distinct style of Sultanate architecture that is a transition between the Tughluq and the Mughal styles.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Diwan-i-mustakhraj' was a key department of which Sultan's administration?",
@@ -10174,7 +10174,7 @@ const questionDatabase = [
     "answer": "Alauddin Khalji",
     "explanation": "The 'Diwan-i-mustakhraj' was a department established by Alauddin Khalji to recover arrears of revenue from corrupt officials, which was a part of his agrarian reforms.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chola' bronze sculptures of 'Nataraja' continued to be made in the 13th and 14th centuries, which is an example of which of the following?",
@@ -10187,7 +10187,7 @@ const questionDatabase = [
     "answer": "The continuation of the artistic tradition of the Cholas",
     "explanation": "Despite the decline of the Chola Empire, the tradition of making bronze sculptures, particularly the famous 'Nataraja', continued under local patronage, showing the resilience of the local artistic traditions.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Masahat' system of land measurement, introduced by Alauddin Khalji, was a major agrarian measure that led to which of the following?",
@@ -10200,7 +10200,7 @@ const questionDatabase = [
     "answer": "The increase in the Sultan's revenue and direct control over land",
     "explanation": "The 'Masahat' system, which involved the measurement of land for tax assessment, increased the Sultan's revenue by preventing fraud by local landlords and establishing a direct relationship with the peasants.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Rihla' of Ibn Battuta provides a detailed account of which of the following?",
@@ -10213,7 +10213,7 @@ const questionDatabase = [
     "answer": "The social life and customs of the Sultanate",
     "explanation": "Ibn Battuta's 'Rihla' is a key source for understanding the social life, customs, and practices of the Sultanate. It provides a unique perspective on the interaction between the new ruling class and the local population.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The rise of new urban centers under the Sultanate was primarily a result of which of the following?",
@@ -10226,7 +10226,7 @@ const questionDatabase = [
     "answer": "The establishment of new administrative and military centers",
     "explanation": "The new ruling class established new administrative and military centers, such as Delhi and its surrounding towns, which became hubs for trade, crafts, and non-agricultural production, leading to the rise of new urban centers.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sultanate period saw the flourishing of 'miniature painting' on which of the following?",
@@ -10239,7 +10239,7 @@ const questionDatabase = [
     "answer": "Palm-leaf manuscripts",
     "explanation": "The tradition of miniature painting on palm-leaf manuscripts, particularly in Eastern India under the Pala and Sena dynasties, continued to flourish during the Sultanate period, with themes from Buddhist and Jain traditions.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' concept of 'Sama' refers to which of the following?",
@@ -10252,7 +10252,7 @@ const questionDatabase = [
     "answer": "A form of devotional music and dance",
     "explanation": "'Sama' was a key practice of the Sufi orders, particularly the Chishti order. It involved devotional music and dance, which was believed to induce a state of spiritual ecstasy and a closer union with God.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hauz Khas' complex in Delhi, which includes a water tank and a madrasa, was built by which Sultan?",
@@ -10265,7 +10265,7 @@ const questionDatabase = [
     "answer": "Alauddin Khalji",
     "explanation": "The 'Hauz Khas' complex was initially built by Alauddin Khalji to provide water to the city of Siri. It was later developed by Firuz Tughluq, who built a madrasa and a tomb there.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major consequence of the growth of the urban economy under the Sultanate?",
@@ -10278,7 +10278,7 @@ const questionDatabase = [
     "answer": "The rise of a new class of merchants and bankers",
     "explanation": "The growth of trade and commerce and the new urban centers led to the rise of a new class of merchants and bankers, who played a crucial role in the economy by providing loans and managing finances.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ulama' had a complex relationship with the Sultans. Which of the following describes this relationship?",
@@ -10291,7 +10291,7 @@ const questionDatabase = [
     "answer": "They had both a symbiotic and a confrontational relationship with the Sultans",
     "explanation": "The relationship between the 'Ulama' and the Sultans was complex. While the 'Ulama' provided religious legitimacy to the Sultan's rule, they also often challenged the Sultan's policies when they were perceived to be against Islamic law.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sultanate's agricultural production was based on which of the following?",
@@ -10304,7 +10304,7 @@ const questionDatabase = [
     "answer": "A system of peasant cultivators under a new class of landlords",
     "explanation": "The rural society was structured around a system of peasant cultivators who were the primary producers. They paid a significant portion of their produce as land revenue to a new class of landlords, including 'iqtadars' and local chiefs.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tughluq' period saw the construction of which of the following new architectural features?",
@@ -10317,7 +10317,7 @@ const questionDatabase = [
     "answer": "The use of 'batter' or sloping walls",
     "explanation": "The Tughluq dynasty introduced a new architectural feature of 'batter' or sloping walls, which gave their buildings a sense of strength and solidity, as seen in the tomb of Ghiyasuddin Tughluq.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saints were revered by the common people for their which of the following?",
@@ -10330,7 +10330,7 @@ const questionDatabase = [
     "answer": "Their simple lifestyle and spiritual teachings",
     "explanation": "The Sufi saints, with their simple lifestyle, rejection of material wealth, and emphasis on love and brotherhood, were able to connect with the common people and gain their reverence and respect.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tughluqabad' Fort, with its massive walls and fortified structure, is an example of which of the following?",
@@ -10343,7 +10343,7 @@ const questionDatabase = [
     "answer": "A new style of urban planning and defense",
     "explanation": "The 'Tughluqabad' Fort, built by Ghiyasuddin Tughluq, was a new city and a fortified structure that was designed to be a major administrative and military center, showcasing a new style of urban planning and defense.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' movement in North India had which of the following social consequences?",
@@ -10356,7 +10356,7 @@ const questionDatabase = [
     "answer": "It challenged the caste system and promoted social equality",
     "explanation": "The Bhakti movement, with its emphasis on a personal and direct relationship with God, challenged the hierarchical caste system and promoted social equality, as many of its saints came from lower castes and their message was open to all.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ghazi' or 'warrior for faith' was a new social and military class that emerged during the Sultanate period. They were responsible for which of the following?",
@@ -10369,7 +10369,7 @@ const questionDatabase = [
     "answer": "Leading military campaigns and converting people to Islam",
     "explanation": "The 'Ghazi' were a new class of warriors who were motivated by a combination of religious fervor and the desire for conquest and plunder. They played a crucial role in the military campaigns and the expansion of the Sultanate.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indo-Islamic' architectural style is also known as which of the following?",
@@ -10382,7 +10382,7 @@ const questionDatabase = [
     "answer": "The 'Sultanate' style",
     "explanation": "The 'Sultanate' style is a general term for the architecture that emerged under the Delhi Sultanate. It is a fusion of Indian and Islamic architectural traditions and is a key feature of the Sultanate's cultural legacy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sultanate period saw the use of new technologies in agriculture, such as which of the following?",
@@ -10395,7 +10395,7 @@ const questionDatabase = [
     "answer": "The use of a Persian wheel",
     "explanation": "The Persian wheel (`saqiya`) was a new technology that was introduced to India during the Sultanate period. It was used for lifting water from wells and canals and helped to improve agricultural production.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major consequence of the decline of the Sultanate on society?",
@@ -10408,7 +10408,7 @@ const questionDatabase = [
     "answer": "The fragmentation of the empire and the rise of local power centers",
     "explanation": "The decline of the Sultanate led to the fragmentation of the empire and the rise of new, independent regional kingdoms, which led to a new political and social order in different parts of India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' concept of 'Silsila' refers to which of the following?",
@@ -10421,7 +10421,7 @@ const questionDatabase = [
     "answer": "A spiritual lineage or chain of succession",
     "explanation": "The 'Silsila' refers to the spiritual lineage or chain of succession that connects a Sufi saint to his master and eventually to the Prophet Muhammad. It was a key aspect of the Sufi orders.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Moti Masjid' in Delhi is a fine example of which of the following?",
@@ -10434,7 +10434,7 @@ const questionDatabase = [
     "answer": "The use of marble and domes",
     "explanation": "The 'Moti Masjid' in the Red Fort is a masterpiece of Mughal architecture. Its use of white marble and its exquisite domes and arches make it a key example of the Mughal style.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'town dwellers' under the Sultanate were primarily which of the following?",
@@ -10447,7 +10447,7 @@ const questionDatabase = [
     "answer": "Merchants, artisans, soldiers, and administrators",
     "explanation": "The urban population of the Sultanate consisted of a new class of merchants, artisans, soldiers, and administrators who were supported by the new urban economy and the military and administrative needs of the state.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jauhar', which was a rite of self-immolation, was a major social issue for which of the following reasons?",
@@ -10460,7 +10460,7 @@ const questionDatabase = [
     "answer": "It was a tragic response to the fear of enslavement and dishonor",
     "explanation": "The 'Jauhar' was a tragic and desperate response to the threat of capture and enslavement by the invading armies. It was a ritual that was performed by Rajput women to protect their honor and dignity.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tarikh-i-Firoz Shahi' by Ziauddin Barani is a major historical source for which of the following?",
@@ -10473,7 +10473,7 @@ const questionDatabase = [
     "answer": "All of the above",
     "explanation": "Ziauddin Barani's 'Tarikh-i-Firoz Shahi' is a comprehensive historical chronicle that provides a detailed account of the social, economic, and political life of the Sultanate, particularly the reigns of Alauddin Khalji and Firuz Tughluq.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Dargah of Khwaja Muinuddin Chishti' in Ajmer is a key example of which of the following?",
@@ -10486,7 +10486,7 @@ const questionDatabase = [
     "answer": "The fusion of Hindu and Muslim religious traditions",
     "explanation": "The 'Dargah' of Khwaja Muinuddin Chishti is a key example of the fusion of religious traditions in India. It is a major pilgrimage site that is revered by both Hindus and Muslims, showcasing the syncretic nature of Indian culture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Great' King of Kashmir, who was known for his policy of religious tolerance and public works, was?",
@@ -10499,7 +10499,7 @@ const questionDatabase = [
     "answer": "Zainul Abedin",
     "explanation": "Zainul Abedin, also known as 'Bud Shah', was a benevolent ruler of Kashmir who followed a policy of religious tolerance, promoted public works like canals and bridges, and patronized scholars and artists.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of Sher Shah Suri's land revenue administration?",
@@ -10512,7 +10512,7 @@ const questionDatabase = [
     "answer": "A uniform measurement of land for tax assessment",
     "explanation": "Sher Shah introduced a new system of land revenue based on the measurement of land. The land was measured using a standard unit, and the tax was fixed at one-third of the produce, which was a major reform.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Char Minar' in Hyderabad is a famous architectural example of which of the following provincial dynasties?",
@@ -10525,7 +10525,7 @@ const questionDatabase = [
     "answer": "The Bahmani Sultanate",
     "explanation": "The 'Char Minar' was built by Muhammad Quli Qutb Shah, a ruler of the Qutb Shahi dynasty, which emerged after the decline of the Bahmani Sultanate in the Deccan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Vijayanagara Empire's greatest ruler, who was a patron of art and literature and a great military commander, was?",
@@ -10538,7 +10538,7 @@ const questionDatabase = [
     "answer": "Krishnadevaraya",
     "explanation": "Krishnadevaraya, a ruler of the Tuluva dynasty, was the most famous ruler of the Vijayanagara Empire. His reign was a golden age of art, literature, and military conquests.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Battle of Panipat in 1526 CE, which led to the foundation of the Mughal Empire, was fought between Babur and which Lodi ruler?",
@@ -10551,7 +10551,7 @@ const questionDatabase = [
     "answer": "Ibrahim Lodi",
     "explanation": "The First Battle of Panipat was a decisive victory for Babur's forces against the much larger army of Ibrahim Lodi, which marked the end of the Delhi Sultanate and the beginning of the Mughal Empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of Humayun's initial loss of the Mughal throne to Sher Shah Suri?",
@@ -10564,7 +10564,7 @@ const questionDatabase = [
     "answer": "His military incompetence and poor leadership",
     "explanation": "Humayun's reign was marked by a lack of military foresight and poor leadership, which was capitalized on by Sher Shah Suri, who defeated him at the Battle of Chausa and later at the Battle of Kannauj, forcing him to flee from India.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Sher Shah Suri's 'Grand Trunk Road' was a major administrative achievement for which of the following reasons?",
@@ -10577,7 +10577,7 @@ const questionDatabase = [
     "answer": "It was a major trade route that connected Bengal to the Indus Valley",
     "explanation": "The 'Grand Trunk Road', built by Sher Shah, was a major public work that facilitated trade, communication, and the movement of the army. It connected the Eastern and Western parts of his empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Portuguese colonial enterprise in India was primarily aimed at which of the following?",
@@ -10590,7 +10590,7 @@ const questionDatabase = [
     "answer": "Establishing a monopoly over the spice trade",
     "explanation": "The Portuguese were the first European power to establish themselves in India. Their primary motivation was to control the lucrative spice trade from the East and bypass the Arab and Venetian merchants.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Akbarnama' and 'Ain-i-Akbari', major historical works of the Mughal period, were written by which of the following?",
@@ -10603,7 +10603,7 @@ const questionDatabase = [
     "answer": "Abul Fazl",
     "explanation": "Abul Fazl, one of Akbar's 'Nine Jewels', was a brilliant historian and writer. He wrote the 'Akbarnama', a detailed chronicle of Akbar's reign, and the 'Ain-i-Akbari', which provides a detailed account of the Mughal administration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mansabdari' system, introduced by Akbar, was a new form of which of the following?",
@@ -10616,7 +10616,7 @@ const questionDatabase = [
     "answer": "A military and civil administrative system",
     "explanation": "The 'Mansabdari' system was a unique administrative system that integrated both the civil and military aspects of the government. The 'Mansabdars' were appointed by the Emperor and were responsible for both military service and civil administration.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Akbar's 'Rajput' policy was aimed at which of the following?",
@@ -10629,7 +10629,7 @@ const questionDatabase = [
     "answer": "The forging of a new political alliance with the Rajputs",
     "explanation": "Akbar's Rajput policy was a landmark in Mughal history. He forged a new alliance with the Rajputs by offering them high-ranking positions in the military and administration, and by marrying Rajput princesses, which helped him consolidate his empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sulh-i-kul' ('Universal Peace') was a major principle of which of the following?",
@@ -10642,7 +10642,7 @@ const questionDatabase = [
     "answer": "Akbar's religious and social outlook",
     "explanation": "Akbar's policy of 'Sulh-i-kul' was a key aspect of his religious outlook. It was based on the principle of universal peace and tolerance, which allowed him to patronize people of all religions and to promote a composite culture.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Taj Mahal', a masterpiece of Mughal architecture, was built by which emperor?",
@@ -10655,7 +10655,7 @@ const questionDatabase = [
     "answer": "Shahjahan",
     "explanation": "The 'Taj Mahal' was built by Emperor Shahjahan in memory of his beloved wife, Mumtaz Mahal. It is a symbol of Mughal architecture and is renowned for its use of white marble, intricate carvings, and symmetrical design.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Aurangzeb's 'religious policy' included which of the following?",
@@ -10668,7 +10668,7 @@ const questionDatabase = [
     "answer": "The demolition of Hindu temples and the re-imposition of 'jizya'",
     "explanation": "Aurangzeb was an orthodox Sunni Muslim who reversed Akbar's policy of religious tolerance. He re-imposed the 'jizya' (a tax on non-Muslims) and ordered the demolition of some Hindu temples, which alienated a large section of his population.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Maratha' Kingdom under Shivaji was a major political and military power that emerged in the late 17th century. What was a key feature of its administration?",
@@ -10681,7 +10681,7 @@ const questionDatabase = [
     "answer": "A system of direct administration and a council of ministers",
     "explanation": "Shivaji's administration was a well-organized and centralized system. He introduced a system of 'Ashta Pradhan Mandal' (a council of eight ministers) and a system of direct administration, which was a major departure from the Mughal feudal system.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the 'Late Seventeenth-Century crisis' in the Mughal Empire?",
@@ -10694,7 +10694,7 @@ const questionDatabase = [
     "answer": "The weakening of the 'Mansabdari' and 'Jagirdari' systems",
     "explanation": "The 'Jagirdari' crisis, which was caused by a shortage of 'jagir' land and an increase in the number of 'Mansabdars', was a major cause of the Mughal Empire's decline. It led to a financial crisis and widespread rebellion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sikh' community was transformed into the 'Khalsa Panth', a militant order, by which of the following Gurus?",
@@ -10707,7 +10707,7 @@ const questionDatabase = [
     "answer": "Guru Gobind Singh",
     "explanation": "Guru Gobind Singh, the tenth Guru of the Sikhs, transformed the Sikh community into the 'Khalsa Panth' in 1699 CE. It was a new, militarized order that was created to fight against the religious persecution of the Mughal Empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Red Fort' and the 'Jama Masjid' in Delhi were built by which emperor?",
@@ -10720,7 +10720,7 @@ const questionDatabase = [
     "answer": "Shahjahan",
     "explanation": "Shahjahan was a great patron of architecture. He built the 'Red Fort' and the 'Jama Masjid' in Delhi, which are some of the finest examples of Mughal architecture and urban planning.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hundi', a system of credit and banking, was a key feature of which of the following?",
@@ -10733,7 +10733,7 @@ const questionDatabase = [
     "answer": "The Indian mercantile classes and banking system",
     "explanation": "The 'Hundi' was a form of credit note or bill of exchange that was widely used by the Indian mercantile classes for transferring money and conducting trade without the need for carrying large amounts of cash, which was a key feature of the Indian banking system.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Panipat' in 1761 CE, which led to the decline of the Maratha ascendancy, was fought between the Marathas and which of the following?",
@@ -10746,7 +10746,7 @@ const questionDatabase = [
     "answer": "The Afghans",
     "explanation": "The Third Battle of Panipat was a decisive defeat for the Marathas against the Afghan forces led by Ahmad Shah Abdali. It led to the temporary decline of the Maratha ascendancy and paved the way for the British to establish their power.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the decline of the Mughal Empire in the 18th century?",
@@ -10759,7 +10759,7 @@ const questionDatabase = [
     "answer": "A succession of weak and incompetent rulers",
     "explanation": "The decline of the Mughal Empire was caused by a number of factors, including the succession of weak and incompetent rulers after the death of Aurangzeb, who were unable to manage the vast empire and its internal conflicts.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sikh community' was a major political and military force that emerged in the 18th century as a result of which of the following?",
@@ -10772,7 +10772,7 @@ const questionDatabase = [
     "answer": "The Mughal persecution and the rise of the Khalsa Panth",
     "explanation": "The Sikh community was transformed into a militant force in response to the religious persecution of the Mughal Empire, particularly under Aurangzeb. The establishment of the Khalsa Panth provided a military and political identity to the Sikhs.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bahmani' Sultanate, which emerged in the Deccan, was a major political power that rivaled which of the following empires?",
@@ -10785,7 +10785,7 @@ const questionDatabase = [
     "answer": "The Vijayanagara Empire",
     "explanation": "The Bahmani Sultanate and the Vijayanagara Empire were the two major political powers in the Deccan during the 15th and 16th centuries. They were engaged in a constant rivalry for control over the rich Krishna-Godavari doab and the Tungabhadra river valley.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Akbari' period saw a new form of painting that was a blend of which two styles?",
@@ -10798,7 +10798,7 @@ const questionDatabase = [
     "answer": "Indian and Persian",
     "explanation": "Mughal painting under Akbar was a unique blend of the Persian miniature style, with its focus on intricate detail and decorative elements, and the Indian style, with its focus on a more realistic and narrative style.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of the 'Sufi' movement during the 15th and 16th centuries?",
@@ -10811,7 +10811,7 @@ const questionDatabase = [
     "answer": "It promoted a more inclusive and syncretic form of religious practice",
     "explanation": "The Sufi movement continued to flourish during this period. Sufi saints, with their mystical teachings and emphasis on love and tolerance, continued to attract people of all faiths, which led to a more inclusive and syncretic form of religious practice.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Deccan Sultanates' that emerged after the decline of the Bahmani Sultanate included which of the following?",
@@ -10824,7 +10824,7 @@ const questionDatabase = [
     "answer": "The Bijapur Sultanate and the Golconda Sultanate",
     "explanation": "The Bahmani Sultanate fragmented into five independent kingdoms, including the Bijapur, Golconda, Ahmadnagar, Berar, and Bidar Sultanates, which were a major political force in the Deccan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Din-i-Ilahi', a new religious order founded by Akbar, was aimed at which of the following?",
@@ -10837,7 +10837,7 @@ const questionDatabase = [
     "answer": "The promotion of a new, tolerant, and inclusive religious philosophy",
     "explanation": "The 'Din-i-Ilahi' was not a new religion but a new philosophical order that was based on the principles of 'Sulh-i-kul'. It was aimed at creating a new, tolerant, and inclusive religious philosophy that was acceptable to all religions.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jagirdari' system, introduced by Akbar, was a new form of which of the following?",
@@ -10850,7 +10850,7 @@ const questionDatabase = [
     "answer": "A land grant system to the 'Mansabdars'",
     "explanation": "The 'Jagirdari' system was a land grant system in which the 'Mansabdars' were assigned 'jagir' land in lieu of a salary. They were responsible for collecting revenue from the land and maintaining a contingent of troops for the Emperor.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' saint 'Kabir' was a major figure of the 15th century. His teachings were aimed at which of the following?",
@@ -10863,7 +10863,7 @@ const questionDatabase = [
     "answer": "The promotion of a syncretic, non-sectarian path to God",
     "explanation": "Kabir was a mystic and a poet who rejected the caste system and the rigid rituals of both Hinduism and Islam. His teachings promoted a syncretic, non-sectarian path to God that was based on love and devotion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jahangirnama', a major historical source of the 17th century, was a memoir written by which emperor?",
@@ -10876,7 +10876,7 @@ const questionDatabase = [
     "answer": "Jahangir",
     "explanation": "The 'Jahangirnama' is a detailed memoir written by Emperor Jahangir. It provides a first-hand account of his life, his reign, his court, and his love for art and nature.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Zanjir-i-Adl' (Chain of Justice) was a key administrative policy of which emperor?",
@@ -10889,7 +10889,7 @@ const questionDatabase = [
     "answer": "Jahangir",
     "explanation": "Jahangir was known for his love of justice. He installed a 'Chain of Justice' with bells outside his palace, which anyone could ring to bring their grievances to the Emperor's attention, symbolizing his commitment to justice.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the 'Late Seventeenth-Century crisis' in the Mughal Empire?",
@@ -10902,7 +10902,7 @@ const questionDatabase = [
     "answer": "The Maratha and Sikh revolts",
     "explanation": "The Maratha and Sikh revolts, which were a response to the Mughal religious and political policies, were a major cause of the Mughal Empire's decline. They drained the Empire's resources and weakened its authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Red Fort' and the 'Jama Masjid' in Delhi were built in which of the following styles?",
@@ -10915,7 +10915,7 @@ const questionDatabase = [
     "answer": "Shahjahani style",
     "explanation": "The 'Shahjahani' style of architecture is a major phase of Mughal architecture. It is characterized by the extensive use of white marble, the 'chhatris' (domed kiosks), and the use of the 'pietra dura' technique, which are all features of the Red Fort and the Jama Masjid.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ahom' kingdom, a major political power that resisted the Mughal expansion, was located in which of the following regions?",
@@ -10928,7 +10928,7 @@ const questionDatabase = [
     "answer": "The North-East",
     "explanation": "The Ahom kingdom, which was a major political power in the Brahmaputra Valley, successfully resisted the Mughal expansion. They were a major military and political force that checked the Mughal advance in the North-East.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chauth' and 'Sardeshmukhi' were the major fiscal and financial systems of which of the following?",
@@ -10941,7 +10941,7 @@ const questionDatabase = [
     "answer": "The Maratha Empire",
     "explanation": "The 'Chauth' (one-fourth of the revenue) and 'Sardeshmukhi' (an additional tax of 10%) were a form of tribute collected by the Marathas from the conquered territories. They were a key part of the Maratha fiscal and financial system.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hundi', a system of credit and banking, was a key feature of which of the following?",
@@ -10954,7 +10954,7 @@ const questionDatabase = [
     "answer": "The Indian mercantile classes and banking system",
     "explanation": "The 'Hundi' was a form of credit note or bill of exchange that was widely used by the Indian mercantile classes for transferring money and conducting trade without the need for carrying large amounts of cash, which was a key feature of the Indian banking system.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saint 'Shaikh Ahmad Sirhindi' was a major figure of the 17th century who was known for his which of the following?",
@@ -10967,7 +10967,7 @@ const questionDatabase = [
     "answer": "His orthodox and conservative views on Islam",
     "explanation": "Shaikh Ahmad Sirhindi was a major figure of the Naqshbandi Sufi order. He was a conservative and orthodox Sufi who was known for his opposition to Akbar's 'Din-i-Ilahi' and for his promotion of a more orthodox and puritanical form of Islam.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tulsidas', a famous poet of the 16th century, was a major figure of the Bhakti movement. What was his most famous work?",
@@ -10980,7 +10980,7 @@ const questionDatabase = [
     "answer": "Ramcharitmanas",
     "explanation": "Tulsidas was a great poet and a devotee of Lord Rama. His most famous work, 'Ramcharitmanas', is a retelling of the story of Rama in the Avadhi language, which made the story of Rama accessible to the common people of North India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Peshwas' were the de facto rulers of which of the following empires in the 18th century?",
@@ -10993,7 +10993,7 @@ const questionDatabase = [
     "answer": "The Maratha Empire",
     "explanation": "The 'Peshwas' were the prime ministers of the Maratha Empire. They became the de facto rulers of the empire in the 18th century, which led to a major ascendancy of the Maratha power in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nizam's Deccan' was a major regional principality that emerged in the 18th century after the decline of the Mughal Empire. It was founded by which of the following?",
@@ -11006,7 +11006,7 @@ const questionDatabase = [
     "answer": "Nizam-ul-Mulk Asaf Jah I",
     "explanation": "Nizam-ul-Mulk Asaf Jah I was a high-ranking Mughal official who took advantage of the decline of the Mughal Empire to establish an independent kingdom in the Deccan. He was the founder of the Asaf Jahi dynasty.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indian mercantile classes' were a major economic force during the Mughal period. Which of the following was a key feature of their social status?",
@@ -11019,7 +11019,7 @@ const questionDatabase = [
     "answer": "They were a powerful, influential, and respected class",
     "explanation": "The Indian mercantile classes, which included 'baniyas' and 'chettis', were a powerful and respected class in the Mughal society. They were a key source of revenue for the state and had a major influence on the economy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lahori' style of painting, which was a key feature of the Mughal court, was patronized by which of the following?",
@@ -11032,7 +11032,7 @@ const questionDatabase = [
     "answer": "Shahjahan",
     "explanation": "The 'Lahori' style of painting, which was characterized by a more classical and elegant style, was a major feature of Shahjahan's court. He was a great patron of painting and architecture, and his court was a major center of artistic activity.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'British East India Company' was granted the right to trade in Bengal by which of the following?",
@@ -11045,7 +11045,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The British East India Company was granted the right to trade in Bengal by the Nawab of Bengal. The grant of the 'Diwani' (the right to collect revenue) in 1765 CE gave the British a major political and economic foothold in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' saint 'Surdas' was a major figure of the 16th century who was a devotee of which of the following deities?",
@@ -11058,7 +11058,7 @@ const questionDatabase = [
     "answer": "Lord Krishna",
     "explanation": "Surdas was a great poet and a devotee of Lord Krishna. His most famous work, 'Sur Sagar', is a collection of poems that celebrates the life and teachings of Krishna and is a key work of the Bhakti movement.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Plassey' in 1757 CE, which led to the establishment of British rule in Bengal, was fought between the British and which of the following?",
@@ -11071,7 +11071,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The Battle of Plassey was a decisive victory for the British East India Company against the Nawab of Bengal, Siraj-ud-Daulah. It was a major turning point in Indian history and led to the establishment of British rule in Bengal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vijayanagara Empire' was a major political and cultural power in the South. What was a key feature of its architecture?",
@@ -11084,7 +11084,7 @@ const questionDatabase = [
     "answer": "The use of granite and the construction of massive 'gopurams' and 'mandapas'",
     "explanation": "The Vijayanagara architecture is a major style of Indian architecture. It is characterized by the use of granite and the construction of massive 'gopurams' (gateway towers) and 'mandapas' (pillared halls) with intricate carvings.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nizam's Deccan' was a major regional principality that emerged in the 18th century. It was an example of which of the following?",
@@ -11097,7 +11097,7 @@ const questionDatabase = [
     "answer": "A new, independent kingdom",
     "explanation": "The 'Nizam's Deccan' was a major regional principality that emerged after the decline of the Mughal Empire. It was an example of the fragmentation of the Mughal Empire and the rise of new, independent regional kingdoms.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bahmani' Sultanate, which emerged in the Deccan, was a major political power that rivaled which of the following empires?",
@@ -11110,7 +11110,7 @@ const questionDatabase = [
     "answer": "The Vijayanagara Empire",
     "explanation": "The Bahmani Sultanate and the Vijayanagara Empire were the two major political powers in the Deccan during the 15th and 16th centuries. They were engaged in a constant rivalry for control over the rich Krishna-Godavari doab and the Tungabhadra river valley.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Akbari' period saw a new form of painting that was a blend of which two styles?",
@@ -11123,7 +11123,7 @@ const questionDatabase = [
     "answer": "Indian and Persian",
     "explanation": "Mughal painting under Akbar was a unique blend of the Persian miniature style, with its focus on intricate detail and decorative elements, and the Indian style, with its focus on a more realistic and narrative style.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of the 'Sufi' movement during the 15th and 16th centuries?",
@@ -11136,7 +11136,7 @@ const questionDatabase = [
     "answer": "It promoted a more inclusive and syncretic form of religious practice",
     "explanation": "The Sufi movement continued to flourish during this period. Sufi saints, with their mystical teachings and emphasis on love and tolerance, continued to attract people of all faiths, which led to a more inclusive and syncretic form of religious practice.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Deccan Sultanates' that emerged after the decline of the Bahmani Sultanate included which of the following?",
@@ -11149,7 +11149,7 @@ const questionDatabase = [
     "answer": "The Bijapur Sultanate and the Golconda Sultanate",
     "explanation": "The Bahmani Sultanate fragmented into five independent kingdoms, including the Bijapur, Golconda, Ahmadnagar, Berar, and Bidar Sultanates, which were a major political force in the Deccan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Din-i-Ilahi', a new religious order founded by Akbar, was aimed at which of the following?",
@@ -11162,7 +11162,7 @@ const questionDatabase = [
     "answer": "The promotion of a new, tolerant, and inclusive religious philosophy",
     "explanation": "The 'Din-i-Ilahi' was not a new religion but a new philosophical order that was based on the principles of 'Sulh-i-kul'. It was aimed at creating a new, tolerant, and inclusive religious philosophy that was acceptable to all religions.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jagirdari' system, introduced by Akbar, was a new form of which of the following?",
@@ -11175,7 +11175,7 @@ const questionDatabase = [
     "answer": "A land grant system to the 'Mansabdars'",
     "explanation": "The 'Jagirdari' system was a land grant system in which the 'Mansabdars' were assigned 'jagir' land in lieu of a salary. They were responsible for collecting revenue from the land and maintaining a contingent of troops for the Emperor.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' saint 'Kabir' was a major figure of the 15th century. His teachings were aimed at which of the following?",
@@ -11188,7 +11188,7 @@ const questionDatabase = [
     "answer": "The promotion of a syncretic, non-sectarian path to God",
     "explanation": "Kabir was a mystic and a poet who rejected the caste system and the rigid rituals of both Hinduism and Islam. His teachings promoted a syncretic, non-sectarian path to God that was based on love and devotion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jahangirnama', a major historical source of the 17th century, was a memoir written by which emperor?",
@@ -11201,7 +11201,7 @@ const questionDatabase = [
     "answer": "Jahangir",
     "explanation": "The 'Jahangirnama' is a detailed memoir written by Emperor Jahangir. It provides a first-hand account of his life, his reign, his court, and his love for art and nature.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Zanjir-i-Adl' (Chain of Justice) was a key administrative policy of which emperor?",
@@ -11214,7 +11214,7 @@ const questionDatabase = [
     "answer": "Jahangir",
     "explanation": "Jahangir was known for his love of justice. He installed a 'Chain of Justice' with bells outside his palace, which anyone could ring to bring their grievances to the Emperor's attention, symbolizing his commitment to justice.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the 'Late Seventeenth-Century crisis' in the Mughal Empire?",
@@ -11227,7 +11227,7 @@ const questionDatabase = [
     "answer": "The Maratha and Sikh revolts",
     "explanation": "The Maratha and Sikh revolts, which were a response to the Mughal religious and political policies, were a major cause of the Mughal Empire's decline. They drained the Empire's resources and weakened its authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Red Fort' and the 'Jama Masjid' in Delhi were built in which of the following styles?",
@@ -11240,7 +11240,7 @@ const questionDatabase = [
     "answer": "Shahjahani style",
     "explanation": "The 'Shahjahani' style of architecture is a major phase of Mughal architecture. It is characterized by the extensive use of white marble, the 'chhatris' (domed kiosks), and the use of the 'pietra dura' technique, which are all features of the Red Fort and the Jama Masjid.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ahom' kingdom, a major political power that resisted the Mughal expansion, was located in which of the following regions?",
@@ -11253,7 +11253,7 @@ const questionDatabase = [
     "answer": "The North-East",
     "explanation": "The Ahom kingdom, which was a major political power in the Brahmaputra Valley, successfully resisted the Mughal expansion. They were a major military and political force that checked the Mughal advance in the North-East.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chauth' and 'Sardeshmukhi' were the major fiscal and financial systems of which of the following?",
@@ -11266,7 +11266,7 @@ const questionDatabase = [
     "answer": "The Maratha Empire",
     "explanation": "The 'Chauth' (one-fourth of the revenue) and 'Sardeshmukhi' (an additional tax of 10%) were a form of tribute collected by the Marathas from the conquered territories. They were a key part of the Maratha fiscal and financial system.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hundi', a system of credit and banking, was a key feature of which of the following?",
@@ -11279,7 +11279,7 @@ const questionDatabase = [
     "answer": "The Indian mercantile classes and banking system",
     "explanation": "The 'Hundi' was a form of credit note or bill of exchange that was widely used by the Indian mercantile classes for transferring money and conducting trade without the need for carrying large amounts of cash, which was a key feature of the Indian banking system.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saint 'Shaikh Ahmad Sirhindi' was a major figure of the 17th century who was known for his which of the following?",
@@ -11292,7 +11292,7 @@ const questionDatabase = [
     "answer": "His orthodox and conservative views on Islam",
     "explanation": "Shaikh Ahmad Sirhindi was a major figure of the Naqshbandi Sufi order. He was a conservative and orthodox Sufi who was known for his opposition to Akbar's 'Din-i-Ilahi' and for his promotion of a more orthodox and puritanical form of Islam.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tulsidas', a famous poet of the 16th century, was a major figure of the Bhakti movement. What was his most famous work?",
@@ -11305,7 +11305,7 @@ const questionDatabase = [
     "answer": "Ramcharitmanas",
     "explanation": "Tulsidas was a great poet and a devotee of Lord Rama. His most famous work, 'Ramcharitmanas', is a retelling of the story of Rama in the Avadhi language, which made the story of Rama accessible to the common people of North India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Peshwas' were the de facto rulers of which of the following empires in the 18th century?",
@@ -11318,7 +11318,7 @@ const questionDatabase = [
     "answer": "The Maratha Empire",
     "explanation": "The 'Peshwas' were the prime ministers of the Maratha Empire. They became the de facto rulers of the empire in the 18th century, which led to a major ascendancy of the Maratha power in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nizam's Deccan' was a major regional principality that emerged in the 18th century after the decline of the Mughal Empire. It was founded by which of the following?",
@@ -11331,7 +11331,7 @@ const questionDatabase = [
     "answer": "Nizam-ul-Mulk Asaf Jah I",
     "explanation": "Nizam-ul-Mulk Asaf Jah I was a high-ranking Mughal official who took advantage of the decline of the Mughal Empire to establish an independent kingdom in the Deccan. He was the founder of the Asaf Jahi dynasty.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indian mercantile classes' were a major economic force during the Mughal period. Which of the following was a key feature of their social status?",
@@ -11344,7 +11344,7 @@ const questionDatabase = [
     "answer": "They were a powerful, influential, and respected class",
     "explanation": "The Indian mercantile classes, which included 'baniyas' and 'chettis', were a powerful and respected class in the Mughal society. They were a key source of revenue for the state and had a major influence on the economy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lahori' style of painting, which was a key feature of the Mughal court, was patronized by which of the following?",
@@ -11357,7 +11357,7 @@ const questionDatabase = [
     "answer": "Shahjahan",
     "explanation": "The 'Lahori' style of painting, which was characterized by a more classical and elegant style, was a major feature of Shahjahan's court. He was a great patron of painting and architecture, and his court was a major center of artistic activity.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'British East India Company' was granted the right to trade in Bengal by which of the following?",
@@ -11370,7 +11370,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The British East India Company was granted the right to trade in Bengal by the Nawab of Bengal. The grant of the 'Diwani' (the right to collect revenue) in 1765 CE gave the British a major political and economic foothold in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' saint 'Surdas' was a major figure of the 16th century who was a devotee of which of the following deities?",
@@ -11383,7 +11383,7 @@ const questionDatabase = [
     "answer": "Lord Krishna",
     "explanation": "Surdas was a great poet and a devotee of Lord Krishna. His most famous work, 'Sur Sagar', is a collection of poems that celebrates the life and teachings of Krishna and is a key work of the Bhakti movement.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Plassey' in 1757 CE, which led to the establishment of British rule in Bengal, was fought between the British and which of the following?",
@@ -11396,7 +11396,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The Battle of Plassey was a decisive victory for the British East India Company against the Nawab of Bengal, Siraj-ud-Daulah. It was a major turning point in Indian history and led to the establishment of British rule in Bengal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vijayanagara Empire' was a major political and cultural power in the South. What was a key feature of its architecture?",
@@ -11409,7 +11409,7 @@ const questionDatabase = [
     "answer": "The use of granite and the construction of massive 'gopurams' and 'mandapas'",
     "explanation": "The Vijayanagara architecture is a major style of Indian architecture. It is characterized by the use of granite and the construction of massive 'gopurams' (gateway towers) and 'mandapas' (pillared halls) with intricate carvings.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nizam's Deccan' was a major regional principality that emerged in the 18th century. It was an example of which of the following?",
@@ -11422,7 +11422,7 @@ const questionDatabase = [
     "answer": "A new, independent kingdom",
     "explanation": "The 'Nizam's Deccan' was a major regional principality that emerged after the decline of the Mughal Empire. It was an example of the fragmentation of the Mughal Empire and the rise of new, independent regional kingdoms.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Talikota' in 1565 CE, which led to the decline of the Vijayanagara Empire, was fought against which of the following?",
@@ -11435,7 +11435,7 @@ const questionDatabase = [
     "answer": "The Deccan Sultanates",
     "explanation": "The Battle of Talikota was a decisive defeat for the Vijayanagara Empire against a confederacy of the Deccan Sultanates. It led to the sacking of the capital, Hampi, and the eventual decline of the empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of Babur's military strategy?",
@@ -11448,7 +11448,7 @@ const questionDatabase = [
     "answer": "A combination of gunpowder, artillery, and mobile cavalry",
     "explanation": "Babur's military strategy was a major departure from the traditional Indian armies. He used a combination of gunpowder, artillery, and mobile cavalry, which was a major factor in his victory at the Battle of Panipat.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Shahi' dynasty, which emerged in the Deccan, was a major political power that patronized which of the following art forms?",
@@ -11461,7 +11461,7 @@ const questionDatabase = [
     "answer": "The 'Deccani' style of painting",
     "explanation": "The 'Deccani' style of painting was a unique and vibrant style of painting that emerged in the Deccan Sultanates. The 'Qutb Shahi' rulers were great patrons of this art form, which was a blend of Persian, Mughal, and local styles.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mughal' Empire was a key example of which of the following?",
@@ -11474,7 +11474,7 @@ const questionDatabase = [
     "answer": "A highly centralized, bureaucratic, and militaristic state",
     "explanation": "The Mughal Empire, particularly under Akbar, was a highly centralized and bureaucratic state. It was based on a system of 'Mansabdars' and 'Jagirdars', and it was a military state that was constantly engaged in territorial expansion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Awadh' was a major regional principality that emerged in the 18th century after the decline of the Mughal Empire. It was a key example of which of the following?",
@@ -11487,7 +11487,7 @@ const questionDatabase = [
     "answer": "An independent kingdom",
     "explanation": "The 'Awadh' was a major regional principality that emerged as an independent kingdom after the decline of the Mughal Empire. Its rulers, the 'Nawabs', were a major political force in North India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Panipat' in 1761 CE had a major impact on the political situation in India. What was a key consequence of this battle?",
@@ -11500,7 +11500,7 @@ const questionDatabase = [
     "answer": "It created a political vacuum that was later filled by the British",
     "explanation": "The Third Battle of Panipat was a major defeat for the Marathas, who were the only major power that could challenge the British. It created a political vacuum that was later filled by the British East India Company, who took advantage of the weakened state of the Indian powers.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bahmani' Sultanate, which emerged in the Deccan, was a major political power that rivaled which of the following empires?",
@@ -11513,7 +11513,7 @@ const questionDatabase = [
     "answer": "The Vijayanagara Empire",
     "explanation": "The Bahmani Sultanate and the Vijayanagara Empire were the two major political powers in the Deccan during the 15th and 16th centuries. They were engaged in a constant rivalry for control over the rich Krishna-Godavari doab and the Tungabhadra river valley.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Akbari' period saw a new form of painting that was a blend of which two styles?",
@@ -11526,7 +11526,7 @@ const questionDatabase = [
     "answer": "Indian and Persian",
     "explanation": "Mughal painting under Akbar was a unique blend of the Persian miniature style, with its focus on intricate detail and decorative elements, and the Indian style, with its focus on a more realistic and narrative style.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major characteristic of the 'Sufi' movement during the 15th and 16th centuries?",
@@ -11539,7 +11539,7 @@ const questionDatabase = [
     "answer": "It promoted a more inclusive and syncretic form of religious practice",
     "explanation": "The Sufi movement continued to flourish during this period. Sufi saints, with their mystical teachings and emphasis on love and tolerance, continued to attract people of all faiths, which led to a more inclusive and syncretic form of religious practice.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Deccan Sultanates' that emerged after the decline of the Bahmani Sultanate included which of the following?",
@@ -11552,7 +11552,7 @@ const questionDatabase = [
     "answer": "The Bijapur Sultanate and the Golconda Sultanate",
     "explanation": "The Bahmani Sultanate fragmented into five independent kingdoms, including the Bijapur, Golconda, Ahmadnagar, Berar, and Bidar Sultanates, which were a major political force in the Deccan.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Din-i-Ilahi', a new religious order founded by Akbar, was aimed at which of the following?",
@@ -11565,7 +11565,7 @@ const questionDatabase = [
     "answer": "The promotion of a new, tolerant, and inclusive religious philosophy",
     "explanation": "The 'Din-i-Ilahi' was not a new religion but a new philosophical order that was based on the principles of 'Sulh-i-kul'. It was aimed at creating a new, tolerant, and inclusive religious philosophy that was acceptable to all religions.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jagirdari' system, introduced by Akbar, was a new form of which of the following?",
@@ -11578,7 +11578,7 @@ const questionDatabase = [
     "answer": "A land grant system to the 'Mansabdars'",
     "explanation": "The 'Jagirdari' system was a land grant system in which the 'Mansabdars' were assigned 'jagir' land in lieu of a salary. They were responsible for collecting revenue from the land and maintaining a contingent of troops for the Emperor.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' saint 'Kabir' was a major figure of the 15th century. His teachings were aimed at which of the following?",
@@ -11591,7 +11591,7 @@ const questionDatabase = [
     "answer": "The promotion of a syncretic, non-sectarian path to God",
     "explanation": "Kabir was a mystic and a poet who rejected the caste system and the rigid rituals of both Hinduism and Islam. His teachings promoted a syncretic, non-sectarian path to God that was based on love and devotion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Jahangirnama', a major historical source of the 17th century, was a memoir written by which emperor?",
@@ -11604,7 +11604,7 @@ const questionDatabase = [
     "answer": "Jahangir",
     "explanation": "The 'Jahangirnama' is a detailed memoir written by Emperor Jahangir. It provides a first-hand account of his life, his reign, his court, and his love for art and nature.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Zanjir-i-Adl' (Chain of Justice) was a key administrative policy of which emperor?",
@@ -11617,7 +11617,7 @@ const questionDatabase = [
     "answer": "Jahangir",
     "explanation": "Jahangir was known for his love of justice. He installed a 'Chain of Justice' with bells outside his palace, which anyone could ring to bring their grievances to the Emperor's attention, symbolizing his commitment to justice.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the 'Late Seventeenth-Century crisis' in the Mughal Empire?",
@@ -11630,7 +11630,7 @@ const questionDatabase = [
     "answer": "The Maratha and Sikh revolts",
     "explanation": "The Maratha and Sikh revolts, which were a response to the Mughal religious and political policies, were a major cause of the Mughal Empire's decline. They drained the Empire's resources and weakened its authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Red Fort' and the 'Jama Masjid' in Delhi were built in which of the following styles?",
@@ -11643,7 +11643,7 @@ const questionDatabase = [
     "answer": "Shahjahani style",
     "explanation": "The 'Shahjahani' style of architecture is a major phase of Mughal architecture. It is characterized by the extensive use of white marble, the 'chhatris' (domed kiosks), and the use of the 'pietra dura' technique, which are all features of the Red Fort and the Jama Masjid.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Ahom' kingdom, a major political power that resisted the Mughal expansion, was located in which of the following regions?",
@@ -11656,7 +11656,7 @@ const questionDatabase = [
     "answer": "The North-East",
     "explanation": "The Ahom kingdom, which was a major political power in the Brahmaputra Valley, successfully resisted the Mughal expansion. They were a major military and political force that checked the Mughal advance in the North-East.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Chauth' and 'Sardeshmukhi' were the major fiscal and financial systems of which of the following?",
@@ -11669,7 +11669,7 @@ const questionDatabase = [
     "answer": "The Maratha Empire",
     "explanation": "The 'Chauth' (one-fourth of the revenue) and 'Sardeshmukhi' (an additional tax of 10%) were a form of tribute collected by the Marathas from the conquered territories. They were a key part of the Maratha fiscal and financial system.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Hundi', a system of credit and banking, was a key feature of which of the following?",
@@ -11682,7 +11682,7 @@ const questionDatabase = [
     "answer": "The Indian mercantile classes and banking system",
     "explanation": "The 'Hundi' was a form of credit note or bill of exchange that was widely used by the Indian mercantile classes for transferring money and conducting trade without the need for carrying large amounts of cash, which was a key feature of the Indian banking system.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Sufi' saint 'Shaikh Ahmad Sirhindi' was a major figure of the 17th century who was known for his which of the following?",
@@ -11695,7 +11695,7 @@ const questionDatabase = [
     "answer": "His orthodox and conservative views on Islam",
     "explanation": "Shaikh Ahmad Sirhindi was a major figure of the Naqshbandi Sufi order. He was a conservative and orthodox Sufi who was known for his opposition to Akbar's 'Din-i-Ilahi' and for his promotion of a more orthodox and puritanical form of Islam.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tulsidas', a famous poet of the 16th century, was a major figure of the Bhakti movement. What was his most famous work?",
@@ -11708,7 +11708,7 @@ const questionDatabase = [
     "answer": "Ramcharitmanas",
     "explanation": "Tulsidas was a great poet and a devotee of Lord Rama. His most famous work, 'Ramcharitmanas', is a retelling of the story of Rama in the Avadhi language, which made the story of Rama accessible to the common people of North India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Peshwas' were the de facto rulers of which of the following empires in the 18th century?",
@@ -11721,7 +11721,7 @@ const questionDatabase = [
     "answer": "The Maratha Empire",
     "explanation": "The 'Peshwas' were the prime ministers of the Maratha Empire. They became the de facto rulers of the empire in the 18th century, which led to a major ascendancy of the Maratha power in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nizam's Deccan' was a major regional principality that emerged in the 18th century after the decline of the Mughal Empire. It was founded by which of the following?",
@@ -11734,7 +11734,7 @@ const questionDatabase = [
     "answer": "Nizam-ul-Mulk Asaf Jah I",
     "explanation": "Nizam-ul-Mulk Asaf Jah I was a high-ranking Mughal official who took advantage of the decline of the Mughal Empire to establish an independent kingdom in the Deccan. He was the founder of the Asaf Jahi dynasty.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Indian mercantile classes' were a major economic force during the Mughal period. Which of the following was a key feature of their social status?",
@@ -11747,7 +11747,7 @@ const questionDatabase = [
     "answer": "They were a powerful, influential, and respected class",
     "explanation": "The Indian mercantile classes, which included 'baniyas' and 'chettis', were a powerful and respected class in the Mughal society. They were a key source of revenue for the state and had a major influence on the economy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Lahori' style of painting, which was a key feature of the Mughal court, was patronized by which of the following?",
@@ -11760,7 +11760,7 @@ const questionDatabase = [
     "answer": "Shahjahan",
     "explanation": "The 'Lahori' style of painting, which was characterized by a more classical and elegant style, was a major feature of Shahjahan's court. He was a great patron of painting and architecture, and his court was a major center of artistic activity.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'British East India Company' was granted the right to trade in Bengal by which of the following?",
@@ -11773,7 +11773,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The British East India Company was granted the right to trade in Bengal by the Nawab of Bengal. The grant of the 'Diwani' (the right to collect revenue) in 1765 CE gave the British a major political and economic foothold in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Bhakti' saint 'Surdas' was a major figure of the 16th century who was a devotee of which of the following deities?",
@@ -11786,7 +11786,7 @@ const questionDatabase = [
     "answer": "Lord Krishna",
     "explanation": "Surdas was a great poet and a devotee of Lord Krishna. His most famous work, 'Sur Sagar', is a collection of poems that celebrates the life and teachings of Krishna and is a key work of the Bhakti movement.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Plassey' in 1757 CE, which led to the establishment of British rule in Bengal, was fought between the British and which of the following?",
@@ -11799,7 +11799,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The Battle of Plassey was a decisive victory for the British East India Company against the Nawab of Bengal, Siraj-ud-Daulah. It was a major turning point in Indian history and led to the establishment of British rule in Bengal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Vijayanagara Empire' was a major political and cultural power in the South. What was a key feature of its architecture?",
@@ -11812,7 +11812,7 @@ const questionDatabase = [
     "answer": "The use of granite and the construction of massive 'gopurams' and 'mandapas'",
     "explanation": "The Vijayanagara architecture is a major style of Indian architecture. It is characterized by the use of granite and the construction of massive 'gopurams' (gateway towers) and 'mandapas' (pillared halls) with intricate carvings.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Nizam's Deccan' was a major regional principality that emerged in the 18th century. It was an example of which of the following?",
@@ -11825,7 +11825,7 @@ const questionDatabase = [
     "answer": "A new, independent kingdom",
     "explanation": "The 'Nizam's Deccan' was a major regional principality that emerged after the decline of the Mughal Empire. It was an example of the fragmentation of the Mughal Empire and the rise of new, independent regional kingdoms.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Talikota' in 1565 CE, which led to the decline of the Vijayanagara Empire, was fought against which of the following?",
@@ -11838,7 +11838,7 @@ const questionDatabase = [
     "answer": "The Deccan Sultanates",
     "explanation": "The Battle of Talikota was a decisive defeat for the Vijayanagara Empire against a confederacy of the Deccan Sultanates. It led to the sacking of the capital, Hampi, and the eventual decline of the empire.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a key feature of Babur's military strategy?",
@@ -11851,7 +11851,7 @@ const questionDatabase = [
     "answer": "A combination of gunpowder, artillery, and mobile cavalry",
     "explanation": "Babur's military strategy was a major departure from the traditional Indian armies. He used a combination of gunpowder, artillery, and mobile cavalry, which was a major factor in his victory at the Battle of Panipat.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Qutb Shahi' dynasty, which emerged in the Deccan, was a major political power that patronized which of the following art forms?",
@@ -11864,7 +11864,7 @@ const questionDatabase = [
     "answer": "The 'Deccani' style of painting",
     "explanation": "The 'Deccani' style of painting was a unique and vibrant style of painting that emerged in the Deccan Sultanates. The 'Qutb Shahi' rulers were great patrons of this art form, which was a blend of Persian, Mughal, and local styles.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Mughal' Empire was a key example of which of the following?",
@@ -11877,7 +11877,7 @@ const questionDatabase = [
     "answer": "A highly centralized, bureaucratic, and militaristic state",
     "explanation": "The Mughal Empire, particularly under Akbar, was a highly centralized and bureaucratic state. It was based on a system of 'Mansabdars' and 'Jagirdars', and it was a military state that was constantly engaged in territorial expansion.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Awadh' was a major regional principality that emerged in the 18th century after the decline of the Mughal Empire. It was a key example of which of the following?",
@@ -11890,7 +11890,7 @@ const questionDatabase = [
     "answer": "An independent kingdom",
     "explanation": "The 'Awadh' was a major regional principality that emerged as an independent kingdom after the decline of the Mughal Empire. Its rulers, the 'Nawabs', were a major political force in North India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Panipat' in 1761 CE had a major impact on the political situation in India. What was a key consequence of this battle?",
@@ -11903,7 +11903,7 @@ const questionDatabase = [
     "answer": "It created a political vacuum that was later filled by the British",
     "explanation": "The Third Battle of Panipat was a major defeat for the Marathas, who were the only major power that could challenge the British. It created a political vacuum that was later filled by the British East India Company, who took advantage of the weakened state of the Indian powers.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the first European power to establish a permanent settlement in India?",
@@ -11916,7 +11916,7 @@ const questionDatabase = [
     "answer": "The Portuguese",
     "explanation": "The Portuguese were the first to arrive in India and establish settlements, starting with Vasco da Gama's arrival in Calicut in 1498 and the subsequent establishment of a trading post in Cochin.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Vasco da Gama, the Portuguese explorer, first landed in India at which port?",
@@ -11929,7 +11929,7 @@ const questionDatabase = [
     "answer": "Calicut",
     "explanation": "Vasco da Gama arrived at the port of Calicut (present-day Kozhikode) on the Malabar Coast in 1498, opening a new sea route to India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Dutch East India Company was primarily interested in the trade of which of the following goods in India and Southeast Asia?",
@@ -11942,7 +11942,7 @@ const questionDatabase = [
     "answer": "Spices and textiles",
     "explanation": "The Dutch were major players in the spice trade from the East Indies (Indonesia) but also established a strong presence in the Indian textile trade, which they used to exchange for spices.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The three Anglo-French 'Carnatic Wars' were fought for which of the following?",
@@ -11955,7 +11955,7 @@ const questionDatabase = [
     "answer": "Supremacy in the Indian subcontinent",
     "explanation": "The Carnatic Wars (1746-1763) were a series of conflicts between the English and French East India Companies for political and commercial dominance in the Indian subcontinent, particularly in the Carnatic region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Battle of Plassey in 1757 CE was a major turning point in Indian history. It was fought between the English East India Company and which of the following?",
@@ -11968,7 +11968,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal",
     "explanation": "The Battle of Plassey was fought between the English forces led by Robert Clive and the army of Siraj-ud-Daulah, the Nawab of Bengal. The Nawab's defeat was a result of the treachery of his commander, Mir Jafar.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Buxar' in 1764 CE was fought between the English East India Company and a combined army of whom?",
@@ -11981,7 +11981,7 @@ const questionDatabase = [
     "answer": "The Nawab of Bengal, the Nawab of Awadh, and the Mughal Emperor",
     "explanation": "The Battle of Buxar was fought between the English forces led by Hector Munro and a combined army of Mir Qasim (the deposed Nawab of Bengal), Shuja-ud-Daulah (the Nawab of Awadh), and Shah Alam II (the Mughal Emperor).",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Diwani' of Bengal, Bihar, and Orissa was granted to the British East India Company after which of the following battles?",
@@ -11994,7 +11994,7 @@ const questionDatabase = [
     "answer": "The Battle of Buxar",
     "explanation": "After the victory at Buxar, the British received the 'Diwani' (right to collect revenue) of Bengal, Bihar, and Orissa from the Mughal Emperor Shah Alam II in 1765 CE. This gave them immense political and economic power.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Regulating Act' of 1773 was a key step taken by the British government to regulate the affairs of which of the following?",
@@ -12007,7 +12007,7 @@ const questionDatabase = [
     "answer": "The British East India Company",
     "explanation": "The Regulating Act was the first attempt by the British Parliament to control the affairs of the East India Company. It was aimed at controlling the Company's administration in India and checking the corruption of its officials.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Pitt's India Act' of 1784 CE established a 'Board of Control' in Britain. What was its primary function?",
@@ -12020,7 +12020,7 @@ const questionDatabase = [
     "answer": "To manage the Company's political and military affairs",
     "explanation": "The Pitt's India Act created a 'Board of Control' in Britain, which was responsible for managing the Company's political and military affairs, while the Company's 'Court of Directors' managed its commercial activities. This created a dual control system.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Treaty of Seringapatam' in 1792 CE was signed after the Third Anglo-Mysore War between the British and which of the following rulers?",
@@ -12033,7 +12033,7 @@ const questionDatabase = [
     "answer": "Tipu Sultan",
     "explanation": "The Treaty of Seringapatam was signed between the British and Tipu Sultan after his defeat in the Third Anglo-Mysore War. It forced Tipu to cede a significant part of his territory to the British and their allies.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1813 CE ended the East India Company's monopoly over trade with India, with the exception of which of the following?",
@@ -12046,7 +12046,7 @@ const questionDatabase = [
     "answer": "The tea trade and trade with China",
     "explanation": "The Charter Act of 1813 ended the Company's trade monopoly, which allowed private traders to enter the Indian market. However, the Company retained its monopoly over the tea trade and the trade with China.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a major cause of the 'First Anglo-Maratha War'?",
@@ -12059,7 +12059,7 @@ const questionDatabase = [
     "answer": "The succession dispute within the Maratha Empire",
     "explanation": "The First Anglo-Maratha War (1775-1782) was caused by the British support for Raghunathrao, a claimant to the Peshwa's throne, which led to a conflict with the Maratha Confederacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Utilitarianism' of thinkers like James Mill had a major influence on the British colonial rule. What was its key principle?",
@@ -12072,7 +12072,7 @@ const questionDatabase = [
     "answer": "The belief that the happiness of the majority is the greatest good",
     "explanation": "Utilitarianism, a philosophy that was popular in 19th-century Britain, argued that the greatest good for the greatest number of people should be the guiding principle of government. This was used to justify the British rule in India and the need for administrative and social reforms.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the last European power to leave India?",
@@ -12085,7 +12085,7 @@ const questionDatabase = [
     "answer": "The Portuguese",
     "explanation": "The Portuguese held on to their colonial possessions (Goa, Diu, and Daman) long after the British left India. They were forced to leave in 1961 after a military intervention by the Indian government.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Battle of Plassey' is considered a significant event in Indian history for which of the following reasons?",
@@ -12098,7 +12098,7 @@ const questionDatabase = [
     "answer": "It led to the political control of Bengal and paved the way for British expansion in India",
     "explanation": "The Battle of Plassey was a political victory, not just a military one. It led to the installation of a puppet ruler, Mir Jafar, who was a British ally. This gave the British control over Bengal's resources and laid the foundation for their empire in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Black Hole of Calcutta' incident, which was used by the English to justify their actions against Siraj-ud-Daulah, is a highly contested event. It refers to which of the following?",
@@ -12111,7 +12111,7 @@ const questionDatabase = [
     "answer": "The alleged death of English prisoners in a small prison cell",
     "explanation": "The 'Black Hole of Calcutta' refers to the alleged death of a large number of English prisoners in a small prison cell after Siraj-ud-Daulah's victory in Calcutta. The incident, while historically documented, is highly contested in terms of the number of casualties and the intent of the Nawab.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was the primary reason for the conflict between the English and Mir Kasim, the Nawab of Bengal?",
@@ -12124,7 +12124,7 @@ const questionDatabase = [
     "answer": "Mir Kasim's attempts to assert his independence and tax the Company's trade",
     "explanation": "Mir Kasim was an able ruler who tried to assert his independence from the British by attempting to tax the Company's trade and by modernizing his army, which led to a conflict with the English and his eventual defeat at the Battle of Buxar.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Anglo-Maratha War' led to the complete defeat of the Maratha Confederacy. Which of the following was the last Peshwa to be defeated?",
@@ -12137,7 +12137,7 @@ const questionDatabase = [
     "answer": "Baji Rao II",
     "explanation": "The Third Anglo-Maratha War (1817-1818) led to the complete defeat of the Maratha Confederacy. The last Peshwa, Baji Rao II, was defeated and sent into exile, which led to the annexation of the Peshwa's territories by the British.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12150,7 +12150,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12163,7 +12163,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12176,7 +12176,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12189,7 +12189,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12202,7 +12202,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12215,7 +12215,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12228,7 +12228,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12241,7 +12241,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12254,7 +12254,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12267,7 +12267,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12280,7 +12280,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12293,7 +12293,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12306,7 +12306,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12319,7 +12319,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12332,7 +12332,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12345,7 +12345,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12358,7 +12358,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12371,7 +12371,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12384,7 +12384,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12397,7 +12397,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12410,7 +12410,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12423,7 +12423,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12436,7 +12436,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12449,7 +12449,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12462,7 +12462,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12475,7 +12475,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12488,7 +12488,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12501,7 +12501,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12514,7 +12514,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12527,7 +12527,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12540,7 +12540,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12553,7 +12553,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12566,7 +12566,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12579,7 +12579,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12592,7 +12592,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12605,7 +12605,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12618,7 +12618,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12631,7 +12631,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12644,7 +12644,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12657,7 +12657,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12670,7 +12670,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12683,7 +12683,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12696,7 +12696,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12709,7 +12709,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12722,7 +12722,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12735,7 +12735,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12748,7 +12748,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12761,7 +12761,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12774,7 +12774,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12787,7 +12787,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12800,7 +12800,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12813,7 +12813,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12826,7 +12826,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12839,7 +12839,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12852,7 +12852,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12865,7 +12865,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12878,7 +12878,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12891,7 +12891,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12904,7 +12904,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12917,7 +12917,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12930,7 +12930,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -12943,7 +12943,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -12956,7 +12956,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -12969,7 +12969,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -12982,7 +12982,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -12995,7 +12995,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13008,7 +13008,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13021,7 +13021,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13034,7 +13034,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13047,7 +13047,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13060,7 +13060,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13073,7 +13073,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13086,7 +13086,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13099,7 +13099,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13112,7 +13112,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13125,7 +13125,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13138,7 +13138,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13151,7 +13151,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13164,7 +13164,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13177,7 +13177,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13190,7 +13190,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13203,7 +13203,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13216,7 +13216,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13229,7 +13229,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13242,7 +13242,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13255,7 +13255,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13268,7 +13268,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13281,7 +13281,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13294,7 +13294,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13307,7 +13307,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13320,7 +13320,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13333,7 +13333,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13346,7 +13346,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13359,7 +13359,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13372,7 +13372,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13385,7 +13385,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13398,7 +13398,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13411,7 +13411,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13424,7 +13424,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13437,7 +13437,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13450,7 +13450,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13463,7 +13463,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13476,7 +13476,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13489,7 +13489,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13502,7 +13502,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13515,7 +13515,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13528,7 +13528,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13541,7 +13541,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13554,7 +13554,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13567,7 +13567,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13580,7 +13580,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13593,7 +13593,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13606,7 +13606,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13619,7 +13619,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13632,7 +13632,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13645,7 +13645,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13658,7 +13658,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13671,7 +13671,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13684,7 +13684,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13697,7 +13697,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13710,7 +13710,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13723,7 +13723,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13736,7 +13736,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13749,7 +13749,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13762,7 +13762,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13775,7 +13775,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13788,7 +13788,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13801,7 +13801,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13814,7 +13814,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13827,7 +13827,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13840,7 +13840,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13853,7 +13853,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13866,7 +13866,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13879,7 +13879,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13892,7 +13892,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13905,7 +13905,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13918,7 +13918,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13931,7 +13931,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -13944,7 +13944,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -13957,7 +13957,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -13970,7 +13970,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -13983,7 +13983,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -13996,7 +13996,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -14009,7 +14009,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -14022,7 +14022,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -14035,7 +14035,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -14048,7 +14048,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -14061,7 +14061,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -14074,7 +14074,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -14087,7 +14087,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -14100,7 +14100,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -14113,7 +14113,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -14126,7 +14126,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -14139,7 +14139,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -14152,7 +14152,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -14165,7 +14165,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -14178,7 +14178,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -14191,7 +14191,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -14204,7 +14204,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -14217,7 +14217,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -14230,7 +14230,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -14243,7 +14243,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'First Anglo-Mysore War' was fought between the British and which of the following rulers?",
@@ -14256,7 +14256,7 @@ const questionDatabase = [
     "answer": "Hyder Ali",
     "explanation": "The First Anglo-Mysore War (1767-1769) was fought between the British and Hyder Ali, the ruler of Mysore. The war ended with a victory for Hyder Ali, which was a major blow to the British prestige in India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Third Carnatic War' was a major conflict between the English and the French. It ended with which of the following battles?",
@@ -14269,7 +14269,7 @@ const questionDatabase = [
     "answer": "The Battle of Wandiwash",
     "explanation": "The Battle of Wandiwash in 1760 CE was a decisive victory for the British forces against the French. It marked the end of the French ambition in India and paved the way for British supremacy.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Punjab' was a major political and military power in the early 19th century. It was ruled by which of the following?",
@@ -14282,7 +14282,7 @@ const questionDatabase = [
     "answer": "The Sikhs",
     "explanation": "The Sikh kingdom, led by the charismatic leader Ranjit Singh, was a major political and military power in the Punjab in the early 19th century. It was a major challenge to the British expansion in the region.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Subsidiary Alliance' was a key policy used by the British to expand their control in India. It was introduced by which of the following Governor-Generals?",
@@ -14295,7 +14295,7 @@ const questionDatabase = [
     "answer": "Lord Wellesley",
     "explanation": "Lord Wellesley (1798-1805) introduced the 'Subsidiary Alliance', a system that forced Indian rulers to accept the permanent stationing of a British force within their territory and to pay for its maintenance, which led to the expansion of British influence.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Charter Act' of 1833 CE was a major step towards the centralization of power in British India. It made which of the following a reality?",
@@ -14308,7 +14308,7 @@ const questionDatabase = [
     "answer": "The appointment of a 'Governor-General of India'",
     "explanation": "The Charter Act of 1833 was a major step towards centralization. It made the 'Governor-General of Bengal' the 'Governor-General of India' and vested in him all civil and military powers, which gave the British a new, centralized authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who is widely regarded as the 'Father of the Indian Renaissance'?",
@@ -14321,7 +14321,7 @@ const questionDatabase = [
     "answer": "Raja Ram Mohan Roy",
     "explanation": "Raja Ram Mohan Roy is hailed as the 'Father of the Indian Renaissance' for his pioneering efforts in social, religious, and educational reforms, which laid the foundation for modern India.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The practice of Sati was officially abolished in British India in which year?",
@@ -14334,7 +14334,7 @@ const questionDatabase = [
     "answer": "1829",
     "explanation": "The Bengal Sati Regulation, which banned the Sati practice in all jurisdictions of British India, was passed on December 4, 1829, by the then Governor-General Lord William Bentinck.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "What was the famous slogan given by Swami Dayanada Saraswati and his Arya Samaj?",
@@ -14347,7 +14347,7 @@ const questionDatabase = [
     "answer": "Back to the Vedas",
     "explanation": "Swami Dayanada Saraswati believed that the Vedas were the source of all true knowledge and urged people to reject later additions and corrupt practices in Hinduism, hence the slogan 'Back to the Vedas'.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Iswarchandra Vidyasagar is most famously associated with the successful campaign for which social reform?",
@@ -14360,7 +14360,7 @@ const questionDatabase = [
     "answer": "Legalization of widow remarriage",
     "explanation": "Iswarchandra Vidyasagar was a key figure whose vigorous campaigning led to the passage of the Hindu Widows' Remarriage Act in 1856, which legalized the remarriage of Hindu widows.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the radical young teacher at Hindu College who inspired the 'Young Bengal Movement'?",
@@ -14373,7 +14373,7 @@ const questionDatabase = [
     "answer": "Henry Vivian Derozio",
     "explanation": "Henry Vivian Derozio, a teacher at the Hindu College, Calcutta, was the charismatic leader and inspirer of the Young Bengal Movement, encouraging his students to think freely and question authority.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Brahmo Samaj, founded by Raja Ram Mohan Roy, primarily advocated for:",
@@ -14386,7 +14386,7 @@ const questionDatabase = [
     "answer": "Monotheism",
     "explanation": "A central tenet of the Brahmo Samaj was the worship and adoration of the 'Eternal, Unsearchable, Immutable Being who is the Author and Preserver of the Universe', promoting a strict monotheistic faith.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which influential book was authored by Swami Dayanada Saraswati to spread his ideas?",
@@ -14399,7 +14399,7 @@ const questionDatabase = [
     "answer": "Satyarth Prakash",
     "explanation": "'Satyarth Prakash' (The Light of Truth) is the magnum opus of Swami Dayanada Saraswati, outlining the principles of the Arya Samaj and his interpretation of the Vedas.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Feraizi movement, an Islamic revivalist movement, originated in which region?",
@@ -14412,7 +14412,7 @@ const questionDatabase = [
     "answer": "Bengal",
     "explanation": "The Feraizi movement was started by Haji Shariatullah in Eastern Bengal in the early 19th century. It focused on purging Islam of un-Islamic practices.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who took over the leadership of the Brahmo Samaj after the death of Raja Ram Mohan Roy?",
@@ -14425,7 +14425,7 @@ const questionDatabase = [
     "answer": "Devendranath Tagore",
     "explanation": "Devendranath Tagore, father of Rabindranath Tagore, revitalized the Brahmo Samaj and gave it a new direction after the death of its founder, Raja Ram Mohan Roy.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Hindu Widows' Remarriage Act, a landmark social reform, was passed in which year?",
@@ -14438,7 +14438,7 @@ const questionDatabase = [
     "answer": "1856",
     "explanation": "Thanks to the relentless efforts of Iswarchandra Vidyasagar, the Hindu Widows' Remarriage Act was passed on July 26, 1856, making the remarriage of Hindu widows legal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Wahabi Movement in India was primarily a...",
@@ -14451,7 +14451,7 @@ const questionDatabase = [
     "answer": "Revivalist Islamic movement",
     "explanation": "The Wahabi Movement, led by Syed Ahmed of Rai Bareilly, was a revivalist movement that aimed to purify Islam and return to the original teachings of the Quran and Sunnah.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Tattvabodhini Sabha was founded in 1839 by:",
@@ -14464,7 +14464,7 @@ const questionDatabase = [
     "answer": "Devendranath Tagore",
     "explanation": "Devendranath Tagore founded the Tattvabodhini Sabha to propagate the ideas of Ram Mohan Roy and the rationalist spirit of the Upanishads. It later merged with the Brahmo Samaj.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following social evils was the primary target of the Age of Consent Act, 1891?",
@@ -14477,7 +14477,7 @@ const questionDatabase = [
     "answer": "Child Marriage",
     "explanation": "The Age of Consent Act, 1891, was enacted to curb the practice of child marriage by raising the legal age of consent for sexual intercourse for girls from 10 to 12 years.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Young Bengal Movement drew its inspiration from the ideals of the:",
@@ -14490,7 +14490,7 @@ const questionDatabase = [
     "answer": "French Revolution",
     "explanation": "The members of the Young Bengal Movement were deeply inspired by the ideals of liberty, equality, and fraternity, which were the cornerstones of the French Revolution.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "In which city was the Arya Samaj founded by Dayanada Saraswati in 1875?",
@@ -14503,7 +14503,7 @@ const questionDatabase = [
     "answer": "Bombay (Mumbai)",
     "explanation": "Swami Dayanada Saraswati formally established the Arya Samaj on April 10, 1875, in Bombay. The headquarters were later shifted to Lahore.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Raja Ram Mohan Roy helped David Hare to establish which famous educational institution in Calcutta in 1817?",
@@ -14516,7 +14516,7 @@ const questionDatabase = [
     "answer": "Hindu College",
     "explanation": "Raja Ram Mohan Roy collaborated with David Hare to establish the Hindu College (later Presidency College) in Calcutta, which played a major role in spreading modern education in Bengal.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Who was the founder of the Feraizi Movement in Bengal?",
@@ -14529,7 +14529,7 @@ const questionDatabase = [
     "answer": "Haji Shariatullah",
     "explanation": "Haji Shariatullah founded the Feraizi Movement in Eastern Bengal in the early 19th century to purify Islam and improve the condition of the Muslim peasantry.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Iswarchandra Vidyasagar served as the principal of which prominent college in Calcutta?",
@@ -14542,7 +14542,7 @@ const questionDatabase = [
     "answer": "Sanskrit College",
     "explanation": "Iswarchandra Vidyasagar was the principal of the Sanskrit College, where he introduced modern Western thought and opened admissions to non-Brahmin students.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The term 'Indian Renaissance' generally refers to a period of:",
@@ -14555,7 +14555,7 @@ const questionDatabase = [
     "answer": "Social, cultural, and intellectual awakening",
     "explanation": "The Indian Renaissance, primarily in the 19th century, refers to a period of profound social, cultural, and intellectual ferment and reform, similar to the European Renaissance.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which Governor-General was instrumental in the abolition of Sati?",
@@ -14568,7 +14568,7 @@ const questionDatabase = [
     "answer": "Lord William Bentinck",
     "explanation": "Lord William Bentinck, the Governor-General of India from 1828 to 1835, passed the Bengal Sati Regulation in 1829, making the practice of Sati illegal and punishable.",
     "difficulty": "easy",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "What was the main reason for the first split in the Brahmo Samaj in 1866?",
@@ -14581,7 +14581,7 @@ const questionDatabase = [
     "answer": "Keshab Chandra Sen's radical views and cosmopolitanism",
     "explanation": "The first split occurred between the followers of Devendranath Tagore (Adi Brahmo Samaj) and Keshab Chandra Sen (Brahmo Samaj of India) due to Sen's radical ideas, such as universalism and a more active social reform agenda, which the older members found too extreme.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was NOT a principle of the Arya Samaj?",
@@ -14594,7 +14594,7 @@ const questionDatabase = [
     "answer": "Belief in the Puranas as sacred texts",
     "explanation": "The Arya Samaj rejected post-Vedic texts like the Puranas as corrupt and man-made, advocating a return to the pristine teachings of the Vedas alone.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "A key ideological difference between the Young Bengal Movement and the Brahmo Samaj was the former's:",
@@ -14607,7 +14607,7 @@ const questionDatabase = [
     "answer": "Adoption of radical rationalism and atheistic tendencies",
     "explanation": "While the Brahmo Samaj was a reformist religious movement rooted in the Upanishads, the Young Bengal Movement was characterized by its radical Western rationalism, often leading to a rejection of all religious traditions and adoption of atheistic views.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Raja Ram Mohan Roy's first published work, 'Tuhfat-ul-Muwahhidin' (A Gift to Monotheists), was written in which language?",
@@ -14620,7 +14620,7 @@ const questionDatabase = [
     "answer": "Persian",
     "explanation": "Written in 1803, 'Tuhfat-ul-Muwahhidin' was in Persian with an Arabic preface. It was a rationalist critique of religious dogmas and advocated for a universal religion based on monotheism.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Besides widow remarriage, Iswarchandra Vidyasagar was a staunch opponent of which other social evil?",
@@ -14633,7 +14633,7 @@ const questionDatabase = [
     "answer": "Polygamy",
     "explanation": "Iswarchandra Vidyasagar actively campaigned against polygamy, particularly among Kulin Brahmins, arguing that it was a degrading practice with no scriptural sanction.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Wahabi movement under Syed Ahmed of Rai Bareilly aimed to convert India from 'Dar-ul-Harb' (Land of Infidels) to:",
@@ -14646,7 +14646,7 @@ const questionDatabase = [
     "answer": "Dar-ul-Islam (Land of Islam)",
     "explanation": "The political aim of the Wahabi movement was to overthrow the rule of the Sikhs in Punjab and the British in the rest of India, thereby converting the country from a 'Dar-ul-Harb' to a 'Dar-ul-Islam'.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Tattvabodhini Patrika', the journal of the Tattvabodhini Sabha, played a significant role in promoting:",
@@ -14659,7 +14659,7 @@ const questionDatabase = [
     "answer": "Systematic study of India's past and rational thought",
     "explanation": "The Tattvabodhini Patrika was a groundbreaking journal that promoted a rational and humanist outlook, encouraged a systematic study of India's history and culture, and spread the ideas of the Brahmo Samaj in Bengali.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Native Marriage Act of 1872, which forbade child marriage and sanctioned inter-caste marriages, was passed mainly due to the efforts of which reformer?",
@@ -14672,7 +14672,7 @@ const questionDatabase = [
     "answer": "Keshab Chandra Sen",
     "explanation": "Keshab Chandra Sen and his Brahmo Samaj of India were the driving force behind the enactment of the Native Marriage Act (or Brahmo Marriage Act) of 1872.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Feraizi movement, initially religious in character, later took on the character of a:",
@@ -14685,7 +14685,7 @@ const questionDatabase = [
     "answer": "Agrarian movement against landlords and indigo planters",
     "explanation": "Under the leadership of Dudu Miyan, the Feraizi movement became a powerful voice for the rights of tenants, organizing them against the oppression of zamindars (landlords) and European indigo planters.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "How did the Indian Renaissance primarily contribute to the growth of modern Indian nationalism?",
@@ -14698,7 +14698,7 @@ const questionDatabase = [
     "answer": "By fostering a sense of cultural self-respect and critiquing colonial rule.",
     "explanation": "The Renaissance led to a rediscovery of India's glorious past, which instilled self-confidence and pride. The social and rational critique of their own society also empowered Indians to critique the exploitative nature of colonial rule, laying the intellectual foundations for nationalism.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which organization did Raja Ram Mohan Roy establish in 1814 to propagate monotheism and fight social evils?",
@@ -14711,7 +14711,7 @@ const questionDatabase = [
     "answer": "Atmiya Sabha",
     "explanation": "Before establishing the Brahmo Sabha, Ram Mohan Roy founded the Atmiya Sabha (Society of Friends) in Calcutta in 1814. It served as a forum for philosophical discussions and campaigning against idolatry, the caste system, and other social ills.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The 'Shuddhi' movement, which aimed to bring back individuals who had converted to other religions into the Hindu fold, was started by which organization?",
@@ -14724,7 +14724,7 @@ const questionDatabase = [
     "answer": "Arya Samaj",
     "explanation": "The Arya Samaj, under Swami Dayanada Saraswati, initiated the Shuddhi (purification) movement. It was a proselytizing and reconversion program, which was a significant departure from traditional Hinduism.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "What was a major reason for the limited long-term impact of the Young Bengal Movement?",
@@ -14737,7 +14737,7 @@ const questionDatabase = [
     "answer": "Failure to connect with the rural masses and address their issues",
     "explanation": "The movement remained largely confined to a small group of urban, educated elite in Calcutta. Its radicalism and disconnect from the concerns of the common people, especially the peasantry, prevented it from becoming a widespread movement.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "While both Raja Ram Mohan Roy and Iswarchandra Vidyasagar were reformers, Vidyasagar's approach was more focused on:",
@@ -14750,7 +14750,7 @@ const questionDatabase = [
     "answer": "Using traditional scriptures to justify reforms from within the Hindu tradition",
     "explanation": "Vidyasagar, a profound Sanskrit scholar, masterfully cited ancient texts and commentators to argue that practices like widow remarriage were sanctioned by the scriptures, making his reforms more acceptable to the orthodox.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "While both were Islamic revivalist movements, a key difference was that the Wahabi movement had a pan-Islamic character, whereas the Feraizi movement was more focused on:",
@@ -14763,7 +14763,7 @@ const questionDatabase = [
     "answer": "The specific socio-economic grievances of Bengali peasants",
     "explanation": "The Feraizi movement was deeply rooted in the local context of Eastern Bengal, intertwining religious reform with the fight against the oppression of zamindars and indigo planters, giving it a strong agrarian character.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Sadharan Brahmo Samaj was formed after a second split in the Brahmo movement. What was the immediate trigger for this split?",
@@ -14776,7 +14776,7 @@ const questionDatabase = [
     "answer": "Keshab Chandra Sen marrying his underage daughter to the Maharaja of Cooch Behar.",
     "explanation": "Keshab Chandra Sen, who had championed the Native Marriage Act of 1872 fixing the minimum age of marriage, arranged the marriage of his own 13-year-old daughter. This blatant contradiction led his progressive followers to break away and form the Sadharan Brahmo Samaj in 1878.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Dayanada Saraswati's interpretation of the Vedas was unique because he asserted that they were:",
@@ -14789,7 +14789,7 @@ const questionDatabase = [
     "answer": "Compatible with modern scientific thought",
     "explanation": "A key aspect of Dayanada's interpretation was his claim that the Vedas contained the seeds of modern science, including discoveries like steam engines and electricity. This was an attempt to project the Vedas as a source of all knowledge, both spiritual and secular.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The social reform movements of the 19th century laid great emphasis on women's education primarily to:",
@@ -14802,7 +14802,7 @@ const questionDatabase = [
     "answer": "Make them better mothers and wives for the educated Indian male",
     "explanation": "While a progressive step, the primary motivation for women's education among most 19th-century male reformers was to create suitable companions for the new English-educated elite and to ensure the enlightened upbringing of future generations within the domestic sphere.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which key argument, based on ancient scriptures, did Raja Ram Mohan Roy use to counter the practice of Sati?",
@@ -14815,7 +14815,7 @@ const questionDatabase = [
     "answer": "He highlighted that authoritative sages like Manu never mentioned Sati as a prescribed duty.",
     "explanation": "Ram Mohan Roy argued that the most authoritative ancient law-givers, such as Manu, never commanded a widow to commit Sati. He showed that it was not a mandatory religious duty ('dharma') but a lesser option, while a life of asceticism was the higher path prescribed.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "After the death of Syed Ahmed Barelvi in the Battle of Balakot (1831), the Wahabi Movement's center of operations shifted from the frontier to:",
@@ -14828,7 +14828,7 @@ const questionDatabase = [
     "answer": "Patna",
     "explanation": "After the military defeat and death of Syed Ahmed, Patna became the organizational hub for the Wahabi movement in India, coordinating missionary activities, recruitment, and funding for the cause.",
     "difficulty": "moderate",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Arrange the following events in chronological order: 1. Foundation of Arya Samaj, 2. Establishment of Tattvabodhini Sabha, 3. First split in the Brahmo Samaj, 4. Foundation of Brahmo Sabha.",
@@ -14841,7 +14841,7 @@ const questionDatabase = [
     "answer": "4, 2, 3, 1",
     "explanation": "The correct chronological order is: Foundation of Brahmo Sabha (1828), Establishment of Tattvabodhini Sabha (1839), First split in the Brahmo Samaj (1866), and Foundation of Arya Samaj (1875).",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Consider the following statements about the Young Bengal Movement: 1. It blindly aped Western culture and traditions. 2. It failed to connect with the peasant masses. 3. It had a lasting direct impact on administrative reforms in Bengal. Which of the statements is/are correct?",
@@ -14854,7 +14854,7 @@ const questionDatabase = [
     "answer": "2 only",
     "explanation": "Statement 2 is correct; the movement was confined to urban elites. Statement 1 is an oversimplification; they were radical rationalists, not blind imitators. Statement 3 is incorrect; their direct impact on administrative reforms was minimal, though they fostered a spirit of questioning.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following was a direct consequence of the second split in the Brahmo Samaj and the formation of the Sadharan Brahmo Samaj?",
@@ -14867,7 +14867,7 @@ const questionDatabase = [
     "answer": "The movement became more democratic and organized on constitutional lines.",
     "explanation": "The founders of the Sadharan Brahmo Samaj, like Ananda Mohan Bose and Sivanath Sastri, were critical of Keshab Chandra Sen's autocratic style. They established their new organization with a democratic constitution, a representative executive body, and a clear set of principles, making it more organized and less leader-centric.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Beyond social reform, Iswarchandra Vidyasagar's seminal contribution to the Bengali language was:",
@@ -14880,7 +14880,7 @@ const questionDatabase = [
     "answer": "Standardizing Bengali prose through his work 'Borno Porichoy'.",
     "explanation": "Vidyasagar is considered the 'father of modern Bengali prose'. He simplified and standardized the Bengali alphabet and prose style, most famously in his primer 'Borno Porichoy' (Introduction to the Alphabet), which is used to this day.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Wahabi movement's call to purify Islam by eliminating 'shirk' (polytheism) and 'bidat' (innovations) would have led them to most strongly oppose which of the following popular practices?",
@@ -14893,7 +14893,7 @@ const questionDatabase = [
     "answer": "Veneration of saints and worship at their tombs",
     "explanation": "Strict monotheism was central to Wahabi ideology. They considered the popular practice of venerating saints and seeking intercession at their tombs as a form of 'shirk' or associating partners with God, which they vehemently opposed.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The statement 'Unlike the Brahmo Samaj which drew inspiration from modern Western ideas, the Arya Samaj's inspiration was drawn from the ancient scriptures of India' implies that:",
@@ -14906,7 +14906,7 @@ const questionDatabase = [
     "answer": "Both movements used different sources of authority to legitimize their reform agendas.",
     "explanation": "This statement highlights the different intellectual foundations of the two movements. The Brahmo Samaj synthesized Western rationalism and selected Indian texts, creating a new framework. The Arya Samaj, on the other hand, based its entire reform program on the claimed infallibility of the Vedas, representing a form of indigenous revivalism.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Match the following social legislations with the Governor-General under whom they were passed:\nA. Sati Abolition Act\nB. Hindu Widows' Remarriage Act\nC. Age of Consent Act\n1. Lord Canning\n2. Lord Lansdowne\n3. Lord William Bentinck",
@@ -14919,7 +14919,7 @@ const questionDatabase = [
     "answer": "A-3, B-1, C-2",
     "explanation": "Sati Abolition Act (1829) was passed by Lord William Bentinck. Hindu Widows' Remarriage Act (1856) was drafted under Lord Dalhousie and passed by Lord Canning. Age of Consent Act (1891) was passed under Lord Lansdowne.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Raja Ram Mohan Roy's religious philosophy was a synthesis of monotheism from various sources. Which of the following was LEAST influential on his thought?",
@@ -14932,7 +14932,7 @@ const questionDatabase = [
     "answer": "Tantric traditions",
     "explanation": "Ram Mohan Roy's thought was heavily influenced by the monotheism of the Upanishads, Islamic theology (especially Sufism), and the ethics of Christianity's New Testament. He strongly opposed what he saw as idolatrous and ritualistic aspects of popular Hinduism, including many Tantric practices.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The Feraizi movement under Dudu Miyan (son of Haji Shariatullah) transformed significantly. Which statement best describes this transformation?",
@@ -14945,7 +14945,7 @@ const questionDatabase = [
     "answer": "It established a parallel administration and tax-collection system in rural Bengal.",
     "explanation": "Dudu Miyan organized the Feraizis into a well-knit and disciplined organization. He declared that land belonged to God and no one had the right to levy tax. He established a parallel system of governance with his own village courts and officials, directly challenging the authority of the landlords and the British.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Which of the following best explains how the 19th-century Indian Renaissance was different from the European Renaissance?",
@@ -14958,7 +14958,7 @@ const questionDatabase = [
     "answer": "The Indian Renaissance took place under the constraints of a colonial context.",
     "explanation": "The defining feature that distinguishes the Indian Renaissance is its colonial setting. Reformers had to navigate the complex power dynamics of foreign rule, responding to both internal social decay and external colonial critique, a challenge the European Renaissance did not face.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Devendranath Tagore compiled a selection of passages from the Upanishads to articulate the core tenets of the Brahmo faith, which served as a statement of belief. What was this compilation called?",
@@ -14971,7 +14971,7 @@ const questionDatabase = [
     "answer": "Brahmo Dharma",
     "explanation": "In 1848, Devendranath Tagore compiled 'Brahmo Dharma', a book containing selected passages from the Upanishads along with his own commentary. It systematically laid out the doctrines and principles of the Brahmo faith.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "In 'Satyarth Prakash', what was Swami Dayanada Saraswati's primary critique of Puranic Hinduism?",
@@ -14984,7 +14984,7 @@ const questionDatabase = [
     "answer": "Its promotion of idolatry, superstitions, and priestcraft",
     "explanation": "Dayanada vehemently attacked what he saw as the corruptions of Puranic Hinduism, such as idol worship (murti puja), belief in avatars (incarnations), child marriage, and the dominance of a priestly class (Brahmins), all of which he claimed had no sanction in the original Vedas.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Henry Derozio's dismissal from the Hindu College in 1831 highlights which core tension of the Bengal Renaissance?",
@@ -14997,7 +14997,7 @@ const questionDatabase = [
     "answer": "The clash between radical free-thinking and conservative social forces.",
     "explanation": "Derozio was forced to resign by the conservative Hindu management of the college, who feared his teachings were encouraging atheism and disrespect for tradition among students. This episode exemplifies the deep societal conflict between the new wave of radical rationalism and the entrenched orthodox powers.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "Iswarchandra Vidyasagar's reformism is often described as stemming from 'secular humanism' despite his use of scriptures. Which of his actions best supports this interpretation?",
@@ -15010,7 +15010,7 @@ const questionDatabase = [
     "answer": "His establishment of numerous schools for girls with his own funds.",
     "explanation": "While he used scriptures for tactical reasons (e.g., widow remarriage), his deep compassion and belief in the inherent worth and rights of individuals, especially women, drove his actions. Pouring his personal wealth into establishing schools for girls demonstrates a commitment to human progress and empowerment that goes beyond mere scriptural reinterpretation.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The influence of the Brahmo Samaj, especially under Keshab Chandra Sen, led to the establishment of similar reform movements in other parts of India. Which of the following was directly inspired by it?",
@@ -15023,7 +15023,7 @@ const questionDatabase = [
     "answer": "The Prarthana Samaj in Maharashtra",
     "explanation": "The Prarthana Samaj (Prayer Society) was founded in Bombay in 1867 by Atmaram Pandurang. It was directly inspired by Keshab Chandra Sen's visit and was ideologically similar to the Brahmo Samaj, focusing on monotheism and social reform, though it was more moderate.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "A reformer argued that social evils were not sanctioned by the original, pure scriptures but were later corrupt additions. He advocated a return to the pristine form of religion to reform society. This line of argument is most characteristic of whom?",
@@ -15036,7 +15036,7 @@ const questionDatabase = [
     "answer": "Dayanada Saraswati",
     "explanation": "This was the core methodology of Dayanada Saraswati and the Arya Samaj. He argued that the Vedas represented the pure, original form of Hinduism and that practices like idol worship, the caste system, and child marriage were post-Vedic corruptions that needed to be purged.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "In what specific sense did the Feraizi and Wahabi movements seek to 'revive' Islam?",
@@ -15049,7 +15049,7 @@ const questionDatabase = [
     "answer": "By purging the religion of local, syncretic customs and returning to its foundational texts.",
     "explanation": "Their revivalism was about purification. They believed that Islam in India had been corrupted by the integration of local, non-Islamic customs and superstitions (e.g., veneration of saints, folk rituals). They sought to revive a 'pure' Islam based on a literal interpretation of the Quran and the practices of the Prophet.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "How did the socio-religious reform movements contribute to shaping a new, 'modern' Indian identity in the 19th century?",
@@ -15062,7 +15062,7 @@ const questionDatabase = [
     "answer": "By creating a public sphere for debating social issues and fostering a critical consciousness.",
     "explanation": "The movements created a new public space through journals, societies, and debates, where Indians began to critically examine their own society. This process of self-analysis and reform, conducted in the public domain, was a key element in the formation of a modern, self-aware identity, distinct from pre-colonial identities.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The assessment that the 19th-century social reform movements were 'for' women, but not 'by' women, is best supported by which of the following facts?",
@@ -15075,7 +15075,7 @@ const questionDatabase = [
     "answer": "The leadership and agenda of major reform societies were almost exclusively male-dominated.",
     "explanation": "This statement points directly to the core of the critique. The major figures—Roy, Vidyasagar, Dayanada, Sen—were all men. They set the agenda and defined the terms of reform. While women were the subjects and beneficiaries, they had little to no agency in leading these mainstream movements or shaping their ideology, making it a largely patriarchal project of reform.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   {
     "question": "The failure of the Wahabi movement's military campaigns against the Sikhs and later the British led to its transformation into a movement focused on:",
@@ -15088,7 +15088,7 @@ const questionDatabase = [
     "answer": "A secret network of preachers and activists spreading anti-British sentiment.",
     "explanation": "After their military failures, particularly after the 1857 revolt, the Wahabis went underground. They established a sophisticated and secret organizational structure (centered in Patna) that focused on preaching, recruitment, and spreading a persistent, religiously-inspired hostility towards British rule across India.",
     "difficulty": "hard",
-    "subject": "History"
+    "subject": "History", "exam" : "UPSC"
   },
   
 ]
