@@ -1,3 +1,25 @@
+/**
+ * @file This file contains a proprietary database of questions.
+ * @author [Bibin M]
+ *
+ * @copyright Copyright (c) 2025 [Bibin M]. All Rights Reserved.
+ *
+ * This software and its associated data (the "Work") is the confidential and
+ * proprietary property of [Bibin M]. You may not use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Work, and you may not permit persons to whom the Work is furnished to
+ * do so, subject to the following conditions:
+ *
+ * THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+ *
+ * For licensing inquiries, please contact [bibin@crackit.com].
+ */
+
 const questionDatabase = [
   {
     "question": "Which of the following is not a major Harappan site?",

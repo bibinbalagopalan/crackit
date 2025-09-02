@@ -3,10 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrackIt - History Quiz</title>
+    <title>Crack-it (CSE): Free Quiz for UPSC Civil Services & Competitive Exams</title>
+    <meta name="description" content="Prepare for India's toughest competitive exams with Crack-it, a free quiz app. Practice random questions for NEET, UPSC CSE, JEE, SSC, Banking (IBPS, SBI), and more. Improve your score with active recall and spaced repetition.">
+    <meta name="keywords" content="NEET, UGC NET/JRF, JEE, KEEM, UPSC CSE, SPSC, IBPS PO, UPSC Civil Services, IAS, IPS, IFS, SSC, CGL, CHSL, GD, JE, IBPS, PO, Clerk, SO, RRB, SBI, RBI, Grade B, Assistant, LIC, GIC, NIACL, AAO, AO, ADO, Railways, RRB NTPC, Group D, ALP, CDS, NDA, AFCAT, CAPF, Indian Coast Guard exams, State PSC exams, State Police exams, GATE, IIT-JEE, CAT, XAT, MAT, SNAP, NMAT, IIFT, CMAT, CLAT, AILET, LSAT India, UGC-NET, CSIR-NET, ICAR AIEEA, NIFT, NID, Hotel Management, CUET, BITSAT, VITEEE, SRMJEEE, AMUEEE, KIITEE, quiz app, free quiz, competitive exam preparation, active recall, spaced repetition, India">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="history.js"></script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Crack-it (CSE)",
+      "description": "A free, adaptive quiz application to help students prepare for competitive exams in India like UPSC, NEET, JEE, SSC, and Banking.",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires a modern web browser with JavaScript enabled.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "educationalLevel",
+          "targetName": "Higher Education"
+        },
+        {
+          "@type": "AlignmentObject",
+          "alignmentType": "teaches",
+          "targetName": "Test Preparation"
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+       "@context": "https://schema.org",
+       "@type": "Quiz",
+       "name": "Crack-it (CSE) Competitive Exam Quiz",
+       "about": {
+         "@type": "Thing",
+         "name": "Competitive Exam Preparation for India"
+       },
+       "hasPart": [
+         {"@type": "Question", "name": "History"},
+         {"@type": "Question", "name": "Geography"},
+         {"@type": "Question", "name": "Polity"},
+         {"@type": "Question", "name": "Economy"},
+         {"@type": "Question", "name": "Science"},
+         {"@type": "Question", "name": "Maths"},
+         {"@type": "Question", "name": "Reasoning"},
+         {"@type": "Question", "name": "Environment"}
+       ]
+    }
+    </script>
+
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -14,6 +69,12 @@
         }
         .font-logo {
             font-family: 'Crimson Pro', serif;
+        }
+        .gradient-text-cse {
+            background-image: linear-gradient(to right, #f97316, #16a34a);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
         }
         .card-enter {
             opacity: 0;
@@ -39,14 +100,12 @@
         .btn-disabled {
             cursor: not-allowed;
         }
-        /* Progress Circle CSS */
         .progress-ring__circle {
             stroke-linecap: round;
             transform: rotate(-90deg);
             transform-origin: 50% 50%;
             transition: stroke-dashoffset 0.35s;
         }
-        /* Popper Animation CSS */
         .popper-container {
             position: fixed;
             top: 0;
@@ -85,78 +144,69 @@
 
         <!-- Decorative Panel (Left Side on Desktop) -->
         <div class="hidden lg:flex flex-col items-start justify-center decorative-panel h-full rounded-2xl p-12">
-            <h1 class="text-6xl font-bold text-green-600 font-logo mb-4">crack-it</h1>
-            <p class="text-2xl text-slate-600">Your daily dose of knowledge.</p>
-            <p class="text-slate-500 mt-4">Challenge yourself with progressively harder questions and watch your skills grow. Perfect for aspirants and curious minds.</p>
+            <h1 class="text-6xl font-bold font-logo mb-4 text-green-600">crack-it <span class="gradient-text-cse text-4xl align-baseline">(CSE)</span></h1>
+            <h2 class="text-2xl text-slate-600">Your daily dose of knowledge.</h2>
+            <p class="text-slate-500 mt-4">Prepare for competitive exams like UPSC, NEET, and JEE with our free quiz app. Master subjects from History to Reasoning for banking, civil services, and more, using proven methods like active recall and spaced repetition.</p>
         </div>
 
-        <!-- Quiz Container (Right Side on Desktop) -->
-        <div id="quiz-container" class="w-full">
+        <!-- Main Content Area -->
+        <div id="main-content" class="w-full">
             
-            <!-- App Header -->
-            <div class="sticky top-0 z-10 bg-slate-50 py-4 flex justify-between items-center">
-                <h1 class="text-3xl font-bold font-logo text-green-600">
-                   crack-it
-                </h1>
-                 <div class="flex items-center gap-4">
-                     <div class="flex items-baseline gap-2">
-                        <p class="text-base font-logo text-slate-500">SCORE</p>
-                        <p id="score" class="text-xl font-bold text-green-600 font-logo">0</p>
+            <!-- Quiz Screen -->
+            <div id="quiz-screen">
+                <!-- App Header -->
+                <div class="sticky top-0 z-10 bg-slate-50 py-4 flex justify-between items-center">
+                    <h1 class="text-3xl font-bold font-logo text-green-600">crack-it <span class="gradient-text-cse text-xl align-baseline">(CSE)</span></h1>
+                     <div class="flex items-center gap-4">
+                         <div class="flex items-baseline gap-2">
+                            <p class="text-base font-logo text-slate-500">SCORE</p>
+                            <p id="score" class="text-xl font-bold text-green-600 font-logo">0</p>
+                        </div>
+                        <button id="reset-button" title="Reset Progress" class="p-2 rounded-full hover:bg-slate-200 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="text-slate-500" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                              <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                            </svg>
+                        </button>
                     </div>
-                    <button id="reset-button" title="Reset Progress" class="p-2 rounded-full hover:bg-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-red-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="text-slate-500" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
-                          <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                </div>
+                
+                <div id="progress-container" class="mb-2 flex flex-col items-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-full h-full" viewBox="0 0 100 100">
+                            <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
+                            <circle id="progress-ring" class="progress-ring__circle text-green-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
                         </svg>
-                    </button>
-                </div>
-            </div>
-            
-            <!-- Progress Circle and Info -->
-            <div id="progress-container" class="mb-2 flex flex-col items-center">
-                <div class="relative w-24 h-24">
-                    <svg class="w-full h-full" viewBox="0 0 100 100">
-                        <!-- Background circle -->
-                        <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
-                        <!-- Progress circle -->
-                        <circle id="progress-ring" class="progress-ring__circle text-green-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
-                    </svg>
-                    <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-                         <span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span>
+                        <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
+                             <span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span>
+                        </div>
+                    </div>
+                    <div class="text-center mt-2">
+                         <span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span>
                     </div>
                 </div>
-                <div class="text-center mt-2">
-                     <span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span>
+
+                <div id="card" class="bg-white p-4 md:p-6 rounded-2xl shadow-lg border border-slate-200 card-enter min-h-[260px]">
+                     <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
+                     <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
                 </div>
+                
+                <div id="next-button-container" class="text-center mt-4 h-auto min-h-[4rem]"></div>
             </div>
-
-
-            <!-- Main Question Card -->
-            <div id="card" class="bg-white p-4 md:p-6 rounded-2xl shadow-lg border border-slate-200 card-enter min-h-[260px]">
-                 <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
-                 <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
-            </div>
-            
-            <!-- Next Button Container -->
-            <div id="next-button-container" class="text-center mt-4 h-auto min-h-[4rem]">
-                <!-- Next button will be dynamically inserted here -->
-            </div>
-
         </div>
     </div>
-
+    
     <script>
         // --- CONSTANTS & STATE VARIABLES ---
         const ROUND_LENGTH = 10;
-        const STATE_VERSION = "1.3"; // Version for the state object
+        const STATE_VERSION = "2.0";
         let currentQuestion = null;
         let isAnswered = false;
         let roundHistory = [];
         let audioStarted = false;
-        
-        // --- Central State Object ---
         let quizState = {};
-
+        let allQuestions = { easy: [], moderate: [], hard: [] };
+       
         // --- DOM ELEMENTS ---
         let scoreEl, roundNumberEl, questionCounterEl, difficultyLevelEl, questionTextEl, optionsContainerEl;
         const progressContainerEl = document.getElementById('progress-container');
@@ -172,7 +222,6 @@
             envelope: { attack: 0.01, decay: 0.2, sustain: 0.1, release: 0.1 }
         }).toDestination();
 
-
         // --- UTILITY FUNCTIONS ---
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -185,28 +234,24 @@
         function saveState() {
             try {
                 localStorage.setItem('crackit_quiz_progress', JSON.stringify(quizState));
-            } catch (e) {
-                console.error("Could not save progress to localStorage.", e);
-            }
+            } catch (e) { console.error("Could not save progress.", e); }
         }
 
         function createNewState() {
-            const easyIndices = [], moderateIndices = [], hardIndices = [];
-            questionDatabase.forEach((q, index) => {
-                if (q.difficulty === 'easy') easyIndices.push(index);
-                else if (q.difficulty === 'moderate') moderateIndices.push(index);
-                else if (q.difficulty === 'hard') hardIndices.push(index);
-            });
-            shuffleArray(easyIndices);
-            shuffleArray(moderateIndices);
-            shuffleArray(hardIndices);
+            shuffleArray(allQuestions.easy);
+            shuffleArray(allQuestions.moderate);
+            shuffleArray(allQuestions.hard);
 
             return {
                 version: STATE_VERSION,
                 score: 0,
                 currentRound: 1,
                 currentDifficulty: 'easy',
-                shuffledIndices: { easy: easyIndices, moderate: moderateIndices, hard: hardIndices },
+                shuffledIndices: { 
+                    easy: allQuestions.easy.map(q => q.id), 
+                    moderate: allQuestions.moderate.map(q => q.id), 
+                    hard: allQuestions.hard.map(q => q.id) 
+                },
                 pointers: { easy: 0, moderate: 0, hard: 0 },
             };
         }
@@ -216,7 +261,7 @@
                 const savedState = localStorage.getItem('crackit_quiz_progress');
                 if (savedState) {
                     const state = JSON.parse(savedState);
-                    if (state.version === STATE_VERSION && state.shuffledIndices && state.pointers) {
+                    if (state.version === STATE_VERSION && state.pointers) {
                         quizState = state;
                     } else {
                         quizState = createNewState();
@@ -225,16 +270,18 @@
                     quizState = createNewState();
                 }
             } catch (e) {
-                console.error("Could not load progress from localStorage. Starting fresh.", e);
+                console.error("Could not load progress.", e);
                 quizState = createNewState();
             }
         }
 
         function resetProgress() {
-            localStorage.removeItem('crackit_quiz_progress');
-            window.location.reload();
+            if(confirm("Are you sure you want to reset all your progress? This cannot be undone.")) {
+                localStorage.removeItem('crackit_quiz_progress');
+                window.location.reload();
+            }
         }
-
+        
         // --- EFFECTS ---
         function triggerCorrectAnswerEffects() {
             correctSynth.triggerAttackRelease("C5", "8n", Tone.now());
@@ -273,29 +320,37 @@
         }
 
         // --- GAME LOGIC & UI RENDERING ---
-        function initializeQuiz() {
+        function initializeApp() {
+            let questionIdCounter = 0;
+            
+            if (typeof questionDatabase !== 'undefined' && Array.isArray(questionDatabase)) {
+                for (const question of questionDatabase) {
+                    const questionWithId = {...question, id: questionIdCounter++};
+                    let difficulty = question.difficulty.toLowerCase();
+                    if (['easy', 'moderate', 'hard'].includes(difficulty)) {
+                        allQuestions[difficulty].push(questionWithId);
+                    }
+                }
+            }
+            
             loadState();
+            
             scoreEl = document.getElementById('score');
             roundNumberEl = document.getElementById('round-number');
             questionCounterEl = document.getElementById('question-counter');
             difficultyLevelEl = document.getElementById('difficulty-level');
             questionTextEl = document.getElementById('question-text');
             optionsContainerEl = document.getElementById('options-container');
-            startRound();
-        }
+            
+            resetButtonEl.onclick = resetProgress;
 
-        function getQuestionHTML() {
-            return `
-                <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
-                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
-            `;
+            startRound();
         }
 
         function startRound() {
             progressContainerEl.style.display = 'flex';
-             // If the question-text element doesn't exist, it means the end-of-round screen was shown. Rebuild the quiz UI.
             if (!document.getElementById('question-text')) {
-                cardEl.innerHTML = getQuestionHTML();
+                cardEl.innerHTML = `<p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p><div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>`;
                 questionTextEl = document.getElementById('question-text');
                 optionsContainerEl = document.getElementById('options-container');
             }
@@ -313,27 +368,36 @@
             const difficulty = quizState.currentDifficulty;
             let pointer = quizState.pointers[difficulty];
             let shuffledList = quizState.shuffledIndices[difficulty];
+            
+            if (!shuffledList || shuffledList.length === 0) return null;
+
             if (pointer >= shuffledList.length) {
-                shuffleArray(shuffledList);
+                const newShuffle = allQuestions[difficulty].map(q => q.id);
+                shuffleArray(newShuffle);
+                quizState.shuffledIndices[difficulty] = newShuffle;
+                shuffledList = newShuffle;
                 pointer = 0;
-                quizState.pointers[difficulty] = 0;
-                saveState();
             }
-            const questionIndex = shuffledList[pointer];
+            const questionId = shuffledList[pointer];
             quizState.pointers[difficulty] = pointer + 1;
-            return questionDatabase[questionIndex];
+
+            return allQuestions[difficulty].find(q => q.id === questionId);
         }
 
         function loadQuestion() {
             isAnswered = false;
             currentQuestion = getQuestionForRound();
+            
+            if(!currentQuestion) {
+                cardEl.innerHTML = `<p class='text-center text-slate-600'>You've answered all available questions for this difficulty! Reset progress or add more questions.</p>`;
+                nextButtonContainerEl.innerHTML = '';
+                return;
+            }
+
             cardEl.classList.remove('card-enter-active');
             
-            // Remove previous explanation if it exists
             const oldExplanation = cardEl.querySelector('.explanation-content');
-            if (oldExplanation) {
-                oldExplanation.remove();
-            }
+            if (oldExplanation) oldExplanation.remove();
 
             setTimeout(() => {
                 optionsContainerEl.innerHTML = '';
@@ -383,13 +447,7 @@
             cardEl.appendChild(explanationDiv);
             setTimeout(() => explanationDiv.classList.add('card-enter-active'), 50);
             
-            roundHistory.push({
-                question: currentQuestion.question,
-                answer: currentQuestion.answer,
-                explanation: currentQuestion.explanation,
-                selectedOption: selectedOption,
-                isCorrect: isCorrect
-            });
+            roundHistory.push({ question: currentQuestion, selectedOption, isCorrect });
 
             quizState.questionsInCurrentRound++;
             updateScoreAndRoundUI();
@@ -435,7 +493,6 @@
             const nextDifficulty = quizState.currentDifficulty;
 
             let iconSVG, titleText, descriptionText;
-
             if (nextDifficulty !== previousDifficulty) {
                  if ((previousDifficulty === 'easy' && nextDifficulty === 'moderate') || (previousDifficulty === 'moderate' && nextDifficulty === 'hard')) {
                     iconSVG = `<svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-green-500"><path d="M12 4L12 20M12 4L18 10M12 4L6 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
@@ -457,16 +514,7 @@
             nextButtonContainerEl.innerHTML = '';
             
             setTimeout(() => {
-                cardEl.innerHTML = `
-                    <div class="text-center flex flex-col items-center justify-center py-6 h-full">
-                        <div class="bg-slate-100 rounded-full p-5 mb-4 inline-block">
-                            ${iconSVG}
-                        </div>
-                        <h2 class="text-2xl font-bold text-slate-800 mb-2">${titleText}</h2>
-                        <p class="text-slate-600 max-w-sm mx-auto">${descriptionText}</p>
-                    </div>
-                `;
-
+                cardEl.innerHTML = `<div class="text-center flex flex-col items-center justify-center py-6 h-full"><div class="bg-slate-100 rounded-full p-5 mb-4 inline-block">${iconSVG}</div><h2 class="text-2xl font-bold text-slate-800 mb-2">${titleText}</h2><p class="text-slate-600 max-w-sm mx-auto">${descriptionText}</p></div>`;
                 quizState.currentRound++;
                 saveState();
                 
@@ -491,32 +539,19 @@
 
         function showReviewScreen() {
             progressContainerEl.style.display = 'none';
-            
-            cardEl.innerHTML = `
-                <h2 id="review-title" class="text-xl font-bold text-center mb-4"></h2>
-                <div id="review-content" class="space-y-6"></div>
-            `;
+            cardEl.innerHTML = `<h2 id="review-title" class="text-xl font-bold text-center mb-4"></h2><div id="review-content" class="space-y-6 max-h-96 overflow-y-auto p-1"></div>`;
             const reviewTitle = document.getElementById('review-title');
             const reviewContent = document.getElementById('review-content');
-
             reviewTitle.textContent = `Reviewing Round ${quizState.currentRound - 1}`;
-
             roundHistory.forEach((item, index) => {
                 const reviewItem = document.createElement('div');
                 reviewItem.className = `p-4 border rounded-lg ${item.isCorrect ? 'border-green-200 bg-green-50/50' : 'border-red-200 bg-red-50/50'}`;
-                
-                let resultIcon = item.isCorrect 
-                    ? `<span class="text-green-600 font-bold">✓ Correct</span>`
-                    : `<span class="text-red-600 font-bold">✗ Incorrect</span>`;
+                let resultIcon = item.isCorrect ? `<span class="text-green-600 font-bold">✓ Correct</span>` : `<span class="text-red-600 font-bold">✗ Incorrect</span>`;
                 let answersHtml = `<p class="mt-2"><span class="font-semibold">Your Answer:</span> ${item.selectedOption}</p>`;
-                if (!item.isCorrect) answersHtml += `<p class="mt-1"><span class="font-semibold">Correct Answer:</span> ${item.answer}</p>`;
-                
-                reviewItem.innerHTML = `
-                    <p class="font-semibold text-slate-800">${index + 1}. ${item.question}</p>
-                    <div class="text-sm mt-2">${resultIcon}${answersHtml}<p class="mt-2 text-slate-600"><span class="font-semibold">Explanation:</span> ${item.explanation}</p></div>`;
+                if (!item.isCorrect) answersHtml += `<p class="mt-1"><span class="font-semibold">Correct Answer:</span> ${item.question.answer}</p>`;
+                reviewItem.innerHTML = `<p class="font-semibold text-slate-800">${index + 1}. ${item.question.question}</p><div class="text-sm mt-2">${resultIcon}${answersHtml}<p class="mt-2 text-slate-600"><span class="font-semibold">Explanation:</span> ${item.question.explanation}</p></div>`;
                 reviewContent.appendChild(reviewItem);
             });
-
             nextButtonContainerEl.innerHTML = '';
             const nextRoundButton = document.createElement('button');
             nextRoundButton.textContent = 'Continue';
@@ -552,11 +587,9 @@
             difficultyLevelEl.textContent = quizState.currentDifficulty || 'easy';
         }
 
-        resetButtonEl.onclick = resetProgress;
-        window.onload = initializeQuiz;
+        window.onload = initializeApp;
 
     </script>
-    <script src="history.js"></script>
 </body>
 </html>
 
