@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrackIt - History Quiz</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
             touch-action: manipulation;
+        }
+        .font-logo {
+            font-family: 'Crimson Pro', serif;
         }
         .card-enter {
             opacity: 0;
@@ -19,17 +23,6 @@
         .card-enter-active {
             opacity: 1;
             transform: translateY(0);
-        }
-        .explanation-card {
-            max-height: 0;
-            opacity: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, margin-top 0.5s ease-in-out;
-        }
-        .explanation-card.show {
-            max-height: 500px; /* Adjust as needed */
-            opacity: 1;
-            margin-top: 1rem;
         }
         .btn-correct {
             background-image: linear-gradient(to right, #22c55e, #16a34a) !important;
@@ -53,116 +46,169 @@
             transform-origin: 50% 50%;
             transition: stroke-dashoffset 0.35s;
         }
+        /* Popper Animation CSS */
+        .popper-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            overflow: hidden;
+        }
+        .popper {
+            position: absolute;
+            width: 6px;
+            height: 12px;
+            animation: popper-animation 1.8s ease-out forwards;
+        }
+        @keyframes popper-animation {
+            0% {
+                transform: translate(-50%, -50%) rotateZ(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: var(--popper-transform) rotateZ(var(--popper-rotation));
+                opacity: 0;
+            }
+        }
+        .decorative-panel {
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 1rem 1rem;
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 flex justify-center min-h-screen p-4">
 
-    <div id="quiz-container" class="w-full max-w-xl mx-auto">
-        
-        <!-- App Header -->
-        <div class="sticky top-0 z-10 bg-slate-50 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-blue-600">CrackIt</h1>
-             <div class="flex items-center gap-4">
-                <div class="text-right">
-                    <p class="text-sm text-slate-500">SCORE</p>
-                    <p id="score" class="text-2xl font-bold text-blue-600">0</p>
+    <div class="w-full max-w-6xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+
+        <!-- Decorative Panel (Left Side on Desktop) -->
+        <div class="hidden lg:flex flex-col items-start justify-center decorative-panel h-full rounded-2xl p-12">
+            <h1 class="text-6xl font-bold text-green-600 font-logo mb-4">crack-it</h1>
+            <p class="text-2xl text-slate-600">Your daily dose of knowledge.</p>
+            <p class="text-slate-500 mt-4">Challenge yourself with progressively harder questions and watch your skills grow. Perfect for aspirants and curious minds.</p>
+        </div>
+
+        <!-- Quiz Container (Right Side on Desktop) -->
+        <div id="quiz-container" class="w-full">
+            
+            <!-- App Header -->
+            <div class="sticky top-0 z-10 bg-slate-50 py-4 flex justify-between items-center">
+                <h1 class="text-3xl font-bold font-logo text-green-600">
+                   crack-it
+                </h1>
+                 <div class="flex items-center gap-4">
+                     <div class="flex items-baseline gap-2">
+                        <p class="text-base font-logo text-slate-500">SCORE</p>
+                        <p id="score" class="text-xl font-bold text-green-600 font-logo">0</p>
+                    </div>
+                    <button id="reset-button" title="Reset Progress" class="p-2 rounded-full hover:bg-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-red-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="text-slate-500" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                          <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                        </svg>
+                    </button>
                 </div>
-                <button id="reset-button" title="Reset Progress" class="p-2 rounded-full hover:bg-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-50 focus:ring-red-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="text-slate-500" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
-                      <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+            </div>
+            
+            <!-- Progress Circle and Info -->
+            <div id="progress-container" class="mb-2 flex flex-col items-center">
+                <div class="relative w-24 h-24">
+                    <svg class="w-full h-full" viewBox="0 0 100 100">
+                        <!-- Background circle -->
+                        <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
+                        <!-- Progress circle -->
+                        <circle id="progress-ring" class="progress-ring__circle text-green-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
                     </svg>
-                </button>
-            </div>
-        </div>
-        
-        <!-- Progress Circle and Info -->
-        <div id="progress-container" class="mb-4 flex flex-col items-center">
-            <div class="relative w-24 h-24">
-                <svg class="w-full h-full" viewBox="0 0 100 100">
-                    <!-- Background circle -->
-                    <circle class="text-slate-200" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
-                    <!-- Progress circle -->
-                    <circle id="progress-ring" class="progress-ring__circle text-blue-600" stroke-width="10" stroke="currentColor" fill="transparent" r="45" cx="50" cy="50" />
-                </svg>
-                <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-                     <span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span>
+                    <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
+                         <span id="question-counter" class="text-xl font-bold text-slate-700">0/10</span>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                     <span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span>
                 </div>
             </div>
-            <div class="text-center mt-2">
-                 <span>Round <span id="round-number">1</span> (<span id="difficulty-level" class="capitalize">Easy</span>)</span>
+
+
+            <!-- Main Question Card -->
+            <div id="card" class="bg-white p-4 md:p-6 rounded-2xl shadow-lg border border-slate-200 card-enter min-h-[260px]">
+                 <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
+                 <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
             </div>
-        </div>
-
-
-        <!-- Main Question Card -->
-        <div id="card" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-slate-200 card-enter">
-            <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-6 min-h-[60px]">Loading question...</p>
-            <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <!-- Options will be dynamically inserted here -->
+            
+            <!-- Next Button Container -->
+            <div id="next-button-container" class="text-center mt-4 h-auto min-h-[4rem]">
+                <!-- Next button will be dynamically inserted here -->
             </div>
-        </div>
-        
-        <!-- Explanation Card (Initially Hidden) -->
-        <div id="explanation-container" class="explanation-card">
-            <div class="bg-white p-6 rounded-2xl shadow-lg border border-slate-200">
-                <h3 id="explanation-title" class="font-bold text-lg mb-2"></h3>
-                <p id="explanation-text" class="text-slate-600"></p>
-            </div>
-        </div>
 
-        <!-- Next Button Container -->
-        <div id="next-button-container" class="text-center mt-6 h-auto min-h-[4rem]">
-            <!-- Next button will be dynamically inserted here -->
         </div>
-
     </div>
 
     <script>
         // --- CONSTANTS & STATE VARIABLES ---
         const ROUND_LENGTH = 10;
+        const STATE_VERSION = "1.3"; // Version for the state object
         let currentQuestion = null;
-        let score = 0;
-        let questionsAsked = [];
         let isAnswered = false;
         let roundHistory = [];
-
-        // Round-specific state
-        let currentRound = 1;
-        let questionsInCurrentRound = 0;
-        let correctAnswersInRound = 0;
-        let currentDifficulty = 'easy';
+        let audioStarted = false;
+        
+        // --- Central State Object ---
+        let quizState = {};
 
         // --- DOM ELEMENTS ---
-        const scoreEl = document.getElementById('score');
-        const roundNumberEl = document.getElementById('round-number');
-        const difficultyLevelEl = document.getElementById('difficulty-level');
+        let scoreEl, roundNumberEl, questionCounterEl, difficultyLevelEl, questionTextEl, optionsContainerEl;
         const progressContainerEl = document.getElementById('progress-container');
-        const questionCounterEl = document.getElementById('question-counter');
         const progressRingEl = document.getElementById('progress-ring');
         const cardEl = document.getElementById('card');
-        const questionTextEl = document.getElementById('question-text');
-        const optionsContainerEl = document.getElementById('options-container');
-        const explanationContainerEl = document.getElementById('explanation-container');
-        const explanationTitleEl = document.getElementById('explanation-title');
-        const explanationTextEl = document.getElementById('explanation-text');
         const nextButtonContainerEl = document.getElementById('next-button-container');
         const resetButtonEl = document.getElementById('reset-button');
 
-        // --- LOCAL STORAGE FUNCTIONS ---
-        
+        // --- AUDIO SETUP ---
+        const correctSynth = new Tone.PolySynth(Tone.Synth).toDestination();
+        const incorrectSynth = new Tone.Synth({
+            oscillator: { type: 'square' },
+            envelope: { attack: 0.01, decay: 0.2, sustain: 0.1, release: 0.1 }
+        }).toDestination();
+
+
+        // --- UTILITY FUNCTIONS ---
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        // --- LOCAL STORAGE & STATE MANAGEMENT ---
         function saveState() {
             try {
-                const state = {
-                    score: score,
-                    currentRound: currentRound,
-                    currentDifficulty: currentDifficulty,
-                    questionsAsked: questionsAsked,
-                };
-                localStorage.setItem('crackit_quiz_progress', JSON.stringify(state));
+                localStorage.setItem('crackit_quiz_progress', JSON.stringify(quizState));
             } catch (e) {
                 console.error("Could not save progress to localStorage.", e);
             }
+        }
+
+        function createNewState() {
+            const easyIndices = [], moderateIndices = [], hardIndices = [];
+            questionDatabase.forEach((q, index) => {
+                if (q.difficulty === 'easy') easyIndices.push(index);
+                else if (q.difficulty === 'moderate') moderateIndices.push(index);
+                else if (q.difficulty === 'hard') hardIndices.push(index);
+            });
+            shuffleArray(easyIndices);
+            shuffleArray(moderateIndices);
+            shuffleArray(hardIndices);
+
+            return {
+                version: STATE_VERSION,
+                score: 0,
+                currentRound: 1,
+                currentDifficulty: 'easy',
+                shuffledIndices: { easy: easyIndices, moderate: moderateIndices, hard: hardIndices },
+                pointers: { easy: 0, moderate: 0, hard: 0 },
+            };
         }
 
         function loadState() {
@@ -170,17 +216,18 @@
                 const savedState = localStorage.getItem('crackit_quiz_progress');
                 if (savedState) {
                     const state = JSON.parse(savedState);
-                    score = state.score || 0;
-                    currentRound = state.currentRound || 1;
-                    currentDifficulty = state.currentDifficulty || 'easy';
-                    questionsAsked = state.questionsAsked || [];
-                    return true;
+                    if (state.version === STATE_VERSION && state.shuffledIndices && state.pointers) {
+                        quizState = state;
+                    } else {
+                        quizState = createNewState();
+                    }
+                } else {
+                    quizState = createNewState();
                 }
             } catch (e) {
-                console.error("Could not load progress from localStorage.", e);
-                return false;
+                console.error("Could not load progress from localStorage. Starting fresh.", e);
+                quizState = createNewState();
             }
-            return false;
         }
 
         function resetProgress() {
@@ -188,103 +235,153 @@
             window.location.reload();
         }
 
-        // --- GAME LOGIC ---
+        // --- EFFECTS ---
+        function triggerCorrectAnswerEffects() {
+            correctSynth.triggerAttackRelease("C5", "8n", Tone.now());
+            correctSynth.triggerAttackRelease("E5", "8n", Tone.now() + 0.1);
+            correctSynth.triggerAttackRelease("G5", "8n", Tone.now() + 0.2);
 
-        function initializeQuiz() {
-            if (loadState()) {
-                console.log("Previous progress loaded.");
-            } else {
-                score = 0;
-                currentRound = 1;
-                questionsAsked = [];
-                currentDifficulty = 'easy';
+            const popperContainer = document.createElement('div');
+            popperContainer.className = 'popper-container';
+            const colors = ['#f43f5e', '#ec4899', '#d946ef', '#a855f7', '#8b5cf6', '#6366f1', '#3b82f6', '#0ea5e9', '#06b6d4', '#14b8a6', '#22c55e', '#84cc16', '#eab308', '#f97316', '#ef4444'];
+            const particleCount = 150; 
+
+            for (let i = 0; i < particleCount; i++) {
+                const popper = document.createElement('div');
+                popper.className = 'popper';
+                popper.style.top = '50%';
+                popper.style.left = '50%';
+                const angle = Math.random() * 2 * Math.PI;
+                const distance = Math.random() * (Math.max(window.innerWidth, window.innerHeight) * 0.6) + 50; 
+                const endX = Math.cos(angle) * distance;
+                const endY = Math.sin(angle) * distance;
+                const rotation = (Math.random() - 0.5) * 720;
+                const scale = Math.random() * 0.5 + 0.75;
+
+                popper.style.setProperty('--popper-transform', `translate(calc(-50% + ${endX}px), calc(-50% + ${endY}px)) scale(${scale})`);
+                popper.style.setProperty('--popper-rotation', `${rotation}deg`);
+                popper.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                popperContainer.appendChild(popper);
             }
+            
+            document.body.appendChild(popperContainer);
+            setTimeout(() => { document.body.removeChild(popperContainer); }, 1800);
+        }
+
+        function triggerIncorrectAnswerEffects() {
+            incorrectSynth.triggerAttackRelease("C3", "8n");
+        }
+
+        // --- GAME LOGIC & UI RENDERING ---
+        function initializeQuiz() {
+            loadState();
+            scoreEl = document.getElementById('score');
+            roundNumberEl = document.getElementById('round-number');
+            questionCounterEl = document.getElementById('question-counter');
+            difficultyLevelEl = document.getElementById('difficulty-level');
+            questionTextEl = document.getElementById('question-text');
+            optionsContainerEl = document.getElementById('options-container');
             startRound();
         }
 
+        function getQuestionHTML() {
+            return `
+                <p id="question-text" class="text-lg text-center md:text-xl font-semibold mb-4 min-h-[60px]">Loading question...</p>
+                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+            `;
+        }
+
         function startRound() {
-            roundHistory = [];
             progressContainerEl.style.display = 'flex';
-            optionsContainerEl.className = 'grid grid-cols-1 md:grid-cols-2 gap-4';
+             // If the question-text element doesn't exist, it means the end-of-round screen was shown. Rebuild the quiz UI.
+            if (!document.getElementById('question-text')) {
+                cardEl.innerHTML = getQuestionHTML();
+                questionTextEl = document.getElementById('question-text');
+                optionsContainerEl = document.getElementById('options-container');
+            }
+
+            roundHistory = [];
+            quizState.questionsInCurrentRound = 0;
+            quizState.correctAnswersInRound = 0;
             
-            questionsInCurrentRound = 0;
-            correctAnswersInRound = 0;
             updateScoreAndRoundUI();
             updateProgressUI();
             loadQuestion();
         }
         
         function getQuestionForRound() {
-            let availableQuestions = questionDatabase.filter((q, index) => 
-                q.difficulty === currentDifficulty && !questionsAsked.includes(index)
-            );
-            
-            if (availableQuestions.length === 0) { // Fallback logic
-                const fallbackOrder = ['medium', 'easy', 'hard'];
-                for(const level of fallbackOrder) {
-                    if (level === currentDifficulty) continue;
-                    availableQuestions = questionDatabase.filter((q, index) => q.difficulty === level && !questionsAsked.includes(index));
-                    if(availableQuestions.length > 0) {
-                        currentDifficulty = level;
-                        updateScoreAndRoundUI();
-                        break;
-                    };
-                }
+            const difficulty = quizState.currentDifficulty;
+            let pointer = quizState.pointers[difficulty];
+            let shuffledList = quizState.shuffledIndices[difficulty];
+            if (pointer >= shuffledList.length) {
+                shuffleArray(shuffledList);
+                pointer = 0;
+                quizState.pointers[difficulty] = 0;
+                saveState();
             }
-             if(availableQuestions.length === 0) { // If all questions are exhausted
-                 questionsAsked = [];
-                 return getQuestionForRound();
-            }
-
-            const randomIndex = Math.floor(Math.random() * availableQuestions.length);
-            const question = availableQuestions[randomIndex];
-            
-            const originalIndex = questionDatabase.indexOf(question);
-            questionsAsked.push(originalIndex);
-            return question;
+            const questionIndex = shuffledList[pointer];
+            quizState.pointers[difficulty] = pointer + 1;
+            return questionDatabase[questionIndex];
         }
 
         function loadQuestion() {
             isAnswered = false;
             currentQuestion = getQuestionForRound();
-            
             cardEl.classList.remove('card-enter-active');
             
+            // Remove previous explanation if it exists
+            const oldExplanation = cardEl.querySelector('.explanation-content');
+            if (oldExplanation) {
+                oldExplanation.remove();
+            }
+
             setTimeout(() => {
                 optionsContainerEl.innerHTML = '';
-                explanationContainerEl.classList.remove('show');
                 nextButtonContainerEl.innerHTML = '';
-
                 questionTextEl.textContent = currentQuestion.question;
                 updateProgressUI();
 
                 currentQuestion.options.forEach(option => {
                     const button = document.createElement('button');
                     button.textContent = option;
-                    button.className = "w-full text-center p-4 rounded-xl border border-slate-300 bg-white font-semibold text-slate-700 shadow-sm transition-all duration-200 hover:shadow-md hover:border-blue-500 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75";
+                    button.className = "w-full text-center p-3 rounded-xl border border-slate-300 bg-white font-semibold text-slate-700 shadow-sm transition-all duration-200 hover:shadow-md hover:border-green-500 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75";
                     button.onclick = () => selectAnswer(option);
                     optionsContainerEl.appendChild(button);
                 });
-
                 cardEl.classList.add('card-enter-active');
             }, 250);
         }
         
-        function selectAnswer(selectedOption) {
+        async function selectAnswer(selectedOption) {
             if (isAnswered) return;
             isAnswered = true;
+
+            if (!audioStarted) {
+                await Tone.start();
+                audioStarted = true;
+            }
             
             const isCorrect = selectedOption === currentQuestion.answer;
-
             if (isCorrect) {
-                score += 10;
-                correctAnswersInRound++;
-                explanationTitleEl.textContent = "That's correct!";
-                explanationTitleEl.className = "font-bold text-lg mb-2 text-green-600";
+                quizState.score += 10;
+                quizState.correctAnswersInRound++;
+                triggerCorrectAnswerEffects();
             } else {
-                explanationTitleEl.textContent = "Not quite.";
-                explanationTitleEl.className = "font-bold text-lg mb-2 text-red-600";
+                triggerIncorrectAnswerEffects();
             }
+
+            const explanationDiv = document.createElement('div');
+            explanationDiv.className = 'explanation-content mt-3 pt-3 border-t border-slate-200 card-enter';
+            const explanationTitle = document.createElement('h3');
+            explanationTitle.className = `font-bold text-lg mb-1 ${isCorrect ? 'text-green-600' : 'text-red-600'}`;
+            explanationTitle.textContent = isCorrect ? "That's correct!" : "Not quite.";
+            const explanationText = document.createElement('p');
+            explanationText.className = 'text-slate-600';
+            explanationText.textContent = currentQuestion.explanation;
+            explanationDiv.appendChild(explanationTitle);
+            explanationDiv.appendChild(explanationText);
+            cardEl.appendChild(explanationDiv);
+            setTimeout(() => explanationDiv.classList.add('card-enter-active'), 50);
             
             roundHistory.push({
                 question: currentQuestion.question,
@@ -294,23 +391,16 @@
                 isCorrect: isCorrect
             });
 
-            questionsInCurrentRound++;
+            quizState.questionsInCurrentRound++;
             updateScoreAndRoundUI();
             updateProgressUI();
             
-            explanationTextEl.textContent = currentQuestion.explanation;
-            explanationContainerEl.classList.add('show');
-
             Array.from(optionsContainerEl.children).forEach(childButton => {
                 childButton.classList.add('btn-disabled');
                 const optionText = childButton.textContent;
-                
                 if (optionText === selectedOption || optionText === currentQuestion.answer) {
-                    if (optionText === currentQuestion.answer) {
-                        childButton.classList.add('btn-correct');
-                    } else if (optionText === selectedOption) {
-                        childButton.classList.add('btn-incorrect');
-                    }
+                    if (optionText === currentQuestion.answer) childButton.classList.add('btn-correct');
+                    else childButton.classList.add('btn-incorrect');
                 } else {
                     childButton.style.display = 'none';
                 }
@@ -321,17 +411,17 @@
         }
         
         function showNextButton() {
-            const buttonText = questionsInCurrentRound < ROUND_LENGTH ? 'Next Question' : 'Finish Round';
+            const buttonText = quizState.questionsInCurrentRound < ROUND_LENGTH ? 'Next Question' : 'Finish Round';
             const button = document.createElement('button');
             button.textContent = buttonText;
-            button.className = "px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105 card-enter";
+            button.className = "px-8 py-3 bg-green-600 text-white font-semibold rounded-xl shadow-lg shadow-green-500/20 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105 card-enter";
             button.onclick = handleNextStep;
             nextButtonContainerEl.appendChild(button);
             setTimeout(() => button.classList.add('card-enter-active'), 50);
         }
 
         function handleNextStep() {
-            if (questionsInCurrentRound < ROUND_LENGTH) {
+            if (quizState.questionsInCurrentRound < ROUND_LENGTH) {
                 loadQuestion();
             } else {
                 endRound();
@@ -339,52 +429,77 @@
         }
 
         function endRound() {
-            cardEl.classList.remove('card-enter-active');
-            explanationContainerEl.classList.remove('show');
-            nextButtonContainerEl.innerHTML = '';
+            const previousDifficulty = quizState.currentDifficulty;
+            const performance = quizState.correctAnswersInRound / ROUND_LENGTH;
+            adjustDifficulty(performance); 
+            const nextDifficulty = quizState.currentDifficulty;
 
+            let iconSVG, titleText, descriptionText;
+
+            if (nextDifficulty !== previousDifficulty) {
+                 if ((previousDifficulty === 'easy' && nextDifficulty === 'moderate') || (previousDifficulty === 'moderate' && nextDifficulty === 'hard')) {
+                    iconSVG = `<svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-green-500"><path d="M12 4L12 20M12 4L18 10M12 4L6 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+                    titleText = "Level up";
+                    descriptionText = "Looks like these questions are too easy for you. You'll get harder questions from now on.";
+                 } else {
+                    iconSVG = `<svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-red-500"><path d="M12 20L12 4M12 20L18 14M12 20L6 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+                    titleText = "A little tricky?";
+                    descriptionText = "No worries, everyone has off-days. The next round will be a bit easier.";
+                 }
+            } else {
+                 iconSVG = `<svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-green-500"><path d="M4 12L20 12M20 12L14 6M20 12L14 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+                 titleText = "Keep Going!";
+                 descriptionText = "You're doing great! Let's keep the momentum going with the next round.";
+            }
+
+            progressContainerEl.style.display = 'none';
+            cardEl.classList.remove('card-enter-active');
+            nextButtonContainerEl.innerHTML = '';
+            
             setTimeout(() => {
-                const performance = correctAnswersInRound / ROUND_LENGTH;
-                let performanceMessage = "";
-                
-                if (performance > 0.7) performanceMessage = "Excellent work! The next round will be tougher.";
-                else if (performance >= 0.4) performanceMessage = "Good job! The difficulty will remain the same.";
-                else performanceMessage = "You can do better! The next round will be a bit easier.";
-                
-                questionTextEl.innerHTML = `<span class="text-2xl font-bold">Round ${currentRound} Complete!</span> <br> You scored ${correctAnswersInRound} / ${ROUND_LENGTH}.`;
-                optionsContainerEl.innerHTML = `<p class="text-center text-slate-600 col-span-1 md:col-span-2">${performanceMessage}</p>`;
-                
-                adjustDifficulty(performance);
-                currentRound++;
+                cardEl.innerHTML = `
+                    <div class="text-center flex flex-col items-center justify-center py-6 h-full">
+                        <div class="bg-slate-100 rounded-full p-5 mb-4 inline-block">
+                            ${iconSVG}
+                        </div>
+                        <h2 class="text-2xl font-bold text-slate-800 mb-2">${titleText}</h2>
+                        <p class="text-slate-600 max-w-sm mx-auto">${descriptionText}</p>
+                    </div>
+                `;
+
+                quizState.currentRound++;
                 saveState();
                 
                 const buttonGroup = document.createElement('div');
                 buttonGroup.className = "flex flex-col sm:flex-row gap-4 justify-center";
-
                 const reviewButton = document.createElement('button');
                 reviewButton.textContent = 'Review Answers';
-                reviewButton.className = "px-6 py-3 bg-white border border-slate-300 text-slate-700 font-semibold rounded-xl shadow-sm hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300 transform hover:scale-105";
+                reviewButton.className = "px-6 py-3 bg-white border border-slate-300 text-slate-700 font-semibold rounded-xl shadow-sm hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-300 transform hover:scale-105";
                 reviewButton.onclick = showReviewScreen;
                 buttonGroup.appendChild(reviewButton);
 
                 const nextRoundButton = document.createElement('button');
-                nextRoundButton.textContent = `Start Round ${currentRound}`;
-                nextRoundButton.className = "px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105";
+                nextRoundButton.textContent = 'Continue';
+                nextRoundButton.className = "px-6 py-3 bg-green-600 text-white font-semibold rounded-xl shadow-lg shadow-green-500/20 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105";
                 nextRoundButton.onclick = startRound;
                 buttonGroup.appendChild(nextRoundButton);
                 
                 nextButtonContainerEl.appendChild(buttonGroup);
-
                 cardEl.classList.add('card-enter-active');
             }, 500);
         }
 
         function showReviewScreen() {
             progressContainerEl.style.display = 'none';
+            
+            cardEl.innerHTML = `
+                <h2 id="review-title" class="text-xl font-bold text-center mb-4"></h2>
+                <div id="review-content" class="space-y-6"></div>
+            `;
+            const reviewTitle = document.getElementById('review-title');
+            const reviewContent = document.getElementById('review-content');
 
-            questionTextEl.textContent = `Reviewing Round ${currentRound - 1}`;
-            optionsContainerEl.innerHTML = '';
-            optionsContainerEl.className = 'space-y-6';
+            reviewTitle.textContent = `Reviewing Round ${quizState.currentRound - 1}`;
 
             roundHistory.forEach((item, index) => {
                 const reviewItem = document.createElement('div');
@@ -393,58 +508,48 @@
                 let resultIcon = item.isCorrect 
                     ? `<span class="text-green-600 font-bold">✓ Correct</span>`
                     : `<span class="text-red-600 font-bold">✗ Incorrect</span>`;
-
                 let answersHtml = `<p class="mt-2"><span class="font-semibold">Your Answer:</span> ${item.selectedOption}</p>`;
-                if (!item.isCorrect) {
-                    answersHtml += `<p class="mt-1"><span class="font-semibold">Correct Answer:</span> ${item.answer}</p>`;
-                }
-
+                if (!item.isCorrect) answersHtml += `<p class="mt-1"><span class="font-semibold">Correct Answer:</span> ${item.answer}</p>`;
+                
                 reviewItem.innerHTML = `
                     <p class="font-semibold text-slate-800">${index + 1}. ${item.question}</p>
-                    <div class="text-sm mt-2">
-                        ${resultIcon}
-                        ${answersHtml}
-                        <p class="mt-2 text-slate-600"><span class="font-semibold">Explanation:</span> ${item.explanation}</p>
-                    </div>
-                `;
-                optionsContainerEl.appendChild(reviewItem);
+                    <div class="text-sm mt-2">${resultIcon}${answersHtml}<p class="mt-2 text-slate-600"><span class="font-semibold">Explanation:</span> ${item.explanation}</p></div>`;
+                reviewContent.appendChild(reviewItem);
             });
 
             nextButtonContainerEl.innerHTML = '';
             const nextRoundButton = document.createElement('button');
-            nextRoundButton.textContent = `Start Round ${currentRound}`;
-            nextRoundButton.className = "px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105 card-enter";
+            nextRoundButton.textContent = 'Continue';
+            nextRoundButton.className = "px-8 py-4 bg-green-600 text-white font-semibold rounded-xl shadow-lg shadow-green-500/20 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 transition-all duration-300 transform hover:scale-105 card-enter";
             nextRoundButton.onclick = startRound;
             nextButtonContainerEl.appendChild(nextRoundButton);
             setTimeout(() => nextRoundButton.classList.add('card-enter-active'), 50);
         }
 
         function adjustDifficulty(performance) {
-            if (performance > 0.7) { // 8-10 correct
-                if (currentDifficulty === 'easy') currentDifficulty = 'medium';
-                else currentDifficulty = 'hard';
-            } else if (performance < 0.4) { // 0-3 correct
-                if (currentDifficulty === 'hard') currentDifficulty = 'medium';
-                else currentDifficulty = 'easy';
+            if (performance > 0.7) { 
+                if (quizState.currentDifficulty === 'easy') quizState.currentDifficulty = 'moderate';
+                else quizState.currentDifficulty = 'hard';
+            } else if (performance < 0.4) { 
+                if (quizState.currentDifficulty === 'hard') quizState.currentDifficulty = 'moderate';
+                else quizState.currentDifficulty = 'easy';
             }
         }
         
         function updateProgressUI() {
             const radius = progressRingEl.r.baseVal.value;
             const circumference = 2 * Math.PI * radius;
-            const progress = questionsInCurrentRound / ROUND_LENGTH;
+            const progress = (quizState.questionsInCurrentRound || 0) / ROUND_LENGTH;
             const offset = circumference - progress * circumference;
-
             progressRingEl.style.strokeDasharray = `${circumference} ${circumference}`;
             progressRingEl.style.strokeDashoffset = offset;
-
-            questionCounterEl.textContent = `${questionsInCurrentRound}/${ROUND_LENGTH}`;
+            questionCounterEl.textContent = `${quizState.questionsInCurrentRound || 0}/${ROUND_LENGTH}`;
         }
 
         function updateScoreAndRoundUI() {
-            scoreEl.textContent = score;
-            roundNumberEl.textContent = currentRound;
-            difficultyLevelEl.textContent = currentDifficulty;
+            scoreEl.textContent = quizState.score || 0;
+            roundNumberEl.textContent = quizState.currentRound || 1;
+            difficultyLevelEl.textContent = quizState.currentDifficulty || 'easy';
         }
 
         resetButtonEl.onclick = resetProgress;
