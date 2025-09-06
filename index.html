@@ -137,20 +137,21 @@
 <body class="bg-slate-50 text-slate-800 flex justify-center items-center min-h-screen p-4">
 
     <div id="app-container" class="w-full max-w-6xl mx-auto">
-        <!-- Content (Landing or Quiz) will be dynamically inserted here -->
+        <!-- Content (Quiz) will be dynamically inserted here -->
     </div>
-    <script src="history.js"></script>
+    <script src="data.js"></script>
     <script>
 
         // --- CONSTANTS & STATE VARIABLES ---
         const ROUND_LENGTH = 10;
-        const STATE_VERSION = "2.2"; // Incremented version to ensure fresh state after major change
+        const STATE_VERSION = "2.3"; // Incremented version for new data structure
         let currentQuestion = null;
         let isAnswered = false;
         let roundHistory = [];
         let audioStarted = false;
         let quizState = {};
-        let allQuestions = { easy: [], moderate: [], hard: [] };
+        // This will be structured by subject for balanced retrieval: { 'Subject': { easy: [], ... } }
+        let allQuestions = {};
        
         // --- DOM ELEMENTS ---
         const appContainerEl = document.getElementById('app-container');
@@ -179,23 +180,29 @@
         }
 
         function createNewState(exam) {
-            shuffleArray(allQuestions.easy);
-            shuffleArray(allQuestions.moderate);
-            shuffleArray(allQuestions.hard);
-
-            return {
+            const state = {
                 version: STATE_VERSION,
                 exam: exam,
                 score: 0,
                 currentRound: 1,
                 currentDifficulty: 'easy',
-                shuffledIndices: { 
-                    easy: allQuestions.easy.map(q => q.id), 
-                    moderate: allQuestions.moderate.map(q => q.id), 
-                    hard: allQuestions.hard.map(q => q.id) 
-                },
-                pointers: { easy: 0, moderate: 0, hard: 0 },
+                shuffledIndices: {},
+                pointers: {},
+                subjectCycleIndex: 0, // Used to cycle through subjects
             };
+
+            // Create shuffled indices and pointers for each subject
+            for (const subject in allQuestions) {
+                state.shuffledIndices[subject] = { easy: [], moderate: [], hard: [] };
+                state.pointers[subject] = { easy: 0, moderate: 0, hard: 0 };
+
+                ['easy', 'moderate', 'hard'].forEach(difficulty => {
+                    const questions = allQuestions[subject][difficulty];
+                    shuffleArray(questions);
+                    state.shuffledIndices[subject][difficulty] = questions.map(q => q.id);
+                });
+            }
+            return state;
         }
 
         function loadState(exam) {
@@ -203,7 +210,8 @@
                 const savedState = localStorage.getItem(`crackit_quiz_progress_${exam}`);
                 if (savedState) {
                     const state = JSON.parse(savedState);
-                    if (state.version === STATE_VERSION && state.pointers) {
+                    // Check for version and subject-based structure
+                    if (state.version === STATE_VERSION && state.subjectCycleIndex !== undefined) {
                         quizState = state;
                         return;
                     }
@@ -216,9 +224,9 @@
         }
 
         function resetProgress() {
-            if(confirm("Are you sure you want to reset all your progress for this exam? This will take you back to the exam selection screen.")) {
+            // Since there's only one exam, the confirmation message is simplified.
+            if(confirm("Are you sure you want to reset all your progress?")) {
                 localStorage.removeItem(`crackit_quiz_progress_${quizState.exam}`);
-                localStorage.removeItem('selectedExam');
                 window.location.reload();
             }
         }
@@ -262,61 +270,10 @@
 
         // --- GAME LOGIC & UI RENDERING ---
         function initializeApp() {
-            const savedExam = localStorage.getItem('selectedExam');
-            if (savedExam) {
-                startQuizForExam(savedExam);
-            } else {
-                renderLandingScreen();
-            }
+            // Directly start the quiz for the UPSC exam, bypassing the landing screen.
+            startQuizForExam('UPSC');
         }
         
-        function renderLandingScreen() {
-            appContainerEl.innerHTML = `
-            <div id="landing-screen" class="w-full max-w-xl mx-auto my-auto">
-                <div class="text-center">
-                    <h1 class="text-6xl font-bold font-logo mb-4 text-green-600">crack-it</h1>
-                    <h2 class="text-2xl font-semibold text-slate-800 mb-6">Your Prelims Edge.</h2>
-                </div>
-                <div class="bg-white p-6 rounded-2xl shadow-lg border border-slate-200">
-                    <h3 class="font-bold text-lg text-slate-800 mb-4 text-center">Select Your Exam</h3>
-                    <div id="exam-selection-grid" class="grid grid-cols-2 gap-4"></div>
-                </div>
-                <div class="mt-8 text-center">
-                    <h3 class="font-bold text-lg text-slate-800 mb-4">How it works</h3>
-                    <div class="space-y-4 text-left">
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8.866.527a1.5 1.5 0 0 0-1.732 0l-5.25 3.031a1.5 1.5 0 0 0-.866 1.3L1 14.527a1.5 1.5 0 0 0 2.3 1.3l5.25-3.031a1.5 1.5 0 0 0 .866-1.3V1.828a1.5 1.5 0 0 0-.866-1.3zM9.5 4.129v3.032l-2.09-1.205.866-.5 1.224.703zM7.41 1.828a.5.5 0 0 1 .866 0l5.25 3.031a.5.5 0 0 1 .288.434v11.368a.5.5 0 0 1-.788.434l-5.25-3.03a.5.5 0 0 1-.288-.434V1.828z"/><path d="M6 12.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5"/></svg></div>
-                            <div><h3 class="font-semibold text-slate-800">Daily Practice</h3><p class="text-slate-500 text-sm">Face a fresh, random set of questions from all core subjects every time you play.</p></div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/><path d="M3.5 15a.5.5 0 0 1-1 0V3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2v11.5zm10 0a.5.5 0 0 0-1 0V3.5a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0 0 1h2v11.5z"/></svg></div>
-                            <div><h3 class="font-semibold text-slate-800">Adaptive Challenge</h3><p class="text-slate-500 text-sm">The difficulty increases as you perform better, ensuring you are always challenged.</p></div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="flex-shrink-0 bg-green-100 text-green-700 rounded-full h-10 w-10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 4a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1"/><path d="M9.468 6.992c.622-.587 1.03-1.442 1.03-2.434C10.5 3.332 9.358 2 8 2 6.642 2 5.5 3.332 5.5 4.558c0 .992.408 1.847 1.03 2.434C6.018 7.332 5 8.65 5 10.3c0 .51.106.99.29 1.432C5.02 11.587 4 12.83 4 14.5 4 14.776 4.224 15 4.5 15h7a.5.5 0 0 0 .5-.5c0-1.67-1.02-2.913-1.29-3.768A3.98 3.98 0 0 1 11 10.3c0-1.65-1.018-2.968-1.532-3.308"/></svg></div>
-                            <div><h3 class="font-semibold text-slate-800">Strengthen Concepts</h3><p class="text-slate-500 text-sm">Review detailed explanations after each round to solidify your knowledge and learn from mistakes.</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>`;
-
-            const exams = [...new Set(questionDatabase.map(q => q.exam ? q.exam.toUpperCase() : null).filter(Boolean))];
-            const examGrid = document.getElementById('exam-selection-grid');
-            examGrid.innerHTML = '';
-            exams.forEach(exam => {
-                const button = document.createElement('button');
-                button.textContent = exam;
-                button.className = "w-full text-center p-4 rounded-xl border border-slate-300 bg-white font-semibold text-slate-700 shadow-sm transition-all duration-200 hover:shadow-md hover:border-green-500 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75";
-                button.onclick = () => selectExam(exam);
-                examGrid.appendChild(button);
-            });
-        }
-        
-        function selectExam(exam) {
-            localStorage.setItem('selectedExam', exam);
-            startQuizForExam(exam);
-        }
-
         function updateLogo(examName) {
             document.querySelectorAll('.exam-name-placeholder').forEach(el => {
                 el.textContent = `(${examName.toUpperCase()})`;
@@ -386,16 +343,24 @@
             nextButtonContainerEl = document.getElementById('next-button-container');
             resetButtonEl.onclick = resetProgress;
 
-
+            // Restructure questions by subject for balanced retrieval
+            allQuestions = {}; 
             let questionIdCounter = 0;
-            allQuestions = { easy: [], moderate: [], hard: [] };
             
             if (typeof questionDatabase !== 'undefined' && Array.isArray(questionDatabase)) {
                  questionDatabase.filter(q => q.exam && q.exam.toUpperCase() === exam.toUpperCase()).forEach(q => {
-                    const questionWithId = {...q, id: questionIdCounter++};
-                    let difficulty = q.difficulty.toLowerCase();
-                     if (['easy', 'moderate', 'hard'].includes(difficulty)) {
-                        allQuestions[difficulty].push(questionWithId);
+                    // Assuming each question has a 'subject' property. Fallback to 'General'.
+                    const subject = q.subject || 'General';
+                    const difficulty = q.difficulty.toLowerCase();
+
+                    // Initialize subject container if it doesn't exist
+                    if (!allQuestions[subject]) {
+                        allQuestions[subject] = { easy: [], moderate: [], hard: [] };
+                    }
+                    
+                    if (['easy', 'moderate', 'hard'].includes(difficulty)) {
+                        const questionWithId = {...q, id: questionIdCounter++};
+                        allQuestions[subject][difficulty].push(questionWithId);
                     }
                 });
             }
@@ -403,7 +368,6 @@
             loadState(exam);
             startRound();
         }
-
 
         function startRound() {
             progressContainerEl.style.display = 'flex';
@@ -416,11 +380,6 @@
             roundHistory = [];
             quizState.questionsInCurrentRound = 0;
             quizState.correctAnswersInRound = 0;
-
-            shuffleArray(quizState.shuffledIndices.easy);
-            shuffleArray(quizState.shuffledIndices.moderate);
-            shuffleArray(quizState.shuffledIndices.hard);
-            quizState.pointers = { easy: 0, moderate: 0, hard: 0 };
             
             updateScoreAndRoundUI();
             updateProgressUI();
@@ -429,27 +388,58 @@
         
         function getQuestionForRound() {
             const difficulty = quizState.currentDifficulty;
-            let pointer = quizState.pointers[difficulty];
-            let shuffledList = quizState.shuffledIndices[difficulty];
-            
-            if (!shuffledList || shuffledList.length === 0) return null;
-
-            if (pointer >= shuffledList.length) {
-                shuffleArray(quizState.shuffledIndices[difficulty]);
-                 pointer = 0;
+            const subjects = Object.keys(allQuestions);
+            if (subjects.length === 0) {
+                console.error("No subjects loaded.");
+                return null;
             }
-            const questionId = shuffledList[pointer];
-            quizState.pointers[difficulty] = pointer + 1;
 
-            return allQuestions[difficulty].find(q => q.id === questionId);
+            // Loop through subjects starting from the current cycle index to find a valid question
+            for (let i = 0; i < subjects.length; i++) {
+                const subjectIndex = (quizState.subjectCycleIndex + i) % subjects.length;
+                const subject = subjects[subjectIndex];
+
+                if (!allQuestions[subject] || !allQuestions[subject][difficulty] || allQuestions[subject][difficulty].length === 0) {
+                    continue; // Skip this subject if it has no questions of the required difficulty
+                }
+
+                if (!quizState.pointers[subject] || !quizState.shuffledIndices[subject]) {
+                    console.error(`State missing for subject: ${subject}`);
+                    continue;
+                }
+
+                let pointer = quizState.pointers[subject][difficulty];
+                let shuffledIdList = quizState.shuffledIndices[subject][difficulty];
+
+                if (pointer >= shuffledIdList.length) {
+                    shuffleArray(shuffledIdList);
+                    pointer = 0;
+                }
+
+                const questionId = shuffledIdList[pointer];
+                
+                quizState.pointers[subject][difficulty] = pointer + 1;
+                quizState.subjectCycleIndex = (subjectIndex + 1) % subjects.length; // Point to the next subject for the next call
+
+                const question = allQuestions[subject][difficulty].find(q => q.id === questionId);
+                if (question) {
+                    return question;
+                } else {
+                    console.error(`Could not find question with ID ${questionId} in subject ${subject}`);
+                }
+            }
+            
+            console.warn(`No questions available for difficulty '${difficulty}' across any subject.`);
+            return null;
         }
+
 
         function loadQuestion() {
             isAnswered = false;
             currentQuestion = getQuestionForRound();
             
             if(!currentQuestion) {
-                cardEl.innerHTML = `<p class='text-center text-slate-600'>You've answered all available questions for this difficulty! Reset progress or add more questions.</p>`;
+                cardEl.innerHTML = `<p class='text-center text-slate-600'>You've answered all available questions for this difficulty! Please reset your progress to start over.</p>`;
                 nextButtonContainerEl.innerHTML = '';
                 return;
             }
@@ -652,4 +642,3 @@
     </script>
 </body>
 </html>
-
